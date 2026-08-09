@@ -495,6 +495,18 @@
 											<ContextMenu name="АС_ПробегКонтекстноеМеню" id="1000153"/>
 											<ExtendedTooltip name="АС_ПробегРасширеннаяПодсказка" id="1000154"/>
 										</InputField>
+										<InputField name="АС_ДокументыБухгалтеру" id="1000148">
+											<DataPath>Объект.АС_ДокументыБухгалтеру</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Документы бухгалтеру</v8:content>
+												</v8:item>
+											</Title>
+											<Width>12</Width>
+											<ContextMenu name="АС_ДокументыБухгалтеруКонтекстноеМеню" id="1000149"/>
+											<ExtendedTooltip name="АС_ДокументыБухгалтеруРасширеннаяПодсказка" id="1000150"/>
+										</InputField>
 										<UsualGroup name="ГруппаЗаполнитьПоОснованию" id="1625">
 											<Title>
 												<v8:item>

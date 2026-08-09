@@ -37,8 +37,8 @@
 		<Metadata name="CommonPicture.Органайзер" id="0d8feb8a-a5c5-4311-ba4c-080c136e9d68" configVersion="0439c3f8c58d4b9e7cd5770fd76473a0523e5c08"/>
 		<Metadata name="CommonPicture.РазорватьСвязь" id="8cfea04c-c80c-4dd2-9470-47567f1782f7" configVersion="47a8b3097207dfc864aa406d490f503fd5522833"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="69da427fb9d39448bdb0e22e979b500adf480ed6"/>
-		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="c8a4aacc366c138f81877b2c4557b8305a632486"/>
-		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="f30ec95f8b18a69002ce19327bc6d0829e15ca08">
+		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="ae93572172146fe9be427cb02d477ca1f49e1951"/>
+		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="da7db35b7b90f7f87aada301422357036da14800">
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Подарки.Attribute.Номенклатура" id="01b20dfb-eb3f-427a-b967-b72b03fe4b35"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.Комментарий" id="0210f35b-99dd-425b-aabc-4bd2f9286f06"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.Партия" id="0287256a-35c3-489e-a847-2693de975146"/>
@@ -178,6 +178,7 @@
 			<Metadata name="Document.ЗаказПокупателя.Attribute.ПодписьГлавногоБухгалтера" id="8441cf84-d03c-4f29-be73-41bd19eece77"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Предоплата.Attribute.НомерСертификата" id="84aab0be-2206-49c2-bcc7-11bab6a26ac3"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_Пробег" id="86b76e74-36e8-4c52-91f4-b3d7bd51cf00"/>
+			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_ДокументыБухгалтеру" id="b2ac19c3-fa0d-469f-9e60-299b4cd17304"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.ИдентификаторСтроки" id="8ad51fd0-d964-47fd-9234-df8d69bc5e2d"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.РесурсыПредприятия.Attribute.Вс" id="8c8cc418-c22c-4a31-800b-55a7b7900800"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.СпособДоставки" id="8c8e06f5-2878-44bf-b2a8-a28aa3662864"/>
@@ -315,8 +316,13 @@
 		</Metadata>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="46fb9322000f1d10bd4f1c87737ea39e758f6541"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="844037bee2d6cdae8f46b3204ba56cfd81e7a782"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="432a74c6e86c158c82d8eb3a3790718cca94a11a"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="15f4352833f0b7f726629e737d015858f471a62b"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="d6cd8f1d4e50a9c1cbc98e19480874d29261a79b"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="e27823a9c3463693b51ad5bf2c5af6d6437f1188"/>
+		<Metadata name="Enum.АС_ДокументыБухгалтеру" id="eccfe8b8-e87b-4885-8e56-9595f1b79999" configVersion="7d0891152531bbb49108a72208ec33bc25cc21b4">
+			<Metadata name="Enum.АС_ДокументыБухгалтеру.EnumValue.Отправлено" id="17d74fc2-dea9-4a36-b397-98916f7870bc"/>
+			<Metadata name="Enum.АС_ДокументыБухгалтеру.EnumValue.НеОтправлено" id="0a9d7b00-7f13-4e92-b04c-1c13f2bed4ea"/>
+			<Metadata name="Enum.АС_ДокументыБухгалтеру.EnumValue.НаРассмотрении" id="3bfe0c53-7e68-4dc3-befd-139f476dfee9"/>
+		</Metadata>
 		<Metadata name="Enum.ВидыДоговоров" id="72347e64-ab73-40c8-a570-d3714a6c978f" configVersion="4e5aefe40a20feb0c8699facaa605fdea3cf688e">
 			<Metadata name="Enum.ВидыДоговоров.EnumValue.СПокупателем" id="06d8e433-7ceb-4a67-9124-6bb1f3c01a3f"/>
 			<Metadata name="Enum.ВидыДоговоров.EnumValue.СПоставщиком" id="1fb20673-d7d4-4574-867b-5dc7c2278516"/>
