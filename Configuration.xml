@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.0.3</Version>
+			<Version>1.0.4</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -72,11 +72,20 @@
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>КрасныйТекстСтрок</StyleItem>
+			<StyleItem>ЦветТекстаПравойПанелиОтборов</StyleItem>
+			<StyleItem>ЦветЗаголовкаИнформационнойПанели</StyleItem>
+			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
 			<CommonPicture>Органайзер</CommonPicture>
 			<CommonPicture>КнопкаВыпадающегоСписка</CommonPicture>
+			<CommonPicture>Скрепка</CommonPicture>
+			<CommonPicture>КоллекцияСкрепка</CommonPicture>
+			<CommonPicture>КОтгрузке</CommonPicture>
+			<CommonPicture>СостояниеЗаказа</CommonPicture>
+			<CommonPicture>КОплате</CommonPicture>
+			<CommonPicture>КоллекцияКонтрагентыЛиды</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<Catalog>АС_Автомобили</Catalog>

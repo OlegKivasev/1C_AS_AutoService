@@ -855,11 +855,11 @@
 															</Title>
 															<TitleTextColor>0:757b547b-b79c-459a-a64a-eef19a09a38f</TitleTextColor>
 															<GroupVerticalAlign>Center</GroupVerticalAlign>
-																	<Group>Horizontal</Group>
-																	<Behavior>Usual</Behavior>
-																	<Representation>None</Representation>
-																	<ShowTitle>false</ShowTitle>
-																	<ExtendedTooltip name="ГруппаОтгрузкаИОплатаРасширеннаяПодсказка" id="3684"/>
+															<Group>Horizontal</Group>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаОтгрузкаИОплатаРасширеннаяПодсказка" id="3684"/>
 															<ChildItems>
 																<UsualGroup name="ГруппаДатаОтгрузки" id="3685">
 																	<Title>

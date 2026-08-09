@@ -526,7 +526,7 @@
 															<ContextMenu name="ПоставщикКонтекстноеМеню" id="212"/>
 															<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="213"/>
 														</CheckBoxField>
-													<CheckBoxField name="ПрочиеОтношения" id="214">
+														<CheckBoxField name="ПрочиеОтношения" id="214">
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -534,12 +534,12 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>Right</TitleLocation>
-														<ContextMenu name="ПрочиеОтношенияКонтекстноеМеню" id="215"/>
-														<ExtendedTooltip name="ПрочиеОтношенияРасширеннаяПодсказка" id="216"/>
-														<Events>
-															<Event name="OnChange" callType="Before">АС_ПрочиеОтношенияПриИзменении</Event>
-														</Events>
-													</CheckBoxField>
+															<ContextMenu name="ПрочиеОтношенияКонтекстноеМеню" id="215"/>
+															<ExtendedTooltip name="ПрочиеОтношенияРасширеннаяПодсказка" id="216"/>
+															<Events>
+																<Event name="OnChange" callType="Before">АС_ПрочиеОтношенияПриИзменении</Event>
+															</Events>
+														</CheckBoxField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -1299,8 +1299,8 @@
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="АС_МодельГодРасширеннаяПодсказка" id="900021"/>
 											<ChildItems>
-											<InputField name="АС_МодельАвтомобиля" id="900006">
-												<DataPath>Объект.АС_МодельАвтомобиляИзСправочника</DataPath>
+												<InputField name="АС_МодельАвтомобиля" id="900006">
+													<DataPath>Объект.АС_МодельАвтомобиляИзСправочника</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1310,12 +1310,12 @@
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<HorizontalStretch>true</HorizontalStretch>
 													<AutoMarkIncomplete>true</AutoMarkIncomplete>
-												<ContextMenu name="АС_МодельАвтомобиляКонтекстноеМеню" id="900007"/>
-												<ExtendedTooltip name="АС_МодельАвтомобиляРасширеннаяПодсказка" id="900008"/>
-												<Events>
-													<Event name="OnChange" callType="Before">АС_МодельАвтомобиляПриИзменении</Event>
-													<Event name="AutoComplete" callType="Before">АС_МодельАвтомобиляАвтоПодбор</Event>
-												</Events>
+													<ContextMenu name="АС_МодельАвтомобиляКонтекстноеМеню" id="900007"/>
+													<ExtendedTooltip name="АС_МодельАвтомобиляРасширеннаяПодсказка" id="900008"/>
+													<Events>
+														<Event name="OnChange" callType="Before">АС_МодельАвтомобиляПриИзменении</Event>
+														<Event name="AutoComplete" callType="Before">АС_МодельАвтомобиляАвтоПодбор</Event>
+													</Events>
 												</InputField>
 												<InputField name="АС_ГодАвтомобиля" id="900017">
 													<DataPath>Объект.АС_ГодАвтомобиля</DataPath>

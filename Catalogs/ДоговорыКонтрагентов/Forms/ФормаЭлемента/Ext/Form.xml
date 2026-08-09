@@ -476,13 +476,19 @@
 										<InputField name="АС_МаркаАвтомобиля" id="900003">
 											<DataPath>Объект.АС_МаркаАвтомобиляИзСправочника</DataPath>
 											<Title>
-												<v8:item><v8:lang>ru</v8:lang><v8:content>Марка</v8:content></v8:item>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Марка</v8:content>
+												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<HorizontalStretch>true</HorizontalStretch>
 											<ContextMenu name="АС_МаркаАвтомобиляКонтекстноеМеню" id="900004"/>
 											<ExtendedTooltip name="АС_МаркаАвтомобиляРасширеннаяПодсказка" id="900005"/>
-											<Events><Event name="OnChange" callType="Before">АС_МаркаАвтомобиляПриИзменении</Event><Event name="AutoComplete" callType="Before">АС_МаркаАвтомобиляАвтоПодбор</Event></Events>
+											<Events>
+												<Event name="OnChange" callType="Before">АС_МаркаАвтомобиляПриИзменении</Event>
+												<Event name="AutoComplete" callType="Before">АС_МаркаАвтомобиляАвтоПодбор</Event>
+											</Events>
 										</InputField>
 										<UsualGroup name="АС_МодельГод" id="900020">
 											<HorizontalStretch>true</HorizontalStretch>
@@ -494,16 +500,29 @@
 											<ChildItems>
 												<InputField name="АС_МодельАвтомобиля" id="900006">
 													<DataPath>Объект.АС_МодельАвтомобиляИзСправочника</DataPath>
-													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Модель</v8:content></v8:item></Title>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Модель</v8:content>
+														</v8:item>
+													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<HorizontalStretch>true</HorizontalStretch>
 													<ContextMenu name="АС_МодельАвтомобиляКонтекстноеМеню" id="900007"/>
 													<ExtendedTooltip name="АС_МодельАвтомобиляРасширеннаяПодсказка" id="900008"/>
-													<Events><Event name="OnChange" callType="Before">АС_МодельАвтомобиляПриИзменении</Event><Event name="AutoComplete" callType="Before">АС_МодельАвтомобиляАвтоПодбор</Event></Events>
+													<Events>
+														<Event name="OnChange" callType="Before">АС_МодельАвтомобиляПриИзменении</Event>
+														<Event name="AutoComplete" callType="Before">АС_МодельАвтомобиляАвтоПодбор</Event>
+													</Events>
 												</InputField>
 												<InputField name="АС_ГодАвтомобиля" id="900017">
 													<DataPath>Объект.АС_ГодАвтомобиля</DataPath>
-													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Год</v8:content></v8:item></Title>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Год</v8:content>
+														</v8:item>
+													</Title>
 													<Width>7</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -516,17 +535,31 @@
 								</UsualGroup>
 								<InputField name="АС_ГосНомерАвтомобиля" id="900009">
 									<DataPath>Объект.АС_ГосНомерАвтомобиля</DataPath>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Гос. номер</v8:content></v8:item></Title>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Гос. номер</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="АС_ГосНомерАвтомобиляКонтекстноеМеню" id="900010"/>
 									<ExtendedTooltip name="АС_ГосНомерАвтомобиляРасширеннаяПодсказка" id="900011"/>
-									<Events><Event name="OnChange" callType="Before">АС_ГосНомерАвтомобиляПриИзменении</Event></Events>
+									<Events>
+										<Event name="OnChange" callType="Before">АС_ГосНомерАвтомобиляПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="АС_VINАвтомобиля" id="900012">
 									<DataPath>Объект.АС_VINАвтомобиля</DataPath>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>VIN</v8:content></v8:item></Title>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>VIN</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="АС_VINАвтомобиляКонтекстноеМеню" id="900013"/>
 									<ExtendedTooltip name="АС_VINАвтомобиляРасширеннаяПодсказка" id="900014"/>
-									<Events><Event name="OnChange" callType="Before">АС_VINАвтомобиляПриИзменении</Event></Events>
+									<Events>
+										<Event name="OnChange" callType="Before">АС_VINАвтомобиляПриИзменении</Event>
+									</Events>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>

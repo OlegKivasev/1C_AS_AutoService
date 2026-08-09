@@ -1203,6 +1203,7 @@
 			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаЗаказНаряда</Form>
+			<Form>ФормаСпискаЗаказНаряда</Form>
 			<TabularSection uuid="5d654ca2-5b91-4d56-b954-f7441dcdb088">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаказПокупателя.Запасы" category="TabularSection">
