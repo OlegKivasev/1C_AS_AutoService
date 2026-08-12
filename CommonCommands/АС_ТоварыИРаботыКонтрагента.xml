@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<CommonCommand uuid="1cb660ac-2f0f-4a01-ad43-d7f1b4bfd7c4">
+		<Properties>
+			<Name>АС_ТоварыИРаботыКонтрагента</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары и работы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Номенклатура из заказов покупателя по контрагенту.</Comment>
+			<Group>FormNavigationPanelGoTo</Group>
+			<Representation>Auto</Representation>
+			<ToolTip/>
+			<Picture/>
+			<Shortcut/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CommandParameterType>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</CommandParameterType>
+			<ParameterUseMode>Single</ParameterUseMode>
+			<ModifiesData>false</ModifiesData>
+			<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+		</Properties>
+	</CommonCommand>
+</MetaDataObject>

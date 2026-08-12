@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.0.5</Version>
+			<Version>1.0.6</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -88,6 +88,9 @@
 			<CommonPicture>КоллекцияКонтрагентыЛиды</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
+			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
+			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
+			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>

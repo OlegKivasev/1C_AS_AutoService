@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="АС_СтраницыТоваровИРабот" id="6">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="АС_СтраницыТоваровИРаботРасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<Page name="АС_СтраницаРаботы" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Работы</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="АС_СтраницаРаботыРасширеннаяПодсказка" id="9"/>
+					<ChildItems>
+						<Table name="АС_РаботыСписок" id="118">
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>АС_РаботыСписок</DataPath>
+							<RowPictureDataPath>~АС_РаботыСписок.DefaultPicture</RowPictureDataPath>
+							<ShowCommandBar>auto</ShowCommandBar>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="АС_РаботыСписокКонтекстноеМеню" id="119"/>
+							<AutoCommandBar name="АС_РаботыСписокКоманднаяПанель" id="120"/>
+							<ExtendedTooltip name="АС_РаботыСписокРасширеннаяПодсказка" id="121"/>
+							<Events>
+								<Event name="Selection">АС_РаботыВыбор</Event>
+							</Events>
+							<SearchStringAddition name="АС_РаботыСписокСтрокаПоиска" id="122">
+								<AdditionSource>
+									<Item>АС_РаботыСписок</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_РаботыСписокСтрокаПоискаКонтекстноеМеню" id="123"/>
+								<ExtendedTooltip name="АС_РаботыСписокСтрокаПоискаРасширеннаяПодсказка" id="124"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АС_РаботыСписокСостояниеПросмотра" id="125">
+								<AdditionSource>
+									<Item>АС_РаботыСписок</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_РаботыСписокСостояниеПросмотраКонтекстноеМеню" id="126"/>
+								<ExtendedTooltip name="АС_РаботыСписокСостояниеПросмотраРасширеннаяПодсказка" id="127"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АС_РаботыСписокУправлениеПоиском" id="128">
+								<AdditionSource>
+									<Item>АС_РаботыСписок</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_РаботыСписокУправлениеПоискомКонтекстноеМеню" id="129"/>
+								<ExtendedTooltip name="АС_РаботыСписокУправлениеПоискомРасширеннаяПодсказка" id="130"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="АС_РаботыСписокНоменклатура" id="147">
+									<DataPath>АС_РаботыСписок.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="АС_РаботыСписокНоменклатураКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="АС_РаботыСписокНоменклатураРасширеннаяПодсказка" id="149"/>
+								</LabelField>
+								<LabelField name="АС_РаботыСписокДатаЗаказНаряда" id="139">
+									<DataPath>АС_РаботыСписок.ДатаЗаказНаряда</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="АС_РаботыСписокДатаЗаказНарядаКонтекстноеМеню" id="140"/>
+									<ExtendedTooltip name="АС_РаботыСписокДатаЗаказНарядаРасширеннаяПодсказка" id="141"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="АС_СтраницаТовары" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товары</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="АС_СтраницаТоварыРасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<Table name="АС_ТоварыАвтомобиля" id="52">
+							<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>АС_ТоварыАвтомобиля</DataPath>
+							<RowPictureDataPath>~АС_ТоварыАвтомобиля.DefaultPicture</RowPictureDataPath>
+							<ShowCommandBar>auto</ShowCommandBar>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="АС_ТоварыАвтомобиляКонтекстноеМеню" id="53"/>
+							<AutoCommandBar name="АС_ТоварыАвтомобиляКоманднаяПанель" id="54"/>
+							<ExtendedTooltip name="АС_ТоварыАвтомобиляРасширеннаяПодсказка" id="55"/>
+							<Events>
+								<Event name="Selection">АС_ТоварыВыбор</Event>
+							</Events>
+							<SearchStringAddition name="АС_ТоварыАвтомобиляСтрокаПоиска" id="56">
+								<AdditionSource>
+									<Item>АС_ТоварыАвтомобиля</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_ТоварыАвтомобиляСтрокаПоискаКонтекстноеМеню" id="57"/>
+								<ExtendedTooltip name="АС_ТоварыАвтомобиляСтрокаПоискаРасширеннаяПодсказка" id="58"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АС_ТоварыАвтомобиляСостояниеПросмотра" id="59">
+								<AdditionSource>
+									<Item>АС_ТоварыАвтомобиля</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_ТоварыАвтомобиляСостояниеПросмотраКонтекстноеМеню" id="60"/>
+								<ExtendedTooltip name="АС_ТоварыАвтомобиляСостояниеПросмотраРасширеннаяПодсказка" id="61"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АС_ТоварыАвтомобиляУправлениеПоиском" id="62">
+								<AdditionSource>
+									<Item>АС_ТоварыАвтомобиля</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_ТоварыАвтомобиляУправлениеПоискомКонтекстноеМеню" id="63"/>
+								<ExtendedTooltip name="АС_ТоварыАвтомобиляУправлениеПоискомРасширеннаяПодсказка" id="64"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="АС_ТоварыАвтомобиляНоменклатура" id="81">
+									<DataPath>АС_ТоварыАвтомобиля.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="АС_ТоварыАвтомобиляНоменклатураКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="АС_ТоварыАвтомобиляНоменклатураРасширеннаяПодсказка" id="83"/>
+								</LabelField>
+								<LabelField name="АС_ТоварыАвтомобиляДатаЗаказНаряда" id="73">
+									<DataPath>АС_ТоварыАвтомобиля.ДатаЗаказНаряда</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="АС_ТоварыАвтомобиляДатаЗаказНарядаКонтекстноеМеню" id="74"/>
+									<ExtendedTooltip name="АС_ТоварыАвтомобиляДатаЗаказНарядаРасширеннаяПодсказка" id="75"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ДоговорФормы" id="3">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КонтрагентФормы" id="4">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоОткрытиеИзДоговора" id="7">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ТоварыАвтомобиля" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>А с товары автомобиля</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+    Заказ.Дата КАК ДатаЗаказНаряда,
+    СтрокиТоваров.Номенклатура КАК Номенклатура,
+    Заказ.Ссылка КАК ЗаказПокупателя
+ИЗ
+    Документ.ЗаказПокупателя.Запасы КАК СтрокиТоваров
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя КАК Заказ
+        ПО СтрокиТоваров.Ссылка = Заказ.Ссылка
+ГДЕ
+    НЕ Заказ.ПометкаУдаления
+    И (Заказ.Договор = &amp;Договор
+        ИЛИ Заказ.Контрагент = &amp;Контрагент)</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номенклатура</dcssch:dataPath>
+					<dcssch:field>Номенклатура</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование товара</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаЗаказНаряда</dcssch:dataPath>
+					<dcssch:field>ДатаЗаказНаряда</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата заказ-наряда</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЗаказПокупателя</dcssch:dataPath>
+					<dcssch:field>ЗаказПокупателя</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заказ покупателя</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Parameter>
+					<dcssch:name>Договор</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+						<v8:TypeId>4c78b0ad-0bb7-49b1-98cf-b817e6e50563</v8:TypeId>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>Контрагент</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="АС_РаботыСписок" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>А с работы список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+    Заказ.Дата КАК ДатаЗаказНаряда,
+    СтрокиРабот.Номенклатура КАК Номенклатура,
+    Заказ.Ссылка КАК ЗаказПокупателя
+ИЗ
+    Документ.ЗаказПокупателя.Работы КАК СтрокиРабот
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя КАК Заказ
+        ПО СтрокиРабот.Ссылка = Заказ.Ссылка
+ГДЕ
+    НЕ Заказ.ПометкаУдаления
+    И (Заказ.Договор = &amp;Договор
+        ИЛИ Заказ.Контрагент = &amp;Контрагент)</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаЗаказНаряда</dcssch:dataPath>
+					<dcssch:field>ДатаЗаказНаряда</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата заказ-наряда</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Номенклатура</dcssch:dataPath>
+					<dcssch:field>Номенклатура</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование работы</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЗаказПокупателя</dcssch:dataPath>
+					<dcssch:field>ЗаказПокупателя</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заказ покупателя</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Parameter>
+					<dcssch:name>Договор</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договор</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+						<v8:TypeId>4c78b0ad-0bb7-49b1-98cf-b817e6e50563</v8:TypeId>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>Контрагент</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Parameters>
+		<Parameter name="Договор">
+			<Type>
+				<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="Контрагент">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>
