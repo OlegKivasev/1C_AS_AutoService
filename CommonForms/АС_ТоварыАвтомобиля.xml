@@ -3,7 +3,12 @@
 	<CommonForm uuid="6dbada05-5320-4a95-a2ff-79002e243602">
 		<Properties>
 			<Name>АС_ТоварыАвтомобиля</Name>
-			<Synonym/>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары и работы</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<FormType>Managed</FormType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
