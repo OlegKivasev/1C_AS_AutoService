@@ -544,6 +544,36 @@
 												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
+										<InputField name="АС_ОПФ" id="900025">
+											<DataPath>Объект.АС_ОПФ</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ОПФ</v8:content>
+												</v8:item>
+											</Title>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ContextMenu name="АС_ОПФКонтекстноеМеню" id="900026"/>
+											<ExtendedTooltip name="АС_ОПФРасширеннаяПодсказка" id="900027"/>
+											<Events>
+												<Event name="OnChange" callType="Before">АС_ОПФПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="АС_НазваниеОрганизации" id="900028">
+											<DataPath>Объект.АС_НазваниеОрганизации</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Название</v8:content>
+												</v8:item>
+											</Title>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ContextMenu name="АС_НазваниеОрганизацииКонтекстноеМеню" id="900029"/>
+											<ExtendedTooltip name="АС_НазваниеОрганизацииРасширеннаяПодсказка" id="900030"/>
+											<Events>
+												<Event name="OnChange" callType="Before">АС_НазваниеОрганизацииПриИзменении</Event>
+											</Events>
+										</InputField>
 										<InputField name="НаименованиеПолное" id="24">
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
