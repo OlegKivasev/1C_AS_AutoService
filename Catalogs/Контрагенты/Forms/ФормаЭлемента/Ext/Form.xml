@@ -1972,9 +1972,22 @@
 													<v8:content>Ответственный</v8:content>
 												</v8:item>
 											</Title>
+											<ReadOnly>true</ReadOnly>
 											<OpenButton>false</OpenButton>
 											<ContextMenu name="ОтветственныйКонтекстноеМеню" id="671"/>
 											<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="672"/>
+										</InputField>
+										<InputField name="АС_ДатаСоздания" id="900022">
+											<DataPath>АС_ДатаСоздания</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата создания</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="АС_ДатаСозданияКонтекстноеМеню" id="900023"/>
+											<ExtendedTooltip name="АС_ДатаСозданияРасширеннаяПодсказка" id="900024"/>
 										</InputField>
 										<InputField name="ГруппаДоступа" id="545">
 											<Title>
@@ -3090,6 +3103,21 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="АС_ЭтоНовыйОбъект" id="1000002">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>false</SavedData>
+		</Attribute>
+		<Attribute name="АС_ДатаСоздания" id="1000003">
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+			<SavedData>false</SavedData>
 		</Attribute>
 	</Attributes>
 	<BaseForm version="2.21">

@@ -16,6 +16,8 @@
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.АС_МодельАвтомобиляИзСправочника" id="6dc54021-e962-4be5-bcb7-db2e13f8b01b"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.АС_МаркаАвтомобиляИзСправочника" id="ce31d887-2447-4f21-8dd3-df1d3420f67b"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.АС_VINАвтомобиля" id="ec5179b8-cd24-4607-9149-d94ef5f40ebb"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ДатаСоздания" id="709f1eee-b1ec-48cb-9985-5a1c3cb3f624"/>
+			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.Ответственный" id="3c04d98e-54ed-47ab-a2b8-f52a54d83a0e"/>
 		</Metadata>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента" id="27dab15a-aa9e-4ad8-901e-79fac7517c88" configVersion="a13e6811df5b8d650fe9aea94528fa78e9284a4b"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="27dab15a-aa9e-4ad8-901e-79fac7517c88.0" configVersion="78a1977d0c94fe4efada636a48c9f9a82ffddc9e"/>

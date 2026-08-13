@@ -931,6 +931,31 @@
 									<ContextMenu name="КомментарийКонтекстноеМеню" id="250"/>
 									<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="251"/>
 								</InputField>
+								<InputField name="Ответственный" id="900025">
+									<DataPath>Объект.Ответственный</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<OpenButton>false</OpenButton>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ответственный</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОтветственныйКонтекстноеМеню" id="900026"/>
+									<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="900027"/>
+								</InputField>
+								<InputField name="ДатаСоздания" id="900022">
+									<DataPath>Объект.ДатаСоздания</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата создания</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДатаСозданияКонтекстноеМеню" id="900023"/>
+									<ExtendedTooltip name="ДатаСозданияРасширеннаяПодсказка" id="900024"/>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
