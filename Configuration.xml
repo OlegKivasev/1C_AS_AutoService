@@ -75,6 +75,11 @@
 			<StyleItem>ЦветТекстаПравойПанелиОтборов</StyleItem>
 			<StyleItem>ЦветЗаголовкаИнформационнойПанели</StyleItem>
 			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
+			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
+			<StyleItem>ЦветНадписейМонитораРуководителя</StyleItem>
+			<StyleItem>ЦветШрифтаСеройПодсказки</StyleItem>
+			<StyleItem>ЗапрещенноеПравоДоступаЦвет</StyleItem>
+			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -86,6 +91,8 @@
 			<CommonPicture>СостояниеЗаказа</CommonPicture>
 			<CommonPicture>КОплате</CommonPicture>
 			<CommonPicture>КоллекцияКонтрагентыЛиды</CommonPicture>
+			<CommonPicture>РазделАдминистрирование</CommonPicture>
+			<CommonPicture>МенюДополнительныеФункции</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
@@ -96,12 +103,18 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>ДоговорыКонтрагентов</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>АС_Работа</Catalog>
 			<Document>ЗаказПокупателя</Document>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>
 			<Enum>ВидыДоговоров</Enum>
 			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
 			<Enum>АС_ДокументыБухгалтеру</Enum>
+			<Enum>ТипыНоменклатуры</Enum>
+			<Enum>СрокДействияПодарочныхСертификатов</Enum>
+			<Enum>СпособыПополненияЗапасов</Enum>
+			<Enum>ВидыМаркировки</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

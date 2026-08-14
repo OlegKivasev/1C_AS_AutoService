@@ -1996,13 +1996,13 @@
 											<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="770"/>
 										</InputField>
 										<InputField name="Ответственный" id="670">
+											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Ответственный</v8:content>
 												</v8:item>
 											</Title>
-											<ReadOnly>true</ReadOnly>
 											<OpenButton>false</OpenButton>
 											<ContextMenu name="ОтветственныйКонтекстноеМеню" id="671"/>
 											<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="672"/>
@@ -3138,7 +3138,6 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
-			<SavedData>false</SavedData>
 		</Attribute>
 		<Attribute name="АС_ДатаСоздания" id="1000003">
 			<Type>
@@ -3147,7 +3146,6 @@
 					<v8:DateFractions>Date</v8:DateFractions>
 				</v8:DateQualifiers>
 			</Type>
-			<SavedData>false</SavedData>
 		</Attribute>
 	</Attributes>
 	<BaseForm version="2.21">

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="31cf874f-a5f6-4752-b3a1-48cc7835ec53">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыПополненияЗапасов" category="Ref">
+				<xr:TypeId>ae1d9fd0-85f2-425c-89a0-a6dc7a722dd1</xr:TypeId>
+				<xr:ValueId>eed68efb-77e1-40a4-89ec-27ebeb2d6ace</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыПополненияЗапасов" category="Manager">
+				<xr:TypeId>2c8d47d7-a736-4339-aaa5-5b0758e4d8da</xr:TypeId>
+				<xr:ValueId>55c29a0a-29e4-40ae-9298-2a45e22f80e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыПополненияЗапасов" category="List">
+				<xr:TypeId>159405e6-6414-4cc6-9409-d0ff4954ba7a</xr:TypeId>
+				<xr:ValueId>17a1470c-9efd-427d-afd8-3a35b7ff9867</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыПополненияЗапасов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>57710b6f-10e2-4355-b356-c8df41e4af22</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5171b247-ecc9-404e-b78e-9047aada0fd4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Закупка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b665b6f-6b24-4d72-8bc9-e7779885477f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

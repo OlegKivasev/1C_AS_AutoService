@@ -934,13 +934,13 @@
 								<InputField name="Ответственный" id="900025">
 									<DataPath>Объект.Ответственный</DataPath>
 									<ReadOnly>true</ReadOnly>
-									<OpenButton>false</OpenButton>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Ответственный</v8:content>
 										</v8:item>
 									</Title>
+									<OpenButton>false</OpenButton>
 									<ContextMenu name="ОтветственныйКонтекстноеМеню" id="900026"/>
 									<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="900027"/>
 								</InputField>

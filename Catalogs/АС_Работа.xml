@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
-	<Catalog uuid="6c70e660-26c4-460b-bf7a-8261a4d9d10d">
+	<Catalog uuid="67222505-a2dd-4da1-8aec-d1e2ff87f172">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.АС_ОПФ" category="Object">
-				<xr:TypeId>c1e5d31e-fd20-4c13-a9ef-7ed77a1a6ce0</xr:TypeId>
-				<xr:ValueId>2e1a50cf-3975-4d1e-a123-9bf948d5b8b0</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.АС_Работа" category="Object">
+				<xr:TypeId>d1a5cd64-b492-437c-ace2-9f8861142d5f</xr:TypeId>
+				<xr:ValueId>ce1881f7-6417-459f-a2ce-5efe76ab4d89</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.АС_ОПФ" category="Ref">
-				<xr:TypeId>a7290959-af23-4cae-9882-386fc1317d7b</xr:TypeId>
-				<xr:ValueId>cf47075e-5d9c-4a8a-853b-20eedfda5284</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.АС_Работа" category="Ref">
+				<xr:TypeId>30603db1-8292-4dd1-9276-c81c3417491a</xr:TypeId>
+				<xr:ValueId>2c3a1328-cf76-41cb-8c61-4f5e24fc881b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.АС_ОПФ" category="Selection">
-				<xr:TypeId>d7fb7545-ef7e-4ac8-bc00-f0226c29eb90</xr:TypeId>
-				<xr:ValueId>d965c37a-39f5-411c-812c-5657066823c2</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.АС_Работа" category="Selection">
+				<xr:TypeId>6142be0a-05c8-45c6-b8b2-bc0a5b0daebd</xr:TypeId>
+				<xr:ValueId>9b9e6e5a-a51f-47d2-ab80-5a8be7a70e66</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.АС_ОПФ" category="List">
-				<xr:TypeId>aa9e3838-42bc-4dc6-8bef-7fd5dffa0057</xr:TypeId>
-				<xr:ValueId>8cc61ac7-24e8-4fe9-a296-0d62a3f43354</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.АС_Работа" category="List">
+				<xr:TypeId>6dcf0ead-6d07-4467-8778-82871532aaf6</xr:TypeId>
+				<xr:ValueId>045a7b1c-1206-46a0-b0c3-aa72b33a0762</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.АС_ОПФ" category="Manager">
-				<xr:TypeId>b8a9262f-dc53-407f-b100-45b9e70dfcfc</xr:TypeId>
-				<xr:ValueId>fb3e1cb9-191f-4f75-abf8-07c447c89248</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.АС_Работа" category="Manager">
+				<xr:TypeId>acc6c42d-a21e-49f2-9264-b976f557d119</xr:TypeId>
+				<xr:ValueId>6a79571e-c2be-43d1-a783-e5dca0313a37</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>АС_ОПФ</Name>
+			<Name>АС_Работа</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Организационно-правовые формы</v8:content>
+					<v8:content>Наименование услуги</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Организационно-правовые формы юридических лиц для формирования наименования контрагента.</Comment>
+			<Comment/>
 			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
@@ -40,13 +40,13 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>0</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>false</CheckUnique>
-			<Autonumbering>false</Autonumbering>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
@@ -54,15 +54,16 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.АС_ОПФ.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.АС_Работа.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.АС_Работа.StandardAttribute.Code</xr:Field>
 			</InputByString>
-			<SearchStringModeOnInputByString>AnyPart</SearchStringModeOnInputByString>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultListForm>Catalog.АС_Работа.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.АС_Работа.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -74,19 +75,9 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Организационно-правовая форма</v8:content>
-				</v8:item>
-			</ObjectPresentation>
+			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Организационно-правовые формы</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<CreateOnInput>Use</CreateOnInput>
@@ -95,6 +86,30 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаВыбора</Form>
+			<Command uuid="857a035c-e4f9-4673-8697-c9200f92e9df">
+				<Properties>
+					<Name>АС_ИмпортироватьCSV</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Импортировать CSV</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>NavigationPanelImportant</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
