@@ -72,13 +72,14 @@
 				<LabelField name="Наименование" id="24">
 					<DataPath>Список.Description</DataPath>
 					<DefaultItem>true</DefaultItem>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кастомное наименование услуги</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="26"/>
-				</LabelField>
-				<LabelField name="Код" id="28">
-					<DataPath>Список.Code</DataPath>
-					<ContextMenu name="КодКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
