@@ -346,7 +346,7 @@
 						</UsualGroup>
 						<InputField name="АС_Работа" id="2057">
 							<Visible>false</Visible>
-							<DataPath>АС_Работа</DataPath>
+							<DataPath>Объект.АС_Работа</DataPath>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<Title>
 								<v8:item>
@@ -356,6 +356,9 @@
 							</Title>
 							<ContextMenu name="АС_РаботаКонтекстноеМеню" id="2058"/>
 							<ExtendedTooltip name="АС_РаботаРасширеннаяПодсказка" id="2059"/>
+							<Events>
+								<Event name="OnChange">АС_РаботаПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="КатегорияНоменклатуры" id="19">
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
@@ -4572,17 +4575,6 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="АС_Работа" id="1000001">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Наименование услуги</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:CatalogRef.АС_Работа</v8:Type>
-			</Type>
-		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
 				<dcsset:selection>
