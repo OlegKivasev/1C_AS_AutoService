@@ -4531,7 +4531,48 @@
 						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
-			</ChildItems>
+				<UsualGroup name="АС_ИнформацияСоздания" id="900100">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Информация о создании</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="АС_ИнформацияСозданияРасширеннаяПодсказка" id="900101"/>
+					<ChildItems>
+						<InputField name="Ответственный" id="900102">
+							<DataPath>Объект.Ответственный</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ответственный</v8:content>
+								</v8:item>
+							</Title>
+							<OpenButton>false</OpenButton>
+							<ContextMenu name="ОтветственныйКонтекстноеМеню" id="900103"/>
+							<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="900104"/>
+						</InputField>
+						<InputField name="ДатаСоздания" id="900105">
+							<DataPath>Объект.ДатаСоздания</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата создания</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДатаСозданияКонтекстноеМеню" id="900106"/>
+							<ExtendedTooltip name="ДатаСозданияРасширеннаяПодсказка" id="900107"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				</ChildItems>
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
