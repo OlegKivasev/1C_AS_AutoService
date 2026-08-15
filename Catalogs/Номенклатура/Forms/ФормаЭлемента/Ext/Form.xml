@@ -157,6 +157,18 @@
 						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 						<ExtendedTooltip name="ФормаПоказыватьГрафикиПродажИЦенРасширеннаяПодсказка" id="1080"/>
 					</Button>
+					<Button name="АС_ПоказатьВсеПоля" id="2060">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_ПоказатьВсеПоля</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Показать все поля</v8:content>
+							</v8:item>
+						</Title>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="АС_ПоказатьВсеПоляРасширеннаяПодсказка" id="2061"/>
+					</Button>
 					<Button name="ФормаНастройкиСправочника" id="1462">
 						<Type>CommandBarButton</Type>
 						<CommandName>0</CommandName>
@@ -4591,6 +4603,24 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
+	<Commands>
+		<Command name="АС_ПоказатьВсеПоля" id="2062">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать все поля</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать все поля карточки номенклатуры для отладки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АС_ПоказатьВсеПоля</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
 	<BaseForm version="2.21">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Horizontal</Group>
