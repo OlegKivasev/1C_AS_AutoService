@@ -1416,6 +1416,7 @@
 											<ShowInFooter>false</ShowInFooter>
 											<AutoEditMode>true</AutoEditMode>
 											<Width>20</Width>
+											<CreateButton>true</CreateButton>
 											<ContextMenu name="ЗНРаботыНоменклатураКонтекстноеМеню" id="350"/>
 											<ExtendedTooltip name="ЗНРаботыНоменклатураРасширеннаяПодсказка" id="804"/>
 										</InputField>
