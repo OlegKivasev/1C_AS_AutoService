@@ -30,18 +30,18 @@
 			<ExtendedConfigurationObject>bea7f781-5f18-4219-997c-9a767fb284be</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="b0180ba0-ffd8-48d5-8542-32c5f37b295f">
+			<Attribute uuid="5a5f278c-2de3-4042-9d88-ce2f40cd4947">
 				<Properties>
-					<Name>АС_Работа</Name>
+					<Name>АС_НормализоватьНаименованиеУслуги</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование услуги</v8:content>
+							<v8:content>Нормализация наименования</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Ссылка на наименование услуги из справочника АС_Работа.</Comment>
+					<Comment>Преобразовывать наименование услуги автоматически: первая буква заглавная, остальные строчные.</Comment>
 					<Type>
-						<v8:Type>cfg:CatalogRef.АС_Работа</v8:Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -54,13 +54,13 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xr:DesignTimeRef">Catalog.АС_Работа.EmptyRef</FillValue>
+					<FillValue xsi:type="xs:boolean">true</FillValue>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
 					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Use</CreateOnInput>
+					<CreateOnInput>Auto</CreateOnInput>
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
