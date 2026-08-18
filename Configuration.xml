@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-	<Version>1.0.35</Version>
+	<Version>1.0.37</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -94,6 +94,7 @@
 			<CommonPicture>РазделАдминистрирование</CommonPicture>
 			<CommonPicture>МенюДополнительныеФункции</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
+			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
