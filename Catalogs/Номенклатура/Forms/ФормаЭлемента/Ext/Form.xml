@@ -336,12 +336,12 @@
 							<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
 							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="155"/>
 							<Events>
-								<Event name="OnChange">АС_НаименованиеПриИзменении</Event>
+								<Event name="OnChange" callType="Before">АС_НаименованиеПриИзменении</Event>
 							</Events>
 						</InputField>
 						<CheckBoxField name="АС_НормализоватьНаименованиеУслуги" id="2060">
-							<Visible>false</Visible>
 							<DataPath>Объект.АС_НормализоватьНаименованиеУслуги</DataPath>
+							<Visible>false</Visible>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -352,7 +352,7 @@
 							<ContextMenu name="АС_НормализоватьНаименованиеУслугиКонтекстноеМеню" id="2061"/>
 							<ExtendedTooltip name="АС_НормализоватьНаименованиеУслугиРасширеннаяПодсказка" id="2062"/>
 							<Events>
-								<Event name="OnChange">АС_НормализоватьНаименованиеУслугиПриИзменении</Event>
+								<Event name="OnChange" callType="Before">АС_НормализоватьНаименованиеУслугиПриИзменении</Event>
 							</Events>
 						</CheckBoxField>
 						<LabelDecoration name="ДублиНаименование" id="1187">
@@ -4575,7 +4575,7 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
-				</ChildItems>
+			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
@@ -4661,7 +4661,7 @@
 					<v8:content>Показать все поля карточки номенклатуры для отладки</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>АС_ПоказатьВсеПоля</Action>
+			<Action callType="Before">АС_ПоказатьВсеПоля</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
@@ -4669,6 +4669,7 @@
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Horizontal</Group>
 		<VerticalScroll>use</VerticalScroll>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
 				<Button name="ФормаОбщаяКомандаИсторияИзменений" id="232">
