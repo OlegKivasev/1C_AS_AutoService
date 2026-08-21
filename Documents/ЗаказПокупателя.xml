@@ -22,6 +22,10 @@
 				<xr:TypeId>9930f567-01f8-41e1-a42e-db5eda80680a</xr:TypeId>
 				<xr:ValueId>17b485dc-ad73-4e7b-849a-a6b742652acd</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -1809,6 +1813,43 @@
 							<Type>
 								<v8:TypeId>1b7942f7-dfc9-4364-836c-e18c43f9d2ad</v8:TypeId>
 							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="603f218d-1e63-406a-81b5-663246c7729f">
+						<Properties>
+							<Name>АС_НеСписывать</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Не списывать со склада</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Позиция остается в заказе-наряде, но не включается в расходную накладную.</Comment>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>DontUse</DataHistory>
 						</Properties>
 					</Attribute>
 				</ChildObjects>
