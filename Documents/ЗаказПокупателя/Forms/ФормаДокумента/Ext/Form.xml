@@ -993,6 +993,7 @@
 															<ExtendedTooltip name="ГруппаКалькуляцияРасширеннаяПодсказка" id="3705"/>
 															<ChildItems>
 																<UsualGroup name="ГруппаСсылки" id="3706">
+																	<Visible>false</Visible>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
@@ -1126,6 +1127,7 @@
 													<ExtendedTooltip name="ГруппаРеквизитыПечатиЦеныРасширеннаяПодсказка" id="3045"/>
 													<ChildItems>
 														<LabelDecoration name="ДекорацияРеквизитыПечати" id="2911">
+															<Visible>false</Visible>
 															<Title formatted="false">
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -1151,6 +1153,7 @@
 															<ExtendedTooltip name="ГруппаЦеныИВалютаРасширеннаяПодсказка" id="1636"/>
 															<ChildItems>
 																<LabelField name="ЦеныИВалюта" id="1637" DisplayImportance="VeryHigh">
+																	<Visible>false</Visible>
 																	<TitleLocation>None</TitleLocation>
 																	<HorizontalAlign>Right</HorizontalAlign>
 																	<GroupHorizontalAlign>Right</GroupHorizontalAlign>

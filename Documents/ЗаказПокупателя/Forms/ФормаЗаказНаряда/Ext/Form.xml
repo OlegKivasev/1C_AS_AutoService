@@ -665,6 +665,7 @@
 													</ChildItems>
 												</UsualGroup>
 												<UsualGroup name="ГруппаСсылки" id="2219">
+													<Visible>false</Visible>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -901,6 +902,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<LabelDecoration name="ДекорацияРеквизитыПечати" id="2332">
+											<Visible>false</Visible>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -926,6 +928,7 @@
 											<ExtendedTooltip name="ГруппаЦеныИВалютаРасширеннаяПодсказка" id="1314"/>
 											<ChildItems>
 												<LabelField name="ЦеныИВалюта" id="195">
+													<Visible>false</Visible>
 													<TitleLocation>None</TitleLocation>
 													<HorizontalAlign>Right</HorizontalAlign>
 													<AutoMaxWidth>false</AutoMaxWidth>

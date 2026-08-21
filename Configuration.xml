@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-		<Version>1.0.66</Version>
+		<Version>1.0.67</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
