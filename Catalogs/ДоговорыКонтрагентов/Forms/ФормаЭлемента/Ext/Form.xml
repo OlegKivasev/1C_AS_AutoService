@@ -2444,7 +2444,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаЭквайринг" id="291">
-			<Visible>false</Visible>
+			<Visible>true</Visible>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
