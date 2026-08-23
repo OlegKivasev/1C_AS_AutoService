@@ -11,6 +11,16 @@
 		<Metadata name="Catalog.АС_Автомобили.Form.ФормаСписка.Form" id="f2fced53-2da7-4f21-bda2-6ca41f5297f3.0" configVersion="d2c7e54ee0ea5231e7655d2cee83af44dae23de5"/>
 		<Metadata name="Catalog.АС_Автомобили.ObjectModule" id="198f5fce-6fc1-42ba-9624-1ada64c49604.0" configVersion="00d16ed0a71234ec509055dff1f1decb43dd2f67"/>
 		<Metadata name="Catalog.АС_ОПФ" id="6c70e660-26c4-460b-bf7a-8261a4d9d10d" configVersion="591e52eb1a5baf696a98855870b3841ca0ea8cae"/>
+		<Metadata name="Catalog.АС_ТипыФильтров" id="3e0d5e6c-8f9a-4c31-a2b7-56d4e1f89c20" configVersion="a76463002e2bdffbd41582a3151a4ff8eb5522c4">
+			<Metadata name="Catalog.АС_ТипыФильтров.Predefined" id="3e0d5e6c-8f9a-4c31-a2b7-56d4e1f89c20.1c" configVersion="9e9b6ffe48f08b3bbc828674a167be3b8e9f43e3"/>
+		</Metadata>
+		<Metadata name="Catalog.АС_КонструкцииФильтров" id="6a7e0c19-2d43-4b8c-95f0-e671a2c4d839" configVersion="5d9af5da02511861b15838a12f53c1549fe2528c">
+			<Metadata name="Catalog.АС_КонструкцииФильтров.Predefined" id="6a7e0c19-2d43-4b8c-95f0-e671a2c4d839.1c" configVersion="51c58508de32d825d9275875434358a612de34ec"/>
+		</Metadata>
+		<Metadata name="Catalog.АС_ВариантыИсполненияФильтров" id="7b2d4e8f-9a13-4c56-b7e0-1f2a3d4c5e68" configVersion="786de5f3a97a9a6610779480b65c62e5d596b61d">
+			<Metadata name="Catalog.АС_ВариантыИсполненияФильтров.Predefined" id="7b2d4e8f-9a13-4c56-b7e0-1f2a3d4c5e68.1c" configVersion="f525e21e697a5027d8bc29c858b68034472cd47d"/>
+		</Metadata>
+		<Metadata name="Catalog.АС_БрендыФильтров" id="8c3e5f90-ab24-4d67-c8f1-2a3b4c5d6e79" configVersion="26f5f2bab433a474a39d7da807923548b08c69e8"/>
 		<Metadata name="Catalog.ВидыЦен" id="e1d02334-4a40-493e-9bec-4ee1782790a0" configVersion="1bc2b6d2172369d6f5eb2663c0fe1bd1b626ff3e"/>
 		<Metadata name="Catalog.ВидыЦен.Form.ФормаСписка" id="c9fe5dd8-b7c8-4939-b453-fc03209c99a0" configVersion="1e787d781276734cb8a7188f03eceda2d3028f51"/>
 		<Metadata name="Catalog.ВидыЦен.Form.ФормаСписка.Form" id="c9fe5dd8-b7c8-4939-b453-fc03209c99a0.0" configVersion="0ca7fe3a842c55897ca6451f0dbe3112248fec5c"/>
@@ -42,13 +52,25 @@
 		</Metadata>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="0964907a-eac2-477f-a95f-08d7cc2ec41c" configVersion="5712b7145bb6b2a69cbb3ffb6334b12e88c7eee3"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="0964907a-eac2-477f-a95f-08d7cc2ec41c.0" configVersion="54eefffbfee3dadf5c12ed6fe34e21a80b934613"/>
-		<Metadata name="Catalog.Номенклатура" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680" configVersion="48122cd93a7201078ba1357248656122aa561501">
+		<Metadata name="Catalog.Номенклатура" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680" configVersion="dfcda3d5d1829feaa3cb8a32b6cb9a16674059a3">
 			<Metadata name="Catalog.Номенклатура.Attribute.ДатаСоздания" id="00ccd05b-9b0d-4895-b60f-a7c8824a4951"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.АС_НормализоватьНаименованиеУслуги" id="5a5f278c-2de3-4042-9d88-ce2f40cd4947"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.Ответственный" id="9dd656bf-64ff-4906-bf45-c318e8350e94"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.АС_ТипФильтра" id="a3e9c6e8-915f-4cb0-9c64-e0891d0e6f42"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.АС_КонструкцияФильтра" id="d1d0f5b2-0ae7-4a6b-a1b6-78de1d9fd9af"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.АС_ВариантИсполненияФильтра" id="e6a662cf-621c-4bc0-9aab-2b5234ebdb94"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.АС_БрендФильтра" id="f6fc9d0a-2b9a-4f4e-a570-7f7e4d26a4d1"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость" id="baf318ae-6cb9-4b91-9d7a-d0b6ea2cf6e1">
+				<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.Автомобиль" id="a02d3a5c-3d73-4e25-b2fe-3f90c5880f25"/>
+				<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.Уточнение" id="c3817f4e-3d47-4e5b-8ea7-7c3e7a0bd5e8"/>
+				<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.АС_АвтомобильПредставление" id="1f8b7a39-3c1d-4ec9-9e55-5b4a9a7c2d81"/>
+				<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.ГодС" id="7e1b4c28-9f63-4a15-b2d7-6c8e0f3a5b91"/>
+				<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.ГодПо" id="ccc0728b-8257-41b6-83d7-8b08ca0a7555"/>
+			</Metadata>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa" configVersion="77a4b9e92b23cecb1f6e2f967cf1a84735b3cbb5"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa.0" configVersion="76705f94148cc9de129981917eb5dc6191fc804c"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa.0" configVersion="7c0aa38ac57c63460cd5335dd776420a3c97225b"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form.Module" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa.1" configVersion="efabe0e153a22c21e38b5433d56d9d4964570705"/>
 		<Metadata name="Catalog.Номенклатура.ObjectModule" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680.0" configVersion="4a0776870882ca237f86cbac2e88741f6bff2bfe"/>
 		<Metadata name="Catalog.Сотрудники" id="14879c58-0fa9-4e61-ba6b-eb3254e3c5b0" configVersion="63b40edd7ad11081e3a916dcb2e8c5f873940738"/>
 		<Metadata name="CommonCommand.АС_ТоварыАвтомобиля" id="6266b024-8a1c-46b8-ba55-6908700c10c6" configVersion="0af2e74102ee6f7bb7bac3a2720853864d562580"/>
@@ -76,7 +98,7 @@
 		<Metadata name="CommonPicture.Скрепка" id="76ff504c-a28e-4c28-bb15-17a0312c42a2" configVersion="becb404a6ddf32e8179a6166295796a87e35778e"/>
 		<Metadata name="CommonPicture.СостояниеЗаказа" id="fa66a430-a077-42f6-9b0c-e68fb87e7368" configVersion="b087cf32a26eb596b5a31f48e863c78fa58bcf76"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="69da427fb9d39448bdb0e22e979b500adf480ed6"/>
-		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="c5046c35d36699dad798bb437e51240c73fca48f"/>
+		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="766e25b4061410898548a0e07299a207bbca70b0"/>
 		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="ebef997d4c296c98e859b00e26d662cc22ff9b33">
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Подарки.Attribute.Номенклатура" id="01b20dfb-eb3f-427a-b967-b72b03fe4b35"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.Комментарий" id="0210f35b-99dd-425b-aabc-4bd2f9286f06"/>

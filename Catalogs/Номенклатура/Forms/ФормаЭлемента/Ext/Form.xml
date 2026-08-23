@@ -322,6 +322,9 @@
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_КатегорияНоменклатурыПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="Наименование" id="3">
 							<DefaultItem>true</DefaultItem>
@@ -339,6 +342,200 @@
 								<Event name="OnChange" callType="Before">АС_НаименованиеПриИзменении</Event>
 							</Events>
 						</InputField>
+
+						<InputField name="АС_ТипФильтра" id="910002">
+							<DataPath>Объект.АС_ТипФильтра</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип фильтра</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="АС_ТипФильтраКонтекстноеМеню" id="910003"/>
+							<ExtendedTooltip name="АС_ТипФильтраРасширеннаяПодсказка" id="910004"/>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="АС_КонструкцияФильтра" id="910005">
+							<DataPath>Объект.АС_КонструкцияФильтра</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Конструкция</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="АС_КонструкцияФильтраКонтекстноеМеню" id="910006"/>
+							<ExtendedTooltip name="АС_КонструкцияФильтраРасширеннаяПодсказка" id="910007"/>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="АС_ВариантИсполненияФильтра" id="910008">
+							<DataPath>Объект.АС_ВариантИсполненияФильтра</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вариант исполнения</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="АС_ВариантИсполненияФильтраКонтекстноеМеню" id="910009"/>
+							<ExtendedTooltip name="АС_ВариантИсполненияФильтраРасширеннаяПодсказка" id="910010"/>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="АС_БрендФильтра" id="910011">
+							<DataPath>Объект.АС_БрендФильтра</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Бренд</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="АС_БрендФильтраКонтекстноеМеню" id="910012"/>
+							<ExtendedTooltip name="АС_БрендФильтраРасширеннаяПодсказка" id="910013"/>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
+							</Events>
+						</InputField>
+						<Table name="АС_Применяемость" id="910014">
+							<Representation>List</Representation>
+							<CommandBarLocation>Top</CommandBarLocation>
+							<HeightInTableRows>4</HeightInTableRows>
+							<RowSelectionMode>Row</RowSelectionMode>
+							<AutoInsertNewRow>false</AutoInsertNewRow>
+							<DataPath>Объект.АС_Применяемость</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Применяемость по автомобилям</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="АС_ПрименяемостьКонтекстноеМеню" id="910015"/>
+							<AutoCommandBar name="АС_ПрименяемостьКоманднаяПанель" id="910016"/>
+							<ExtendedTooltip name="АС_ПрименяемостьРасширеннаяПодсказка" id="910017"/>
+							<ChildItems>
+								<InputField name="АС_ПрименяемостьАвтомобиль" id="910018">
+									<DataPath>Объект.АС_Применяемость.АС_АвтомобильПредставление</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автомобиль</v8:content>
+										</v8:item>
+									</Title>
+									<Width>20</Width>
+									<AutoEditMode>true</AutoEditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="АС_ПрименяемостьАвтомобильКонтекстноеМеню" id="910019"/>
+									<ExtendedTooltip name="АС_ПрименяемостьАвтомобильРасширеннаяПодсказка" id="910020"/>
+									<Events>
+										<Event name="OnChange" callType="Before">АС_ПрименяемостьАвтомобильПриИзменении</Event>
+										<Event name="AutoComplete" callType="Before">АС_ПрименяемостьАвтомобильАвтоПодбор</Event>
+									</Events>
+								</InputField>
+								<InputField name="АС_ПрименяемостьГодС" id="910027">
+									<DataPath>Объект.АС_Применяемость.ГодС</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Год с</v8:content>
+										</v8:item>
+									</Title>
+									<Width>7</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧГ=0</v8:content>
+										</v8:item>
+									</Format>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧГ=0</v8:content>
+										</v8:item>
+									</EditFormat>
+									<SpinButton>true</SpinButton>
+									<ContextMenu name="АС_ПрименяемостьГодСКонтекстноеМеню" id="910028"/>
+									<ExtendedTooltip name="АС_ПрименяемостьГодСРасширеннаяПодсказка" id="910029"/>
+									<Events>
+										<Event name="OnChange" callType="Before">АС_ПрименяемостьГодСПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="АС_ПрименяемостьГодПо" id="910030">
+									<DataPath>Объект.АС_Применяемость.ГодПо</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Год по</v8:content>
+										</v8:item>
+									</Title>
+									<Width>7</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧГ=0</v8:content>
+										</v8:item>
+									</Format>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧГ=0</v8:content>
+										</v8:item>
+									</EditFormat>
+									<SpinButton>true</SpinButton>
+									<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
+									<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
+								</InputField>
+								<InputField name="АС_ПрименяемостьУточнение" id="910021">
+									<DataPath>Объект.АС_Применяемость.Уточнение</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Уточнение</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="АС_ПрименяемостьУточнениеКонтекстноеМеню" id="910022"/>
+									<ExtendedTooltip name="АС_ПрименяемостьУточнениеРасширеннаяПодсказка" id="910023"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<InputField name="Артикул" id="7">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Артикул</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>25</MaxWidth>
+							<Wrap>false</Wrap>
+							<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
+						</InputField>
+						<LabelDecoration name="ДублиАртикул" id="1190">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Найдены дубли по артикулу</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДублиАртикулКонтекстноеМеню" id="1191"/>
+							<ExtendedTooltip name="ДублиАртикулРасширеннаяПодсказка" id="1192"/>
+						</LabelDecoration>
 						<CheckBoxField name="АС_НормализоватьНаименованиеУслуги" id="2060">
 							<DataPath>Объект.АС_НормализоватьНаименованиеУслуги</DataPath>
 							<Visible>false</Visible>
@@ -366,34 +563,6 @@
 							<ContextMenu name="ДублиНаименованиеКонтекстноеМеню" id="1188"/>
 							<ExtendedTooltip name="ДублиНаименованиеРасширеннаяПодсказка" id="1189"/>
 						</LabelDecoration>
-						<InputField name="НаименованиеПолное" id="15">
-							<TitleLocation>Left</TitleLocation>
-							<TitleHeight>2</TitleHeight>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<Height>2</Height>
-							<MaxHeight>2</MaxHeight>
-							<VerticalStretch>false</VerticalStretch>
-							<MultiLine>true</MultiLine>
-							<ChoiceButton>true</ChoiceButton>
-							<ChoiceButtonPicture>
-								<xr:Ref>CommonPicture.КнопкаВыпадающегоСписка</xr:Ref>
-								<xr:LoadTransparent>false</xr:LoadTransparent>
-							</ChoiceButtonPicture>
-							<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="16"/>
-							<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="159"/>
-						</InputField>
-						<LabelDecoration name="ДублиНаименованиеПолное" id="1197">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Найдены дубли по наименованию для печати</v8:content>
-								</v8:item>
-							</Title>
-							<Hyperlink>true</Hyperlink>
-							<ContextMenu name="ДублиНаименованиеПолноеКонтекстноеМеню" id="1198"/>
-							<ExtendedTooltip name="ДублиНаименованиеПолноеРасширеннаяПодсказка" id="1199"/>
-						</LabelDecoration>
 						<UsualGroup name="ГруппаРаботаСНоменклатурой" id="1037">
 							<Title>
 								<v8:item>
@@ -420,7 +589,7 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Единица измерения, артикул, группа, код</v8:content>
+									<v8:content>Единица измерения, код</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -434,7 +603,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Единица измерения, артикул</v8:content>
+										<v8:content>Единица измерения</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
@@ -445,21 +614,6 @@
 									<ThroughAlign>Use</ThroughAlign>
 									<ExtendedTooltip name="ЕдиницаИзмеренияРодительРасширеннаяПодсказка" id="551"/>
 									<ChildItems>
-										<InputField name="Артикул" id="7">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Артикул</v8:content>
-												</v8:item>
-											</Title>
-											<EditMode>EnterOnInput</EditMode>
-											<AutoEditMode>true</AutoEditMode>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<MaxWidth>25</MaxWidth>
-											<Wrap>false</Wrap>
-											<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
-											<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
-										</InputField>
 										<InputField name="Код" id="1">
 											<SkipOnInput>true</SkipOnInput>
 											<EditMode>EnterOnInput</EditMode>
@@ -478,27 +632,8 @@
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
-								<LabelDecoration name="ДублиАртикул" id="1190">
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Найдены дубли по артикулу</v8:content>
-										</v8:item>
-									</Title>
-									<Hyperlink>true</Hyperlink>
-									<ContextMenu name="ДублиАртикулКонтекстноеМеню" id="1191"/>
-									<ExtendedTooltip name="ДублиАртикулРасширеннаяПодсказка" id="1192"/>
-								</LabelDecoration>
 							</ChildItems>
 						</UsualGroup>
-						<InputField name="Родитель" id="5">
-							<SkipOnInput>true</SkipOnInput>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<Wrap>false</Wrap>
-							<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
-							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="153"/>
-						</InputField>
 						<UsualGroup name="ГруппаЕдиницыИзмерения" id="1138">
 							<Title>
 								<v8:item>
@@ -751,55 +886,41 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаВесовойРасширеннаяПодсказка" id="1366"/>
 							<ChildItems>
-								<LabelDecoration name="X3" id="1313">
-									<Visible>false</Visible>
-									<Width>9</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="X3КонтекстноеМеню" id="1314"/>
-									<ExtendedTooltip name="X3РасширеннаяПодсказка" id="1315"/>
-								</LabelDecoration>
 								<CheckBoxField name="Весовой" id="1171">
 									<TitleLocation>Right</TitleLocation>
 									<ContextMenu name="ВесовойКонтекстноеМеню" id="1172"/>
 									<ExtendedTooltip name="ВесовойРасширеннаяПодсказка" id="1173"/>
 								</CheckBoxField>
-								<LabelDecoration name="X4" id="1367">
-									<Visible>false</Visible>
-									<Width>1</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="X4КонтекстноеМеню" id="1368"/>
-									<ExtendedTooltip name="X4РасширеннаяПодсказка" id="1369"/>
-								</LabelDecoration>
-								<CheckBoxField name="ЗапретитьВводДробногоКоличества" id="1362">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Запрет дробного количества при подборе</v8:content>
-										</v8:item>
-									</Title>
-									<TitleLocation>Right</TitleLocation>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Запрет дробного количества в форме подобора и вводе в документах.</v8:content>
-										</v8:item>
-									</ToolTip>
-									<ToolTipRepresentation>Button</ToolTipRepresentation>
-									<ContextMenu name="ЗапретитьВводДробногоКоличестваКонтекстноеМеню" id="1363"/>
-									<ExtendedTooltip name="ЗапретитьВводДробногоКоличестваРасширеннаяПодсказка" id="1364">
-										<Title formatted="true">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Запрещает ввод дробного количества при подборе и вводе в документы.
+							</ChildItems>
+						</UsualGroup>
+						<CheckBoxField name="ЗапретитьВводДробногоКоличества" id="1362">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Запрет дробного количества при подборе</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Запрет дробного количества в форме подобора и вводе в документах.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ЗапретитьВводДробногоКоличестваКонтекстноеМеню" id="1363"/>
+							<ExtendedTooltip name="ЗапретитьВводДробногоКоличестваРасширеннаяПодсказка" id="1364">
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Запрещает ввод дробного количества при подборе и вводе в документы.
 Запрет недоступен для весового товара.
 
 &lt;link e1cib/list/Справочник.КатегорииНоменклатуры&gt;По умолчанию заполняется из категории.&lt;/&gt; </v8:content>
-											</v8:item>
-										</Title>
-									</ExtendedTooltip>
-								</CheckBoxField>
-							</ChildItems>
-						</UsualGroup>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
 						<UsualGroup name="ГруппаДополнительныеРеквизиты" id="406">
 							<Title>
 								<v8:item>
@@ -813,9 +934,9 @@
 							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ThroughAlign>Use</ThroughAlign>
-							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="407"/>
-						</UsualGroup>
-						<UsualGroup name="СозданиеДополнительныхРеквизитов" id="442">
+						<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="407"/>
+					</UsualGroup>
+					<UsualGroup name="СозданиеДополнительныхРеквизитов" id="442">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -5001,34 +5122,6 @@
 								<ContextMenu name="ДублиНаименованиеКонтекстноеМеню" id="1188"/>
 								<ExtendedTooltip name="ДублиНаименованиеРасширеннаяПодсказка" id="1189"/>
 							</LabelDecoration>
-							<InputField name="НаименованиеПолное" id="15">
-								<TitleLocation>Left</TitleLocation>
-								<TitleHeight>2</TitleHeight>
-								<EditMode>EnterOnInput</EditMode>
-								<AutoEditMode>true</AutoEditMode>
-								<Height>2</Height>
-								<MaxHeight>2</MaxHeight>
-								<VerticalStretch>false</VerticalStretch>
-								<MultiLine>true</MultiLine>
-								<ChoiceButton>true</ChoiceButton>
-								<ChoiceButtonPicture>
-									<xr:Ref>CommonPicture.КнопкаВыпадающегоСписка</xr:Ref>
-									<xr:LoadTransparent>false</xr:LoadTransparent>
-								</ChoiceButtonPicture>
-								<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="16"/>
-								<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="159"/>
-							</InputField>
-							<LabelDecoration name="ДублиНаименованиеПолное" id="1197">
-								<Title formatted="false">
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Найдены дубли по наименованию для печати</v8:content>
-									</v8:item>
-								</Title>
-								<Hyperlink>true</Hyperlink>
-								<ContextMenu name="ДублиНаименованиеПолноеКонтекстноеМеню" id="1198"/>
-								<ExtendedTooltip name="ДублиНаименованиеПолноеРасширеннаяПодсказка" id="1199"/>
-							</LabelDecoration>
 							<UsualGroup name="ГруппаРаботаСНоменклатурой" id="1037">
 								<Title>
 									<v8:item>
@@ -5386,55 +5479,41 @@
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаВесовойРасширеннаяПодсказка" id="1366"/>
 								<ChildItems>
-									<LabelDecoration name="X3" id="1313">
-										<Visible>false</Visible>
-										<Width>9</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="X3КонтекстноеМеню" id="1314"/>
-										<ExtendedTooltip name="X3РасширеннаяПодсказка" id="1315"/>
-									</LabelDecoration>
 									<CheckBoxField name="Весовой" id="1171">
 										<TitleLocation>Right</TitleLocation>
 										<ContextMenu name="ВесовойКонтекстноеМеню" id="1172"/>
 										<ExtendedTooltip name="ВесовойРасширеннаяПодсказка" id="1173"/>
 									</CheckBoxField>
-									<LabelDecoration name="X4" id="1367">
-										<Visible>false</Visible>
-										<Width>1</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="X4КонтекстноеМеню" id="1368"/>
-										<ExtendedTooltip name="X4РасширеннаяПодсказка" id="1369"/>
-									</LabelDecoration>
-									<CheckBoxField name="ЗапретитьВводДробногоКоличества" id="1362">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Запрет дробного количества при подборе</v8:content>
-											</v8:item>
-										</Title>
-										<TitleLocation>Right</TitleLocation>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Запрет дробного количества в форме подобора и вводе в документах.</v8:content>
-											</v8:item>
-										</ToolTip>
-										<ToolTipRepresentation>Button</ToolTipRepresentation>
-										<ContextMenu name="ЗапретитьВводДробногоКоличестваКонтекстноеМеню" id="1363"/>
-										<ExtendedTooltip name="ЗапретитьВводДробногоКоличестваРасширеннаяПодсказка" id="1364">
-											<Title formatted="true">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Запрещает ввод дробного количества при подборе и вводе в документы.
+								</ChildItems>
+							</UsualGroup>
+						<CheckBoxField name="ЗапретитьВводДробногоКоличества" id="1362">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Запрет дробного количества при подборе</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Запрет дробного количества в форме подобора и вводе в документах.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ЗапретитьВводДробногоКоличестваКонтекстноеМеню" id="1363"/>
+							<ExtendedTooltip name="ЗапретитьВводДробногоКоличестваРасширеннаяПодсказка" id="1364">
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Запрещает ввод дробного количества при подборе и вводе в документы.
 Запрет недоступен для весового товара.
 
 &lt;link e1cib/list/Справочник.КатегорииНоменклатуры&gt;По умолчанию заполняется из категории.&lt;/&gt; </v8:content>
-												</v8:item>
-											</Title>
-										</ExtendedTooltip>
-									</CheckBoxField>
-								</ChildItems>
-							</UsualGroup>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
 							<UsualGroup name="ГруппаДополнительныеРеквизиты" id="406">
 								<Title>
 									<v8:item>
@@ -9094,7 +9173,33 @@
 										<ExtendedTooltip name="ОстаткиОстатокРасширеннаяПодсказка" id="396"/>
 									</InputField>
 								</ChildItems>
-							</Table>
+						</Table>
+						<InputField name="Артикул" id="7">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Артикул</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>25</MaxWidth>
+							<Wrap>false</Wrap>
+							<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
+						</InputField>
+						<LabelDecoration name="ДублиАртикул" id="1190">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Найдены дубли по артикулу</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДублиАртикулКонтекстноеМеню" id="1191"/>
+							<ExtendedTooltip name="ДублиАртикулРасширеннаяПодсказка" id="1192"/>
+						</LabelDecoration>
 						</ChildItems>
 					</UsualGroup>
 					<UsualGroup name="НедействительнаРастяжение" id="748" DisplayImportance="VeryHigh">

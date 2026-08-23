@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="e462d269-b305-43dc-b886-144820d5c3d3"><Name>Обычный</Name><Code/><Description>Обычный</Description><IsFolder>false</IsFolder></Item>
+	<Item id="14f03efc-096e-4328-ba8f-4622c5d0eba7"><Name>Угольный</Name><Code/><Description>Угольный</Description><IsFolder>false</IsFolder></Item>
+	<Item id="4fef7d08-19d6-4c77-8550-20c33ec5bcec"><Name>Бумажный</Name><Code/><Description>Бумажный</Description><IsFolder>false</IsFolder></Item>
+	<Item id="b617c213-236e-4d5c-a6fb-cf06e23d5278"><Name>Полиуретановый</Name><Code/><Description>Полиуретановый</Description><IsFolder>false</IsFolder></Item>
+</PredefinedData>

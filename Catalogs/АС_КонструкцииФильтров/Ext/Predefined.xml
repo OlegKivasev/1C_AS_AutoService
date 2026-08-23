@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="d7ff3112-5e8f-4427-94f2-204c24e48692"><Name>Накручиваемый</Name><Code/><Description>Накручиваемый</Description><IsFolder>false</IsFolder></Item>
+	<Item id="ae850abf-fcc2-4aaf-b3c6-6e4331bc528d"><Name>Картридж</Name><Code/><Description>Картридж</Description><IsFolder>false</IsFolder></Item>
+	<Item id="7c3972c5-3131-4b1e-9a12-c2cb3fca51f9"><Name>Вставка</Name><Code/><Description>Вставка</Description><IsFolder>false</IsFolder></Item>
+	<Item id="c79ccb0b-9780-4f0e-a5be-a6d1cede2f8c"><Name>ФильтрПатрон</Name><Code/><Description>Фильтр-патрон</Description><IsFolder>false</IsFolder></Item>
+	<Item id="f9ce4716-05b8-4f90-8252-7b9f16c3c7f4"><Name>Сетка</Name><Code/><Description>Сетка</Description><IsFolder>false</IsFolder></Item>
+</PredefinedData>

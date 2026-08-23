@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="936ed08a-fa3b-4019-ae5c-f0ed1d612859"><Name>Воздушный</Name><Code/><Description>Воздушный</Description><IsFolder>false</IsFolder></Item>
+	<Item id="34ff1f43-3230-4fda-ada3-c1dc1f711253"><Name>Масляный</Name><Code/><Description>Масляный</Description><IsFolder>false</IsFolder></Item>
+	<Item id="c61cd118-5046-449b-8a85-53e9088720c1"><Name>Салонный</Name><Code/><Description>Салонный</Description><IsFolder>false</IsFolder></Item>
+	<Item id="70411002-e63d-4e2e-bea4-3df98b31f75f"><Name>Топливный</Name><Code/><Description>Топливный</Description><IsFolder>false</IsFolder></Item>
+	<Item id="70429222-e2c2-43af-9f6d-8a76c8eb3389"><Name>АКПП</Name><Code/><Description>АКПП</Description><IsFolder>false</IsFolder></Item>
+	<Item id="42acfc8d-2323-48e6-ac58-9723090d99a0"><Name>ГУР</Name><Code/><Description>ГУР</Description><IsFolder>false</IsFolder></Item>
+	<Item id="dc47210b-0a21-4248-b816-3a49d8fbee5d"><Name>СеткаБензонасоса</Name><Code/><Description>Сетка бензонасоса</Description><IsFolder>false</IsFolder></Item>
+</PredefinedData>
