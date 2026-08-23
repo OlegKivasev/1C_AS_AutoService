@@ -525,6 +525,30 @@
 							<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
 							<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
 						</InputField>
+						<CheckBoxField name="АС_ИспользоватьВнутреннийАртикул" id="910040">
+							<DataPath>Объект.АС_ИспользоватьВнутреннийАртикул</DataPath>
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать внутренний артикул</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="АС_ИспользоватьВнутреннийАртикулКонтекстноеМеню" id="910041"/>
+							<ExtendedTooltip name="АС_ИспользоватьВнутреннийАртикулРасширеннаяПодсказка" id="910042">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>При установке для фильтра автоматически выдается общий последовательный артикул INT-00000001. Выданный номер нельзя изменить, пока флажок установлен.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_ИспользоватьВнутреннийАртикулПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
 						<LabelDecoration name="ДублиАртикул" id="1190">
 							<Title formatted="false">
 								<v8:item>

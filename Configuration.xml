@@ -102,6 +102,7 @@
 			<Role>АС_ПросмотрТоваровИУслуг</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_ЗаполнениеРасходнойНакладнойСервер</CommonModule>
+			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
@@ -116,6 +117,7 @@
 			<Catalog>ДоговорыКонтрагентов</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ВидыЦен</Catalog>
+			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<Document>ЗаказПокупателя</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Enum>ПолФизическогоЛица</Enum>
