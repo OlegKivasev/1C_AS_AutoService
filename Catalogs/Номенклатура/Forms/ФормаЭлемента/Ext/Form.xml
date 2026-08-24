@@ -413,6 +413,8 @@
 							<HeightInTableRows>4</HeightInTableRows>
 							<RowSelectionMode>Row</RowSelectionMode>
 							<AutoInsertNewRow>false</AutoInsertNewRow>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>55</MaxWidth>
 							<DataPath>Объект.АС_Применяемость</DataPath>
 							<Title>
 								<v8:item>
@@ -496,17 +498,6 @@
 									<SpinButton>true</SpinButton>
 									<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
 									<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
-								</InputField>
-								<InputField name="АС_ПрименяемостьУточнение" id="910021">
-									<DataPath>Объект.АС_Применяемость.Уточнение</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Уточнение</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="АС_ПрименяемостьУточнениеКонтекстноеМеню" id="910022"/>
-									<ExtendedTooltip name="АС_ПрименяемостьУточнениеРасширеннаяПодсказка" id="910023"/>
 								</InputField>
 							</ChildItems>
 						</Table>
