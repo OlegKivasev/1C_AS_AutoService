@@ -501,6 +501,36 @@
 								</InputField>
 							</ChildItems>
 						</Table>
+						<InputField name="АС_OEM" id="910043">
+							<DataPath>Объект.АС_OEM</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>OEM</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<AutoEditMode>true</AutoEditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>25</MaxWidth>
+							<Wrap>false</Wrap>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Артикулы записываются через точку с запятой.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="АС_OEMКонтекстноеМеню" id="910044"/>
+							<ExtendedTooltip name="АС_OEMРасширеннаяПодсказка" id="910045">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Артикулы записываются через точку с запятой.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</InputField>
 						<InputField name="Артикул" id="7">
 							<Title>
 								<v8:item>
