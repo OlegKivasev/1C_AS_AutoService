@@ -382,10 +382,10 @@
 		<Metadata name="Document.ЗаказПокупателя.ManagerModule" id="e69ab0a1-444f-4281-94ce-65f6c75c502a.2" configVersion="d678f22af659927babd3a374da7d44d90aeeac62"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="3132e3cf44016d8938a7e56f02a1ccd3d0872f6d"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="5810307ccd3287c7c39e05217674d3a022c12dab"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form.Module" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.1" configVersion="c3160a2a1c082e0e7cf024f44af16e3ad787b930"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form.Module" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.1" configVersion="6e6b16d579dfe023564ed36b3d2797cba8a31450"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="432a74c6e86c158c82d8eb3a3790718cca94a11a"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="9bf8d87c0086dc1cb0e3f060a35bede78ac4be0e"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form.Module" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.1" configVersion="69d6e81b2e900c33677993762930c4d060a823e0"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form.Module" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.1" configVersion="b2422ae59aca90d9a5202a3b6283bfdbec42eb03"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСпискаЗаказНаряда" id="9cda5a10-17e5-4669-b3dd-a4d1f4edb205" configVersion="7390e5d8397ec977024d5aa552f304cce845a7e9"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСпискаЗаказНаряда.Form" id="9cda5a10-17e5-4669-b3dd-a4d1f4edb205.0" configVersion="c7aec5a372d85b0fe678d2bcfa74405649fdcab0"/>
 		<Metadata name="Enum.АС_ДокументыБухгалтеру" id="eccfe8b8-e87b-4885-8e56-9595f1b79999" configVersion="794e7509036a6952fc792cede7bcdcc83e8494dd">
