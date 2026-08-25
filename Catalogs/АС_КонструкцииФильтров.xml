@@ -2,20 +2,98 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Catalog uuid="6a7e0c19-2d43-4b8c-95f0-e671a2c4d839">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.АС_КонструкцииФильтров" category="Object"><xr:TypeId>e39a16cf-50f7-48ba-8e4e-15096001f96d</xr:TypeId><xr:ValueId>ab836769-f7f4-42c6-8eaa-6fd95577cd89</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.АС_КонструкцииФильтров" category="Ref"><xr:TypeId>f5c79ff8-bd11-4f7f-bdc5-01ce584aaefe</xr:TypeId><xr:ValueId>bf2b6697-e231-470d-9c6c-f06633d78a93</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.АС_КонструкцииФильтров" category="Selection"><xr:TypeId>0e49e3d5-a5d3-4b3c-a012-cbc7379eaa37</xr:TypeId><xr:ValueId>d24a2a03-27af-4fd1-8be7-aae14cc0cca7</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.АС_КонструкцииФильтров" category="List"><xr:TypeId>2136f42a-54b1-40fd-bd6e-a574d6cc71f9</xr:TypeId><xr:ValueId>b2740c72-856f-4844-82ad-e64a0a7de539</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.АС_КонструкцииФильтров" category="Manager"><xr:TypeId>5aa43653-daf7-4028-80f3-c73d7aba972e</xr:TypeId><xr:ValueId>2c64cec9-e6fc-4b9a-9dc7-3a0b768558b3</xr:ValueId></xr:GeneratedType>
+			<xr:GeneratedType name="CatalogObject.АС_КонструкцииФильтров" category="Object">
+				<xr:TypeId>e39a16cf-50f7-48ba-8e4e-15096001f96d</xr:TypeId>
+				<xr:ValueId>ab836769-f7f4-42c6-8eaa-6fd95577cd89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АС_КонструкцииФильтров" category="Ref">
+				<xr:TypeId>f5c79ff8-bd11-4f7f-bdc5-01ce584aaefe</xr:TypeId>
+				<xr:ValueId>bf2b6697-e231-470d-9c6c-f06633d78a93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АС_КонструкцииФильтров" category="Selection">
+				<xr:TypeId>0e49e3d5-a5d3-4b3c-a012-cbc7379eaa37</xr:TypeId>
+				<xr:ValueId>d24a2a03-27af-4fd1-8be7-aae14cc0cca7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АС_КонструкцииФильтров" category="List">
+				<xr:TypeId>2136f42a-54b1-40fd-bd6e-a574d6cc71f9</xr:TypeId>
+				<xr:ValueId>b2740c72-856f-4844-82ad-e64a0a7de539</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АС_КонструкцииФильтров" category="Manager">
+				<xr:TypeId>5aa43653-daf7-4028-80f3-c73d7aba972e</xr:TypeId>
+				<xr:ValueId>2c64cec9-e6fc-4b9a-9dc7-3a0b768558b3</xr:ValueId>
+			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>АС_КонструкцииФильтров</Name>
-			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Конструкции фильтров</v8:content></v8:item></Synonym>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конструкции фильтров</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment>Пользовательский список конструкций фильтров.</Comment>
-			<Hierarchical>false</Hierarchical><HierarchyType>HierarchyFoldersAndItems</HierarchyType><LimitLevelCount>false</LimitLevelCount><LevelCount>2</LevelCount><FoldersOnTop>true</FoldersOnTop><UseStandardCommands>true</UseStandardCommands><Owners/><SubordinationUse>ToItems</SubordinationUse><CodeLength>0</CodeLength><DescriptionLength>100</DescriptionLength><CodeType>String</CodeType><CodeAllowedLength>Variable</CodeAllowedLength><CodeSeries>WholeCatalog</CodeSeries><CheckUnique>false</CheckUnique><Autonumbering>false</Autonumbering><DefaultPresentation>AsDescription</DefaultPresentation><Characteristics/><PredefinedDataUpdate>Auto</PredefinedDataUpdate><EditType>InDialog</EditType><QuickChoice>false</QuickChoice><ChoiceMode>BothWays</ChoiceMode>
-			<InputByString><xr:Field>Catalog.АС_КонструкцииФильтров.StandardAttribute.Description</xr:Field></InputByString><SearchStringModeOnInputByString>AnyPart</SearchStringModeOnInputByString><FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString><ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/><DefaultFolderForm/><DefaultListForm/><DefaultChoiceForm/><DefaultFolderChoiceForm/><AuxiliaryObjectForm/><AuxiliaryFolderForm/><AuxiliaryListForm/><AuxiliaryChoiceForm/><AuxiliaryFolderChoiceForm/><IncludeHelpInContents>false</IncludeHelpInContents><BasedOn/><DataLockFields/><DataLockControlMode>Managed</DataLockControlMode><FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation><v8:item><v8:lang>ru</v8:lang><v8:content>Конструкция фильтра</v8:content></v8:item></ObjectPresentation><ExtendedObjectPresentation/><ListPresentation><v8:item><v8:lang>ru</v8:lang><v8:content>Конструкции фильтров</v8:content></v8:item></ListPresentation><ExtendedListPresentation/><Explanation/><CreateOnInput>Use</CreateOnInput><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><DataHistory>DontUse</DataHistory><UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite><ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+			<Hierarchical>false</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<LimitLevelCount>false</LimitLevelCount>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Owners/>
+			<SubordinationUse>ToItems</SubordinationUse>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeSeries>WholeCatalog</CodeSeries>
+			<CheckUnique>false</CheckUnique>
+			<Autonumbering>false</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>Catalog.АС_КонструкцииФильтров.StandardAttribute.Description</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>AnyPart</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конструкция фильтра</v8:content>
+				</v8:item>
+			</ObjectPresentation>
+			<ExtendedObjectPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конструкции фильтров</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<CreateOnInput>Use</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects/>
 	</Catalog>

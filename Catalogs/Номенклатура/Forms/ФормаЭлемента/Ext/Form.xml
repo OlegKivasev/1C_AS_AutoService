@@ -342,7 +342,6 @@
 								<Event name="OnChange" callType="Before">АС_НаименованиеПриИзменении</Event>
 							</Events>
 						</InputField>
-
 						<InputField name="АС_ТипФильтра" id="910002">
 							<DataPath>Объект.АС_ТипФильтра</DataPath>
 							<Title>
@@ -352,6 +351,7 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
 							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="АС_ТипФильтраКонтекстноеМеню" id="910003"/>
 							<ExtendedTooltip name="АС_ТипФильтраРасширеннаяПодсказка" id="910004"/>
@@ -368,6 +368,7 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
 							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="АС_КонструкцияФильтраКонтекстноеМеню" id="910006"/>
 							<ExtendedTooltip name="АС_КонструкцияФильтраРасширеннаяПодсказка" id="910007"/>
@@ -384,6 +385,7 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
 							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="АС_ВариантИсполненияФильтраКонтекстноеМеню" id="910009"/>
 							<ExtendedTooltip name="АС_ВариантИсполненияФильтраРасширеннаяПодсказка" id="910010"/>
@@ -400,6 +402,7 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
 							<AutoEditMode>true</AutoEditMode>
 							<ContextMenu name="АС_БрендФильтраКонтекстноеМеню" id="910012"/>
 							<ExtendedTooltip name="АС_БрендФильтраРасширеннаяПодсказка" id="910013"/>
@@ -410,11 +413,10 @@
 						<Table name="АС_Применяемость" id="910014">
 							<Representation>List</Representation>
 							<CommandBarLocation>Top</CommandBarLocation>
-							<HeightInTableRows>4</HeightInTableRows>
-							<RowSelectionMode>Row</RowSelectionMode>
-							<AutoInsertNewRow>false</AutoInsertNewRow>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>55</MaxWidth>
+							<HeightInTableRows>4</HeightInTableRows>
+							<RowSelectionMode>Row</RowSelectionMode>
 							<DataPath>Объект.АС_Применяемость</DataPath>
 							<Title>
 								<v8:item>
@@ -422,9 +424,34 @@
 									<v8:content>Применяемость по автомобилям</v8:content>
 								</v8:item>
 							</Title>
+							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="АС_ПрименяемостьКонтекстноеМеню" id="910015"/>
 							<AutoCommandBar name="АС_ПрименяемостьКоманднаяПанель" id="910016"/>
 							<ExtendedTooltip name="АС_ПрименяемостьРасширеннаяПодсказка" id="910017"/>
+							<SearchStringAddition name="АС_ПрименяемостьСтрокаПоиска" id="910058">
+								<AdditionSource>
+									<Item>АС_Применяемость</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_ПрименяемостьСтрокаПоискаКонтекстноеМеню" id="910059"/>
+								<ExtendedTooltip name="АС_ПрименяемостьСтрокаПоискаРасширеннаяПодсказка" id="910060"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="АС_ПрименяемостьСостояниеПросмотра" id="910061">
+								<AdditionSource>
+									<Item>АС_Применяемость</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_ПрименяемостьСостояниеПросмотраКонтекстноеМеню" id="910062"/>
+								<ExtendedTooltip name="АС_ПрименяемостьСостояниеПросмотраРасширеннаяПодсказка" id="910063"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="АС_ПрименяемостьУправлениеПоиском" id="910064">
+								<AdditionSource>
+									<Item>АС_Применяемость</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="АС_ПрименяемостьУправлениеПоискомКонтекстноеМеню" id="910065"/>
+								<ExtendedTooltip name="АС_ПрименяемостьУправлениеПоискомРасширеннаяПодсказка" id="910066"/>
+							</SearchControlAddition>
 							<ChildItems>
 								<InputField name="АС_ПрименяемостьАвтомобиль" id="910018">
 									<DataPath>Объект.АС_Применяемость.АС_АвтомобильПредставление</DataPath>
@@ -434,8 +461,9 @@
 											<v8:content>Автомобиль</v8:content>
 										</v8:item>
 									</Title>
-									<Width>20</Width>
+									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
+									<Width>20</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="АС_ПрименяемостьАвтомобильКонтекстноеМеню" id="910019"/>
 									<ExtendedTooltip name="АС_ПрименяемостьАвтомобильРасширеннаяПодсказка" id="910020"/>
@@ -454,6 +482,7 @@
 									</Title>
 									<Width>7</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
+									<SpinButton>true</SpinButton>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -466,7 +495,6 @@
 											<v8:content>ЧГ=0</v8:content>
 										</v8:item>
 									</EditFormat>
-									<SpinButton>true</SpinButton>
 									<ContextMenu name="АС_ПрименяемостьГодСКонтекстноеМеню" id="910028"/>
 									<ExtendedTooltip name="АС_ПрименяемостьГодСРасширеннаяПодсказка" id="910029"/>
 									<Events>
@@ -483,6 +511,7 @@
 									</Title>
 									<Width>7</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
+									<SpinButton>true</SpinButton>
 									<Format>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -495,7 +524,6 @@
 											<v8:content>ЧГ=0</v8:content>
 										</v8:item>
 									</EditFormat>
-									<SpinButton>true</SpinButton>
 									<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
 									<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
 								</InputField>
@@ -510,10 +538,6 @@
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
-							<AutoEditMode>true</AutoEditMode>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>25</MaxWidth>
-							<Wrap>false</Wrap>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -521,6 +545,11 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>25</MaxWidth>
+							<Wrap>false</Wrap>
 							<ContextMenu name="АС_OEMКонтекстноеМеню" id="910044"/>
 							<ExtendedTooltip name="АС_OEMРасширеннаяПодсказка" id="910045">
 								<Title formatted="false">
@@ -648,7 +677,7 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-										<v8:content>Единица измерения</v8:content>
+											<v8:content>Единица измерения</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
@@ -680,12 +709,12 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="АС_ПоляТовараПодКодом" id="910050">
+							<Visible>false</Visible>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<Visible>false</Visible>
-							<ChildItems/>
+							<ExtendedTooltip name="АС_ПоляТовараПодКодомРасширеннаяПодсказка" id="910084"/>
 						</UsualGroup>
 						<UsualGroup name="ГруппаЕдиницыИзмерения" id="1138">
 							<Title>
@@ -987,9 +1016,9 @@
 							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ThroughAlign>Use</ThroughAlign>
-						<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="407"/>
-					</UsualGroup>
-					<UsualGroup name="СозданиеДополнительныхРеквизитов" id="442">
+							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="407"/>
+						</UsualGroup>
+						<UsualGroup name="СозданиеДополнительныхРеквизитов" id="442">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -5539,34 +5568,34 @@
 									</CheckBoxField>
 								</ChildItems>
 							</UsualGroup>
-						<CheckBoxField name="ЗапретитьВводДробногоКоличества" id="1362">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Запрет дробного количества при подборе</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Right</TitleLocation>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Запрет дробного количества в форме подобора и вводе в документах.</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<ContextMenu name="ЗапретитьВводДробногоКоличестваКонтекстноеМеню" id="1363"/>
-							<ExtendedTooltip name="ЗапретитьВводДробногоКоличестваРасширеннаяПодсказка" id="1364">
-								<Title formatted="true">
+							<CheckBoxField name="ЗапретитьВводДробногоКоличества" id="1362">
+								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Запрещает ввод дробного количества при подборе и вводе в документы.
+										<v8:content>Запрет дробного количества при подборе</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Запрет дробного количества в форме подобора и вводе в документах.</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<ContextMenu name="ЗапретитьВводДробногоКоличестваКонтекстноеМеню" id="1363"/>
+								<ExtendedTooltip name="ЗапретитьВводДробногоКоличестваРасширеннаяПодсказка" id="1364">
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Запрещает ввод дробного количества при подборе и вводе в документы.
 Запрет недоступен для весового товара.
 
 &lt;link e1cib/list/Справочник.КатегорииНоменклатуры&gt;По умолчанию заполняется из категории.&lt;/&gt; </v8:content>
-									</v8:item>
-								</Title>
-							</ExtendedTooltip>
-						</CheckBoxField>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</CheckBoxField>
 							<UsualGroup name="ГруппаДополнительныеРеквизиты" id="406">
 								<Title>
 									<v8:item>
@@ -9226,33 +9255,33 @@
 										<ExtendedTooltip name="ОстаткиОстатокРасширеннаяПодсказка" id="396"/>
 									</InputField>
 								</ChildItems>
-						</Table>
-						<InputField name="Артикул" id="7">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Артикул</v8:content>
-								</v8:item>
-							</Title>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>25</MaxWidth>
-							<Wrap>false</Wrap>
-							<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
-							<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
-						</InputField>
-						<LabelDecoration name="ДублиАртикул" id="1190">
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Найдены дубли по артикулу</v8:content>
-								</v8:item>
-							</Title>
-							<Hyperlink>true</Hyperlink>
-							<ContextMenu name="ДублиАртикулКонтекстноеМеню" id="1191"/>
-							<ExtendedTooltip name="ДублиАртикулРасширеннаяПодсказка" id="1192"/>
-						</LabelDecoration>
+							</Table>
+							<InputField name="Артикул" id="7">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Артикул</v8:content>
+									</v8:item>
+								</Title>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>25</MaxWidth>
+								<Wrap>false</Wrap>
+								<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
+								<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
+							</InputField>
+							<LabelDecoration name="ДублиАртикул" id="1190">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Найдены дубли по артикулу</v8:content>
+									</v8:item>
+								</Title>
+								<Hyperlink>true</Hyperlink>
+								<ContextMenu name="ДублиАртикулКонтекстноеМеню" id="1191"/>
+								<ExtendedTooltip name="ДублиАртикулРасширеннаяПодсказка" id="1192"/>
+							</LabelDecoration>
 						</ChildItems>
 					</UsualGroup>
 					<UsualGroup name="НедействительнаРастяжение" id="748" DisplayImportance="VeryHigh">

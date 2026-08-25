@@ -88,12 +88,6 @@
 							<v8:content>Установить основной вид цен безналичного расчета</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Выбранный элемент будет по умолчанию подставляться в заказ-наряд при добавлении товаров</v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="ФормаКомандаУстановитьОсновнойВидЦенБезналичногоРасчетаРасширеннаяПодсказка" id="239"/>
 				</Button>
 				<Button name="ФормаИзменитьФорму" id="39">
@@ -904,5 +898,6 @@
 				</ChildItems>
 			</UsualGroup>
 		</ChildItems>
+		<Attributes/>
 	</BaseForm>
 </Form>
