@@ -679,6 +679,14 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="АС_ПоляТовараПодКодом" id="910050">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<Visible>false</Visible>
+							<ChildItems/>
+						</UsualGroup>
 						<UsualGroup name="ГруппаЕдиницыИзмерения" id="1138">
 							<Title>
 								<v8:item>

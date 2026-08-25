@@ -101,7 +101,6 @@
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
 			<Role>АС_ПросмотрТоваровИУслуг</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
-			<CommonModule>АС_ЗаполнениеРасходнойНакладнойСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
@@ -119,7 +118,6 @@
 			<Catalog>ВидыЦен</Catalog>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<Document>ЗаказПокупателя</Document>
-			<Document>РасходнаяНакладная</Document>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>
 			<Enum>ВидыДоговоров</Enum>
@@ -129,7 +127,6 @@
 			<Enum>СрокДействияПодарочныхСертификатов</Enum>
 			<Enum>СпособыПополненияЗапасов</Enum>
 			<Enum>ВидыМаркировки</Enum>
-			<SessionParameter>АС_ИсключатьНеСписываемыеСтроки</SessionParameter>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
