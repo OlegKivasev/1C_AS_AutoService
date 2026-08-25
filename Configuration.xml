@@ -102,6 +102,11 @@
 			<CommonPicture>ВводимыеСимволыВидны</CommonPicture>
 			<CommonPicture>КоллекцияФлаги</CommonPicture>
 			<CommonPicture>СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</CommonPicture>
+			<CommonPicture>Наборы</CommonPicture>
+			<CommonPicture>ПрослеживаемыйТовар</CommonPicture>
+			<CommonPicture>СтатусыСерийНоменклатуры</CommonPicture>
+			<CommonPicture>Набор</CommonPicture>
+			<CommonPicture>ИсходящийЗапросЕГАИС</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
@@ -125,6 +130,7 @@
 			<Catalog>ВидыЦен</Catalog>
 			<Document>ЗаказПокупателя</Document>
 			<Document>ЗаказПоставщику</Document>
+			<Document>ПриходнаяНакладная</Document>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>
 			<Enum>ВидыДоговоров</Enum>
@@ -137,6 +143,9 @@
 			<Enum>ТипыДенежныхСредств</Enum>
 			<Enum>ВариантыЗавершенияЗаказа</Enum>
 			<Enum>ВидыОперацийЗаказПоставщику</Enum>
+			<Enum>ВариантыЗаполненияРасшифровкиПлатежа</Enum>
+			<Enum>ПринятьПоКолонке</Enum>
+			<Enum>ВидыОперацийПриходнаяНакладная</Enum>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 		</ChildObjects>
 	</Configuration>

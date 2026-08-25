@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="5c189a5e-4222-4f7f-8c29-1815c126480b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПринятьПоКолонке" category="Ref">
+				<xr:TypeId>1731a8db-7392-49eb-a2a7-51736d0f2d6a</xr:TypeId>
+				<xr:ValueId>ff40b4de-1f01-4c4b-8d42-92aa7da3e4ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПринятьПоКолонке" category="Manager">
+				<xr:TypeId>7db3edea-b121-417e-b264-914fe3bd7a0e</xr:TypeId>
+				<xr:ValueId>5c57e1c3-b49e-420f-a851-30c4a5db0149</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПринятьПоКолонке" category="List">
+				<xr:TypeId>4b8a7143-086f-461f-8f9b-48bdfed18f9f</xr:TypeId>
+				<xr:ValueId>0030ab3f-c9a1-4190-8b44-1499d3eb2462</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПринятьПоКолонке</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d45077fb-8e43-4183-8b48-2b5e261b471c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0fb74212-3770-442f-be44-f91018e3fb66">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоличествоПоФакту</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>044edb90-9917-4977-82cd-eb9b2ebb64d7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cbcdc7f6-05c1-4331-99da-1876fd6af5fd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоличествоПоВходящемуДокументу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>142df335-e548-4a9e-85ec-591213bedeea</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -49,6 +49,15 @@
 					<ExtendedConfigurationObject>6e6d954a-40ca-4d19-8589-f0b8faf38efc</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="ec634ab9-5a01-4d6b-ba04-53d2f40f0a0e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомиссионером</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7cb6469b-2535-4307-9bd2-2e3739116c0b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
