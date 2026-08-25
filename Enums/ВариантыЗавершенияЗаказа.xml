@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="11259427-2eed-452c-a329-4c5f2237ffe8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыЗавершенияЗаказа" category="Ref">
+				<xr:TypeId>e666f75e-e40f-46fa-93f5-34cdb4567d4a</xr:TypeId>
+				<xr:ValueId>39d963f2-5008-4655-916d-6483c0222edb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыЗавершенияЗаказа" category="Manager">
+				<xr:TypeId>463ac65b-9eb9-4697-b107-0587bcfb6bbf</xr:TypeId>
+				<xr:ValueId>1aed43c5-e5c1-44cc-9d11-a9a6fd86d3db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыЗавершенияЗаказа" category="List">
+				<xr:TypeId>a81e88d6-c305-4907-8a9f-8413f51a4fc1</xr:TypeId>
+				<xr:ValueId>3412ef56-eb43-4fd3-80f6-3c7e720d8fca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыЗавершенияЗаказа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ce8f526e-24a8-4970-a119-999098a0ea5b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="21502a91-5fbf-43fb-827d-d9064cd933d4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Успешно</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>19a56428-d722-4ea6-8741-c15b292a2dfe</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="855f4f04-df0e-45de-bea1-5a18867d5c2f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отменен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>db5f9497-218d-4eea-87ac-175a8763538d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

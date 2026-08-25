@@ -81,6 +81,9 @@
 			<StyleItem>ЦветШрифтаСеройПодсказки</StyleItem>
 			<StyleItem>ЗапрещенноеПравоДоступаЦвет</StyleItem>
 			<StyleItem>ЦветТекстаНевыбраннойКартинки</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>ИтогиФонГруппы</StyleItem>
+			<StyleItem>СветлыйСерый</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -96,12 +99,16 @@
 			<CommonPicture>МенюДополнительныеФункции</CommonPicture>
 			<CommonPicture>КоллекцияСпособыЗаданияЦен</CommonPicture>
 			<CommonPicture>ЗакрытиеМесяцаСОшибками</CommonPicture>
+			<CommonPicture>ВводимыеСимволыВидны</CommonPicture>
+			<CommonPicture>КоллекцияФлаги</CommonPicture>
+			<CommonPicture>СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
 			<Role>АС_ПросмотрТоваровИУслуг</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
+			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
@@ -127,6 +134,9 @@
 			<Enum>СрокДействияПодарочныхСертификатов</Enum>
 			<Enum>СпособыПополненияЗапасов</Enum>
 			<Enum>ВидыМаркировки</Enum>
+			<Enum>ТипыДенежныхСредств</Enum>
+			<Enum>ВариантыЗавершенияЗаказа</Enum>
+			<Enum>ВидыОперацийЗаказПоставщику</Enum>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
