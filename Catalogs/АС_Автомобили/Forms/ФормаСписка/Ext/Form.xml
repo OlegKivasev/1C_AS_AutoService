@@ -65,7 +65,15 @@
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
 			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
-			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4">
+				<ChildItems>
+					<Button name="АС_Информация" id="39">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_Информация</CommandName>
+						<ExtendedTooltip name="АС_ИнформацияРасширеннаяПодсказка" id="40"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
@@ -148,6 +156,22 @@
 				</v8:item>
 			</ToolTip>
 			<Action>АС_ИмпортироватьCSV</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_Информация" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать количество контрагентов и договоров с выбранной маркой или моделью</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АС_Информация</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
