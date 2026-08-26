@@ -7215,6 +7215,38 @@
 																	<ContextMenu name="ИтогСуммаНДСКонтекстноеМеню" id="2053"/>
 																	<ExtendedTooltip name="ИтогСуммаНДСРасширеннаяПодсказка" id="2054"/>
 																</InputField>
+										<InputField name="АС_СуммаОплачено" id="4001">
+											<DataPath>АС_СуммаОплачено</DataPath>
+											<Visible>false</Visible>
+																	<ReadOnly>true</ReadOnly>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Оплачено</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Width>12</Width>
+																	<TextEdit>false</TextEdit>
+																	<ChoiceListButton>false</ChoiceListButton>
+											<ContextMenu name="АС_СуммаОплаченоКонтекстноеМеню" id="4002"/>
+											<ExtendedTooltip name="АС_СуммаОплаченоРасширеннаяПодсказка" id="4003"/>
+																</InputField>
+										<InputField name="АС_СуммаДолжен" id="4004">
+											<DataPath>АС_СуммаДолжен</DataPath>
+											<Visible>false</Visible>
+																	<ReadOnly>true</ReadOnly>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Должен</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Width>12</Width>
+																	<TextEdit>false</TextEdit>
+																	<ChoiceListButton>false</ChoiceListButton>
+											<ContextMenu name="АС_СуммаДолженКонтекстноеМеню" id="4005"/>
+											<ExtendedTooltip name="АС_СуммаДолженРасширеннаяПодсказка" id="4006"/>
+																</InputField>
 																<InputField name="ИтогВсего" id="2055" DisplayImportance="VeryHigh">
 																	<Title>
 																		<v8:item>
@@ -11558,6 +11590,26 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_СуммаОплачено" id="1000193">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_СуммаДолжен" id="1000194">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 		<ConditionalAppearance>
