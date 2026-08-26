@@ -104,7 +104,7 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="Наименование" id="24">
-					<DataPath>Список.Description</DataPath>
+					<DataPath>Список.Наименование</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="26"/>
@@ -118,9 +118,90 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.Ссылка</Field>
+				<Field>Список.АС_НетИспользований</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>false</ManualQuery>
+				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Автомобили.Ссылка КАК Ссылка,
+	Автомобили.ПометкаУдаления КАК ПометкаУдаления,
+	Автомобили.Родитель КАК Родитель,
+	Автомобили.ЭтоГруппа КАК ЭтоГруппа,
+	Автомобили.Наименование КАК Наименование,
+	ВЫБОР
+		КОГДА ИспользуемыеАвтомобили.Автомобиль ЕСТЬ NULL ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК АС_НетИспользований
+ИЗ
+	Справочник.АС_Автомобили КАК Автомобили
+		ЛЕВОЕ СОЕДИНЕНИЕ (
+			ВЫБРАТЬ РАЗЛИЧНЫЕ
+				ИсточникиИспользования.Автомобиль КАК Автомобиль
+			ИЗ
+				(
+					ВЫБРАТЬ
+						Контрагенты.АС_МаркаАвтомобиляИзСправочника КАК Автомобиль
+					ИЗ
+						Справочник.Контрагенты КАК Контрагенты
+
+					ОБЪЕДИНИТЬ ВСЕ
+
+					ВЫБРАТЬ
+						Контрагенты.АС_МодельАвтомобиляИзСправочника
+					ИЗ
+						Справочник.Контрагенты КАК Контрагенты
+
+					ОБЪЕДИНИТЬ ВСЕ
+
+					ВЫБРАТЬ
+						Договоры.АС_МаркаАвтомобиляИзСправочника
+					ИЗ
+						Справочник.ДоговорыКонтрагентов КАК Договоры
+
+					ОБЪЕДИНИТЬ ВСЕ
+
+					ВЫБРАТЬ
+						Договоры.АС_МодельАвтомобиляИзСправочника
+					ИЗ
+						Справочник.ДоговорыКонтрагентов КАК Договоры
+				) КАК ИсточникиИспользования
+			ГДЕ
+				ИсточникиИспользования.Автомобиль &lt;&gt; ЗНАЧЕНИЕ(Справочник.АС_Автомобили.ПустаяСсылка)
+		) КАК ИспользуемыеАвтомобили
+		ПО Автомобили.Ссылка = ИспользуемыеАвтомобили.Автомобиль</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Родитель</dcssch:dataPath>
+					<dcssch:field>Родитель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЭтоГруппа</dcssch:dataPath>
+					<dcssch:field>ЭтоГруппа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>АС_НетИспользований</dcssch:dataPath>
+					<dcssch:field>АС_НетИспользований</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нет использований</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
 				<MainTable>Catalog.АС_Автомобили</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -132,6 +213,26 @@
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
 					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Наименование</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">АС_НетИспользований</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:СкрытыйВариантОтчетаЦвет</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
 					</dcsset:conditionalAppearance>

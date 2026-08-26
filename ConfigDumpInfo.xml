@@ -7,8 +7,8 @@
 			<Metadata name="Catalog.АС_Автомобили.Attribute.АС_Синонимы" id="cc01a18d-039f-43ea-bb69-807fdf9765b9"/>
 		</Metadata>
 		<Metadata name="Catalog.АС_Автомобили.Command.АС_ИмпортироватьCSV.CommandModule" id="69e73762-4e74-4f9a-975a-af43371b7888.2" configVersion="be8f1c065ffe37d6f6c22005bcd6fc9d9e625f44"/>
-		<Metadata name="Catalog.АС_Автомобили.Form.ФормаСписка" id="f2fced53-2da7-4f21-bda2-6ca41f5297f3" configVersion="470dffad15d3d5711994415b981b5a672a0b4c25"/>
-		<Metadata name="Catalog.АС_Автомобили.Form.ФормаСписка.Form" id="f2fced53-2da7-4f21-bda2-6ca41f5297f3.0" configVersion="79f84ec54a293bff82441cb7b193f811e6d355cf"/>
+		<Metadata name="Catalog.АС_Автомобили.Form.ФормаСписка" id="f2fced53-2da7-4f21-bda2-6ca41f5297f3" configVersion="8beae1ed94ac86edf92082db89fbfed7f50528b1"/>
+		<Metadata name="Catalog.АС_Автомобили.Form.ФормаСписка.Form" id="f2fced53-2da7-4f21-bda2-6ca41f5297f3.0" configVersion="31032d12a3c87ae27881a92196069f89c655b369"/>
 		<Metadata name="Catalog.АС_Автомобили.ObjectModule" id="198f5fce-6fc1-42ba-9624-1ada64c49604.0" configVersion="2ddb24ba8c65082f81ae7883d55a5d6fa74957ac"/>
 		<Metadata name="Catalog.АС_БрендыФильтров" id="8c3e5f90-ab24-4d67-c8f1-2a3b4c5d6e79" configVersion="5523074081f9e55374db81868e15cf2c0da7d524"/>
 		<Metadata name="Catalog.АС_ВариантыИсполненияФильтров" id="7b2d4e8f-9a13-4c56-b7e0-1f2a3d4c5e68" configVersion="724ff08d5a4476b9bbd2c98df2da0c9d64a246bb"/>
