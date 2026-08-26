@@ -311,6 +311,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer" callType="Before">АС_ПриСозданииНаСервере</Event>
+		<Event name="OnCreateAtServer" callType="After">АС_УстановитьОформлениеБезналПослеСоздания</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаЗаказИПраваяПанель" id="3320">
