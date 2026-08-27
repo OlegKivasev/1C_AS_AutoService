@@ -322,6 +322,13 @@
 									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ЗаполнитьПоЗаказуПокупателяРасширеннаяПодсказка" id="255"/>
 								</Button>
+								<Button name="АС_ЗаполнитьЗаказПокупателяПоЗаказуПоставщика" id="1567">
+									<Type>UsualButton</Type>
+									<SkipOnInput>true</SkipOnInput>
+									<Width>3</Width>
+									<CommandName>Form.Command.АС_ЗаполнитьЗаказПокупателяПоЗаказуПоставщика</CommandName>
+									<ExtendedTooltip name="АС_ЗаполнитьЗаказПокупателяПоЗаказуПоставщикаРасширеннаяПодсказка" id="1568"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаОплатаДатаПоступления" id="581">
@@ -2777,7 +2784,39 @@
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
 		</Attribute>
+		<Attribute name="АС_ПроведениеПослеПроверкиТоваров" id="1570">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ПараметрыЗаписиДляПроведения" id="1571">
+			<Type/>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="АС_ЗаполнитьЗаказПокупателяПоЗаказуПоставщика" id="1569">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить товары в заказ покупателя</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить товары заказа поставщику в связанный заказ покупателя с расчетом цены для предоплаты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаполнитьВлевоБЗК</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action>АС_ЗаполнитьЗаказПокупателяПоЗаказуПоставщика</Action>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
 	<BaseForm version="2.21">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Vertical</Group>
