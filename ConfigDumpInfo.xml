@@ -105,7 +105,7 @@
 		<Metadata name="CommonPicture.СтатусыСерийНоменклатуры" id="f4d3441c-c0a0-4b7d-b798-61abd32af883" configVersion="393d89783b741f49db27078643f8d2bfdf81d2f9"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="69da427fb9d39448bdb0e22e979b500adf480ed6"/>
 		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="2df715a21a59d20561b3bd6caed52cbfb4caa390"/>
-		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="703d9f4b941510fa33ef3b74445ac41e422c67fe">
+		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="20b9efd494d6f8a2e3178c8813cb166063682098">
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Подарки.Attribute.Номенклатура" id="01b20dfb-eb3f-427a-b967-b72b03fe4b35"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.Комментарий" id="0210f35b-99dd-425b-aabc-4bd2f9286f06"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.Партия" id="0287256a-35c3-489e-a847-2693de975146"/>
@@ -324,6 +324,7 @@
 			<Metadata name="Document.ЗаказПокупателя.Attribute.Контрагент" id="cae0b8e7-14de-42ac-b53b-c5c0223765a2"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.ОплатаДо" id="cb4097fd-e7da-4df9-9044-01e99a6e8699"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.ПроцентСкидкиНаценки" id="cd60e997-49d1-4666-9cd8-65cbd77c749e"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.АС_ЦенаИзЗаказаПоставщика" id="bae8e1c9-b92f-4edd-ba7b-b4a3a452bc7d"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.КлючСвязи" id="ce42fd32-c8d8-43df-9239-89ea5a97497a"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.ВариантЗавершения" id="cee6df39-0db9-446a-9815-7ff758646bf8"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.ТрекНомер" id="cf2c4282-d6da-4846-9d7d-e7f417c2cd4e"/>
@@ -382,10 +383,10 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.РесурсыПредприятия.Attribute.Финиш" id="fedaecca-5d8a-4291-af56-8d2c5b4b95a6"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Материалы.Attribute.Ячейка" id="ff9439ce-42da-42ec-a9fd-8206cba5baae"/>
 		</Metadata>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="4647cd37b2b9508efe84404d92c14b00375b22d1"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="c8705e44da640a8ba30aee61d1d0c809f963a4b9"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="432a74c6e86c158c82d8eb3a3790718cca94a11a"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="25d0af61fe0da639120f57d2b009c61f180cc58b"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="c35dd1ed9a14a2ccabe8e179040cc193b37c7df4"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="72d8f25242864ff5a3cb3b097cfbfce8dd4e8747"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="5664c1d3884af1a65777b5701295e499532fae85"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="4fd5379bebb32f96afb362c5bd87272c07a79733"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСпискаЗаказНаряда" id="9cda5a10-17e5-4669-b3dd-a4d1f4edb205" configVersion="7390e5d8397ec977024d5aa552f304cce845a7e9"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСпискаЗаказНаряда.Form" id="9cda5a10-17e5-4669-b3dd-a4d1f4edb205.0" configVersion="c7aec5a372d85b0fe678d2bcfa74405649fdcab0"/>
 		<Metadata name="Document.ЗаказПокупателя.ManagerModule" id="e69ab0a1-444f-4281-94ce-65f6c75c502a.2" configVersion="44a133db40e90f4edc601fdfacd8f33d43283d33"/>
