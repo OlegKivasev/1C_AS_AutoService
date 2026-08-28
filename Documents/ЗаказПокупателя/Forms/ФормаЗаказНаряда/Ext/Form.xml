@@ -10699,6 +10699,11 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="АС_АвтозаполнениеИзЗаказаПоставщика" id="1000193">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 		<Attribute name="НоменклатураУдаленнойСтроки" id="1000027">
 			<Type>
 				<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
