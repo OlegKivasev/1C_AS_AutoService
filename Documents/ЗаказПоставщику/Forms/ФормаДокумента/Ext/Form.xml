@@ -2811,7 +2811,7 @@
 				<xr:Ref>CommonPicture.ЗаполнитьВлевоБЗК</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
-			<Action>АС_ЗаполнитьЗаказПокупателяПоЗаказуПоставщика</Action>
+			<Action callType="Before">АС_ЗаполнитьЗаказПокупателяПоЗаказуПоставщика</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>

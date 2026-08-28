@@ -84,6 +84,10 @@
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
 			<StyleItem>СветлыйСерый</StyleItem>
+			<StyleItem>ЦветНедоступногоТекстаТабличнойЧасти</StyleItem>
+			<StyleItem>НезаполненноеПолеТаблицы</StyleItem>
+			<StyleItem>ФонПанелиВариантовОтбора</StyleItem>
+			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -107,6 +111,20 @@
 			<CommonPicture>СтатусыСерийНоменклатуры</CommonPicture>
 			<CommonPicture>Набор</CommonPicture>
 			<CommonPicture>ИсходящийЗапросЕГАИС</CommonPicture>
+			<CommonPicture>ТележкаОтмена</CommonPicture>
+			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
+			<CommonPicture>Развернуть</CommonPicture>
+			<CommonPicture>СтрелкаНазад</CommonPicture>
+			<CommonPicture>НастройкаБЭД</CommonPicture>
+			<CommonPicture>ТоварУслугаСписок</CommonPicture>
+			<CommonPicture>ЛупаСКоробкой</CommonPicture>
+			<CommonPicture>ТелефжкиРаботаСНоменклатурой</CommonPicture>
+			<CommonPicture>ТележкаМаленькая</CommonPicture>
+			<CommonPicture>Аналоги</CommonPicture>
+			<CommonPicture>СопутствующиеТовары</CommonPicture>
+			<CommonPicture>Свернуть</CommonPicture>
+			<CommonPicture>ПиктограммыНастроекОтчета</CommonPicture>
+			<CommonPicture>Папки</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
@@ -146,6 +164,7 @@
 			<Enum>ВариантыЗаполненияРасшифровкиПлатежа</Enum>
 			<Enum>ПринятьПоКолонке</Enum>
 			<Enum>ВидыОперацийПриходнаяНакладная</Enum>
+			<Enum>ВидыОтборовНоменклатуры</Enum>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
