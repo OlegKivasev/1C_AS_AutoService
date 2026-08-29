@@ -125,6 +125,9 @@
 			<CommonPicture>Свернуть</CommonPicture>
 			<CommonPicture>ПиктограммыНастроекОтчета</CommonPicture>
 			<CommonPicture>Папки</CommonPicture>
+			<CommonPicture>ЕстьРасхождения</CommonPicture>
+			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
+			<CommonPicture>Напоминание</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
