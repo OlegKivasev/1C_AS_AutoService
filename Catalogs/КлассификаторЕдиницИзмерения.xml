@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="c8a75368-c652-4544-a2db-5b211e1bb35d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторЕдиницИзмерения" category="Object">
+				<xr:TypeId>6aec6ece-def1-45e8-a26a-4c870b8e3b4f</xr:TypeId>
+				<xr:ValueId>0fefb361-6835-44b4-b009-4aa400ab622b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторЕдиницИзмерения" category="Ref">
+				<xr:TypeId>cf02dc2c-1e42-48b4-b0db-d597e9b39b89</xr:TypeId>
+				<xr:ValueId>79476b11-029e-4fbd-971c-a8077389f7bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторЕдиницИзмерения" category="Selection">
+				<xr:TypeId>5b12ceb6-26eb-4a14-95ab-08b6a59dc95e</xr:TypeId>
+				<xr:ValueId>87840f79-23b1-439f-9421-4c345b52792b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторЕдиницИзмерения" category="List">
+				<xr:TypeId>b3085426-3687-409f-b7ab-33d17a1f2874</xr:TypeId>
+				<xr:ValueId>239e086d-9022-4f62-9ad4-71f1bdac4c0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторЕдиницИзмерения" category="Manager">
+				<xr:TypeId>7b69a51a-9e5e-413e-9f61-ee7c15214da1</xr:TypeId>
+				<xr:ValueId>f58e9883-5994-4382-a329-a7182b77c0ad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторЕдиницИзмерения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>efad9316-ebd0-45d1-81d0-4717759dea54</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

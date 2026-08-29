@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="f574621f-21ad-4de9-9f10-8fb8d167cfcb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтраныМира" category="Object">
+				<xr:TypeId>2f4715b2-50af-4d02-b557-7732d42f2f1a</xr:TypeId>
+				<xr:ValueId>fa4cc7cf-dbaa-43df-82f6-cfaf7d72cdb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтраныМира" category="Ref">
+				<xr:TypeId>0cb3de77-06d8-4ea5-9294-00043e880ba1</xr:TypeId>
+				<xr:ValueId>d3a538ca-4053-47f8-94a4-1ba63e30bc04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтраныМира" category="Selection">
+				<xr:TypeId>b3f34687-bd3f-41fc-949c-ae432aad9853</xr:TypeId>
+				<xr:ValueId>bb6d7c44-8a58-48b1-9eff-3942b38b64d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтраныМира" category="List">
+				<xr:TypeId>86090ad8-e6a7-419f-82ca-6d7aaba5361b</xr:TypeId>
+				<xr:ValueId>b0654459-6978-452a-a226-a3f689eac34e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтраныМира" category="Manager">
+				<xr:TypeId>0d00e074-4f8f-4e3f-863a-69c0b367b9dd</xr:TypeId>
+				<xr:ValueId>c9cc3874-3962-4a24-a370-d0934bd8e76c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтраныМира</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cf7d59dd-e3e0-4a45-bfd4-14c104bd264b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -132,6 +132,8 @@
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
+			<DefinedType>Вес</DefinedType>
+			<DefinedType>Объем</DefinedType>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
@@ -146,6 +148,17 @@
 			<Catalog>ДоговорыКонтрагентов</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ВидыЦен</Catalog>
+			<Catalog>КатегорииНоменклатуры</Catalog>
+			<Catalog>ЕдиницыИзмерения</Catalog>
+			<Catalog>СтавкиНДС</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>СтруктурныеЕдиницы</Catalog>
+			<Catalog>ЦеновыеГруппы</Catalog>
+			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
+			<Catalog>НаправленияДеятельности</Catalog>
+			<Catalog>Ячейки</Catalog>
+			<Catalog>СтраныМира</Catalog>
+			<Catalog>ВидыАлкогольнойПродукции</Catalog>
 			<Document>ЗаказПокупателя</Document>
 			<Document>ЗаказПоставщику</Document>
 			<Document>ПриходнаяНакладная</Document>
@@ -165,7 +178,11 @@
 			<Enum>ПринятьПоКолонке</Enum>
 			<Enum>ВидыОперацийПриходнаяНакладная</Enum>
 			<Enum>ВидыОтборовНоменклатуры</Enum>
+			<Enum>ВидыСтавокНДС</Enum>
+			<Enum>МетодОценкиЗапасов</Enum>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
+			<InformationRegister>ОстаткиТоваров</InformationRegister>
+			<ChartOfAccounts>Управленческий</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

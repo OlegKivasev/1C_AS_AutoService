@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="c0e93544-5b73-4b76-8dd2-c994cc3f0eb6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтавкиНДС" category="Object">
+				<xr:TypeId>12cace85-8401-400e-b635-a7fada3ba46b</xr:TypeId>
+				<xr:ValueId>f6bad820-62ff-432d-a48a-0995d4e50e15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтавкиНДС" category="Ref">
+				<xr:TypeId>68b4cad5-ae8b-403a-b96c-134f5043c5f6</xr:TypeId>
+				<xr:ValueId>d5beaf73-ed6f-4818-8041-78b9e855fe10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтавкиНДС" category="Selection">
+				<xr:TypeId>10d4578d-2f4b-4893-9033-cb3fc70767c3</xr:TypeId>
+				<xr:ValueId>406749d6-deb6-4eca-9429-05d2df17e82f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтавкиНДС" category="List">
+				<xr:TypeId>fca0cd68-8b40-4c39-9721-b8f4d25c55ea</xr:TypeId>
+				<xr:ValueId>5be6771e-7760-456c-9e27-8ee845c74f8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтавкиНДС" category="Manager">
+				<xr:TypeId>d709472c-be7e-40d5-8934-b5c85d7b564a</xr:TypeId>
+				<xr:ValueId>6eb2ff19-2657-4006-bd22-13620d91ae74</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтавкиНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4b47973a-4201-41f6-9d38-8db8f8fbd5ff</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
