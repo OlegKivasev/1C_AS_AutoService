@@ -32,6 +32,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="8924bf3e-2eb2-4e5e-b965-6c4f0348819e">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаказПоставщику.Запасы" category="TabularSection">

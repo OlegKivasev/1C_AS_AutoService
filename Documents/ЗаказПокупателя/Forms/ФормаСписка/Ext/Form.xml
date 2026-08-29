@@ -1165,9 +1165,9 @@
 											<v8:content>Скидка, %</v8:content>
 										</v8:item>
 									</Title>
+									<HorizontalAlign>Center</HorizontalAlign>
 									<Width>10</Width>
 									<HorizontalStretch>false</HorizontalStretch>
-									<HorizontalAlign>Center</HorizontalAlign>
 									<ContextMenu name="АС_СкидкаПроцентКонтекстноеМеню" id="1000101"/>
 									<ExtendedTooltip name="АС_СкидкаПроцентРасширеннаяПодсказка" id="1000102"/>
 								</LabelField>
