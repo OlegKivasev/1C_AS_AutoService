@@ -1853,6 +1853,43 @@
 							<DataHistory>DontUse</DataHistory>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="d6c4b4b4-a3c7-4c97-a3c4-f84339acbbee">
+						<Properties>
+							<Name>АС_Продавец</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Продавец</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Сотрудник, создавший строку товара. Значение фиксируется при добавлении строки и не изменяется при последующем открытии заказа.</Comment>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
 					<Attribute uuid="bae8e1c9-b92f-4edd-ba7b-b4a3a452bc7d">
 						<Properties>
 							<Name>АС_ЦенаИзЗаказаПоставщика</Name>

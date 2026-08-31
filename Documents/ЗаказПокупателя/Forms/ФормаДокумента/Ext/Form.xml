@@ -2607,6 +2607,28 @@
 															<ContextMenu name="АС_ЗапасыДоступноСУчетомЗаказовКонтекстноеМеню" id="5002"/>
 															<ExtendedTooltip name="АС_ЗапасыДоступноСУчетомЗаказовРасширеннаяПодсказка" id="5003"/>
 														</InputField>
+														<InputField name="ЗапасыАС_Продавец" id="5004">
+															<DataPath>Объект.Запасы.АС_Продавец</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Продавец</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сотрудник, добавивший эту строку товара</v8:content>
+																</v8:item>
+															</ToolTip>
+															<Width>20</Width>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ChoiceButton>false</ChoiceButton>
+															<TextEdit>false</TextEdit>
+															<ContextMenu name="ЗапасыАС_ПродавецКонтекстноеМеню" id="5005"/>
+															<ExtendedTooltip name="ЗапасыАС_ПродавецРасширеннаяПодсказка" id="5006"/>
+														</InputField>
 														<ColumnGroup name="ЗапасыГруппаКПоступлению" id="2671">
 															<Title>
 																<v8:item>
@@ -14459,7 +14481,7 @@
 																<ContextMenu name="ЗапасыСуммаНДСКонтекстноеМеню" id="1701"/>
 																<ExtendedTooltip name="ЗапасыСуммаНДСРасширеннаяПодсказка" id="1702"/>
 															</InputField>
-															<InputField name="ЗапасыВсего" id="1703">
+														<InputField name="ЗапасыВсего" id="1703">
 																<DataPath>Объект.Запасы.Всего</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<SkipOnInput>true</SkipOnInput>
@@ -14468,9 +14490,9 @@
 																<Width>10</Width>
 																<Wrap>false</Wrap>
 																<ContextMenu name="ЗапасыВсегоКонтекстноеМеню" id="1704"/>
-																<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="1705"/>
-															</InputField>
-															<InputField name="ЗапасыДатаОтгрузки" id="1706">
+														<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="1705"/>
+													</InputField>
+													<InputField name="ЗапасыДатаОтгрузки" id="1706">
 																<DataPath>Объект.Запасы.ДатаОтгрузки</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<MarkRequiredComplete>true</MarkRequiredComplete>

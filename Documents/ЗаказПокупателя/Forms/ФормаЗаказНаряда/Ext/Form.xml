@@ -4718,10 +4718,32 @@
 									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<AutoMarkIncomplete>false</AutoMarkIncomplete>
-									<ContextMenu name="ЗапасыДокументПоступленияКонтекстноеМеню" id="2433"/>
-									<ExtendedTooltip name="ЗапасыДокументПоступленияРасширеннаяПодсказка" id="2434"/>
-								</InputField>
-								<ColumnGroup name="ЗапасыГруппаОтменаТоваров" id="2519">
+								<ContextMenu name="ЗапасыДокументПоступленияКонтекстноеМеню" id="2433"/>
+								<ExtendedTooltip name="ЗапасыДокументПоступленияРасширеннаяПодсказка" id="2434"/>
+							</InputField>
+							<InputField name="ЗапасыАС_Продавец" id="5004">
+								<DataPath>Объект.Запасы.АС_Продавец</DataPath>
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Продавец</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сотрудник, добавивший эту строку товара</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Width>20</Width>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ChoiceButton>false</ChoiceButton>
+								<TextEdit>false</TextEdit>
+								<ContextMenu name="ЗапасыАС_ПродавецКонтекстноеМеню" id="5005"/>
+								<ExtendedTooltip name="ЗапасыАС_ПродавецРасширеннаяПодсказка" id="5006"/>
+							</InputField>
+							<ColumnGroup name="ЗапасыГруппаОтменаТоваров" id="2519">
 									<Group>Horizontal</Group>
 									<ExtendedTooltip name="ЗапасыГруппаОтменаТоваровРасширеннаяПодсказка" id="2520"/>
 									<ChildItems>
@@ -15976,16 +15998,16 @@
 										<ContextMenu name="ЗапасыСуммаНДСКонтекстноеМеню" id="394"/>
 										<ExtendedTooltip name="ЗапасыСуммаНДСРасширеннаяПодсказка" id="865"/>
 									</InputField>
-									<InputField name="ЗапасыВсего" id="395">
+								<InputField name="ЗапасыВсего" id="395">
 										<DataPath>Объект.Запасы.Всего</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<AutoEditMode>true</AutoEditMode>
 										<Width>10</Width>
 										<ContextMenu name="ЗапасыВсегоКонтекстноеМеню" id="396"/>
-										<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="866"/>
-									</InputField>
-									<InputField name="ЗапасыСтранаПроисхождения" id="1635">
+									<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="866"/>
+								</InputField>
+								<InputField name="ЗапасыСтранаПроисхождения" id="1635">
 										<DataPath>Объект.Запасы.СтранаПроисхождения</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<AutoEditMode>true</AutoEditMode>
