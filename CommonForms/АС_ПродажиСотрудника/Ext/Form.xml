@@ -2,6 +2,7 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<Group>Vertical</Group>
+	<ShowTitle>false</ShowTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="АС_Сформировать" id="54">
@@ -9,21 +10,6 @@
 				<CommandName>Form.Command.АС_ОбновитьПродажи</CommandName>
 				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="АС_СформироватьРасширеннаяПодсказка" id="55"/>
-			</Button>
-			<Button name="АС_РазвернутьВсе" id="61">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.АС_РазвернутьВсе</CommandName>
-				<ExtendedTooltip name="АС_РазвернутьВсеРасширеннаяПодсказка" id="62"/>
-			</Button>
-			<Button name="АС_СвернутьВсе" id="63">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.АС_СвернутьВсе</CommandName>
-				<ExtendedTooltip name="АС_СвернутьВсеРасширеннаяПодсказка" id="64"/>
-			</Button>
-			<Button name="АС_ПереключитьПредставлениеПродаж" id="65">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.АС_ПереключитьПредставлениеПродаж</CommandName>
-				<ExtendedTooltip name="АС_ПереключитьПредставлениеПродажРасширеннаяПодсказка" id="66"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -42,26 +28,20 @@
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>false</HorizontalStretch>
 			<ChildItems>
 				<InputField name="НачалоПериода" id="2">
 					<DataPath>НачалоПериода</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>С</v8:content>
-						</v8:item>
-					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="3"/>
 					<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="4"/>
 				</InputField>
 				<InputField name="КонецПериода" id="5">
 					<DataPath>КонецПериода</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>По</v8:content>
-						</v8:item>
-					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="КонецПериодаКонтекстноеМеню" id="6"/>
 					<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="7"/>
 				</InputField>
@@ -79,6 +59,23 @@
 			<ContextMenu name="АС_ПродажиКонтекстноеМеню" id="18"/>
 			<AutoCommandBar name="АС_ПродажиКоманднаяПанель" id="19">
 				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="АС_ПродажиРазвернутьВсе" id="61">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_РазвернутьВсе</CommandName>
+						<ExtendedTooltip name="АС_РазвернутьВсеРасширеннаяПодсказка" id="62"/>
+					</Button>
+					<Button name="АС_ПродажиСвернутьВсе" id="63">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_СвернутьВсе</CommandName>
+						<ExtendedTooltip name="АС_СвернутьВсеРасширеннаяПодсказка" id="64"/>
+					</Button>
+					<Button name="АС_ПродажиПереключитьПредставление" id="65">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_ПереключитьПредставлениеПродаж</CommandName>
+						<ExtendedTooltip name="АС_ПереключитьПредставлениеПродажРасширеннаяПодсказка" id="66"/>
+					</Button>
+				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="АС_ПродажиРасширеннаяПодсказка" id="20"/>
 			<SearchStringAddition name="АС_ПродажиСтрокаПоиска" id="21">
@@ -163,6 +160,13 @@
 			<ContextMenu name="АС_ПродажиСписокКонтекстноеМеню" id="68"/>
 			<AutoCommandBar name="АС_ПродажиСписокКоманднаяПанель" id="69">
 				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="АС_ПродажиСписокПереключитьПредставление" id="90">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_ПереключитьПредставлениеПродаж</CommandName>
+						<ExtendedTooltip name="АС_ПродажиСписокПереключитьПредставлениеРасширеннаяПодсказка" id="91"/>
+					</Button>
+				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="АС_ПродажиСписокРасширеннаяПодсказка" id="70"/>
 			<Events>
