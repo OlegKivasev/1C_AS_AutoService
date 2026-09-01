@@ -136,7 +136,7 @@
 		<Metadata name="CommonForm.АС_ТоварыАвтомобиля" id="6dbada05-5320-4a95-a2ff-79002e243602" configVersion="30d8e153ee9a72458384f11016d1388682c0b4e1"/>
 		<Metadata name="CommonForm.АС_ТоварыАвтомобиля.Form" id="6dbada05-5320-4a95-a2ff-79002e243602.0" configVersion="b84daea7992146ac6eab444fd403564f3ac9e22e"/>
 		<Metadata name="CommonForm.АС_ПродажиСотрудника" id="fc9c3ac0-2a3c-4ea4-b7ce-74e80e0fbc16" configVersion="2081b4d844ff2cd6a34947965d8401ab603cdc12"/>
-		<Metadata name="CommonForm.АС_ПродажиСотрудника.Form" id="fc9c3ac0-2a3c-4ea4-b7ce-74e80e0fbc16.0" configVersion="8bdc212f19cf58a067bdad3108698ef72c59d634"/>
+		<Metadata name="CommonForm.АС_ПродажиСотрудника.Form" id="fc9c3ac0-2a3c-4ea4-b7ce-74e80e0fbc16.0" configVersion="3fe56598fcf16b0cc2f4e876b90844444c65b601"/>
 		<Metadata name="CommonModule.АС_ДоступностьТоваровСервер" id="cd83447a-0340-45fd-87b1-9f9183ae5883" configVersion="6845056dd276568ed509e35e0de097a3695b2c72"/>
 		<Metadata name="CommonModule.АС_ДоступностьТоваровСервер.Module" id="cd83447a-0340-45fd-87b1-9f9183ae5883.0" configVersion="450f536b5182e2b7bd70548582e021ace6134b8f"/>
 		<Metadata name="CommonModule.АС_НоменклатураСервер" id="d188f317-c532-41f0-92bc-3d86083eb745" configVersion="e3d6da7c8ddf12b9f67859819c6355d8dc633a33"/>

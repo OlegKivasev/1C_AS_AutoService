@@ -238,6 +238,20 @@
 					<ContextMenu name="СуммаПродажКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="СуммаПродажРасширеннаяПодсказка" id="16"/>
 				</InputField>
+				<InputField name="СебестоимостьПродаж" id="92">
+					<DataPath>СебестоимостьПродаж</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Себестоимость</v8:content></v8:item></Title>
+					<ContextMenu name="СебестоимостьПродажКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="СебестоимостьПродажРасширеннаяПодсказка" id="94"/>
+				</InputField>
+				<InputField name="ВаловаяПрибыльПродаж" id="95">
+					<DataPath>ВаловаяПрибыльПродаж</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Валовая прибыль</v8:content></v8:item></Title>
+					<ContextMenu name="ВаловаяПрибыльПродажКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ВаловаяПрибыльПродажРасширеннаяПодсказка" id="97"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -280,6 +294,26 @@
 					<v8:Digits>15</v8:Digits>
 					<v8:FractionDigits>2</v8:FractionDigits>
 					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СебестоимостьПродаж" id="98">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВаловаяПрибыльПродаж" id="99">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
