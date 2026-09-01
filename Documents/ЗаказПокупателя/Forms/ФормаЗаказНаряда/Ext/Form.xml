@@ -10726,6 +10726,25 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="АС_СтрокиОтменыВозвратаПокупателя" id="1000194">
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Номенклатура" id="1">
+					<Type><v8:Type>cfg:CatalogRef.Номенклатура</v8:Type></Type>
+				</Column>
+				<Column name="Характеристика" id="2">
+					<Type><v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type></Type>
+				</Column>
+				<Column name="Цена" id="3">
+					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>2</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+				</Column>
+				<Column name="Количество" id="4">
+					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>3</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+				</Column>
+			</Columns>
+		</Attribute>
 		<Attribute name="НоменклатураУдаленнойСтроки" id="1000027">
 			<Type>
 				<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>

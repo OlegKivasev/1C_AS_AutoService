@@ -468,10 +468,10 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.РесурсыПредприятия.Attribute.Финиш" id="fedaecca-5d8a-4291-af56-8d2c5b4b95a6"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Материалы.Attribute.Ячейка" id="ff9439ce-42da-42ec-a9fd-8206cba5baae"/>
 		</Metadata>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="e3de9fdfd65dc769d591039f8d71adae16fa82f8"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="90d90d7b227c6bb998975add840bcf1e3eb00eda"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="a18b98f83e3622eab3f22a0441ef7b736bd74ab0"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="5d2ed62849b9a385b7c119a23769e6425651f435"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="187eb6a7f46d8a710af2430084ce533af210c7bf"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="a987d3e27a984d8560fe7ef0cd388e0a80d9c44f"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="c28499dd4bc7c1aa6540313cbc7e9648f14773bc"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="6cd2e220e362017c375d0671873d2f7af78f7286"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСписка" id="729371e3-312f-4e8a-90b9-e60e0bee1b47" configVersion="0949219d462ff3d48f86e0e0a122bbb119d48872"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСписка.Form" id="729371e3-312f-4e8a-90b9-e60e0bee1b47.0" configVersion="8694e2391548c383e343d923162796bfbb6bc2e6"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСпискаЗаказНаряда" id="9cda5a10-17e5-4669-b3dd-a4d1f4edb205" configVersion="7390e5d8397ec977024d5aa552f304cce845a7e9"/>
@@ -486,7 +486,7 @@
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаСписка" id="4e7171a5-5ecf-4db4-813e-f8182fc6b331" configVersion="0843c64a9f04316f7bb35a16a92c1d25b5cdb0d2"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаСписка.Form" id="4e7171a5-5ecf-4db4-813e-f8182fc6b331.0" configVersion="efde9c64259aa9cb27da3a6208497cb945e2a80d"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="cc8e7290-e15c-4f0b-9edb-3869dc6dee1f" configVersion="9f257c5143ab71b4b410d10d7995875a7a54e489"/>
-		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e" configVersion="b3e73f244c4a6d1e90b0a62f722a146718da7dfb"/>
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e" configVersion="efc9aea4920a0cd6dbc6ff3c2cbdadb560d88518"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e.0" configVersion="6e475138bbd2bd40764b07b1bad15c6e3df0b032"/>
 		<Metadata name="Enum.АС_ДокументыБухгалтеру" id="eccfe8b8-e87b-4885-8e56-9595f1b79999" configVersion="794e7509036a6952fc792cede7bcdcc83e8494dd">
 			<Metadata name="Enum.АС_ДокументыБухгалтеру.EnumValue.НеОтправлено" id="0a9d7b00-7f13-4e92-b04c-1c13f2bed4ea"/>
