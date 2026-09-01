@@ -139,7 +139,9 @@
 			<DefinedType>Объем</DefinedType>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
+			<CommonCommand>АС_ПродажиСотрудника</CommonCommand>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
+			<CommonForm>АС_ПродажиСотрудника</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_ОПФ</Catalog>
 			<Catalog>АС_ТипыФильтров</Catalog>
