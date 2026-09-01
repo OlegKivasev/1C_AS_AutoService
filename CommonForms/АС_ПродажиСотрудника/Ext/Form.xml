@@ -10,15 +10,20 @@
 				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="АС_СформироватьРасширеннаяПодсказка" id="55"/>
 			</Button>
-			<Button name="АС_ДатаПоВозрастанию" id="62">
+			<Button name="АС_РазвернутьВсе" id="61">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.АС_СортироватьПоДатеПоВозрастанию</CommandName>
-				<ExtendedTooltip name="АС_ДатаПоВозрастаниюРасширеннаяПодсказка" id="63"/>
+				<CommandName>Form.Command.АС_РазвернутьВсе</CommandName>
+				<ExtendedTooltip name="АС_РазвернутьВсеРасширеннаяПодсказка" id="62"/>
 			</Button>
-			<Button name="АС_ДатаПоУбыванию" id="64">
+			<Button name="АС_СвернутьВсе" id="63">
 				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.АС_СортироватьПоДатеПоУбыванию</CommandName>
-				<ExtendedTooltip name="АС_ДатаПоУбываниюРасширеннаяПодсказка" id="65"/>
+				<CommandName>Form.Command.АС_СвернутьВсе</CommandName>
+				<ExtendedTooltip name="АС_СвернутьВсеРасширеннаяПодсказка" id="64"/>
+			</Button>
+			<Button name="АС_ПереключитьПредставлениеПродаж" id="65">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.АС_ПереключитьПредставлениеПродаж</CommandName>
+				<ExtendedTooltip name="АС_ПереключитьПредставлениеПродажРасширеннаяПодсказка" id="66"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -148,6 +153,66 @@
 				</LabelField>
 			</ChildItems>
 		</Table>
+		<Table name="АС_ПродажиСписок" id="67">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<Visible>false</Visible>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
+			<DataPath>АС_Продажи</DataPath>
+			<ContextMenu name="АС_ПродажиСписокКонтекстноеМеню" id="68"/>
+			<AutoCommandBar name="АС_ПродажиСписокКоманднаяПанель" id="69">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="АС_ПродажиСписокРасширеннаяПодсказка" id="70"/>
+			<Events>
+				<Event name="Selection">АС_ПродажиВыбор</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="АС_ПродажиСписокДата" id="71">
+					<DataPath>АС_Продажи.Дата</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="АС_ПродажиСписокДатаКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="АС_ПродажиСписокДатаРасширеннаяПодсказка" id="73"/>
+				</LabelField>
+				<LabelField name="АС_ПродажиСписокВидЗаказа" id="74">
+					<DataPath>АС_Продажи.ВидЗаказа</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="АС_ПродажиСписокВидЗаказаКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="АС_ПродажиСписокВидЗаказаРасширеннаяПодсказка" id="76"/>
+				</LabelField>
+				<LabelField name="АС_ПродажиСписокНоменклатура" id="77">
+					<DataPath>АС_Продажи.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="АС_ПродажиСписокНоменклатураКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="АС_ПродажиСписокНоменклатураРасширеннаяПодсказка" id="79"/>
+				</LabelField>
+				<LabelField name="АС_ПродажиСписокЦена" id="80">
+					<DataPath>АС_Продажи.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="АС_ПродажиСписокЦенаКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="АС_ПродажиСписокЦенаРасширеннаяПодсказка" id="82"/>
+				</LabelField>
+				<LabelField name="АС_ПродажиСписокКоличество" id="83">
+					<DataPath>АС_Продажи.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="АС_ПродажиСписокКоличествоКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="АС_ПродажиСписокКоличествоРасширеннаяПодсказка" id="85"/>
+				</LabelField>
+				<LabelField name="АС_ПродажиСписокСумма" id="86">
+					<DataPath>АС_Продажи.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="АС_ПродажиСписокСуммаКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="АС_ПродажиСписокСуммаРасширеннаяПодсказка" id="88"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
 		<UsualGroup name="АС_Итоги" id="10">
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
@@ -214,12 +279,12 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="СортировкаПоВозрастанию" id="59">
+		<Attribute name="ОтчетСформирован" id="60">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ОтчетСформирован" id="60">
+		<Attribute name="ПлоскийСписок" id="89">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
@@ -262,16 +327,26 @@
 			<Action>АС_ОбновитьПродажи</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="АС_СортироватьПоДатеПоВозрастанию" id="62">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Дата ↑</v8:content></v8:item></Title>
-			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Сначала ранние заказы</v8:content></v8:item></ToolTip>
-			<Action>АС_СортироватьПоДатеПоВозрастанию</Action>
+		<Command name="АС_РазвернутьВсе" id="61">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Развернуть все</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Развернуть все заказы</v8:content></v8:item></ToolTip>
+			<Picture><xr:Ref>StdPicture.ExpandAll</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
+			<Action>АС_РазвернутьВсе</Action>
+			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="АС_СортироватьПоДатеПоУбыванию" id="64">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Дата ↓</v8:content></v8:item></Title>
-			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Сначала новые заказы</v8:content></v8:item></ToolTip>
-			<Action>АС_СортироватьПоДатеПоУбыванию</Action>
+		<Command name="АС_СвернутьВсе" id="63">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Свернуть все</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Свернуть все заказы</v8:content></v8:item></ToolTip>
+			<Picture><xr:Ref>StdPicture.CollapseAll</xr:Ref><xr:LoadTransparent>true</xr:LoadTransparent></Picture>
+			<Action>АС_СвернутьВсе</Action>
+			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_ПереключитьПредставлениеПродаж" id="65">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Иерархия / список</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Переключить между иерархией заказов и списком товаров</v8:content></v8:item></ToolTip>
+			<Action>АС_ПереключитьПредставлениеПродаж</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
