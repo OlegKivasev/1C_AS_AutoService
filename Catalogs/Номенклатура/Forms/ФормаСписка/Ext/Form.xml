@@ -1475,14 +1475,15 @@
 											<InputHint>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Поиск (Ctrl+Shift+D)</v8:content>
+													<v8:content>Поиск: введите строку и нажмите Enter</v8:content>
 												</v8:item>
 											</InputHint>
 											<ContextMenu name="СтрокаРасширенногоПоискаКонтекстноеМеню" id="2024"/>
 											<ExtendedTooltip name="СтрокаРасширенногоПоискаРасширеннаяПодсказка" id="2025"/>
 											<Events>
-												<Event name="OnChange" callType="Before">АС_СтрокаПоискаАртикулаПриИзменении</Event>
 												<Event name="EditTextChange" callType="Before">АС_СтрокаПоискаАртикулаИзменениеТекстаРедактирования</Event>
+												<Event name="TextEditEnd" callType="Before">АС_СтрокаПоискаАртикулаОкончаниеВводаТекста</Event>
+												<Event name="Clearing" callType="Before">АС_СтрокаПоискаАртикулаОчистка</Event>
 											</Events>
 										</InputField>
 									</ChildItems>
