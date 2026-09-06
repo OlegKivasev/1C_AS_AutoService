@@ -310,6 +310,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnOpen" callType="After">АС_ПриОткрытии</Event>
 		<Event name="OnCreateAtServer" callType="Before">АС_ПриСозданииНаСервере</Event>
 		<Event name="OnCreateAtServer" callType="After">АС_УстановитьОформлениеБезналПослеСоздания</Event>
 	</Events>
