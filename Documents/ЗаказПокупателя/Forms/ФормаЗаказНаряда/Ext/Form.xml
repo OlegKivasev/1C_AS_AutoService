@@ -297,7 +297,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnReadAtServer" callType="Before">АС_ПриЧтенииНаСервере</Event>
-		<Event name="OnOpen" callType="Before">АС_ПриОткрытии</Event>
+		<Event name="OnOpen" callType="After">АС_ПриОткрытии</Event>
 		<Event name="OnCreateAtServer" callType="Before">АС_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>

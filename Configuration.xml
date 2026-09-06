@@ -67,6 +67,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<Subsystem>АС_Автосервис</Subsystem>
 			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
