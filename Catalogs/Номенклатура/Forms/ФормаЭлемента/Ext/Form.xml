@@ -1353,7 +1353,7 @@
 							<TitleLocation>None</TitleLocation>
 							<Width>10</Width>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>50</MaxWidth>
+							<MaxWidth>40</MaxWidth>
 							<Height>11</Height>
 							<VerticalStretch>false</VerticalStretch>
 							<ContextMenu name="ДиаграммаПродажиКоличествоКонтекстноеМеню" id="362"/>
@@ -4580,7 +4580,7 @@
 						</Pages>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="ТекущиеОстатки" id="689" DisplayImportance="VeryLow">
+				<UsualGroup name="ТекущиеОстатки" id="689" DisplayImportance="VeryHigh">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4590,11 +4590,11 @@
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
+					<VerticalStretch>false</VerticalStretch>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ТекущиеОстаткиРасширеннаяПодсказка" id="690"/>
 					<ChildItems>
 						<LabelDecoration name="ТекущиеОстаткиЗаголовок" id="368">
-							<Visible>false</Visible>
 							<Width>1</Width>
 							<HorizontalStretch>true</HorizontalStretch>
 							<TextColor>#009646</TextColor>
@@ -4628,10 +4628,14 @@
 							<CommandBarLocation>None</CommandBarLocation>
 							<ReadOnly>true</ReadOnly>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>40</MaxWidth>
-							<Height>5</Height>
-							<RowSelectionMode>Row</RowSelectionMode>
+							<MaxWidth>50</MaxWidth>
+							<Height>3</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<MaxHeight>5</MaxHeight>
+							<VerticalStretch>false</VerticalStretch>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<Header>false</Header>
+							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
 							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -4645,6 +4649,7 @@
 									<v8:content>Дерево остатки</v8:content>
 								</v8:item>
 							</Title>
+							<CurrentRowUse>Choice</CurrentRowUse>
 							<ContextMenu name="ОстаткиКонтекстноеМеню" id="379">
 								<Autofill>false</Autofill>
 							</ContextMenu>
@@ -4678,17 +4683,16 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<InputField name="ОстаткиЕдиница" id="391">
-									<Visible>false</Visible>
+									<Width>30</Width>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
 									<ContextMenu name="ОстаткиЕдиницаКонтекстноеМеню" id="392"/>
 									<ExtendedTooltip name="ОстаткиЕдиницаРасширеннаяПодсказка" id="393"/>
 								</InputField>
 								<InputField name="ОстаткиОстаток" id="394">
-									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
-									<Width>17</Width>
+									<Width>9</Width>
 									<ContextMenu name="ОстаткиОстатокКонтекстноеМеню" id="395"/>
 									<ExtendedTooltip name="ОстаткиОстатокРасширеннаяПодсказка" id="396"/>
 								</InputField>
