@@ -741,6 +741,42 @@
 													<ContextMenu name="НомерКартинкиОплатыКонтекстноеМеню" id="115"/>
 													<ExtendedTooltip name="НомерКартинкиОплатыРасширеннаяПодсказка" id="157"/>
 												</PictureField>
+												<PictureField name="АС_СоставЗаказа" id="1000300">
+													<DataPath>Список.АС_ИконкаСоставаЗаказа</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Состав заказа</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Показать заказанные товары</v8:content>
+														</v8:item>
+													</ToolTip>
+													<HeaderPicture>
+														<xr:Ref>CommonPicture.ТоварУслугаСписок</xr:Ref>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</HeaderPicture>
+													<Width>2</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<VerticalStretch>false</VerticalStretch>
+													<CellHyperlink>true</CellHyperlink>
+													<CellHyperlinkRepresentation>Show</CellHyperlinkRepresentation>
+													<CellHyperlinkDisplayVariant>Always</CellHyperlinkDisplayVariant>
+													<ValuesPicture>
+														<xr:Ref>CommonPicture.ТоварУслугаСписок</xr:Ref>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</ValuesPicture>
+													<Border width="1">
+														<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+													</Border>
+													<FileDragMode>AsFile</FileDragMode>
+													<ContextMenu name="АС_СоставЗаказаКонтекстноеМеню" id="1000301"/>
+													<ExtendedTooltip name="АС_СоставЗаказаРасширеннаяПодсказка" id="1000302"/>
+												</PictureField>
 												<LabelField name="Дата" id="4">
 													<DefaultItem>true</DefaultItem>
 													<Title>
@@ -1654,6 +1690,7 @@
 				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
+	0 КАК АС_ИконкаСоставаЗаказа,
 	ВЫБОР
 		КОГДА НЕ ДокументЗаказПоставщику.Проведен
 				ИЛИ ДокументЗаказПоставщику.ВариантЗавершения = ЗНАЧЕНИЕ(Перечисление.ВариантыЗавершенияЗаказа.Отменен)
@@ -1859,6 +1896,16 @@
 		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияОригиналовПервичныхДокументов КАК СостоянияОригиналовПервичныхДокументов
 		ПО ДокументЗаказПоставщику.Ссылка = СостоянияОригиналовПервичныхДокументов.Владелец
 			И (СостоянияОригиналовПервичныхДокументов.ОбщееСостояние = ИСТИНА)}</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>АС_ИконкаСоставаЗаказа</dcssch:dataPath>
+					<dcssch:field>АС_ИконкаСоставаЗаказа</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состав заказа</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>Ссылка</dcssch:dataPath>
 					<dcssch:field>Ссылка</dcssch:field>
