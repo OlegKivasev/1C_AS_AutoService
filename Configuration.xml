@@ -67,7 +67,6 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<Subsystem>АС_Автосервис</Subsystem>
 			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
@@ -129,6 +128,7 @@
 			<CommonPicture>ЕстьРасхождения</CommonPicture>
 			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>Напоминание</CommonPicture>
+			<CommonPicture>КоллекцияРасхождения</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
@@ -141,6 +141,7 @@
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
 			<CommonCommand>АС_ПродажиСотрудника</CommonCommand>
+			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
@@ -186,6 +187,7 @@
 			<Enum>ВидыОтборовНоменклатуры</Enum>
 			<Enum>ВидыСтавокНДС</Enum>
 			<Enum>МетодОценкиЗапасов</Enum>
+			<Enum>ТипыСтруктурныхЕдиниц</Enum>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<InformationRegister>ОстаткиТоваров</InformationRegister>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="b633fdad-03fb-4322-a0fe-b25f173112de">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСтруктурныхЕдиниц" category="Ref">
+				<xr:TypeId>fed529ef-708c-4aab-a865-61d5c96b7405</xr:TypeId>
+				<xr:ValueId>596f499b-e736-4735-9d2a-dfec2e30eda3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСтруктурныхЕдиниц" category="Manager">
+				<xr:TypeId>8e0a9a80-4930-443e-91ae-cd587f49d6ed</xr:TypeId>
+				<xr:ValueId>037c9bec-4876-48bc-8863-1a17f401551d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСтруктурныхЕдиниц" category="List">
+				<xr:TypeId>2bc662e8-275a-408a-960d-931659bc0c5a</xr:TypeId>
+				<xr:ValueId>1fdec2a2-7847-4bf7-a330-be840444e84f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыСтруктурныхЕдиниц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b4fd140b-4f87-4d31-b394-ba3eeae7026c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="26e7c706-3c56-4817-b410-4da8f168ba19">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>86426cf8-824c-479b-96ad-7dc1a16c73ba</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="39e95827-7651-4b77-bdbf-325f86864b2b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Розница</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>df63a4eb-12d1-4249-a9a5-41c8139a5cf0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="27a10515-1050-4885-b150-c78e78c7acb2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РозницаСуммовойУчет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>baaab69d-4820-4d8a-adeb-be4a3ba7f276</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

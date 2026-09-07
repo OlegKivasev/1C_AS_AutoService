@@ -32,6 +32,8 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаВыбора</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

@@ -4718,32 +4718,32 @@
 									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<AutoMarkIncomplete>false</AutoMarkIncomplete>
-								<ContextMenu name="ЗапасыДокументПоступленияКонтекстноеМеню" id="2433"/>
-								<ExtendedTooltip name="ЗапасыДокументПоступленияРасширеннаяПодсказка" id="2434"/>
-							</InputField>
-							<InputField name="ЗапасыАС_Продавец" id="5004">
-								<DataPath>Объект.Запасы.АС_Продавец</DataPath>
-								<ReadOnly>true</ReadOnly>
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Продавец</v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Сотрудник, добавивший эту строку товара</v8:content>
-									</v8:item>
-								</ToolTip>
-								<Width>20</Width>
-								<AutoMaxWidth>false</AutoMaxWidth>
-								<ChoiceButton>false</ChoiceButton>
-								<TextEdit>false</TextEdit>
-								<ContextMenu name="ЗапасыАС_ПродавецКонтекстноеМеню" id="5005"/>
-								<ExtendedTooltip name="ЗапасыАС_ПродавецРасширеннаяПодсказка" id="5006"/>
-							</InputField>
-							<ColumnGroup name="ЗапасыГруппаОтменаТоваров" id="2519">
+									<ContextMenu name="ЗапасыДокументПоступленияКонтекстноеМеню" id="2433"/>
+									<ExtendedTooltip name="ЗапасыДокументПоступленияРасширеннаяПодсказка" id="2434"/>
+								</InputField>
+								<InputField name="ЗапасыАС_Продавец" id="5004">
+									<DataPath>Объект.Запасы.АС_Продавец</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продавец</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сотрудник, добавивший эту строку товара</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ChoiceButton>false</ChoiceButton>
+									<TextEdit>false</TextEdit>
+									<ContextMenu name="ЗапасыАС_ПродавецКонтекстноеМеню" id="5005"/>
+									<ExtendedTooltip name="ЗапасыАС_ПродавецРасширеннаяПодсказка" id="5006"/>
+								</InputField>
+								<ColumnGroup name="ЗапасыГруппаОтменаТоваров" id="2519">
 									<Group>Horizontal</Group>
 									<ExtendedTooltip name="ЗапасыГруппаОтменаТоваровРасширеннаяПодсказка" id="2520"/>
 									<ChildItems>
@@ -10732,16 +10732,34 @@
 			</Type>
 			<Columns>
 				<Column name="Номенклатура" id="1">
-					<Type><v8:Type>cfg:CatalogRef.Номенклатура</v8:Type></Type>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
 				</Column>
 				<Column name="Характеристика" id="2">
-					<Type><v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type></Type>
+					<Type>
+						<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
+					</Type>
 				</Column>
 				<Column name="Цена" id="3">
-					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>2</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
 				</Column>
 				<Column name="Количество" id="4">
-					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>3</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
 				</Column>
 			</Columns>
 		</Attribute>
@@ -16017,16 +16035,16 @@
 										<ContextMenu name="ЗапасыСуммаНДСКонтекстноеМеню" id="394"/>
 										<ExtendedTooltip name="ЗапасыСуммаНДСРасширеннаяПодсказка" id="865"/>
 									</InputField>
-								<InputField name="ЗапасыВсего" id="395">
+									<InputField name="ЗапасыВсего" id="395">
 										<DataPath>Объект.Запасы.Всего</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<AutoEditMode>true</AutoEditMode>
 										<Width>10</Width>
 										<ContextMenu name="ЗапасыВсегоКонтекстноеМеню" id="396"/>
-									<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="866"/>
-								</InputField>
-								<InputField name="ЗапасыСтранаПроисхождения" id="1635">
+										<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="866"/>
+									</InputField>
+									<InputField name="ЗапасыСтранаПроисхождения" id="1635">
 										<DataPath>Объект.Запасы.СтранаПроисхождения</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<AutoEditMode>true</AutoEditMode>

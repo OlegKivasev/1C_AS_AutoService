@@ -11646,16 +11646,34 @@
 			</Type>
 			<Columns>
 				<Column name="Номенклатура" id="1">
-					<Type><v8:Type>cfg:CatalogRef.Номенклатура</v8:Type></Type>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
 				</Column>
 				<Column name="Характеристика" id="2">
-					<Type><v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type></Type>
+					<Type>
+						<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
+					</Type>
 				</Column>
 				<Column name="Цена" id="3">
-					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>2</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
 				</Column>
 				<Column name="Количество" id="4">
-					<Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>3</v8:FractionDigits><v8:AllowedSign>Nonnegative</v8:AllowedSign></v8:NumberQualifiers></Type>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
 				</Column>
 			</Columns>
 		</Attribute>
@@ -14501,7 +14519,7 @@
 																<ContextMenu name="ЗапасыСуммаНДСКонтекстноеМеню" id="1701"/>
 																<ExtendedTooltip name="ЗапасыСуммаНДСРасширеннаяПодсказка" id="1702"/>
 															</InputField>
-														<InputField name="ЗапасыВсего" id="1703">
+															<InputField name="ЗапасыВсего" id="1703">
 																<DataPath>Объект.Запасы.Всего</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<SkipOnInput>true</SkipOnInput>
@@ -14510,9 +14528,9 @@
 																<Width>10</Width>
 																<Wrap>false</Wrap>
 																<ContextMenu name="ЗапасыВсегоКонтекстноеМеню" id="1704"/>
-														<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="1705"/>
-													</InputField>
-													<InputField name="ЗапасыДатаОтгрузки" id="1706">
+																<ExtendedTooltip name="ЗапасыВсегоРасширеннаяПодсказка" id="1705"/>
+															</InputField>
+															<InputField name="ЗапасыДатаОтгрузки" id="1706">
 																<DataPath>Объект.Запасы.ДатаОтгрузки</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<MarkRequiredComplete>true</MarkRequiredComplete>
