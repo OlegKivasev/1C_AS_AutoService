@@ -129,6 +129,12 @@
 			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
 			<CommonPicture>Напоминание</CommonPicture>
 			<CommonPicture>КоллекцияРасхождения</CommonPicture>
+			<CommonPicture>КолекцияКонтрагенты</CommonPicture>
+			<CommonPicture>СтрелкаВправоБольшаяУзкая</CommonPicture>
+			<CommonPicture>КоллекцияСвязи</CommonPicture>
+			<CommonPicture>ИерархияГоловнойСписок</CommonPicture>
+			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
+			<CommonPicture>ОсновныеСведенияСписок</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>

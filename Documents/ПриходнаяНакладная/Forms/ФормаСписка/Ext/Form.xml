@@ -1306,7 +1306,7 @@
 										<ExtendedTooltip name="СписокЗаказыПоставщикамУправлениеПоискомРасширеннаяПодсказка" id="261"/>
 									</SearchControlAddition>
 									<Events>
-										<Event name="Selection">АС_СписокЗаказыПоставщикамВыбор</Event>
+										<Event name="Selection" callType="Before">АС_СписокЗаказыПоставщикамВыбор</Event>
 									</Events>
 									<ChildItems>
 										<PictureField name="АС_СоставЗаказаПоставщику" id="1000400">
