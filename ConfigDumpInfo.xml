@@ -482,7 +482,7 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Материалы.Attribute.Ячейка" id="ff9439ce-42da-42ec-a9fd-8206cba5baae"/>
 		</Metadata>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="3132e3cf44016d8938a7e56f02a1ccd3d0872f6d"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="164a7ec383f31f8de2b231165a9117bc02d78197"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="f6d26b8397ea4fbe0b105b80131df1d9bc63d6cd"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="77b456b39d0da664296dcfa4278b6306caaf05b8"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="346ad21bd4c9f3b2cba70f580327e3762ed1edb7"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСписка" id="729371e3-312f-4e8a-90b9-e60e0bee1b47" configVersion="0949219d462ff3d48f86e0e0a122bbb119d48872"/>
