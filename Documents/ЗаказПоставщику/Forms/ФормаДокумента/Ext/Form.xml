@@ -197,6 +197,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer" callType="Before">АС_ПриСозданииНаСервере</Event>
+		<Event name="OnCreateAtServer" callType="After">АС_ПослеСозданияНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Шапка" id="436">
@@ -290,31 +291,67 @@
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаОснованиеРасширеннаяПодсказка" id="253"/>
 							<ChildItems>
-								<InputField name="ЗаказПокупателя" id="97">
-									<SkipOnInput>true</SkipOnInput>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Заказ покупателя</v8:content>
-										</v8:item>
-									</Title>
-									<TitleLocation>Left</TitleLocation>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<MaxWidth>36</MaxWidth>
-									<Wrap>false</Wrap>
-									<ContextMenu name="ЗаказПокупателяКонтекстноеМеню" id="98">
-										<ChildItems>
-											<Button name="ЗаказПокупателяКонтекстноеМенюШапкаТабличнаяЧасть" id="770">
-												<Type>CommandBarButton</Type>
-												<CommandName>0</CommandName>
-												<ExtendedTooltip name="ЗаказПокупателяКонтекстноеМенюШапкаТабличнаяЧастьРасширеннаяПодсказка" id="771"/>
-											</Button>
-										</ChildItems>
-									</ContextMenu>
-									<ExtendedTooltip name="ЗаказПокупателяРасширеннаяПодсказка" id="254">
-										<Title formatted="true"/>
-									</ExtendedTooltip>
-								</InputField>
+								<UsualGroup name="АС_ГруппаЗаказПокупателя" id="1573">
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_ГруппаЗаказПокупателяРасширеннаяПодсказка" id="1574"/>
+									<ChildItems>
+										<InputField name="ЗаказПокупателя" id="97">
+											<DataPath>АС_НаименованиеКонтрагентаЗаказаПокупателя</DataPath>
+											<SkipOnInput>true</SkipOnInput>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заказ покупателя</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Left</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>36</MaxWidth>
+											<Wrap>false</Wrap>
+											<ChoiceButton>true</ChoiceButton>
+											<CreateButton>true</CreateButton>
+											<ContextMenu name="ЗаказПокупателяКонтекстноеМеню" id="98">
+												<ChildItems>
+													<Button name="ЗаказПокупателяКонтекстноеМенюШапкаТабличнаяЧасть" id="770">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ЗаказПокупателяКонтекстноеМенюШапкаТабличнаяЧастьРасширеннаяПодсказка" id="771"/>
+													</Button>
+												</ChildItems>
+											</ContextMenu>
+											<ExtendedTooltip name="ЗаказПокупателяРасширеннаяПодсказка" id="254">
+												<Title formatted="true"/>
+											</ExtendedTooltip>
+											<Events>
+												<Event name="OnChange" callType="Before">АС_НаименованиеКонтрагентаЗаказаПокупателяПриИзменении</Event>
+												<Event name="AutoComplete" callType="Before">АС_ЗаказПокупателяАвтоПодбор</Event>
+												<Event name="TextEditEnd" callType="Before">АС_ЗаказПокупателяОкончаниеВводаТекста</Event>
+												<Event name="StartChoice" callType="Before">АС_ЗаказПокупателяНачалоВыбора</Event>
+												<Event name="ChoiceProcessing" callType="Before">АС_ЗаказПокупателяОбработкаВыбора</Event>
+												<Event name="Clearing" callType="Before">АС_ЗаказПокупателяОчистка</Event>
+												<Event name="Creating" callType="Before">АС_ЗаказПокупателяСоздание</Event>
+											</Events>
+										</InputField>
+										<LabelDecoration name="АС_ОткрытьЗаказПокупателя" id="1575">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Открыть заказ покупателя</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="АС_ОткрытьЗаказПокупателяКонтекстноеМеню" id="1576"/>
+											<ExtendedTooltip name="АС_ОткрытьЗаказПокупателяРасширеннаяПодсказка" id="1577"/>
+											<Events>
+												<Event name="Click">АС_ОткрытьЗаказПокупателяНажатие</Event>
+											</Events>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
 								<Button name="ЗаполнитьПоЗаказуПокупателя" id="100">
 									<Type>UsualButton</Type>
 									<SkipOnInput>true</SkipOnInput>
@@ -2791,6 +2828,15 @@
 		</Attribute>
 		<Attribute name="АС_ПараметрыЗаписиДляПроведения" id="1571">
 			<Type/>
+		</Attribute>
+		<Attribute name="АС_НаименованиеКонтрагентаЗаказаПокупателя" id="1572">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
