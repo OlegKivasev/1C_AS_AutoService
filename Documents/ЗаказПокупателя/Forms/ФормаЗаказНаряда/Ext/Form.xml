@@ -1442,6 +1442,20 @@
 										</PictureField>
 									</ChildItems>
 								</ColumnGroup>
+								<InputField name="АС_Исполнитель" id="1000195">
+									<DataPath>Объект.Работы.АС_Исполнитель</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Исполнитель</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<MarkRequiredComplete>true</MarkRequiredComplete>
+									<AutoEditMode>true</AutoEditMode>
+									<Width>20</Width>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+								</InputField>
 								<InputField name="ЗНРаботыХарактеристика" id="351">
 									<DataPath>Объект.Работы.Характеристика</DataPath>
 									<EditMode>EnterOnInput</EditMode>
