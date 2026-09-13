@@ -527,8 +527,8 @@
 			<Metadata name="Document.ИнвентаризацияЗапасов.TabularSection.Запасы.Attribute.АС_Несогласован" id="9f8a7a00-e2e1-414a-8402-92405d662677"/>
 			<Metadata name="Document.ИнвентаризацияЗапасов.TabularSection.Запасы" id="34f87a61-dc5d-493a-8008-f8df2af2449f"/>
 		</Metadata>
-		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента" id="60100e74-b572-40a2-847d-33d131294b0e" configVersion="73e891312e607ec5e8134a5faca0ca935d90ab24"/>
-		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента.Form" id="60100e74-b572-40a2-847d-33d131294b0e.0" configVersion="edd4abf2e4acde11e5062e8ebeefe845b459529d"/>
+		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента" id="60100e74-b572-40a2-847d-33d131294b0e" configVersion="749ad0871148c5f2495bb78adf73058c9348182a"/>
+		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента.Form" id="60100e74-b572-40a2-847d-33d131294b0e.0" configVersion="271f181b061cfb54fd02ba28cad81b61f303ee6d"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="cc8e7290-e15c-4f0b-9edb-3869dc6dee1f" configVersion="f1d4556696e3a7b53bc5be34f737883f1baaea8c"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаВыбора" id="099608a4-1ea1-4712-a06a-127da24bc862" configVersion="56a92b557984b0048d75e334fc2b71122c15db25"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаВыбора.Form" id="099608a4-1ea1-4712-a06a-127da24bc862.0" configVersion="4c5bdf3ba2be8ee648a0711f680f18f74291ca43"/>
