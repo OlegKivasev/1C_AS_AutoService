@@ -26,6 +26,10 @@
 				<xr:Property>ManagerModule</xr:Property>
 				<xr:State>Extended</xr:State>
 			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -91,6 +95,45 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:EnumRef.АС_ДокументыБухгалтеру</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="54af3975-97a9-4f24-ae5d-0bd2c60633ed">
+				<Properties>
+					<Name>АС_ТребоватьИсполнителя</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Требовать исполнителя</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Технический признак: в новых заказах-нарядах исполнитель обязателен, в созданных до доработки — нет.</Comment>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
