@@ -1455,6 +1455,8 @@
 									<AutoEditMode>true</AutoEditMode>
 									<Width>20</Width>
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="АС_ИсполнительКонтекстноеМеню" id="1000225"/>
+									<ExtendedTooltip name="АС_ИсполнительРасширеннаяПодсказка" id="1000226"/>
 								</InputField>
 								<InputField name="ЗНРаботыХарактеристика" id="351">
 									<DataPath>Объект.Работы.Характеристика</DataPath>

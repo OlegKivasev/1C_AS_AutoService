@@ -4587,10 +4587,10 @@
 							<v8:content>Текущие остатки</v8:content>
 						</v8:item>
 					</Title>
+					<VerticalStretch>false</VerticalStretch>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
-					<VerticalStretch>false</VerticalStretch>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ТекущиеОстаткиРасширеннаяПодсказка" id="690"/>
 					<ChildItems>
@@ -4624,8 +4624,8 @@
 							<ExtendedTooltip name="ДекорацияНетОстатковРасширеннаяПодсказка" id="375"/>
 						</LabelDecoration>
 						<Table name="Остатки" id="378">
-							<Visible>false</Visible>
 							<Representation>Tree</Representation>
+							<Visible>false</Visible>
 							<CommandBarLocation>None</CommandBarLocation>
 							<ReadOnly>true</ReadOnly>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -4633,13 +4633,13 @@
 							<Height>3</Height>
 							<AutoMaxHeight>false</AutoMaxHeight>
 							<MaxHeight>5</MaxHeight>
-							<VerticalStretch>false</VerticalStretch>
 							<RowSelectionMode>Cell</RowSelectionMode>
 							<Header>false</Header>
 							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
 							<VerticalLinesBWA>false</VerticalLinesBWA>
 							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<VerticalStretch>false</VerticalStretch>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
@@ -4683,9 +4683,9 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<InputField name="ОстаткиЕдиница" id="391">
-									<Width>30</Width>
 									<EditMode>EnterOnInput</EditMode>
 									<AutoEditMode>true</AutoEditMode>
+									<Width>30</Width>
 									<ContextMenu name="ОстаткиЕдиницаКонтекстноеМеню" id="392"/>
 									<ExtendedTooltip name="ОстаткиЕдиницаРасширеннаяПодсказка" id="393"/>
 								</InputField>
@@ -4716,8 +4716,8 @@
 								<LabelField name="АС_ОстаткиКоличества" id="3005">
 									<DataPath>АС_ОстаткиКоличества</DataPath>
 									<TitleLocation>None</TitleLocation>
-									<Width>9</Width>
 									<HorizontalAlign>Right</HorizontalAlign>
+									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="АС_ОстаткиКоличестваКонтекстноеМеню" id="3006"/>
 									<ExtendedTooltip name="АС_ОстаткиКоличестваРасширеннаяПодсказка" id="3007"/>

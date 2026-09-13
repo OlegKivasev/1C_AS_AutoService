@@ -328,11 +328,11 @@
 											<Events>
 												<Event name="OnChange" callType="Before">АС_НаименованиеКонтрагентаЗаказаПокупателяПриИзменении</Event>
 												<Event name="AutoComplete" callType="Before">АС_ЗаказПокупателяАвтоПодбор</Event>
-												<Event name="TextEditEnd" callType="Before">АС_ЗаказПокупателяОкончаниеВводаТекста</Event>
 												<Event name="StartChoice" callType="Before">АС_ЗаказПокупателяНачалоВыбора</Event>
-												<Event name="ChoiceProcessing" callType="Before">АС_ЗаказПокупателяОбработкаВыбора</Event>
-												<Event name="Clearing" callType="Before">АС_ЗаказПокупателяОчистка</Event>
 												<Event name="Creating" callType="Before">АС_ЗаказПокупателяСоздание</Event>
+												<Event name="Clearing" callType="Before">АС_ЗаказПокупателяОчистка</Event>
+												<Event name="TextEditEnd" callType="Before">АС_ЗаказПокупателяОкончаниеВводаТекста</Event>
+												<Event name="ChoiceProcessing" callType="Before">АС_ЗаказПокупателяОбработкаВыбора</Event>
 											</Events>
 										</InputField>
 										<LabelDecoration name="АС_ОткрытьЗаказПокупателя" id="1575">
@@ -347,7 +347,7 @@
 											<ContextMenu name="АС_ОткрытьЗаказПокупателяКонтекстноеМеню" id="1576"/>
 											<ExtendedTooltip name="АС_ОткрытьЗаказПокупателяРасширеннаяПодсказка" id="1577"/>
 											<Events>
-												<Event name="Click">АС_ОткрытьЗаказПокупателяНажатие</Event>
+												<Event name="Click" callType="Before">АС_ОткрытьЗаказПокупателяНажатие</Event>
 											</Events>
 										</LabelDecoration>
 									</ChildItems>

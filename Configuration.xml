@@ -88,6 +88,10 @@
 			<StyleItem>НезаполненноеПолеТаблицы</StyleItem>
 			<StyleItem>ФонПанелиВариантовОтбора</StyleItem>
 			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
+			<StyleItem>ЗеленаяПодсветкаВажныхСтрок</StyleItem>
+			<StyleItem>РозоваяПодсветкаВажныхСтрок</StyleItem>
+			<StyleItem>ЗеленыйТекстСтрок</StyleItem>
+			<StyleItem>ПрошедшееСобытие</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -135,6 +139,8 @@
 			<CommonPicture>ИерархияГоловнойСписок</CommonPicture>
 			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
 			<CommonPicture>ОсновныеСведенияСписок</CommonPicture>
+			<CommonPicture>Отборы</CommonPicture>
+			<CommonPicture>ВнешняяКомпонентаДоступна</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
@@ -175,6 +181,7 @@
 			<Document>ЗаказПокупателя</Document>
 			<Document>ЗаказПоставщику</Document>
 			<Document>ПриходнаяНакладная</Document>
+			<Document>ИнвентаризацияЗапасов</Document>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>
 			<Enum>ВидыДоговоров</Enum>
