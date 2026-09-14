@@ -3756,6 +3756,15 @@
 							</ContextMenu>
 							<AutoCommandBar name="ЗапасыКоманднаяПанель" id="240">
 								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="АС_ОткрытьКарточкуНоменклатуры" id="1000237">
+										<Type>CommandBarButton</Type>
+										<Visible>false</Visible>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.АС_ОткрытьКарточкуНоменклатуры</CommandName>
+										<ExtendedTooltip name="АС_ОткрытьКарточкуНоменклатурыРасширеннаяПодсказка" id="1000238"/>
+									</Button>
+								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="ЗапасыРасширеннаяПодсказка" id="851"/>
 							<SearchStringAddition name="ЗапасыСтрокаПоиска" id="1118">
@@ -11614,6 +11623,27 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
+	<Commands>
+		<Command name="АС_ОткрытьКарточкуНоменклатуры" id="1000239">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть карточку товара</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть карточку выбранного товара</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ОткрытьДетальныеЗаписи</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">АС_ОткрытьКарточкуНоменклатуры</Action>
+		</Command>
+	</Commands>
 	<BaseForm version="2.21">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Vertical</Group>
