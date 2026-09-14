@@ -1457,6 +1457,9 @@
 									<AutoMarkIncomplete>true</AutoMarkIncomplete>
 									<ContextMenu name="АС_ИсполнительКонтекстноеМеню" id="1000225"/>
 									<ExtendedTooltip name="АС_ИсполнительРасширеннаяПодсказка" id="1000226"/>
+									<Events>
+										<Event name="OnChange" callType="Before">АС_ИсполнительПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="ЗНРаботыХарактеристика" id="351">
 									<DataPath>Объект.Работы.Характеристика</DataPath>
@@ -7835,6 +7838,46 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="АС_ГруппаИтоговРабот" id="1000227">
+							<Visible>false</Visible>
+							<Group>Vertical</Group>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="АС_ГруппаИтоговРаботРасширеннаяПодсказка" id="1000228"/>
+							<ChildItems>
+								<InputField name="АС_СуммыРаботПоИсполнителям" id="1000229">
+									<DataPath>АС_СуммыРаботПоИсполнителям</DataPath>
+									<Visible>false</Visible>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<Width>30</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<MaxHeight>10</MaxHeight>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="АС_СуммыРаботПоИсполнителямКонтекстноеМеню" id="1000230"/>
+									<ExtendedTooltip name="АС_СуммыРаботПоИсполнителямРасширеннаяПодсказка" id="1000231"/>
+								</InputField>
+								<InputField name="АС_СуммаРабот" id="1000232">
+									<DataPath>АС_СуммаРабот</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма работ</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<Width>9</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_СуммаРаботКонтекстноеМеню" id="1000233"/>
+									<ExtendedTooltip name="АС_СуммаРаботРасширеннаяПодсказка" id="1000234"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ЗНИтоги" id="329">
 							<Title>
 								<v8:item>
@@ -10778,6 +10821,31 @@
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="АС_СуммаРабот" id="1000235">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма работ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_СуммыРаботПоИсполнителям" id="1000236">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 		<Attribute name="НоменклатураУдаленнойСтроки" id="1000027">
 			<Type>
