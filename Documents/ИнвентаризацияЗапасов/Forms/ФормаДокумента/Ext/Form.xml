@@ -795,6 +795,16 @@
 											<CommandName>Form.Command.АС_УстановитьОтборПоНесогласованным</CommandName>
 											<ExtendedTooltip name="АС_УстановитьОтборПоНесогласованнымРасширеннаяПодсказка" id="1511"/>
 										</Button>
+										<Button name="АС_УстановитьОтборПоПроданнымИАктивным" id="1517">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.АС_УстановитьОтборПоПроданнымИАктивным</CommandName>
+											<ExtendedTooltip name="АС_УстановитьОтборПоПроданнымИАктивнымРасширеннаяПодсказка" id="1518"/>
+										</Button>
+										<Button name="АС_УстановитьОтборПоТребующимОбновления" id="1522">
+											<Type>CommandBarButton</Type>
+											<CommandName>Form.Command.АС_УстановитьОтборПоТребующимОбновления</CommandName>
+											<ExtendedTooltip name="АС_УстановитьОтборПоТребующимОбновленияРасширеннаяПодсказка" id="1523"/>
+										</Button>
 										<Button name="ФильтрПоИзлишкам" id="444">
 											<Type>CommandBarButton</Type>
 											<Representation>Text</Representation>
@@ -1587,6 +1597,60 @@
 							</v8:NumberQualifiers>
 						</Type>
 					</Column>
+					<Column name="АС_ПроданИлиВАктивномЗаказе" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Продан или находится в активном заказе</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="АС_ТребуетОбновленияУчетныхДанных" id="10">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Учётные данные требуют обновления</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="АС_КоличествоВЗавершенныхЗаказахПослеИнвентаризации" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В завершённых заказах после инвентаризации</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+					<Column name="АС_ТекущийОстаток" id="12">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Остаток сейчас</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>3</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
@@ -1661,6 +1725,26 @@
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>АС_ЗапасыТекущийОстаток</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Запасы.АС_ТребуетОбновленияУчетныхДанных</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">style:РозоваяПодсветкаВажныхСтрок</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
@@ -1710,6 +1794,38 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">АС_УстановитьОтборПоНесогласованным</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_УстановитьОтборПоПроданнымИАктивным" id="1521">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проданные и активные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары с расходом после начала инвентаризации или в активных заказах</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">АС_УстановитьОтборПоПроданнымИАктивным</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_УстановитьОтборПоТребующимОбновления" id="1524">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Требуется обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары, у которых количество учёт не совпадает с текущим остатком на складе</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">АС_УстановитьОтборПоТребующимОбновления</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>

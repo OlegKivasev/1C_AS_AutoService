@@ -194,7 +194,7 @@
 		<Metadata name="CommonPicture.ТоварУслугаСписок" id="5478beb2-fb89-46ff-950d-273ee428b9e1" configVersion="f72d49dbcc03aacd198c78361a91ac9bf0809308"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="69da427fb9d39448bdb0e22e979b500adf480ed6"/>
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="2810f94f-0c29-41ae-8dc6-623f1c451ae2" configVersion="8d254ce4debaeb75516c78b83eb75fc54435f996"/>
-		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="204a69d8881d8d5cf184704611454ed69e873c8c"/>
+		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="0717c47b3116cb5bcabbe2ce82fd188e5f5a8ff4"/>
 		<Metadata name="Constant.АС_ОсновнойВидЦенБезналичногоРасчета" id="b7f5137b-f625-4ead-8e3f-003902096423" configVersion="f41c5322e9c7acbb2248326d19c636aa901dee39"/>
 		<Metadata name="DefinedType.Вес" id="654d8d9f-dae2-4c26-b176-faaf409f3083" configVersion="fae792a43ff2424cc75515a9de18c0ad1e60fdb4"/>
 		<Metadata name="DefinedType.Объем" id="aedac75f-3a57-4f6b-8ce9-f84f4f6b6bc5" configVersion="37f43da97d2739290321f1a5ad11e3e814aeb630"/>
@@ -527,8 +527,8 @@
 			<Metadata name="Document.ИнвентаризацияЗапасов.TabularSection.Запасы.Attribute.АС_Несогласован" id="9f8a7a00-e2e1-414a-8402-92405d662677"/>
 			<Metadata name="Document.ИнвентаризацияЗапасов.TabularSection.Запасы" id="34f87a61-dc5d-493a-8008-f8df2af2449f"/>
 		</Metadata>
-		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента" id="60100e74-b572-40a2-847d-33d131294b0e" configVersion="749ad0871148c5f2495bb78adf73058c9348182a"/>
-		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента.Form" id="60100e74-b572-40a2-847d-33d131294b0e.0" configVersion="271f181b061cfb54fd02ba28cad81b61f303ee6d"/>
+		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента" id="60100e74-b572-40a2-847d-33d131294b0e" configVersion="20ea3a43467bc82b4341f5191d7b84f861f4b532"/>
+		<Metadata name="Document.ИнвентаризацияЗапасов.Form.ФормаДокумента.Form" id="60100e74-b572-40a2-847d-33d131294b0e.0" configVersion="c9834b918f8abe2204ae1987d7559cf11df0dac9"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="cc8e7290-e15c-4f0b-9edb-3869dc6dee1f" configVersion="f1d4556696e3a7b53bc5be34f737883f1baaea8c"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаВыбора" id="099608a4-1ea1-4712-a06a-127da24bc862" configVersion="56a92b557984b0048d75e334fc2b71122c15db25"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаВыбора.Form" id="099608a4-1ea1-4712-a06a-127da24bc862.0" configVersion="4c5bdf3ba2be8ee648a0711f680f18f74291ca43"/>
@@ -572,6 +572,9 @@
 			<Metadata name="Enum.ВидыОтборовНоменклатуры.EnumValue.СегментыНоменклатуры" id="de5ee485-7203-4ac0-8418-db267c885710"/>
 		</Metadata>
 		<Metadata name="Enum.ВидыСтавокНДС" id="ebfb8d92-bc2a-45de-bc0f-4becb424767a" configVersion="8a0aa694c95eb2cd248a188f55261b562c6485cd"/>
+		<Metadata name="Enum.ДействияГрупповогоИзмененияСтрок" id="3c3b67db-24ec-4217-85be-098187c052c0" configVersion="44a43f249774c479ddbc2a00616ba3e9740635f7">
+			<Metadata name="Enum.ДействияГрупповогоИзмененияСтрок.EnumValue.АС_ОбновитьТолькоУчетныеДанные" id="3f7cc494-d6ab-419b-ac8d-e53592c84e31"/>
+		</Metadata>
 		<Metadata name="Enum.МетодОценкиЗапасов" id="26a9ffe4-796d-4f35-bf9d-ec2e98e9d18a" configVersion="39f92cd3e4c871b3ff6c040581840c9e0ce3c779"/>
 		<Metadata name="Enum.ПолФизическогоЛица" id="4fd89324-7d8f-410c-901c-c42909a31af9" configVersion="2fa634c1acdd6113e177e274d1cf83825f9f7e0b">
 			<Metadata name="Enum.ПолФизическогоЛица.EnumValue.Мужской" id="b4fd6d4a-a08b-41f7-824f-ff857133ba3a"/>

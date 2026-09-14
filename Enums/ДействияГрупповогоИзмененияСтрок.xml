@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="3c3b67db-24ec-4217-85be-098187c052c0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДействияГрупповогоИзмененияСтрок" category="Ref">
+				<xr:TypeId>d5352f7c-0c3a-4b29-b96b-5f25d3b8b9a2</xr:TypeId>
+				<xr:ValueId>8bd8118d-8ca7-48ae-a53e-f5116aef0671</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДействияГрупповогоИзмененияСтрок" category="Manager">
+				<xr:TypeId>25beb11a-2760-45e5-aee6-7d8c61ebb39d</xr:TypeId>
+				<xr:ValueId>ed022411-5d89-4f84-a6df-dd32af6a5eee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДействияГрупповогоИзмененияСтрок" category="List">
+				<xr:TypeId>fdb6ac64-7f97-4f4c-bf13-6c8337239c19</xr:TypeId>
+				<xr:ValueId>2d6d6d1d-4237-49de-a72e-451b0f948345</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДействияГрупповогоИзмененияСтрок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e496b61-7fd8-4c71-bb6c-cf6eb426f919</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3f7cc494-d6ab-419b-ac8d-e53592c84e31">
+				<Properties>
+					<Name>АС_ОбновитьТолькоУчетныеДанные</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновить только учётные данные</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
