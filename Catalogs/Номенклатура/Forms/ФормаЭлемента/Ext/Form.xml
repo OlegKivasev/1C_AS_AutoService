@@ -410,125 +410,6 @@
 								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
 							</Events>
 						</InputField>
-						<Table name="АС_Применяемость" id="910014">
-							<Representation>List</Representation>
-							<CommandBarLocation>Top</CommandBarLocation>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>55</MaxWidth>
-							<HeightInTableRows>4</HeightInTableRows>
-							<RowSelectionMode>Row</RowSelectionMode>
-							<DataPath>Объект.АС_Применяемость</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Применяемость по автомобилям</v8:content>
-								</v8:item>
-							</Title>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="АС_ПрименяемостьКонтекстноеМеню" id="910015"/>
-							<AutoCommandBar name="АС_ПрименяемостьКоманднаяПанель" id="910016"/>
-							<ExtendedTooltip name="АС_ПрименяемостьРасширеннаяПодсказка" id="910017"/>
-							<SearchStringAddition name="АС_ПрименяемостьСтрокаПоиска" id="910058">
-								<AdditionSource>
-									<Item>АС_Применяемость</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="АС_ПрименяемостьСтрокаПоискаКонтекстноеМеню" id="910059"/>
-								<ExtendedTooltip name="АС_ПрименяемостьСтрокаПоискаРасширеннаяПодсказка" id="910060"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="АС_ПрименяемостьСостояниеПросмотра" id="910061">
-								<AdditionSource>
-									<Item>АС_Применяемость</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="АС_ПрименяемостьСостояниеПросмотраКонтекстноеМеню" id="910062"/>
-								<ExtendedTooltip name="АС_ПрименяемостьСостояниеПросмотраРасширеннаяПодсказка" id="910063"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="АС_ПрименяемостьУправлениеПоиском" id="910064">
-								<AdditionSource>
-									<Item>АС_Применяемость</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="АС_ПрименяемостьУправлениеПоискомКонтекстноеМеню" id="910065"/>
-								<ExtendedTooltip name="АС_ПрименяемостьУправлениеПоискомРасширеннаяПодсказка" id="910066"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="АС_ПрименяемостьАвтомобиль" id="910018">
-									<DataPath>Объект.АС_Применяемость.АС_АвтомобильПредставление</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Автомобиль</v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<AutoEditMode>true</AutoEditMode>
-									<Width>20</Width>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<ContextMenu name="АС_ПрименяемостьАвтомобильКонтекстноеМеню" id="910019"/>
-									<ExtendedTooltip name="АС_ПрименяемостьАвтомобильРасширеннаяПодсказка" id="910020"/>
-									<Events>
-										<Event name="OnChange" callType="Before">АС_ПрименяемостьАвтомобильПриИзменении</Event>
-										<Event name="AutoComplete" callType="Before">АС_ПрименяемостьАвтомобильАвтоПодбор</Event>
-									</Events>
-								</InputField>
-								<InputField name="АС_ПрименяемостьГодС" id="910027">
-									<DataPath>Объект.АС_Применяемость.ГодС</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Год с</v8:content>
-										</v8:item>
-									</Title>
-									<Width>7</Width>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<SpinButton>true</SpinButton>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧГ=0</v8:content>
-										</v8:item>
-									</Format>
-									<EditFormat>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧГ=0</v8:content>
-										</v8:item>
-									</EditFormat>
-									<ContextMenu name="АС_ПрименяемостьГодСКонтекстноеМеню" id="910028"/>
-									<ExtendedTooltip name="АС_ПрименяемостьГодСРасширеннаяПодсказка" id="910029"/>
-									<Events>
-										<Event name="OnChange" callType="Before">АС_ПрименяемостьГодСПриИзменении</Event>
-									</Events>
-								</InputField>
-								<InputField name="АС_ПрименяемостьГодПо" id="910030">
-									<DataPath>Объект.АС_Применяемость.ГодПо</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Год по</v8:content>
-										</v8:item>
-									</Title>
-									<Width>7</Width>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<SpinButton>true</SpinButton>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧГ=0</v8:content>
-										</v8:item>
-									</Format>
-									<EditFormat>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧГ=0</v8:content>
-										</v8:item>
-									</EditFormat>
-									<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
-									<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
-								</InputField>
-							</ChildItems>
-						</Table>
 						<InputField name="АС_OEM" id="910043">
 							<DataPath>Объект.АС_OEM</DataPath>
 							<Title>
@@ -4263,6 +4144,141 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="АС_ГруппаПрименяемость" id="910067">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Применяемость</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
+							<ShowLeftMargin>false</ShowLeftMargin>
+							<ExtendedTooltip name="АС_ГруппаПрименяемостьРасширеннаяПодсказка" id="910068"/>
+							<ChildItems>
+							<Table name="АС_Применяемость" id="910014">
+								<Representation>List</Representation>
+								<CommandBarLocation>Top</CommandBarLocation>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>40</MaxWidth>
+								<HeightInTableRows>12</HeightInTableRows>
+								<VerticalStretch>false</VerticalStretch>
+								<RowSelectionMode>Row</RowSelectionMode>
+								<DataPath>Объект.АС_Применяемость</DataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Применяемость по автомобилям</v8:content>
+									</v8:item>
+								</Title>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="АС_ПрименяемостьКонтекстноеМеню" id="910015"/>
+								<AutoCommandBar name="АС_ПрименяемостьКоманднаяПанель" id="910016"/>
+								<ExtendedTooltip name="АС_ПрименяемостьРасширеннаяПодсказка" id="910017"/>
+								<SearchStringAddition name="АС_ПрименяемостьСтрокаПоиска" id="910058">
+									<AdditionSource>
+										<Item>АС_Применяемость</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="АС_ПрименяемостьСтрокаПоискаКонтекстноеМеню" id="910059"/>
+									<ExtendedTooltip name="АС_ПрименяемостьСтрокаПоискаРасширеннаяПодсказка" id="910060"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="АС_ПрименяемостьСостояниеПросмотра" id="910061">
+									<AdditionSource>
+										<Item>АС_Применяемость</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="АС_ПрименяемостьСостояниеПросмотраКонтекстноеМеню" id="910062"/>
+									<ExtendedTooltip name="АС_ПрименяемостьСостояниеПросмотраРасширеннаяПодсказка" id="910063"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="АС_ПрименяемостьУправлениеПоиском" id="910064">
+									<AdditionSource>
+										<Item>АС_Применяемость</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="АС_ПрименяемостьУправлениеПоискомКонтекстноеМеню" id="910065"/>
+									<ExtendedTooltip name="АС_ПрименяемостьУправлениеПоискомРасширеннаяПодсказка" id="910066"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="АС_ПрименяемостьАвтомобиль" id="910018">
+										<DataPath>Объект.АС_Применяемость.АС_АвтомобильПредставление</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Автомобиль</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
+										<Width>20</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<ContextMenu name="АС_ПрименяемостьАвтомобильКонтекстноеМеню" id="910019"/>
+										<ExtendedTooltip name="АС_ПрименяемостьАвтомобильРасширеннаяПодсказка" id="910020"/>
+										<Events>
+											<Event name="OnChange" callType="Before">АС_ПрименяемостьАвтомобильПриИзменении</Event>
+											<Event name="AutoComplete" callType="Before">АС_ПрименяемостьАвтомобильАвтоПодбор</Event>
+										</Events>
+									</InputField>
+									<InputField name="АС_ПрименяемостьГодС" id="910027">
+										<DataPath>Объект.АС_Применяемость.ГодС</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Год с</v8:content>
+											</v8:item>
+										</Title>
+										<Width>7</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<SpinButton>true</SpinButton>
+										<Format>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧГ=0</v8:content>
+											</v8:item>
+										</Format>
+										<EditFormat>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧГ=0</v8:content>
+											</v8:item>
+										</EditFormat>
+										<ContextMenu name="АС_ПрименяемостьГодСКонтекстноеМеню" id="910028"/>
+										<ExtendedTooltip name="АС_ПрименяемостьГодСРасширеннаяПодсказка" id="910029"/>
+										<Events>
+											<Event name="OnChange" callType="Before">АС_ПрименяемостьГодСПриИзменении</Event>
+										</Events>
+									</InputField>
+									<InputField name="АС_ПрименяемостьГодПо" id="910030">
+										<DataPath>Объект.АС_Применяемость.ГодПо</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Год по</v8:content>
+											</v8:item>
+										</Title>
+										<Width>7</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<SpinButton>true</SpinButton>
+										<Format>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧГ=0</v8:content>
+											</v8:item>
+										</Format>
+										<EditFormat>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ЧГ=0</v8:content>
+											</v8:item>
+										</EditFormat>
+										<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
+										<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+							</ChildItems>
+						</UsualGroup>
 						<LabelDecoration name="ПраваяКолонкаДекорацияОтступ" id="842">
 							<Visible>false</Visible>
 							<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
@@ -4274,6 +4290,7 @@
 						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
+
 				<UsualGroup name="ДинамикаЦен" id="673" DisplayImportance="VeryLow">
 					<Title>
 						<v8:item>
