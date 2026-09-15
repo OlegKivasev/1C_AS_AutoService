@@ -705,7 +705,7 @@
 								</v8:item>
 							</Title>
 							<Width>65</Width>
-							<Height>7</Height>
+							<Height>9</Height>
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<Group>Vertical</Group>
@@ -1009,6 +1009,77 @@
 												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="АС_АвтомобильОтбор" id="1000009">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автомобиль</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_АвтомобильОтборПодсказка" id="1000010"/>
+									<ChildItems>
+										<InputField name="АС_ОтборМарка" id="1000011">
+											<DataPath>АС_ОтборМарка</DataPath>
+											<Title>
+												<v8:item><v8:lang>ru</v8:lang><v8:content>Марка</v8:content></v8:item>
+											</Title>
+											<TitleLocation>Left</TitleLocation>
+											<Width>18</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ChoiceButton>true</ChoiceButton>
+											<ClearButton>true</ClearButton>
+											<CreateButton>false</CreateButton>
+											<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
+											<ContextMenu name="АС_ОтборМаркаКонтекстноеМеню" id="1000012"/>
+											<ExtendedTooltip name="АС_ОтборМаркаПодсказка" id="1000013"/>
+							<Events>
+								<Event name="StartChoice" callType="Before">АС_ОтборМаркаНачалоВыбора</Event>
+								<Event name="AutoComplete" callType="Before">АС_ОтборМаркаАвтоПодбор</Event>
+								<Event name="OnChange" callType="Before">АС_ОтборМаркаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="АС_ОтборМодель" id="1000014">
+											<DataPath>АС_ОтборМодель</DataPath>
+											<Title>
+												<v8:item><v8:lang>ru</v8:lang><v8:content>Модель</v8:content></v8:item>
+											</Title>
+											<TitleLocation>Left</TitleLocation>
+											<Width>22</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ChoiceButton>true</ChoiceButton>
+											<ClearButton>true</ClearButton>
+											<CreateButton>false</CreateButton>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<ContextMenu name="АС_ОтборМодельКонтекстноеМеню" id="1000015"/>
+											<ExtendedTooltip name="АС_ОтборМодельПодсказка" id="1000016"/>
+							<Events>
+								<Event name="StartChoice" callType="Before">АС_ОтборМодельНачалоВыбора</Event>
+								<Event name="AutoComplete" callType="Before">АС_ОтборМодельАвтоПодбор</Event>
+								<Event name="OnChange" callType="Before">АС_ОтборМодельПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="АС_ОтборГод" id="1000017">
+											<DataPath>АС_ОтборГод</DataPath>
+											<Title>
+												<v8:item><v8:lang>ru</v8:lang><v8:content>Год</v8:content></v8:item>
+											</Title>
+											<TitleLocation>Left</TitleLocation>
+											<Width>7</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ChoiceButton>false</ChoiceButton>
+											<ClearButton>true</ClearButton>
+											<ContextMenu name="АС_ОтборГодКонтекстноеМеню" id="1000018"/>
+											<ExtendedTooltip name="АС_ОтборГодПодсказка" id="1000019"/>
+											<Events>
+												<Event name="OnChange" callType="Before">АС_ОтборГодПриИзменении</Event>
+											</Events>
+										</InputField>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ТипНоменклатурыОтбор" id="253">
@@ -6702,6 +6773,25 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ОтборМарка" id="1000020">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Марка</v8:content></v8:item></Title>
+			<Type><v8:Type>cfg:CatalogRef.АС_Автомобили</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборМодель" id="1000021">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Модель</v8:content></v8:item></Title>
+			<Type><v8:Type>cfg:CatalogRef.АС_Автомобили</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборГод" id="1000022">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Год</v8:content></v8:item></Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 		<ConditionalAppearance>
