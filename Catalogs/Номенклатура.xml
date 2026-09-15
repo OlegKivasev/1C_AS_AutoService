@@ -221,7 +221,7 @@
 							<v8:content>OEM</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Заводские артикулы номенклатуры, записанные через точку с запятой.</Comment>
+					<Comment>Заводские артикулы номенклатуры, разделенные запятыми или точками с запятой.</Comment>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>

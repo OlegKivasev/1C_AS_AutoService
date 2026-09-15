@@ -5812,6 +5812,40 @@
 														</LabelField>
 													</ChildItems>
 												</UsualGroup>
+												<UsualGroup name="АС_ГруппаOEMАналоги" id="1000030">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Аналоги по OEM</v8:content>
+														</v8:item>
+													</Title>
+													<VerticalStretch>false</VerticalStretch>
+													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="АС_ГруппаOEMАналогиРасширеннаяПодсказка" id="1000031"/>
+													<ChildItems>
+														<PictureDecoration name="АС_КартинкаOEMАналоги" id="1000032">
+															<Title formatted="false"><v8:item><v8:lang>ru</v8:lang><v8:content>Аналоги по OEM</v8:content></v8:item></Title>
+															<Picture><xr:Ref>CommonPicture.Аналоги</xr:Ref><xr:LoadTransparent>false</xr:LoadTransparent></Picture>
+															<ContextMenu name="АС_КартинкаOEMАналогиКонтекстноеМеню" id="1000033"/>
+															<ExtendedTooltip name="АС_КартинкаOEMАналогиРасширеннаяПодсказка" id="1000034"/>
+														</PictureDecoration>
+														<LabelField name="АС_OEMАналоги" id="1000035">
+															<DataPath>АС_НадписьOEMАналоги</DataPath>
+															<TitleTextColor>style:FormTextColor</TitleTextColor>
+															<TitleLocation>None</TitleLocation>
+															<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Товары с совпадающими OEM после удаления пробелов и разделителей</v8:content></v8:item></ToolTip>
+															<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+															<Hiperlink>true</Hiperlink>
+															<TextColor>style:FormTextColor</TextColor>
+															<ContextMenu name="АС_OEMАналогиКонтекстноеМеню" id="1000036"/>
+															<ExtendedTooltip name="АС_OEMАналогиРасширеннаяПодсказка" id="1000037"/>
+															<Events><Event name="Click">АС_OEMАналогиНажатие</Event></Events>
+														</LabelField>
+													</ChildItems>
+												</UsualGroup>
 												<UsualGroup name="ГруппаСопутствующиеТовары" id="1579">
 													<Title>
 														<v8:item>
@@ -6762,6 +6796,13 @@
 					<v8:Length>50</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_НадписьOEMАналоги" id="1000038">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Аналоги по OEM</v8:content></v8:item></Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers><v8:Length>50</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="АС_БезДокументов" id="1000008">
