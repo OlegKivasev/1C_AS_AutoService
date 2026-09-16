@@ -8008,7 +8008,7 @@
 									<v8:content>Итоги</v8:content>
 								</v8:item>
 							</Title>
-							<Group>HorizontalIfPossible</Group>
+							<Group>AlwaysHorizontal</Group>
 							<HorizontalAlign>Left</HorizontalAlign>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
