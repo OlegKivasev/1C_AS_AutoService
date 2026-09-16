@@ -1346,6 +1346,15 @@
 							</ContextMenu>
 							<AutoCommandBar name="РаботыКоманднаяПанель" id="204">
 								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="АС_ОткрытьКарточкуРаботы" id="1000243">
+										<Type>CommandBarButton</Type>
+										<Visible>false</Visible>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.АС_ОткрытьКарточкуРаботы</CommandName>
+										<ExtendedTooltip name="АС_ОткрытьКарточкуРаботыРасширеннаяПодсказка" id="1000244"/>
+									</Button>
+								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="РаботыРасширеннаяПодсказка" id="801"/>
 							<SearchStringAddition name="РаботыСтрокаПоиска" id="1100">
@@ -1460,6 +1469,28 @@
 									<Events>
 										<Event name="OnChange" callType="Before">АС_ИсполнительПриИзменении</Event>
 									</Events>
+								</InputField>
+								<InputField name="РаботыАС_Продавец" id="1000240">
+									<DataPath>Объект.Работы.АС_Продавец</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продавец</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сотрудник, добавивший эту строку работы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Width>20</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ChoiceButton>false</ChoiceButton>
+									<TextEdit>false</TextEdit>
+									<ContextMenu name="РаботыАС_ПродавецКонтекстноеМеню" id="1000241"/>
+									<ExtendedTooltip name="РаботыАС_ПродавецРасширеннаяПодсказка" id="1000242"/>
 								</InputField>
 								<InputField name="ЗНРаботыХарактеристика" id="351">
 									<DataPath>Объект.Работы.Характеристика</DataPath>
@@ -7846,8 +7877,48 @@
 									<ExtendedTooltip name="СкидкаСуммаРасширеннаяПодсказка" id="1579"/>
 								</InputField>
 							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="АС_ГруппаИтоговРабот" id="1000227">
+							</UsualGroup>
+							<UsualGroup name="АС_ГруппаИтоговРаботБезНДС" id="1000245">
+								<Visible>false</Visible>
+								<Group>Vertical</Group>
+								<HorizontalAlign>Left</HorizontalAlign>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="АС_ГруппаИтоговРаботБезНДСРасширеннаяПодсказка" id="1000246"/>
+								<ChildItems>
+									<InputField name="АС_СуммыРаботБезНДСПоИсполнителям" id="1000247">
+										<DataPath>АС_СуммыРаботБезНДСПоИсполнителям</DataPath>
+										<Visible>false</Visible>
+										<ReadOnly>true</ReadOnly>
+										<TitleLocation>None</TitleLocation>
+										<Width>30</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<MaxHeight>10</MaxHeight>
+										<MultiLine>true</MultiLine>
+										<ContextMenu name="АС_СуммыРаботБезНДСПоИсполнителямКонтекстноеМеню" id="1000248"/>
+										<ExtendedTooltip name="АС_СуммыРаботБезНДСПоИсполнителямРасширеннаяПодсказка" id="1000249"/>
+									</InputField>
+									<InputField name="АС_СуммаРаботБезНДС" id="1000250">
+										<DataPath>АС_СуммаРаботБезНДС</DataPath>
+										<ReadOnly>true</ReadOnly>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сумма работ без НДС</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
+										<Width>9</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="АС_СуммаРаботБезНДСКонтекстноеМеню" id="1000251"/>
+										<ExtendedTooltip name="АС_СуммаРаботБезНДСРасширеннаяПодсказка" id="1000252"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="АС_ГруппаИтоговРабот" id="1000227">
 							<Visible>false</Visible>
 							<Group>Vertical</Group>
 							<HorizontalAlign>Left</HorizontalAlign>
@@ -7887,6 +7958,49 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="АС_ГруппаИтоговТоваров" id="1000253">
+							<Visible>false</Visible>
+							<Group>Vertical</Group>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="АС_ГруппаИтоговТоваровРасширеннаяПодсказка" id="1000254"/>
+							<ChildItems>
+								<InputField name="АС_СуммаТоваровБезНДС" id="1000266">
+									<DataPath>АС_СуммаТоваровБезНДС</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма товаров без НДС</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<Width>9</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_СуммаТоваровБезНДСКонтекстноеМеню" id="1000267"/>
+									<ExtendedTooltip name="АС_СуммаТоваровБезНДСРасширеннаяПодсказка" id="1000268"/>
+								</InputField>
+								<InputField name="АС_СуммаТоваров" id="1000255">
+									<DataPath>АС_СуммаТоваров</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма товаров</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<Width>9</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_СуммаТоваровКонтекстноеМеню" id="1000256"/>
+									<ExtendedTooltip name="АС_СуммаТоваровРасширеннаяПодсказка" id="1000257"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ЗНИтоги" id="329">
 							<Title>
 								<v8:item>
@@ -7902,6 +8016,22 @@
 							<BackColor>0:1df935d0-dbff-44ad-b3b5-057382fc07e1</BackColor>
 							<ExtendedTooltip name="ЗНИтогиРасширеннаяПодсказка" id="959"/>
 							<ChildItems>
+								<InputField name="АС_ИтогБезНДС" id="1000258">
+									<DataPath>АС_ИтогБезНДС</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Всего без НДС</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<Width>9</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_ИтогБезНДСКонтекстноеМеню" id="1000259"/>
+									<ExtendedTooltip name="АС_ИтогБезНДСРасширеннаяПодсказка" id="1000260"/>
+								</InputField>
 								<InputField name="ЗНСуммаНДСИтог" id="335">
 									<ReadOnly>true</ReadOnly>
 									<Title>
@@ -10856,6 +10986,79 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="АС_СуммаРаботБезНДС" id="1000261">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма работ без НДС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_СуммыРаботБезНДСПоИсполнителям" id="1000262">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_СуммаТоваров" id="1000263">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма товаров</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_СуммаТоваровБезНДС" id="1000269">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма товаров без НДС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ИтогБезНДС" id="1000264">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего без НДС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
 		<Attribute name="НоменклатураУдаленнойСтроки" id="1000027">
 			<Type>
 				<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
@@ -11642,6 +11845,25 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action callType="Before">АС_ОткрытьКарточкуНоменклатуры</Action>
+		</Command>
+		<Command name="АС_ОткрытьКарточкуРаботы" id="1000265">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть карточку работы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть карточку выбранной работы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ОткрытьДетальныеЗаписи</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">АС_ОткрытьКарточкуРаботы</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.21">
