@@ -198,7 +198,7 @@
 		<Metadata name="CommonPicture.ТоварУслугаСписок" id="5478beb2-fb89-46ff-950d-273ee428b9e1" configVersion="f72d49dbcc03aacd198c78361a91ac9bf0809308"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="69da427fb9d39448bdb0e22e979b500adf480ed6"/>
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="2810f94f-0c29-41ae-8dc6-623f1c451ae2" configVersion="8d254ce4debaeb75516c78b83eb75fc54435f996"/>
-		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="15f1424f27c6c78378c963982e5dca2a188273fe"/>
+		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="405fde1d2d763c956aeaf0de100e5d8342e859f6"/>
 		<Metadata name="Constant.АС_ИндексOEMИнициализирован" id="970ddc4b-fea6-4d5e-9795-8929be797e92" configVersion="bdd75203a524c966c72300a14e7a1d29ee0b3eb9"/>
 		<Metadata name="Constant.АС_ОсновнойВидЦенБезналичногоРасчета" id="b7f5137b-f625-4ead-8e3f-003902096423" configVersion="f41c5322e9c7acbb2248326d19c636aa901dee39"/>
 		<Metadata name="DefinedType.Вес" id="654d8d9f-dae2-4c26-b176-faaf409f3083" configVersion="fae792a43ff2424cc75515a9de18c0ad1e60fdb4"/>
@@ -494,7 +494,7 @@
 		</Metadata>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="3132e3cf44016d8938a7e56f02a1ccd3d0872f6d"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="7088be9ac4ceb44a158789a1741da025ff63c907"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="dcd6d0e25e9d819a4d9926c5cf68335f262e9e6f"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="d084b34c4115f047c87d62896a0c59fbfdd9b493"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="697a38e1770c7a69c09ddaf593d301573a6124c4"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСписка" id="729371e3-312f-4e8a-90b9-e60e0bee1b47" configVersion="0949219d462ff3d48f86e0e0a122bbb119d48872"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСписка.Form" id="729371e3-312f-4e8a-90b9-e60e0bee1b47.0" configVersion="7ca0b67178f23a428c2d4baecb3d9b02e7411683"/>
