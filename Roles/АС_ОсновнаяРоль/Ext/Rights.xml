@@ -4,57 +4,20 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>CommonForm.АС_OEMАналоги</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
+		<name>Catalog.АС_ГруппыСинонимовПоиска</name>
+		<right><name>Read</name><value>true</value></right>
+		<right><name>Insert</name><value>true</value></right>
+		<right><name>Update</name><value>true</value></right>
+		<right><name>Delete</name><value>true</value></right>
+		<right><name>View</name><value>true</value></right>
+		<right><name>InteractiveInsert</name><value>true</value></right>
+		<right><name>Edit</name><value>true</value></right>
+		<right><name>InteractiveSetDeletionMark</name><value>true</value></right>
+		<right><name>InteractiveClearDeletionMark</name><value>true</value></right>
+		<right><name>InputByString</name><value>true</value></right>
 	</object>
 	<object>
 		<name>Catalog.АС_Автомобили</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.АС_ОПФ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -112,9 +75,20 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.АС_ИндексOEMИнициализирован</name>
+		<name>CommonForm.АС_OEMАналоги</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.АС_ОПФ</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -122,7 +96,31 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -142,6 +140,21 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.АС_ИндексOEMИнициализирован</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

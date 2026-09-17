@@ -23,11 +23,11 @@
 				<xr:ValueId>17b485dc-ad73-4e7b-849a-a6b742652acd</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:PropertyState>
-				<xr:Property>ManagerModule</xr:Property>
+				<xr:Property>ObjectModule</xr:Property>
 				<xr:State>Extended</xr:State>
 			</xr:PropertyState>
 			<xr:PropertyState>
-				<xr:Property>ObjectModule</xr:Property>
+				<xr:Property>ManagerModule</xr:Property>
 				<xr:State>Extended</xr:State>
 			</xr:PropertyState>
 		</InternalInfo>

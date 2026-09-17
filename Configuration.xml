@@ -92,6 +92,8 @@
 			<StyleItem>РозоваяПодсветкаВажныхСтрок</StyleItem>
 			<StyleItem>ЗеленыйТекстСтрок</StyleItem>
 			<StyleItem>ПрошедшееСобытие</StyleItem>
+			<StyleItem>ЦветВиджетаНовинкаУНФ</StyleItem>
+			<StyleItem>ШрифтПолужирныйУНФ</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -141,6 +143,8 @@
 			<CommonPicture>ОсновныеСведенияСписок</CommonPicture>
 			<CommonPicture>Отборы</CommonPicture>
 			<CommonPicture>ВнешняяКомпонентаДоступна</CommonPicture>
+			<CommonPicture>КоллекцияРазделов</CommonPicture>
+			<CommonPicture>РазделЗаблокирован</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
@@ -148,6 +152,7 @@
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_ИндексOEMСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
+			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
 			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
 			<DefinedType>Вес</DefinedType>
 			<DefinedType>Объем</DefinedType>
@@ -160,6 +165,7 @@
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
+			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
 			<Catalog>АС_ОПФ</Catalog>
 			<Catalog>АС_ТипыФильтров</Catalog>
 			<Catalog>АС_КонструкцииФильтров</Catalog>
@@ -205,6 +211,10 @@
 			<Enum>ВидыСтавокНДС</Enum>
 			<Enum>МетодОценкиЗапасов</Enum>
 			<Enum>ТипыСтруктурныхЕдиниц</Enum>
+			<Enum>ДаНет</Enum>
+			<Enum>ВидыКонтроляДоговоровПриПроведении</Enum>
+			<Enum>ЧастотаРасчетаКурсовыхРазниц</Enum>
+			<DataProcessor>НастройкаПрограммы</DataProcessor>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>
 			<InformationRegister>ОстаткиТоваров</InformationRegister>

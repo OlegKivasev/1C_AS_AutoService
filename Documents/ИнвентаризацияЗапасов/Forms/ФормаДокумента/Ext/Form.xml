@@ -3,9 +3,6 @@
 	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<Group>Vertical</Group>
-	<AutoTime>CurrentOrLast</AutoTime>
-	<UsePostingMode>Auto</UsePostingMode>
-	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<ButtonGroup name="ГруппаВажныеКоманды" id="191">
@@ -1135,11 +1132,10 @@
 										</v8:item>
 									</Title>
 									<EditMode>Directly</EditMode>
-									<Width>12</Width>
 									<ContextMenu name="ЗапасыАС_СогласованностьКонтекстноеМеню" id="1506"/>
 									<ExtendedTooltip name="ЗапасыАС_СогласованностьРасширеннаяПодсказка" id="1507"/>
 									<Events>
-										<Event name="OnChange">АС_СогласованностьПриИзменении</Event>
+										<Event name="OnChange" callType="Before">АС_СогласованностьПриИзменении</Event>
 									</Events>
 								</CheckBoxField>
 								<InputField name="ЗапасыКоличество" id="18">

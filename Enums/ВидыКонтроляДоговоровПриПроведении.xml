@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="15333f27-fb88-4006-9645-67658922ca86">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыКонтроляДоговоровПриПроведении" category="Ref">
+				<xr:TypeId>5fb9aff2-16e9-4727-b733-0c7eb6273e73</xr:TypeId>
+				<xr:ValueId>20db5e0f-cc78-4513-b109-c8858ea3a110</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыКонтроляДоговоровПриПроведении" category="Manager">
+				<xr:TypeId>04cc416b-63ab-4981-937c-27d51e3f23dd</xr:TypeId>
+				<xr:ValueId>6b60ffc4-3bbf-4947-bed2-32c7a2f04e56</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыКонтроляДоговоровПриПроведении" category="List">
+				<xr:TypeId>d305ad1c-77d1-4a48-b310-abb19d958799</xr:TypeId>
+				<xr:ValueId>6fe3cd30-eb81-407d-89bf-1744ac44f873</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыКонтроляДоговоровПриПроведении</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a74c1fee-79c3-47b3-b8a5-70a991f4c51b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9beaf830-8aa1-45cb-a921-876098d48b2e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеКонтролировать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>55c5de20-e058-4c74-b9a1-9cd25769c7d1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b004e9f8-1a0e-4fab-8c45-1b870d069b07">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеПроводить</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5706a5ce-5945-44ad-b701-7c90bdae37e0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7eee2a7d-2310-47f1-af2b-502bfb04d631">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Предупреждать</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fc7dfec9-686e-43a8-8fdd-3fff19febaca</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

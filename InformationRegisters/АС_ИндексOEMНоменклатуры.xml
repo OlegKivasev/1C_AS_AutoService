@@ -2,17 +2,43 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<InformationRegister uuid="2dda2ac3-b737-441b-880a-441a046aac73">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.АС_ИндексOEMНоменклатуры" category="Record"><xr:TypeId>b622064e-4cc8-4e78-a14a-c52f3e66c91c</xr:TypeId><xr:ValueId>7278bc64-0f8f-40bc-a9f8-7dd3db532a0a</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.АС_ИндексOEMНоменклатуры" category="Manager"><xr:TypeId>381b7ff8-c00d-45ad-b4a1-1c2e632fd47d</xr:TypeId><xr:ValueId>ee66b4af-aac4-4c82-bbbb-eb21145da5c7</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.АС_ИндексOEMНоменклатуры" category="Selection"><xr:TypeId>31c3a5e1-361d-4f2a-9cce-f4928ea2e10a</xr:TypeId><xr:ValueId>5c598cfe-2ad3-4052-a39c-59c760fc1bba</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.АС_ИндексOEMНоменклатуры" category="List"><xr:TypeId>63d5eebd-9fdc-4a78-bfcf-d754a9dc11b4</xr:TypeId><xr:ValueId>fc192549-475f-4c8c-ad29-35c118dcf60c</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.АС_ИндексOEMНоменклатуры" category="RecordSet"><xr:TypeId>d5f996b0-2fad-475f-aaf7-45883e7eb6e3</xr:TypeId><xr:ValueId>9efb5907-f6fd-4954-8820-57c53dd12081</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.АС_ИндексOEMНоменклатуры" category="RecordKey"><xr:TypeId>d23e4d49-e064-4296-a6c4-77875447cde9</xr:TypeId><xr:ValueId>abd08cff-bc5c-4746-8b24-96c6729776d6</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.АС_ИндексOEMНоменклатуры" category="RecordManager"><xr:TypeId>f04e3da7-b547-40ea-bf6d-aef9b05d1681</xr:TypeId><xr:ValueId>2bcbac65-a31c-4dd7-ad8f-430970bcea09</xr:ValueId></xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecord.АС_ИндексOEMНоменклатуры" category="Record">
+				<xr:TypeId>b622064e-4cc8-4e78-a14a-c52f3e66c91c</xr:TypeId>
+				<xr:ValueId>7278bc64-0f8f-40bc-a9f8-7dd3db532a0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АС_ИндексOEMНоменклатуры" category="Manager">
+				<xr:TypeId>381b7ff8-c00d-45ad-b4a1-1c2e632fd47d</xr:TypeId>
+				<xr:ValueId>ee66b4af-aac4-4c82-bbbb-eb21145da5c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АС_ИндексOEMНоменклатуры" category="Selection">
+				<xr:TypeId>31c3a5e1-361d-4f2a-9cce-f4928ea2e10a</xr:TypeId>
+				<xr:ValueId>5c598cfe-2ad3-4052-a39c-59c760fc1bba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АС_ИндексOEMНоменклатуры" category="List">
+				<xr:TypeId>63d5eebd-9fdc-4a78-bfcf-d754a9dc11b4</xr:TypeId>
+				<xr:ValueId>fc192549-475f-4c8c-ad29-35c118dcf60c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АС_ИндексOEMНоменклатуры" category="RecordSet">
+				<xr:TypeId>d5f996b0-2fad-475f-aaf7-45883e7eb6e3</xr:TypeId>
+				<xr:ValueId>9efb5907-f6fd-4954-8820-57c53dd12081</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АС_ИндексOEMНоменклатуры" category="RecordKey">
+				<xr:TypeId>d23e4d49-e064-4296-a6c4-77875447cde9</xr:TypeId>
+				<xr:ValueId>abd08cff-bc5c-4746-8b24-96c6729776d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АС_ИндексOEMНоменклатуры" category="RecordManager">
+				<xr:TypeId>f04e3da7-b547-40ea-bf6d-aef9b05d1681</xr:TypeId>
+				<xr:ValueId>2bcbac65-a31c-4dd7-ad8f-430970bcea09</xr:ValueId>
+			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>АС_ИндексOEMНоменклатуры</Name>
-			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Индекс OEM номенклатуры</v8:content></v8:item></Synonym>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индекс OEM номенклатуры</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment>Служебный индекс нормализованных OEM для быстрого поиска аналогов.</Comment>
 			<UseStandardCommands>false</UseStandardCommands>
 			<EditType>InDialog</EditType>
@@ -41,19 +67,91 @@
 			<Dimension uuid="4f197ff9-d598-4de5-a38c-3ac03cad646c">
 				<Properties>
 					<Name>КлючOEM</Name>
-					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Ключ OEM</v8:content></v8:item></Synonym>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключ OEM</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment>OEM в нижнем регистре, содержащий только латинские буквы и цифры.</Comment>
-					<Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>150</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type>
-					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>ShowError</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Master>true</Master><MainFilter>true</MainFilter><DenyIncompleteValues>true</DenyIncompleteValues><Indexing>Index</Indexing><FullTextSearch>DontUse</FullTextSearch><DataHistory>DontUse</DataHistory><TypeReductionMode>TransformValues</TypeReductionMode>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="853a718f-611e-402a-8836-850fcb62c1b6">
 				<Properties>
 					<Name>Номенклатура</Name>
-					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Номенклатура</v8:content></v8:item></Synonym>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
-					<Type><v8:Type>cfg:CatalogRef.Номенклатура</v8:Type></Type>
-					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>ShowError</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Master>true</Master><MainFilter>true</MainFilter><DenyIncompleteValues>true</DenyIncompleteValues><Indexing>Index</Indexing><FullTextSearch>DontUse</FullTextSearch><DataHistory>DontUse</DataHistory><TypeReductionMode>TransformValues</TypeReductionMode>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
 				</Properties>
 			</Dimension>
 		</ChildObjects>

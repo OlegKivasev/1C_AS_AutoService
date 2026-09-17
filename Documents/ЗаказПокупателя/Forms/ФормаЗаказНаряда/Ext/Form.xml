@@ -7877,48 +7877,48 @@
 									<ExtendedTooltip name="СкидкаСуммаРасширеннаяПодсказка" id="1579"/>
 								</InputField>
 							</ChildItems>
-							</UsualGroup>
-							<UsualGroup name="АС_ГруппаИтоговРаботБезНДС" id="1000245">
-								<Visible>false</Visible>
-								<Group>Vertical</Group>
-								<HorizontalAlign>Left</HorizontalAlign>
-								<Behavior>Usual</Behavior>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="АС_ГруппаИтоговРаботБезНДСРасширеннаяПодсказка" id="1000246"/>
-								<ChildItems>
-									<InputField name="АС_СуммыРаботБезНДСПоИсполнителям" id="1000247">
-										<DataPath>АС_СуммыРаботБезНДСПоИсполнителям</DataPath>
-										<Visible>false</Visible>
-										<ReadOnly>true</ReadOnly>
-										<TitleLocation>None</TitleLocation>
-										<Width>30</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<AutoMaxHeight>false</AutoMaxHeight>
-										<MaxHeight>10</MaxHeight>
-										<MultiLine>true</MultiLine>
-										<ContextMenu name="АС_СуммыРаботБезНДСПоИсполнителямКонтекстноеМеню" id="1000248"/>
-										<ExtendedTooltip name="АС_СуммыРаботБезНДСПоИсполнителямРасширеннаяПодсказка" id="1000249"/>
-									</InputField>
-									<InputField name="АС_СуммаРаботБезНДС" id="1000250">
-										<DataPath>АС_СуммаРаботБезНДС</DataPath>
-										<ReadOnly>true</ReadOnly>
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Сумма работ без НДС</v8:content>
-											</v8:item>
-										</Title>
-										<EditMode>EnterOnInput</EditMode>
-										<AutoEditMode>true</AutoEditMode>
-										<Width>9</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="АС_СуммаРаботБезНДСКонтекстноеМеню" id="1000251"/>
-										<ExtendedTooltip name="АС_СуммаРаботБезНДСРасширеннаяПодсказка" id="1000252"/>
-									</InputField>
-								</ChildItems>
-							</UsualGroup>
-							<UsualGroup name="АС_ГруппаИтоговРабот" id="1000227">
+						</UsualGroup>
+						<UsualGroup name="АС_ГруппаИтоговРаботБезНДС" id="1000245">
+							<Visible>false</Visible>
+							<Group>Vertical</Group>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="АС_ГруппаИтоговРаботБезНДСРасширеннаяПодсказка" id="1000246"/>
+							<ChildItems>
+								<InputField name="АС_СуммыРаботБезНДСПоИсполнителям" id="1000247">
+									<DataPath>АС_СуммыРаботБезНДСПоИсполнителям</DataPath>
+									<Visible>false</Visible>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<Width>30</Width>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<MaxHeight>10</MaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
+									<MultiLine>true</MultiLine>
+									<ContextMenu name="АС_СуммыРаботБезНДСПоИсполнителямКонтекстноеМеню" id="1000248"/>
+									<ExtendedTooltip name="АС_СуммыРаботБезНДСПоИсполнителямРасширеннаяПодсказка" id="1000249"/>
+								</InputField>
+								<InputField name="АС_СуммаРаботБезНДС" id="1000250">
+									<DataPath>АС_СуммаРаботБезНДС</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма работ без НДС</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<Width>9</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_СуммаРаботБезНДСКонтекстноеМеню" id="1000251"/>
+									<ExtendedTooltip name="АС_СуммаРаботБезНДСРасширеннаяПодсказка" id="1000252"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="АС_ГруппаИтоговРабот" id="1000227">
 							<Visible>false</Visible>
 							<Group>Vertical</Group>
 							<HorizontalAlign>Left</HorizontalAlign>
@@ -7933,9 +7933,9 @@
 									<ReadOnly>true</ReadOnly>
 									<TitleLocation>None</TitleLocation>
 									<Width>30</Width>
-									<HorizontalStretch>false</HorizontalStretch>
 									<AutoMaxHeight>false</AutoMaxHeight>
 									<MaxHeight>10</MaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
 									<MultiLine>true</MultiLine>
 									<ContextMenu name="АС_СуммыРаботПоИсполнителямКонтекстноеМеню" id="1000230"/>
 									<ExtendedTooltip name="АС_СуммыРаботПоИсполнителямРасширеннаяПодсказка" id="1000231"/>

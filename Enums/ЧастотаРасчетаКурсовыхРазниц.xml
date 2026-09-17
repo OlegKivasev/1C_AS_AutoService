@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="00652a8b-83c1-4173-8844-fbbde3910ac5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЧастотаРасчетаКурсовыхРазниц" category="Ref">
+				<xr:TypeId>60baa32d-9542-4dd4-948e-86ec2c2c2b5d</xr:TypeId>
+				<xr:ValueId>5a161a92-3867-45a5-b864-6f1aa5772be5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЧастотаРасчетаКурсовыхРазниц" category="Manager">
+				<xr:TypeId>81bb7268-e5f7-425b-b6d4-3a50419716c7</xr:TypeId>
+				<xr:ValueId>429d6472-b287-4e86-ab43-118b66efde46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЧастотаРасчетаКурсовыхРазниц" category="List">
+				<xr:TypeId>09db8dfb-650e-42d1-9cb5-9248feabda2c</xr:TypeId>
+				<xr:ValueId>03e461e4-adaf-41a1-ad9e-e3cc07992c47</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЧастотаРасчетаКурсовыхРазниц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>175b6cd7-168a-4613-842e-40d4b34b6186</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="34606d02-191b-4689-8cf4-a3c5b6c48155">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВМоментВыполненияОпераций</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7ce6ee62-1111-4137-99b3-6566be9f5906</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0ba226c9-9272-47c3-a1b0-b9574e6d368f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТолькоПриЗакрытииПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5e729fdc-aed4-41f1-8612-b5eb0122fd0f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
