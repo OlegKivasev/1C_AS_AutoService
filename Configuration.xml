@@ -165,6 +165,7 @@
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
+			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
 			<Catalog>АС_ОПФ</Catalog>
 			<Catalog>АС_ТипыФильтров</Catalog>

@@ -342,6 +342,31 @@
 								<Event name="OnChange" callType="Before">АС_НаименованиеПриИзменении</Event>
 							</Events>
 						</InputField>
+						<InputField name="АС_Бренд" id="920001">
+							<DataPath>Объект.АС_Бренд</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Бренд</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="АС_БрендКонтекстноеМеню" id="920002"/>
+							<ExtendedTooltip name="АС_БрендРасширеннаяПодсказка" id="920003">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Обязателен, если заполнен артикул. Поиск работает также по синонимам бренда.</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_БрендПриИзменении</Event>
+								<Event name="AutoComplete" callType="Before">АС_БрендАвтоПодбор</Event>
+							</Events>
+						</InputField>
 						<InputField name="АС_ТипФильтра" id="910002">
 							<DataPath>Объект.АС_ТипФильтра</DataPath>
 							<Title>
