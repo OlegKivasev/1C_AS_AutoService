@@ -2,47 +2,194 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<Catalog uuid="29f1682f-fd6a-4983-8e67-e176a74fe547">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.АС_ГруппыСинонимовПоиска" category="Object"><xr:TypeId>5a17a7c2-6857-48d0-8bbc-e2f4ca996859</xr:TypeId><xr:ValueId>642e70ce-db4a-490e-9d91-a5651b9655bc</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.АС_ГруппыСинонимовПоиска" category="Ref"><xr:TypeId>82a55ab8-22d6-46ad-a822-fcb24460a841</xr:TypeId><xr:ValueId>fa21ad3b-e97f-4005-840d-58548a24e667</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.АС_ГруппыСинонимовПоиска" category="Selection"><xr:TypeId>bc9753f3-e5da-4f0b-85f5-f9bbc6344386</xr:TypeId><xr:ValueId>967ada5a-491e-41bb-9502-af39348ab3d5</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.АС_ГруппыСинонимовПоиска" category="List"><xr:TypeId>df1fafb0-446e-4f9f-b67d-50f4f14a9205</xr:TypeId><xr:ValueId>2c4a15e7-0d38-4e88-bf8e-55d8f8eabd75</xr:ValueId></xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.АС_ГруппыСинонимовПоиска" category="Manager"><xr:TypeId>10529f1b-b6f7-4738-8f6b-59429588b7ab</xr:TypeId><xr:ValueId>60ae8684-6160-40dc-8faa-5ff01c6e2ff2</xr:ValueId></xr:GeneratedType>
+			<xr:GeneratedType name="CatalogObject.АС_ГруппыСинонимовПоиска" category="Object">
+				<xr:TypeId>5a17a7c2-6857-48d0-8bbc-e2f4ca996859</xr:TypeId>
+				<xr:ValueId>642e70ce-db4a-490e-9d91-a5651b9655bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АС_ГруппыСинонимовПоиска" category="Ref">
+				<xr:TypeId>82a55ab8-22d6-46ad-a822-fcb24460a841</xr:TypeId>
+				<xr:ValueId>fa21ad3b-e97f-4005-840d-58548a24e667</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АС_ГруппыСинонимовПоиска" category="Selection">
+				<xr:TypeId>bc9753f3-e5da-4f0b-85f5-f9bbc6344386</xr:TypeId>
+				<xr:ValueId>967ada5a-491e-41bb-9502-af39348ab3d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АС_ГруппыСинонимовПоиска" category="List">
+				<xr:TypeId>df1fafb0-446e-4f9f-b67d-50f4f14a9205</xr:TypeId>
+				<xr:ValueId>2c4a15e7-0d38-4e88-bf8e-55d8f8eabd75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АС_ГруппыСинонимовПоиска" category="Manager">
+				<xr:TypeId>10529f1b-b6f7-4738-8f6b-59429588b7ab</xr:TypeId>
+				<xr:ValueId>60ae8684-6160-40dc-8faa-5ff01c6e2ff2</xr:ValueId>
+			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>АС_ГруппыСинонимовПоиска</Name>
-			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Синонимы для поиска</v8:content></v8:item></Synonym>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синонимы для поиска</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment>Группы равнозначных слов и сокращений для поиска номенклатуры.</Comment>
-			<Hierarchical>false</Hierarchical><HierarchyType>HierarchyFoldersAndItems</HierarchyType><LimitLevelCount>false</LimitLevelCount><LevelCount>2</LevelCount><FoldersOnTop>true</FoldersOnTop>
-			<UseStandardCommands>true</UseStandardCommands><Owners/><SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>0</CodeLength><DescriptionLength>100</DescriptionLength><CodeType>String</CodeType><CodeAllowedLength>Variable</CodeAllowedLength><CodeSeries>WholeCatalog</CodeSeries><CheckUnique>false</CheckUnique><Autonumbering>false</Autonumbering><DefaultPresentation>AsDescription</DefaultPresentation>
-			<Characteristics/><PredefinedDataUpdate>Auto</PredefinedDataUpdate><EditType>InDialog</EditType><QuickChoice>false</QuickChoice><ChoiceMode>BothWays</ChoiceMode>
-			<InputByString><xr:Field>Catalog.АС_ГруппыСинонимовПоиска.StandardAttribute.Description</xr:Field></InputByString>
-			<SearchStringModeOnInputByString>AnyPart</SearchStringModeOnInputByString><FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString><ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/><DefaultFolderForm/><DefaultListForm/><DefaultChoiceForm/><DefaultFolderChoiceForm/><AuxiliaryObjectForm/><AuxiliaryFolderForm/><AuxiliaryListForm/><AuxiliaryChoiceForm/><AuxiliaryFolderChoiceForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents><BasedOn/><DataLockFields/><DataLockControlMode>Managed</DataLockControlMode><FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation><v8:item><v8:lang>ru</v8:lang><v8:content>Группа синонимов</v8:content></v8:item></ObjectPresentation><ExtendedObjectPresentation/>
-			<ListPresentation><v8:item><v8:lang>ru</v8:lang><v8:content>Синонимы для поиска</v8:content></v8:item></ListPresentation><ExtendedListPresentation/><Explanation/>
-			<CreateOnInput>Use</CreateOnInput><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><DataHistory>Use</DataHistory><UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite><ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+			<Hierarchical>false</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<LimitLevelCount>false</LimitLevelCount>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Owners/>
+			<SubordinationUse>ToItems</SubordinationUse>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeSeries>WholeCatalog</CodeSeries>
+			<CheckUnique>false</CheckUnique>
+			<Autonumbering>false</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>Catalog.АС_ГруппыСинонимовПоиска.StandardAttribute.Description</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>AnyPart</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа синонимов</v8:content>
+				</v8:item>
+			</ObjectPresentation>
+			<ExtendedObjectPresentation/>
+			<ListPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синонимы для поиска</v8:content>
+				</v8:item>
+			</ListPresentation>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<CreateOnInput>Use</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataHistory>Use</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
 			<TabularSection uuid="0fc31b1c-c87b-4ad1-826b-e96a07674648">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.АС_ГруппыСинонимовПоиска.Синонимы" category="TabularSection"><xr:TypeId>fd8bc640-6084-4095-b7b1-44d801791387</xr:TypeId><xr:ValueId>f0349f17-4eb0-42c7-b336-b22256e252a4</xr:ValueId></xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.АС_ГруппыСинонимовПоиска.Синонимы" category="TabularSectionRow"><xr:TypeId>e3845a8c-4cd4-4367-86ba-dae2703cbfe5</xr:TypeId><xr:ValueId>68ebb374-cc8a-49f1-81ed-51e998379ca7</xr:ValueId></xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSection.АС_ГруппыСинонимовПоиска.Синонимы" category="TabularSection">
+						<xr:TypeId>fd8bc640-6084-4095-b7b1-44d801791387</xr:TypeId>
+						<xr:ValueId>f0349f17-4eb0-42c7-b336-b22256e252a4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.АС_ГруппыСинонимовПоиска.Синонимы" category="TabularSectionRow">
+						<xr:TypeId>e3845a8c-4cd4-4367-86ba-dae2703cbfe5</xr:TypeId>
+						<xr:ValueId>68ebb374-cc8a-49f1-81ed-51e998379ca7</xr:ValueId>
+					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Синонимы</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Синонимы</v8:content></v8:item></Synonym>
-					<Comment>Равнозначные слова и сокращения. Например: ремкомплект, РК, рем.комплект.</Comment><ToolTip/><FillChecking>DontCheck</FillChecking>
-					<StandardAttributes><xr:StandardAttribute name="LineNumber"><xr:LinkByType/><xr:FillChecking>DontCheck</xr:FillChecking><xr:MultiLine>false</xr:MultiLine><xr:FillFromFillingValue>false</xr:FillFromFillingValue><xr:CreateOnInput>Auto</xr:CreateOnInput><xr:TypeReductionMode>TransformValues</xr:TypeReductionMode><xr:MaxValue xsi:nil="true"/><xr:ToolTip/><xr:ExtendedEdit>false</xr:ExtendedEdit><xr:Format/><xr:ChoiceForm/><xr:QuickChoice>Auto</xr:QuickChoice><xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput><xr:EditFormat/><xr:PasswordMode>false</xr:PasswordMode><xr:DataHistory>Use</xr:DataHistory><xr:MarkNegatives>false</xr:MarkNegatives><xr:MinValue xsi:nil="true"/><xr:Synonym/><xr:Comment/><xr:FullTextSearch>Use</xr:FullTextSearch><xr:ChoiceParameterLinks/><xr:FillValue xsi:nil="true"/><xr:Mask/><xr:ChoiceParameters/></xr:StandardAttribute></StandardAttributes>
-					<Use>ForItem</Use><LineNumberLength>5</LineNumberLength>
+					<Name>Синонимы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Синонимы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Равнозначные слова и сокращения. Например: ремкомплект, РК, рем.комплект.</Comment>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
+					<Use>ForItem</Use>
+					<LineNumberLength>5</LineNumberLength>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="a06b23ba-7ec7-4ecb-b3e4-7550676419eb">
 						<Properties>
-							<Name>Синоним</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Синоним</v8:content></v8:item></Synonym>
+							<Name>Синоним</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Синоним</v8:content>
+								</v8:item>
+							</Synonym>
 							<Comment>Слово, сокращение или фраза, равнозначные другим строкам группы.</Comment>
-							<Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>150</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type>
-							<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillChecking>ShowError</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>Use</DataHistory>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>150</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>ShowError</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
 				</ChildObjects>

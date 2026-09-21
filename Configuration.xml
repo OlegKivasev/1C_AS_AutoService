@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.14.0</Version>
+			<Version>1.14.1</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -191,6 +191,7 @@
 			<Document>ЗаказПоставщику</Document>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>ИнвентаризацияЗапасов</Document>
+			<Document>ОприходованиеЗапасов</Document>
 			<Enum>ДействияГрупповогоИзмененияСтрок</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>

@@ -5,9 +5,6 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<Events>
-		<Event name="OnCreateAtServer" callType="Before">АС_ПриСозданииНаСервере</Event>
-	</Events>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -209,6 +206,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Before">АС_ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаБаннерУведомлениеОВвозе" id="1196">
 			<Visible>false</Visible>

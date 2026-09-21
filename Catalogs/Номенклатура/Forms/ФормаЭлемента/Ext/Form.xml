@@ -4764,12 +4764,6 @@
 									<HorizontalAlign>Right</HorizontalAlign>
 									<Width>9</Width>
 									<HorizontalStretch>false</HorizontalStretch>
-									<Format>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ЧН=0; ЧДЦ=3</v8:content>
-										</v8:item>
-									</Format>
 									<ContextMenu name="АС_ОстатокСУчетомЗаказовКонтекстноеМеню" id="3014"/>
 									<ExtendedTooltip name="АС_ОстатокСУчетомЗаказовРасширеннаяПодсказка" id="3015"/>
 								</LabelField>
@@ -4919,12 +4913,11 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>3</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="АС_КоличествоАктивныхЗаказов" id="1000005">
