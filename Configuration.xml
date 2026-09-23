@@ -94,6 +94,8 @@
 			<StyleItem>ПрошедшееСобытие</StyleItem>
 			<StyleItem>ЦветВиджетаНовинкаУНФ</StyleItem>
 			<StyleItem>ШрифтПолужирныйУНФ</StyleItem>
+			<StyleItem>ВариантОтчетаОбычныйШрифт</StyleItem>
+			<StyleItem>ВидДняПроизводственногоКалендаряСубботаЦвет</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -145,6 +147,11 @@
 			<CommonPicture>ВнешняяКомпонентаДоступна</CommonPicture>
 			<CommonPicture>КоллекцияРазделов</CommonPicture>
 			<CommonPicture>РазделЗаблокирован</CommonPicture>
+			<CommonPicture>ПоказательФормула</CommonPicture>
+			<CommonPicture>ЗаполнитьПоОснованию</CommonPicture>
+			<CommonPicture>Сумма</CommonPicture>
+			<CommonPicture>ВидимостьРазрешена</CommonPicture>
+			<CommonPicture>SaleBlack</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
@@ -194,6 +201,7 @@
 			<Document>ПриходнаяНакладная</Document>
 			<Document>ИнвентаризацияЗапасов</Document>
 			<Document>ОприходованиеЗапасов</Document>
+			<Document>УстановкаЦенНоменклатуры</Document>
 			<Enum>ДействияГрупповогоИзмененияСтрок</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>
