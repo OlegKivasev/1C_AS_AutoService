@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<InformationRegister uuid="aea9351b-e5e9-4c45-8539-472875ec9104">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АС_ВидыЦенКонтрагентов" category="Record">
+				<xr:TypeId>6ae37501-8045-43eb-93d3-f5ee6025a972</xr:TypeId>
+				<xr:ValueId>469426ac-730d-4a0d-8426-5399e6b5402b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АС_ВидыЦенКонтрагентов" category="Manager">
+				<xr:TypeId>623ddd84-c725-45ee-8bc8-7565fc861dc1</xr:TypeId>
+				<xr:ValueId>d15a379c-b3aa-4428-8914-762e0f234b1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АС_ВидыЦенКонтрагентов" category="Selection">
+				<xr:TypeId>deaae5fa-73b2-420a-ad04-fba142c318a4</xr:TypeId>
+				<xr:ValueId>c5a390b5-fd0b-44b5-89b3-c76d84556293</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АС_ВидыЦенКонтрагентов" category="List">
+				<xr:TypeId>5bfd70e9-e76b-4e16-a6d8-1409514dd453</xr:TypeId>
+				<xr:ValueId>4dbbf338-e37c-4b2b-8a03-f30480aa4626</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АС_ВидыЦенКонтрагентов" category="RecordSet">
+				<xr:TypeId>079c20a2-cd89-497b-b38b-91913fd67942</xr:TypeId>
+				<xr:ValueId>8a59470b-b085-414b-ab2b-2ddbe193278c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АС_ВидыЦенКонтрагентов" category="RecordKey">
+				<xr:TypeId>ae4871a5-ce4b-46b8-b672-03c06ecd238d</xr:TypeId>
+				<xr:ValueId>0b7b900f-e245-4f46-9d1c-41442a6a4e6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АС_ВидыЦенКонтрагентов" category="RecordManager">
+				<xr:TypeId>1fb3deed-47e4-4e96-a079-4092aa57eb75</xr:TypeId>
+				<xr:ValueId>a7b117ad-046a-4d0a-b2b0-dc14357f99f0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АС_ВидыЦенКонтрагентов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды цен контрагентов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Один автоматически применяемый вид цены для каждого контрагента.</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InList</EditType>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="27ea8cd2-182b-4961-9636-82d972fa0d05">
+				<Properties>
+					<Name>Контрагент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+					<TypeReductionMode>TransformValues</TypeReductionMode>
+				</Properties>
+			</Dimension>
+			<Resource uuid="ab4a81a9-5de4-4ef9-86c0-a07ed7363030">
+				<Properties>
+					<Name>ВидЦен</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид цены</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -19,6 +19,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_БрендыТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_ГруппыСинонимовПоиска</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.АС_ОсновнойВидЦенБезналичногоРасчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_ВидыЦенКонтрагентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АС_ЦенообразованиеСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_РазрешитьИзменятьЦенуНаУслуги</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_РазрешитьПрименятьСкидки</xr:Item>

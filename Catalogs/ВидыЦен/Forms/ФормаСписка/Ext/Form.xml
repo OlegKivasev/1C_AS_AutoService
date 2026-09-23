@@ -224,6 +224,17 @@
 					</Title>
 					<ExtendedTooltip name="ФормаКомандаУстановитьОсновнойВидЦенБезналичногоРасчетаРасширеннаяПодсказка" id="257"/>
 				</Button>
+				<Button name="ФормаКомандаОткрытьВидыЦенКонтрагентов" id="258">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.АС_ОткрытьВидыЦенКонтрагентов</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Виды цен контрагентов</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ФормаКомандаОткрытьВидыЦенКонтрагентовРасширеннаяПодсказка" id="259"/>
+				</Button>
 				<Button name="ФормаЗагрузитьЦеныИзВнешнегоИсточника" id="216">
 					<Type>CommandBarButton</Type>
 					<CommandName>0</CommandName>
@@ -814,6 +825,22 @@
 	</ChildItems>
 	<Attributes/>
 	<Commands>
+		<Command name="АС_ОткрытьВидыЦенКонтрагентов" id="255">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды цен контрагентов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить автоматически применяемый вид цены для каждого контрагента</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">АС_ОткрытьВидыЦенКонтрагентов</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
 		<Command name="АС_УстановитьОсновнойВидЦенБезналичногоРасчета" id="254">
 			<Title>
 				<v8:item>

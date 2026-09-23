@@ -2086,6 +2086,43 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="6549d01e-a118-4403-8753-7ed531e34e08">
+						<Properties>
+							<Name>АС_ЦенаПоВидуЦенКонтрагента</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Цена по виду цен контрагента</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Признак цены, автоматически рассчитанной по виду цен, назначенному контрагенту.</Comment>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="2455a65f-67c7-47ae-a9ac-58236005069d">
@@ -3205,6 +3242,43 @@
 							<Indexing>DontIndex</Indexing>
 							<FullTextSearch>Use</FullTextSearch>
 							<DataHistory>DontUse</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ee35a63c-1a59-4bf1-b285-fe2f87e4e49f">
+						<Properties>
+							<Name>АС_ЦенаПоВидуЦенКонтрагента</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Цена по виду цен контрагента</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Признак отменённой строки с ценой по виду цен, назначенному контрагенту.</Comment>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
 					<Attribute uuid="83a29fbb-61c2-4ae7-9543-c720a170a12e">
