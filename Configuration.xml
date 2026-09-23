@@ -161,6 +161,7 @@
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonModule>АС_ЦенообразованиеСервер</CommonModule>
 			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
+			<CommonModule>АС_ПечатьЭтикетокКлиент</CommonModule>
 			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
 			<DefinedType>Вес</DefinedType>
 			<DefinedType>Объем</DefinedType>
@@ -225,7 +226,9 @@
 			<Enum>ДаНет</Enum>
 			<Enum>ВидыКонтроляДоговоровПриПроведении</Enum>
 			<Enum>ЧастотаРасчетаКурсовыхРазниц</Enum>
+			<Enum>ТипыШаблонов</Enum>
 			<DataProcessor>НастройкаПрограммы</DataProcessor>
+			<DataProcessor>ПечатьЭтикетокИЦенников</DataProcessor>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>
 			<InformationRegister>АС_ВидыЦенКонтрагентов</InformationRegister>
