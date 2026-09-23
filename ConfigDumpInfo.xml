@@ -575,8 +575,8 @@
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаВыбора" id="099608a4-1ea1-4712-a06a-127da24bc862" configVersion="56a92b557984b0048d75e334fc2b71122c15db25"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаВыбора.Form" id="099608a4-1ea1-4712-a06a-127da24bc862.0" configVersion="5e8356deb091d7e9f8d4933bdf6bff2f3f628685"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e" configVersion="b3e73f244c4a6d1e90b0a62f722a146718da7dfb"/>
-		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e.0" configVersion="148f721befbb240a4f120713f00db0145e6f6c25"/>
-		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form.Module" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e.1" configVersion="c8dfcf0ea36b60d20a587edbb21793293051da25"/>
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e.0" configVersion="d0589c5bf687a708ba981089bc88da07c21c28d3"/>
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form.Module" id="3ec18d03-8d93-4959-a965-d851b7e6bd2e.1" configVersion="f63b2f42c43d91127e0c3081085aaff1a48724b5"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаСписка" id="0ac6f2ac-0bab-474d-9ee9-cf2df1f7471d" configVersion="ef9df71de45b15e29e63d46fb37649ea25dfaf44"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаСписка.Form" id="0ac6f2ac-0bab-474d-9ee9-cf2df1f7471d.0" configVersion="10f3404609d620db4ea11683cfa72035eea44c37"/>
 		<Metadata name="Enum.АС_ДокументыБухгалтеру" id="eccfe8b8-e87b-4885-8e56-9595f1b79999" configVersion="794e7509036a6952fc792cede7bcdcc83e8494dd">

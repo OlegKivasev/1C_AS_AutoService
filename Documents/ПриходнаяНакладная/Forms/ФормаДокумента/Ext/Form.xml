@@ -1621,6 +1621,9 @@
 								<ContextMenu name="ЗапасыУправлениеПоискомКонтекстноеМеню" id="281"/>
 								<ExtendedTooltip name="ЗапасыУправлениеПоискомРасширеннаяПодсказка" id="282"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="Selection" callType="Before">АС_ЗапасыВыборПеред</Event>
+							</Events>
 							<ChildItems>
 								<CheckBoxField name="ЗапасыПометка" id="575">
 									<TitleLocation>None</TitleLocation>
