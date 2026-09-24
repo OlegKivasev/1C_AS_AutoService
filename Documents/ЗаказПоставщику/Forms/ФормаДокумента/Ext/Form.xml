@@ -1143,6 +1143,28 @@
 									<ContextMenu name="ЗапасыСуммаКонтекстноеМеню" id="32"/>
 									<ExtendedTooltip name="ЗапасыСуммаРасширеннаяПодсказка" id="284"/>
 								</InputField>
+								<InputField name="ЗапасыАС_КоличествоДнейНаВозврат" id="1580">
+									<DataPath>Объект.Запасы.АС_КоличествоДнейНаВозврат</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дней на возврат</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Срок возврата поставщику в календарных днях от фактического поступления товара.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<MarkRequiredComplete>true</MarkRequiredComplete>
+									<AutoEditMode>true</AutoEditMode>
+									<Width>12</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMarkIncomplete>true</AutoMarkIncomplete>
+									<ContextMenu name="ЗапасыАС_КоличествоДнейНаВозвратКонтекстноеМеню" id="1581"/>
+									<ExtendedTooltip name="ЗапасыАС_КоличествоДнейНаВозвратРасширеннаяПодсказка" id="1582"/>
+								</InputField>
 								<InputField name="ЗапасыАС_Поступление" id="1564">
 									<DataPath>Объект.Запасы.АС_Поступление</DataPath>
 									<ReadOnly>true</ReadOnly>

@@ -2324,6 +2324,7 @@
 				<Field>Список.КонтактноеЛицо</Field>
 				<Field>Список.Контрагент</Field>
 				<Field>Список.КонтрагентИлиЛид</Field>
+				<Field>Список.АС_КоличествоДнейДоВозврата</Field>
 				<Field>Список.ОбщееСостояние</Field>
 				<Field>Список.ПросроченаОплата</Field>
 				<Field>Список.ПросроченоВыполнение</Field>
@@ -2577,6 +2578,7 @@
 				/ АС_РучныеСкидки.СуммаДоСкидки
 				КАК ЧИСЛО(5, 2)))
 	КОНЕЦ КАК АС_СкидкаПроцент,
+	ЕСТЬNULL(АС_СрокиВозврата.КоличествоДнейДоВозврата, 999999) КАК АС_КоличествоДнейДоВозврата,
 	ЕСТЬNULL(ФактОплаты.СуммаОплаты, 0) + ЕСТЬNULL(ФактОплаты.СуммаАванса, 0) КАК СуммаОплатыОборот,
 	СостоянияЭД.СостояниеЭДО КАК СостояниеВерсииЭД,
 	ЗаказыПокупателейССайта.НомерЗаказаНаСайте КАК НомерНаСайте,
@@ -2643,6 +2645,38 @@
 				ЗаказПокупателяЗапасы.Ссылка
 		) КАК АС_РучныеСкидки
 		ПО ДокументЗаказПокупателя.Ссылка = АС_РучныеСкидки.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ (
+			ВЫБРАТЬ
+				ЗаказПоставщикуЗапасы.ЗаказПокупателя КАК ЗаказПокупателя,
+				МИНИМУМ(ВЫБОР
+					КОГДА НАЧАЛОПЕРИОДА(&amp;АктуальнаяДатаСеанса, ДЕНЬ)
+							&lt; НАЧАЛОПЕРИОДА(ПриходнаяНакладнаяЗапасы.Ссылка.Дата, ДЕНЬ)
+						ТОГДА ЗаказПоставщикуЗапасы.АС_КоличествоДнейНаВозврат
+					ИНАЧЕ РАЗНОСТЬДАТ(
+						НАЧАЛОПЕРИОДА(&amp;АктуальнаяДатаСеанса, ДЕНЬ),
+						НАЧАЛОПЕРИОДА(ДОБАВИТЬКДАТЕ(
+							ПриходнаяНакладнаяЗапасы.Ссылка.Дата,
+							ДЕНЬ,
+							ЗаказПоставщикуЗапасы.АС_КоличествоДнейНаВозврат), ДЕНЬ),
+						ДЕНЬ)
+				КОНЕЦ) КАК КоличествоДнейДоВозврата
+			ИЗ
+				Документ.ЗаказПоставщику.Запасы КАК ЗаказПоставщикуЗапасы
+					ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПриходнаяНакладная.Запасы КАК ПриходнаяНакладнаяЗапасы
+					ПО ЗаказПоставщикуЗапасы.Номенклатура = ПриходнаяНакладнаяЗапасы.Номенклатура
+						И ЗаказПоставщикуЗапасы.Характеристика = ПриходнаяНакладнаяЗапасы.Характеристика
+						И (ПриходнаяНакладнаяЗапасы.ЗаказПокупателя = ЗаказПоставщикуЗапасы.ЗаказПокупателя
+							ИЛИ ПриходнаяНакладнаяЗапасы.ЗаказПокупателя = ЗНАЧЕНИЕ(Документ.ЗаказПокупателя.ПустаяСсылка))
+						И (ЗаказПоставщикуЗапасы.Ссылка = ПриходнаяНакладнаяЗапасы.Заказ
+							ИЛИ ЗаказПоставщикуЗапасы.Ссылка = ПриходнаяНакладнаяЗапасы.Ссылка.Заказ)
+			ГДЕ
+				ЗаказПоставщикуЗапасы.АС_КоличествоДнейНаВозврат &gt; 0
+				И ПриходнаяНакладнаяЗапасы.Ссылка.Проведен
+				И ПриходнаяНакладнаяЗапасы.Количество &gt; 0
+			СГРУППИРОВАТЬ ПО
+				ЗаказПоставщикуЗапасы.ЗаказПокупателя
+		) КАК АС_СрокиВозврата
+		ПО ДокументЗаказПокупателя.Ссылка = АС_СрокиВозврата.ЗаказПокупателя
 							</QueryText>
 				<Field xsi:type="dcssch:DataSetFieldField">
 					<dcssch:dataPath>АС_СкидкаПроцент</dcssch:dataPath>
@@ -2651,6 +2685,16 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Скидка, %</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>АС_КоличествоДнейДоВозврата</dcssch:dataPath>
+					<dcssch:field>АС_КоличествоДнейДоВозврата</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дней до возврата поставщику</v8:content>
 						</v8:item>
 					</dcssch:title>
 				</Field>
@@ -3670,6 +3714,37 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Контрагент</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>КонтрагентИлиЛид</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Список.АС_КоличествоДнейДоВозврата</dcsset:left>
+						<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">5</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Список.СостояниеЗаказа</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.СостоянияЗаказовПокупателей.Завершен</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFE0E0</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+				<dcsset:presentation xsi:type="xs:string">Истекает срок возврата поставщику</dcsset:presentation>
+			</dcsset:item>
+		</ConditionalAppearance>
 	</Attributes>
 	<BaseForm version="2.21">
 		<Title>
