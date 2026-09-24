@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="6658c596-4a4a-4a3b-9843-8ad7ef3e3012">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийЭквайринга" category="Ref">
+				<xr:TypeId>70fbfadc-0966-4b06-8c77-6b873278e2d5</xr:TypeId>
+				<xr:ValueId>46b94836-e87a-4923-9f18-9b8c645fdecc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийЭквайринга" category="Manager">
+				<xr:TypeId>3c2d29a6-474b-41ec-aac7-5891ff0738a3</xr:TypeId>
+				<xr:ValueId>2fcea0bf-89df-44ab-bde5-23e3fcd7106d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийЭквайринга" category="List">
+				<xr:TypeId>e054e22f-51b3-4930-b826-c2145308161a</xr:TypeId>
+				<xr:ValueId>5ebaf03f-a8a7-494e-b1cf-2162cbf9d72d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОперацийЭквайринга</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2a79738e-a3bf-4ea4-aff3-224cf20003f4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3d36f1ae-ba1c-4b61-b9b1-bb7b4d77da7e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоступлениеОплатыОтПокупателя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>85c66010-caff-453e-b98a-38c9ab84bb8e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2b47210b-f368-4364-a366-48f1cf0ab6f0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВозвратОплатыПокупателю</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0ea7e2da-db55-490c-a85c-e1eca77ab8ed</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

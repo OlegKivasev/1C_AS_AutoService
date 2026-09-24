@@ -1,23 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
-	<CommonModule uuid="f4155407-f4cc-40ed-9af8-814dd502ed88">
+	<DataProcessor uuid="b4e40f20-0616-4e53-95f4-522ca08edea2">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.БанкИКасса" category="Object">
+				<xr:TypeId>f711faa6-f4fe-479a-88ed-a1f4cd77ef98</xr:TypeId>
+				<xr:ValueId>8f0c2658-47bf-4c93-9c02-9a2f21bd69bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.БанкИКасса" category="Manager">
+				<xr:TypeId>71e42995-4eab-4f9c-ad85-5f70817de4e6</xr:TypeId>
+				<xr:ValueId>679853ce-e5ff-451d-a6e0-5f6e6744a2fe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>АС_ПечатьЭтикетокКлиент</Name>
-			<Synonym>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Печать этикеток клиент</v8:content>
-				</v8:item>
-			</Synonym>
-			<Comment>Выбор товаров приходной накладной для печати этикеток.</Comment>
-			<Global>false</Global>
-			<ClientManagedApplication>true</ClientManagedApplication>
-			<Server>false</Server>
-			<ExternalConnection>false</ExternalConnection>
-			<ClientOrdinaryApplication>false</ClientOrdinaryApplication>
-			<ServerCall>false</ServerCall>
-			<Privileged>false</Privileged>
-			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БанкИКасса</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c1de86e7-6890-4317-9d2a-9a418164b2ce</ExtendedConfigurationObject>
 		</Properties>
-	</CommonModule>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DataProcessor>
 </MetaDataObject>

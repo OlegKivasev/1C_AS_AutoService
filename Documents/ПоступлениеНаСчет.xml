@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="67c7f512-ded1-44f7-9455-2bb10ed3a1dd">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеНаСчет" category="Object">
+				<xr:TypeId>9339470a-e3de-402e-815d-fb1652748f32</xr:TypeId>
+				<xr:ValueId>7efc6129-8a23-44ad-8071-9c256dc9b49d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеНаСчет" category="Ref">
+				<xr:TypeId>337b0f6a-edcc-4053-8142-55659b7e9d15</xr:TypeId>
+				<xr:ValueId>d30d2437-dfec-42ac-8a0d-af825eae5eb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеНаСчет" category="Selection">
+				<xr:TypeId>279489fa-4d89-4b65-a064-206bbe3ff07e</xr:TypeId>
+				<xr:ValueId>f797eb30-ad7f-43dc-aaf1-44a9099d6229</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеНаСчет" category="List">
+				<xr:TypeId>c417ac0f-47bb-4337-8f75-ebf243cdb0fd</xr:TypeId>
+				<xr:ValueId>d9f3db68-2cbb-4223-854f-4e9a79529a31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеНаСчет" category="Manager">
+				<xr:TypeId>8dd7bded-809b-449a-984d-9149a57f107d</xr:TypeId>
+				<xr:ValueId>d2d0a2c8-96d0-4610-98d9-c65de3bb4548</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоступлениеНаСчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>122f9628-1dc8-4c27-9883-60c9b12afd14</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

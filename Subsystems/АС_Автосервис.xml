@@ -25,6 +25,13 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_РазрешитьИзменятьЦенуНаУслуги</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_РазрешитьПрименятьСкидки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ПросмотрТоваровИУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ЗапретитьОтменуПроведения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ЗапретитьПометкуУдаления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ЗапретитьРедактированиеПоступлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АС_ОграниченияДокументовСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ОграниченияДокументовПередЗаписью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ЗапретРедактированияПоступленийПередЗаписью</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ОграниченияДокументовПередУдалением</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

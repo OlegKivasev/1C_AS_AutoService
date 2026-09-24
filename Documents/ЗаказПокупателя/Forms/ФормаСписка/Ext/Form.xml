@@ -2320,11 +2320,11 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
+				<Field>Список.АС_КоличествоДнейДоВозврата</Field>
 				<Field>Список.ВидЗаказа</Field>
 				<Field>Список.КонтактноеЛицо</Field>
 				<Field>Список.Контрагент</Field>
 				<Field>Список.КонтрагентИлиЛид</Field>
-				<Field>Список.АС_КоличествоДнейДоВозврата</Field>
 				<Field>Список.ОбщееСостояние</Field>
 				<Field>Список.ПросроченаОплата</Field>
 				<Field>Список.ПросроченоВыполнение</Field>

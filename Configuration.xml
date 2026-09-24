@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.16.0</Version>
+			<Version>1.17.0</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -96,6 +96,8 @@
 			<StyleItem>ШрифтПолужирныйУНФ</StyleItem>
 			<StyleItem>ВариантОтчетаОбычныйШрифт</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряСубботаЦвет</StyleItem>
+			<StyleItem>ЦветСуммыПоступления</StyleItem>
+			<StyleItem>ПеремещениеДСВЖурналахЦвет</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -152,10 +154,17 @@
 			<CommonPicture>Сумма</CommonPicture>
 			<CommonPicture>ВидимостьРазрешена</CommonPicture>
 			<CommonPicture>SaleBlack</CommonPicture>
+			<CommonPicture>Минус</CommonPicture>
+			<CommonPicture>Плюс</CommonPicture>
+			<CommonPicture>СоздатьПоШаблону</CommonPicture>
+			<CommonPicture>КассаИБанк</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьПрименятьСкидки</Role>
 			<Role>АС_ПросмотрТоваровИУслуг</Role>
+			<Role>АС_ЗапретитьОтменуПроведения</Role>
+			<Role>АС_ЗапретитьПометкуУдаления</Role>
+			<Role>АС_ЗапретитьРедактированиеПоступлений</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_ИндексOEMСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
@@ -163,6 +172,10 @@
 			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
 			<CommonModule>АС_ПечатьЭтикетокКлиент</CommonModule>
 			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
+			<CommonModule>АС_ОграниченияДокументовСервер</CommonModule>
+			<EventSubscription>АС_ОграниченияДокументовПередЗаписью</EventSubscription>
+			<EventSubscription>АС_ЗапретРедактированияПоступленийПередЗаписью</EventSubscription>
+			<EventSubscription>АС_ОграниченияДокументовПередУдалением</EventSubscription>
 			<DefinedType>Вес</DefinedType>
 			<DefinedType>Объем</DefinedType>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
@@ -203,6 +216,8 @@
 			<Document>ИнвентаризацияЗапасов</Document>
 			<Document>ОприходованиеЗапасов</Document>
 			<Document>УстановкаЦенНоменклатуры</Document>
+			<Document>ПоступлениеВКассу</Document>
+			<Document>ПоступлениеНаСчет</Document>
 			<Enum>ДействияГрупповогоИзмененияСтрок</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>
@@ -227,8 +242,10 @@
 			<Enum>ВидыКонтроляДоговоровПриПроведении</Enum>
 			<Enum>ЧастотаРасчетаКурсовыхРазниц</Enum>
 			<Enum>ТипыШаблонов</Enum>
+			<Enum>ВидыОперацийЭквайринга</Enum>
 			<DataProcessor>НастройкаПрограммы</DataProcessor>
 			<DataProcessor>ПечатьЭтикетокИЦенников</DataProcessor>
+			<DataProcessor>БанкИКасса</DataProcessor>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>
 			<InformationRegister>АС_ВидыЦенКонтрагентов</InformationRegister>

@@ -1157,6 +1157,7 @@
 											<v8:content>Срок возврата поставщику в календарных днях от фактического поступления товара.</v8:content>
 										</v8:item>
 									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
 									<MarkRequiredComplete>true</MarkRequiredComplete>
 									<AutoEditMode>true</AutoEditMode>
 									<Width>12</Width>
