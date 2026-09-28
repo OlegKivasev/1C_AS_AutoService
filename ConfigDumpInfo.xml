@@ -69,7 +69,7 @@
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="0964907a-eac2-477f-a95f-08d7cc2ec41c" configVersion="5712b7145bb6b2a69cbb3ffb6334b12e88c7eee3"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="0964907a-eac2-477f-a95f-08d7cc2ec41c.0" configVersion="54eefffbfee3dadf5c12ed6fe34e21a80b934613"/>
 		<Metadata name="Catalog.НаправленияДеятельности" id="93cc5ca8-8508-4791-a2f3-1d2948e61e63" configVersion="11820011dc16bcb1c074280cbe632ecf5d626eca"/>
-		<Metadata name="Catalog.Номенклатура" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680" configVersion="c5cbc939b249be1ef554e1eb6bdde485658d9887">
+		<Metadata name="Catalog.Номенклатура" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680" configVersion="52b19682c7e9862c3df3a5c8587258983fc5ec9c">
 			<Metadata name="Catalog.Номенклатура.Attribute.ДатаСоздания" id="00ccd05b-9b0d-4895-b60f-a7c8824a4951"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.СрокПополнения" id="018fd44d-52d2-4f23-8aae-ba61b213ff05"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.НаименованиеПолное" id="07bfa3e8-79aa-4d71-a654-a99f5effe0ed"/>
@@ -106,6 +106,10 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.ДатаИзменения" id="9a385104-f4b1-4606-b09f-842398571a85"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.Ответственный" id="9dd656bf-64ff-4906-bf45-c318e8350e94"/>
 			<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.Автомобиль" id="a02d3a5c-3d73-4e25-b2fe-3f90c5880f25"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.ТипКузова" id="5eb12906-44c7-4845-81c4-ee51fe3f83c5"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.КодДвигателя" id="42fea4b0-da2b-42b1-8528-1812070800e9"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.КодКузова" id="897f3dc6-13f7-4a95-a646-79dae2657226"/>
+			<Metadata name="Catalog.Номенклатура.TabularSection.АС_Применяемость.Attribute.ЛитражДвигателя" id="c332a3ae-7854-4b03-9a00-af0fae10e2d3"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ОбъемДАЛ" id="a17d81fc-cd6b-4e5a-a6f1-7f583454edd2"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.АС_ТипФильтра" id="a3e9c6e8-915f-4cb0-9c64-e0891d0e6f42"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ЦеноваяГруппа" id="b4a71812-8a2c-4e9c-bad3-cdc02d4ebcab"/>
@@ -134,7 +138,7 @@
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7" configVersion="34f6db35da556856b8a8b7c0edbc3a6c18b3a8d8"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7.0" configVersion="bea9cc371e75532af0a0752c27992ce0bc8e82cd"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa" configVersion="77a4b9e92b23cecb1f6e2f967cf1a84735b3cbb5"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa.0" configVersion="8b802bee0b77691e4fec65d575a29db5ee5eaac2"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa.0" configVersion="34cf5e9af16efd51ca71587b0687fe0bc3992785"/>
 		<Metadata name="Catalog.Номенклатура.ManagerModule" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680.3" configVersion="97cbabf18f936409f65cd7a84b26b9f4debf4849"/>
 		<Metadata name="Catalog.Номенклатура.ObjectModule" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680.0" configVersion="da3d6fa839cc1c054088eeb56c0f25bc76bf304e"/>
 		<Metadata name="Catalog.Сотрудники" id="14879c58-0fa9-4e61-ba6b-eb3254e3c5b0" configVersion="63b40edd7ad11081e3a916dcb2e8c5f873940738"/>

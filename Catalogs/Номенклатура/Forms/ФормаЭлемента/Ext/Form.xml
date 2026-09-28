@@ -176,6 +176,46 @@
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
+			<Popup name="АС_PartsAPI" id="1000010">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>PartsAPI</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="АС_PartsAPIРасширеннаяПодсказка" id="1000011">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получение применяемости детали через PartsAPI</v8:content>
+						</v8:item>
+					</Title>
+				</ExtendedTooltip>
+				<ChildItems>
+					<Button name="АС_ПолучитьСведенияПоПрименяемости" id="1000012">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_ПолучитьСведенияПоПрименяемости</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Получить сведения по применяемость</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="АС_ПолучитьСведенияПоПрименяемостиРасширеннаяПодсказка" id="1000013"/>
+					</Button>
+					<Button name="АС_НастроитьКлючPartsAPI" id="1000014">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.АС_НастроитьКлючPartsAPI</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настроить ключ API</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="АС_НастроитьКлючPartsAPIРасширеннаяПодсказка" id="1000015"/>
+					</Button>
+				</ChildItems>
+			</Popup>
 			<ButtonGroup name="ФормаГруппаДубли" id="1193">
 				<Title>
 					<v8:item>
@@ -4185,8 +4225,10 @@
 								<Table name="АС_Применяемость" id="910014">
 									<Representation>List</Representation>
 									<CommandBarLocation>Top</CommandBarLocation>
+									<Width>40</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>40</MaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
 									<HeightInTableRows>12</HeightInTableRows>
 									<RowSelectionMode>Row</RowSelectionMode>
 									<VerticalStretch>false</VerticalStretch>
@@ -4299,6 +4341,58 @@
 											</EditFormat>
 											<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
 											<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
+										</InputField>
+										<InputField name="АС_ПрименяемостьТипКузова" id="910069">
+											<DataPath>Объект.АС_Применяемость.ТипКузова</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Тип кузова</v8:content>
+												</v8:item>
+											</Title>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="АС_ПрименяемостьТипКузоваКонтекстноеМеню" id="910070"/>
+											<ExtendedTooltip name="АС_ПрименяемостьТипКузоваРасширеннаяПодсказка" id="910071"/>
+										</InputField>
+										<InputField name="АС_ПрименяемостьКодКузова" id="910075">
+											<DataPath>Объект.АС_Применяемость.КодКузова</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Код кузова</v8:content>
+												</v8:item>
+											</Title>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="АС_ПрименяемостьКодКузоваКонтекстноеМеню" id="910076"/>
+											<ExtendedTooltip name="АС_ПрименяемостьКодКузоваРасширеннаяПодсказка" id="910077"/>
+										</InputField>
+										<InputField name="АС_ПрименяемостьКодДвигателя" id="910072">
+											<DataPath>Объект.АС_Применяемость.КодДвигателя</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Код двигателя</v8:content>
+												</v8:item>
+											</Title>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="АС_ПрименяемостьКодДвигателяКонтекстноеМеню" id="910073"/>
+											<ExtendedTooltip name="АС_ПрименяемостьКодДвигателяРасширеннаяПодсказка" id="910074"/>
+										</InputField>
+										<InputField name="АС_ПрименяемостьЛитражДвигателя" id="910078">
+											<DataPath>Объект.АС_Применяемость.ЛитражДвигателя</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Литраж двигателя</v8:content>
+												</v8:item>
+											</Title>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="АС_ПрименяемостьЛитражДвигателяКонтекстноеМеню" id="910079"/>
+											<ExtendedTooltip name="АС_ПрименяемостьЛитражДвигателяРасширеннаяПодсказка" id="910080"/>
 										</InputField>
 									</ChildItems>
 								</Table>
@@ -5047,6 +5141,38 @@
 				</v8:item>
 			</Title>
 			<Action callType="Before">АС_ПоказатьАктивныеЗаказы</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_ПолучитьСведенияПоПрименяемости" id="1000016">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить сведения по применяемость</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запросить применяемость детали в PartsAPI</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">АС_ПолучитьСведенияПоПрименяемости</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_НастроитьКлючPartsAPI" id="1000017">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настроить ключ API</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить общий ключ доступа к PartsAPI</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">АС_НастроитьКлючPartsAPI</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
