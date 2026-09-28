@@ -563,6 +563,7 @@
 		</Metadata>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента" id="62d58688-34c7-47fa-984f-3b3e55d8174c" configVersion="1d2b2dfb4acb1eb68b18321d617b1ca2c990f56f"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="62d58688-34c7-47fa-984f-3b3e55d8174c.0" configVersion="203b0f2743e2d21b8fad1b96114923a20fc7e1d1"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form.Module" id="62d58688-34c7-47fa-984f-3b3e55d8174c.1" configVersion="a2a851c9781f28a5c288b38a97f06c4b9c54361e"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаСписка" id="4e7171a5-5ecf-4db4-813e-f8182fc6b331" configVersion="0843c64a9f04316f7bb35a16a92c1d25b5cdb0d2"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаСписка.Form" id="4e7171a5-5ecf-4db4-813e-f8182fc6b331.0" configVersion="e184f1a4b102199b965e50cb8d09c77845fa6443"/>
 		<Metadata name="Document.ЗаказПоставщику.ObjectModule" id="01d42f54-a82f-4ffa-adcd-07f61aedc0a3.0" configVersion="745c20c11c928d44bc1f4de1542324c90d4c2d8a"/>
