@@ -238,7 +238,7 @@
 		<Metadata name="CommonPicture.ТоварУслугаСписок" id="5478beb2-fb89-46ff-950d-273ee428b9e1" configVersion="f72d49dbcc03aacd198c78361a91ac9bf0809308"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="69da427fb9d39448bdb0e22e979b500adf480ed6"/>
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="2810f94f-0c29-41ae-8dc6-623f1c451ae2" configVersion="8d254ce4debaeb75516c78b83eb75fc54435f996"/>
-		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="bc961e06ef336b034e7302913c40fb64202aa819"/>
+		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="183c528bef3a166ae452cca8d64062dd04f8ef8a"/>
 		<Metadata name="Constant.АС_ИндексOEMИнициализирован" id="970ddc4b-fea6-4d5e-9795-8929be797e92" configVersion="326b24f8b9d8a992e1de43b512ce7e2b26de1d40"/>
 		<Metadata name="Constant.АС_ОсновнойВидЦенБезналичногоРасчета" id="b7f5137b-f625-4ead-8e3f-003902096423" configVersion="f41c5322e9c7acbb2248326d19c636aa901dee39"/>
 		<Metadata name="DataProcessor.БанкИКасса" id="b4e40f20-0616-4e53-95f4-522ca08edea2" configVersion="f7fb35b68ccc772fce4ca0583a308e98796b1809"/>
@@ -253,7 +253,19 @@
 		<Metadata name="DataProcessor.ПечатьЭтикетокИЦенников.Form.Форма.Form" id="035963e6-7734-4d9b-89c0-62f8d52adb65.0" configVersion="38ddb67b325db2a32c5cf3755ee6b263fd5d3152"/>
 		<Metadata name="DefinedType.Вес" id="654d8d9f-dae2-4c26-b176-faaf409f3083" configVersion="fae792a43ff2424cc75515a9de18c0ad1e60fdb4"/>
 		<Metadata name="DefinedType.Объем" id="aedac75f-3a57-4f6b-8ce9-f84f4f6b6bc5" configVersion="37f43da97d2739290321f1a5ad11e3e814aeb630"/>
-		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="ef952f9e395e8c7b375eb132e93f7190e8cf23ce">
+		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="e5e09dc4f3ed484533b241ee219d738594af5f78">
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.АС_ЗаказПоставщику" id="3fae73a7-de90-4976-ad8b-a60dfe69621f"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.АС_КлючСвязиЗаказаПоставщику" id="6899bef7-0e66-4e5a-9aec-770e70aaa7bc"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.АС_ИдентификаторГруппыПоставок" id="1f115e3d-d7b2-4001-95f6-f2122394d921"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.ОтмененныеЗапасы.Attribute.АС_ЗаказПоставщику" id="6758f7d8-5093-4056-8a8c-22f8dce3e820"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.ОтмененныеЗапасы.Attribute.АС_КлючСвязиЗаказаПоставщику" id="d51e3b13-bd1f-4f8e-a973-0a673460f7cc"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.ОтмененныеЗапасы.Attribute.АС_ИдентификаторГруппыПоставок" id="fea2cd80-60b3-4adb-b5b1-97d4d106a919"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ИсточникиПоставок" id="d7510363-5d19-42c1-a1c0-d1710857d4e7"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ИсточникиПоставок.Attribute.ИдентификаторСтрокиПокупателя" id="4ff46f81-400e-4aa1-8218-27a856f8f22b"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ИсточникиПоставок.Attribute.ЗаказПоставщику" id="c14acf9e-f02a-4f88-85c1-7f9ced4f5cc5"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ИсточникиПоставок.Attribute.КлючСвязиЗаказаПоставщику" id="92995e24-a4c6-4231-b2b6-0f5fee832cf7"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ИсточникиПоставок.Attribute.Количество" id="8d12f3b3-1e95-4664-a853-706d872687bd"/>
+			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ИсточникиПоставок.Attribute.ЦенаПоставщика" id="eb866879-95dd-4f8c-86d1-0e25abd06a0a"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Подарки.Attribute.Номенклатура" id="01b20dfb-eb3f-427a-b967-b72b03fe4b35"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.Комментарий" id="0210f35b-99dd-425b-aabc-4bd2f9286f06"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.Партия" id="0287256a-35c3-489e-a847-2693de975146"/>
@@ -546,9 +558,10 @@
 		</Metadata>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="60ef5677-fd76-4719-baf3-d94ccc1aec82" configVersion="3132e3cf44016d8938a7e56f02a1ccd3d0872f6d"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.0" configVersion="706409d003d59707f0d164d501486ec3683a916e"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form.Module" id="60ef5677-fd76-4719-baf3-d94ccc1aec82.1" configVersion="d5250ea2e07a092bc19241be48af6e60f1d74acf"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8" configVersion="432a74c6e86c158c82d8eb3a3790718cca94a11a"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.0" configVersion="5c0f8ce1e312e4d7a95eaf2cfa7a95b0881cbcea"/>
-		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form.Module" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.1" configVersion="69f038b802770aaf56a2b00274c674457d4996b8"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаЗаказНаряда.Form.Module" id="0324ae4f-9698-4b73-b449-5cdd0a8ac1c8.1" configVersion="89c677d0f63f5da9db79ccb5ba12336c59a39b09"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСписка" id="729371e3-312f-4e8a-90b9-e60e0bee1b47" configVersion="0949219d462ff3d48f86e0e0a122bbb119d48872"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСписка.Form" id="729371e3-312f-4e8a-90b9-e60e0bee1b47.0" configVersion="c31c4075417b81a603dc2f0cbf09be896f66096e"/>
 		<Metadata name="Document.ЗаказПокупателя.Form.ФормаСпискаЗаказНаряда" id="9cda5a10-17e5-4669-b3dd-a4d1f4edb205" configVersion="7390e5d8397ec977024d5aa552f304cce845a7e9"/>
@@ -563,7 +576,7 @@
 		</Metadata>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента" id="62d58688-34c7-47fa-984f-3b3e55d8174c" configVersion="1d2b2dfb4acb1eb68b18321d617b1ca2c990f56f"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="62d58688-34c7-47fa-984f-3b3e55d8174c.0" configVersion="203b0f2743e2d21b8fad1b96114923a20fc7e1d1"/>
-		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form.Module" id="62d58688-34c7-47fa-984f-3b3e55d8174c.1" configVersion="a2a851c9781f28a5c288b38a97f06c4b9c54361e"/>
+		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form.Module" id="62d58688-34c7-47fa-984f-3b3e55d8174c.1" configVersion="cbca19fd1cf362117e3bc8580313d022ee358909"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаСписка" id="4e7171a5-5ecf-4db4-813e-f8182fc6b331" configVersion="0843c64a9f04316f7bb35a16a92c1d25b5cdb0d2"/>
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаСписка.Form" id="4e7171a5-5ecf-4db4-813e-f8182fc6b331.0" configVersion="e184f1a4b102199b965e50cb8d09c77845fa6443"/>
 		<Metadata name="Document.ЗаказПоставщику.ObjectModule" id="01d42f54-a82f-4ffa-adcd-07f61aedc0a3.0" configVersion="745c20c11c928d44bc1f4de1542324c90d4c2d8a"/>
