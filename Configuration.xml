@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.17.1</Version>
+			<Version>1.18.0</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -245,6 +245,7 @@
 			<Enum>ВидыОперацийЭквайринга</Enum>
 			<DataProcessor>НастройкаПрограммы</DataProcessor>
 			<DataProcessor>ПечатьЭтикетокИЦенников</DataProcessor>
+			<DataProcessor>ПечатьЭтикетокИЦенниковБПО</DataProcessor>
 			<DataProcessor>БанкИКасса</DataProcessor>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>

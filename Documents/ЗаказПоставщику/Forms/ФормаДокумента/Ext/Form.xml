@@ -2849,9 +2849,6 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="АС_ПараметрыЗаписиДляПроведения" id="1571">
-			<Type/>
-		</Attribute>
 		<Attribute name="АС_НаименованиеКонтрагентаЗаказаПокупателя" id="1572">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
