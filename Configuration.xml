@@ -170,6 +170,7 @@
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonModule>АС_ЦенообразованиеСервер</CommonModule>
 			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
+			<CommonModule>АС_ИндикацияОстатковСервер</CommonModule>
 			<CommonModule>АС_ПечатьЭтикетокКлиент</CommonModule>
 			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
 			<CommonModule>АС_ОграниченияДокументовСервер</CommonModule>
@@ -189,6 +190,7 @@
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
+			<Catalog>АС_НастройкиИндикацииОстатков</Catalog>
 			<Catalog>АС_ОПФ</Catalog>
 			<Catalog>АС_ТипыФильтров</Catalog>
 			<Catalog>АС_КонструкцииФильтров</Catalog>
