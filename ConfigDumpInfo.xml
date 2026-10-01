@@ -18,7 +18,7 @@
 		<Metadata name="Catalog.АС_БрендыТоваров.Command.АС_ИмпортироватьTXT.CommandModule" id="289b6961-1cc4-4c74-8fc6-6fe9779aa502.2" configVersion="5004e5b5095d3f9210d190af2b0076d571e2992e"/>
 		<Metadata name="Catalog.АС_БрендыТоваров.Form.ФормаСписка" id="7a7017a6-3e2a-4cfb-ba55-b3cfa5d2a685" configVersion="24740d68f9f52de6707a7568bc631dc562a98c0c"/>
 		<Metadata name="Catalog.АС_БрендыТоваров.Form.ФормаСписка.Form" id="7a7017a6-3e2a-4cfb-ba55-b3cfa5d2a685.0" configVersion="fcb21b28383e3406ee50ceced13099a074c764e4"/>
-		<Metadata name="Catalog.АС_БрендыТоваров.ObjectModule" id="198b9f00-9e2e-47c5-9e47-0ac0dccce8b0.0" configVersion="fe8a282750020ba5619ccb9e491760e3a59d2d20"/>
+		<Metadata name="Catalog.АС_БрендыТоваров.ObjectModule" id="198b9f00-9e2e-47c5-9e47-0ac0dccce8b0.0" configVersion="829ee28e31b4288e03b08a452892999be320eba7"/>
 		<Metadata name="Catalog.АС_БрендыФильтров" id="8c3e5f90-ab24-4d67-c8f1-2a3b4c5d6e79" configVersion="5523074081f9e55374db81868e15cf2c0da7d524"/>
 		<Metadata name="Catalog.АС_ВариантыИсполненияФильтров" id="7b2d4e8f-9a13-4c56-b7e0-1f2a3d4c5e68" configVersion="724ff08d5a4476b9bbd2c98df2da0c9d64a246bb"/>
 		<Metadata name="Catalog.АС_ВариантыИсполненияФильтров.Predefined" id="7b2d4e8f-9a13-4c56-b7e0-1f2a3d4c5e68.1c" configVersion="4891337fe0733e158711e88199fd924bc9dba28d"/>
