@@ -6,8 +6,8 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="AfterWrite">ПослеЗаписи</Event>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<LabelDecoration name="ОписаниеОбщейИндикации" id="1">
@@ -26,8 +26,8 @@
 			<EditMode>EnterOnInput</EditMode>
 			<AutoEditMode>true</AutoEditMode>
 			<ChoiceButton>true</ChoiceButton>
-			<OpenButton>true</OpenButton>
 			<ClearButton>true</ClearButton>
+			<OpenButton>true</OpenButton>
 			<ContextMenu name="НоменклатураКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="6"/>
 		</InputField>
@@ -55,9 +55,34 @@
 					<v8:content>Пороги индикации</v8:content>
 				</v8:item>
 			</Title>
+			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ПорогиКонтекстноеМеню" id="11"/>
 			<AutoCommandBar name="ПорогиКоманднаяПанель" id="12"/>
 			<ExtendedTooltip name="ПорогиРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ПорогиСтрокаПоиска" id="21">
+				<AdditionSource>
+					<Item>Пороги</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПорогиСтрокаПоискаКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="ПорогиСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПорогиСостояниеПросмотра" id="24">
+				<AdditionSource>
+					<Item>Пороги</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПорогиСостояниеПросмотраКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="ПорогиСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПорогиУправлениеПоиском" id="27">
+				<AdditionSource>
+					<Item>Пороги</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПорогиУправлениеПоискомКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="ПорогиУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+			</SearchControlAddition>
 			<ChildItems>
 				<InputField name="ПорогиКоличество" id="14">
 					<DataPath>Объект.Пороги.Количество</DataPath>

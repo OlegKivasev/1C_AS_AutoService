@@ -536,12 +536,12 @@
 															<Type>SearchControl</Type>
 														</AdditionSource>
 														<ContextMenu name="СписокБанковскиеВыпискиУправлениеПоискомКонтекстноеМеню" id="640"/>
-																<ExtendedTooltip name="СписокБанковскиеВыпискиУправлениеПоискомРасширеннаяПодсказка" id="641"/>
-															</SearchControlAddition>
-															<Events>
-																<Event name="Selection" callType="Before">АС_СписокБанковскиеВыпискиВыбор</Event>
-															</Events>
-															<ChildItems>
+														<ExtendedTooltip name="СписокБанковскиеВыпискиУправлениеПоискомРасширеннаяПодсказка" id="641"/>
+													</SearchControlAddition>
+													<Events>
+														<Event name="Selection" callType="Before">АС_СписокБанковскиеВыпискиВыбор</Event>
+													</Events>
+													<ChildItems>
 														<ColumnGroup name="Строки" id="628">
 															<Title>
 																<v8:item>

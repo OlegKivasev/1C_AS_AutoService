@@ -3,7 +3,12 @@
 	<Role uuid="b2f67725-e891-4cc6-a3fb-56aeb971cd43">
 		<Properties>
 			<Name>АС_ЗапретитьПометкуУдаления</Name>
-			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Запретить пометку документов на удаление</v8:content></v8:item></Synonym>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запретить пометку документов на удаление</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment>Роль-маркер. Запрет выполняется серверной проверкой расширения.</Comment>
 		</Properties>
 	</Role>

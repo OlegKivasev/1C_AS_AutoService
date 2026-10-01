@@ -482,7 +482,7 @@
 													<ExtendedTooltip name="НомерКартинкиОплатыРасширеннаяПодсказка" id="383"/>
 												</PictureField>
 												<PictureField name="АС_СоставПриходнойНакладной" id="1000500">
-											<DataPath>Список.АС_ИконкаСоставаПриходнойНакладной</DataPath>
+													<DataPath>Список.АС_ИконкаСоставаПриходнойНакладной</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>

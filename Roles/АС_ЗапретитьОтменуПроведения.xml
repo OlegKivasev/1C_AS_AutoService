@@ -3,7 +3,12 @@
 	<Role uuid="f4e0d86a-03f0-4ef2-b577-a7514db2ad01">
 		<Properties>
 			<Name>АС_ЗапретитьОтменуПроведения</Name>
-			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Запретить отмену проведения документов</v8:content></v8:item></Synonym>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запретить отмену проведения документов</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment>Роль-маркер. Запрет выполняется серверной проверкой расширения.</Comment>
 		</Properties>
 	</Role>

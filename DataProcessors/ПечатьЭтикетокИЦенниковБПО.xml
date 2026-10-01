@@ -26,7 +26,7 @@
 					<Comment/>
 					<ExtendedConfigurationObject>7715242d-7260-4ca2-8a6f-e7c7ebc78bcf</ExtendedConfigurationObject>
 					<Type>
-						<v8:TypeSet>cfg:DefinedType.ТорговыйОбъектБПО</v8:TypeSet>
+						<v8:TypeId>6af88af9-5016-4314-8d83-19a0682531b9</v8:TypeId>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -50,7 +50,7 @@
 					<Comment/>
 					<ExtendedConfigurationObject>7e38bffe-528c-4838-9298-2ca1ce12498b</ExtendedConfigurationObject>
 					<Type>
-						<v8:TypeSet>cfg:DefinedType.ВидЦеныБПО</v8:TypeSet>
+						<v8:TypeId>dde389bf-829f-435c-874f-7333e6635d28</v8:TypeId>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -62,7 +62,7 @@
 					<Comment/>
 					<ExtendedConfigurationObject>b088a4ae-6e96-4ef1-82ac-e9a680145cfd</ExtendedConfigurationObject>
 					<Type>
-						<v8:TypeSet>cfg:DefinedType.ВидЦеныБПО</v8:TypeSet>
+						<v8:TypeId>dde389bf-829f-435c-874f-7333e6635d28</v8:TypeId>
 					</Type>
 				</Properties>
 			</Attribute>
@@ -94,7 +94,6 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Form>Форма</Form>
 			<TabularSection uuid="c5efdb4f-708d-4311-b5e9-fb18311c273e">
 				<InternalInfo>
 					<xr:GeneratedType name="DataProcessorTabularSection.ПечатьЭтикетокИЦенниковБПО.Товары" category="TabularSection">
@@ -133,7 +132,7 @@
 							<Comment/>
 							<ExtendedConfigurationObject>416fe4e1-9165-4995-b636-72cefcff3a8c</ExtendedConfigurationObject>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.НоменклатураБПО</v8:TypeSet>
+								<v8:TypeId>33ccea99-d100-4166-9890-cf0f5ec03bb0</v8:TypeId>
 							</Type>
 						</Properties>
 					</Attribute>
@@ -145,7 +144,7 @@
 							<Comment/>
 							<ExtendedConfigurationObject>79425f5a-cec4-4bf0-ad00-4306944d426c</ExtendedConfigurationObject>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ХарактеристикаБПО</v8:TypeSet>
+								<v8:TypeId>e84e8762-86a3-415d-9a46-121ab2accd2d</v8:TypeId>
 							</Type>
 						</Properties>
 					</Attribute>
@@ -157,7 +156,7 @@
 							<Comment/>
 							<ExtendedConfigurationObject>6a70777d-d783-42f1-99a4-741a4de874be</ExtendedConfigurationObject>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.УпаковкаБПО</v8:TypeSet>
+								<v8:TypeId>5c940b8e-e4c7-4306-a431-e1e7b81c1b21</v8:TypeId>
 							</Type>
 						</Properties>
 					</Attribute>
@@ -169,7 +168,7 @@
 							<Comment/>
 							<ExtendedConfigurationObject>5c0a8518-a50a-4399-bd5d-ef484df0833c</ExtendedConfigurationObject>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ОрганизацияБПО</v8:TypeSet>
+								<v8:TypeId>d229b658-97dd-4834-addc-643cf99271be</v8:TypeId>
 							</Type>
 						</Properties>
 					</Attribute>
@@ -181,7 +180,7 @@
 							<Comment/>
 							<ExtendedConfigurationObject>bf68af4e-e9c9-4570-92ce-994f6481a3a7</ExtendedConfigurationObject>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+								<v8:TypeId>09e14b81-e36d-4ff8-b21b-c41172266147</v8:TypeId>
 							</Type>
 						</Properties>
 					</Attribute>
@@ -209,7 +208,7 @@
 							<Comment/>
 							<ExtendedConfigurationObject>48aff18a-94d4-4e04-b1fe-dba19394db19</ExtendedConfigurationObject>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ШаблоныЭтикетокИЦенниковБПО</v8:Type>
+								<v8:TypeId>d87160bb-2aa0-42e4-92ea-c5140c96e8cc</v8:TypeId>
 							</Type>
 						</Properties>
 					</Attribute>
@@ -232,6 +231,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Form>Форма</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

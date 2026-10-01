@@ -375,28 +375,48 @@
 								<InputField name="КоличествоНеподтвержденныхПродаж" id="157">
 									<DataPath>КоличествоНеподтвержденныхПродаж</DataPath>
 									<ReadOnly>true</ReadOnly>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Количество</v8:content></v8:item></Title>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Количество</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="КоличествоНеподтвержденныхПродажКонтекстноеМеню" id="158"/>
 									<ExtendedTooltip name="КоличествоНеподтвержденныхПродажРасширеннаяПодсказка" id="159"/>
 								</InputField>
 								<InputField name="СуммаНеподтвержденныхПродаж" id="160">
 									<DataPath>СуммаНеподтвержденныхПродаж</DataPath>
 									<ReadOnly>true</ReadOnly>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Сумма продаж</v8:content></v8:item></Title>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сумма продаж</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="СуммаНеподтвержденныхПродажКонтекстноеМеню" id="161"/>
 									<ExtendedTooltip name="СуммаНеподтвержденныхПродажРасширеннаяПодсказка" id="162"/>
 								</InputField>
 								<InputField name="СебестоимостьНеподтвержденныхПродаж" id="163">
 									<DataPath>СебестоимостьНеподтвержденныхПродаж</DataPath>
 									<ReadOnly>true</ReadOnly>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Себестоимость</v8:content></v8:item></Title>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Себестоимость</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="СебестоимостьНеподтвержденныхПродажКонтекстноеМеню" id="164"/>
 									<ExtendedTooltip name="СебестоимостьНеподтвержденныхПродажРасширеннаяПодсказка" id="165"/>
 								</InputField>
 								<InputField name="ВаловаяПрибыльНеподтвержденныхПродаж" id="166">
 									<DataPath>ВаловаяПрибыльНеподтвержденныхПродаж</DataPath>
 									<ReadOnly>true</ReadOnly>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Валовая прибыль</v8:content></v8:item></Title>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Валовая прибыль</v8:content>
+										</v8:item>
+									</Title>
 									<ContextMenu name="ВаловаяПрибыльНеподтвержденныхПродажКонтекстноеМеню" id="167"/>
 									<ExtendedTooltip name="ВаловаяПрибыльНеподтвержденныхПродажРасширеннаяПодсказка" id="168"/>
 								</InputField>
@@ -422,28 +442,48 @@
 						<InputField name="КоличествоВсегоПродаж" id="171">
 							<DataPath>КоличествоВсегоПродаж</DataPath>
 							<ReadOnly>true</ReadOnly>
-							<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Количество</v8:content></v8:item></Title>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Количество</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="КоличествоВсегоПродажКонтекстноеМеню" id="172"/>
 							<ExtendedTooltip name="КоличествоВсегоПродажРасширеннаяПодсказка" id="173"/>
 						</InputField>
 						<InputField name="СуммаВсегоПродаж" id="174">
 							<DataPath>СуммаВсегоПродаж</DataPath>
 							<ReadOnly>true</ReadOnly>
-							<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Сумма продаж</v8:content></v8:item></Title>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сумма продаж</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="СуммаВсегоПродажКонтекстноеМеню" id="175"/>
 							<ExtendedTooltip name="СуммаВсегоПродажРасширеннаяПодсказка" id="176"/>
 						</InputField>
 						<InputField name="СебестоимостьВсегоПродаж" id="177">
 							<DataPath>СебестоимостьВсегоПродаж</DataPath>
 							<ReadOnly>true</ReadOnly>
-							<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Себестоимость</v8:content></v8:item></Title>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Себестоимость</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="СебестоимостьВсегоПродажКонтекстноеМеню" id="178"/>
 							<ExtendedTooltip name="СебестоимостьВсегоПродажРасширеннаяПодсказка" id="179"/>
 						</InputField>
 						<InputField name="ВаловаяПрибыльВсегоПродаж" id="180">
 							<DataPath>ВаловаяПрибыльВсегоПродаж</DataPath>
 							<ReadOnly>true</ReadOnly>
-							<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Валовая прибыль</v8:content></v8:item></Title>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Валовая прибыль</v8:content>
+								</v8:item>
+							</Title>
 							<ContextMenu name="ВаловаяПрибыльВсегоПродажКонтекстноеМеню" id="181"/>
 							<ExtendedTooltip name="ВаловаяПрибыльВсегоПродажРасширеннаяПодсказка" id="182"/>
 						</InputField>

@@ -3,7 +3,12 @@
 	<Role uuid="46e07596-eab7-4834-a712-f548955a7782">
 		<Properties>
 			<Name>АС_ЗапретитьРедактированиеПоступлений</Name>
-			<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Запретить редактирование созданных поступлений</v8:content></v8:item></Synonym>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запретить редактирование созданных поступлений</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment>Роль-маркер для документов поступления в кассу и на счет.</Comment>
 		</Properties>
 	</Role>

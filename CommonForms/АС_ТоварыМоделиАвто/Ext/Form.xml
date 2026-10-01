@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<Group>Vertical</Group>
@@ -7,7 +7,7 @@
 			<Button name="АС_Обновить" id="1">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.АС_Обновить</CommandName>
-				<ExtendedTooltip name="АС_ОбновитьРасширеннаяПодсказка" id="2" />
+				<ExtendedTooltip name="АС_ОбновитьРасширеннаяПодсказка" id="2"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -25,100 +25,84 @@
 			<Group>AlwaysHorizontal</Group>
 			<Behavior>Collapsible</Behavior>
 			<Collapsed>true</Collapsed>
-			<ExtendedTooltip name="АС_ФильтрыРасширеннаяПодсказка" id="19" />
+			<ExtendedTooltip name="АС_ФильтрыРасширеннаяПодсказка" id="19"/>
 			<ChildItems>
 				<InputField name="НачалоПериода" id="21">
 					<DataPath>НачалоПериода</DataPath>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<HorizontalStretch>false</HorizontalStretch>
-					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="25" />
-					<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="26" />
+					<ContextMenu name="НачалоПериодаКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="НачалоПериодаРасширеннаяПодсказка" id="26"/>
 				</InputField>
 				<InputField name="КонецПериода" id="29">
 					<DataPath>КонецПериода</DataPath>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<HorizontalStretch>false</HorizontalStretch>
-					<ContextMenu name="КонецПериодаКонтекстноеМеню" id="33" />
-					<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="34" />
+					<ContextMenu name="КонецПериодаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="КонецПериодаРасширеннаяПодсказка" id="34"/>
 				</InputField>
 				<Button name="АС_ПрименитьПериод" id="100">
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.АС_ПрименитьПериод</CommandName>
-					<ExtendedTooltip name="АС_ПрименитьПериодРасширеннаяПодсказка" id="101" />
+					<ExtendedTooltip name="АС_ПрименитьПериодРасширеннаяПодсказка" id="101"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
 		<Table name="АС_Товары" id="37">
-			<ReadOnly>true</ReadOnly>
+			<Representation>List</Representation>
 			<ChangeRowSet>false</ChangeRowSet>
 			<ChangeRowOrder>false</ChangeRowOrder>
 			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
-			<EnableStartDrag>false</EnableStartDrag>
 			<DataPath>АС_Товары</DataPath>
 			<ShowCommandBar>auto</ShowCommandBar>
-			<AutoRefresh>false</AutoRefresh>
-			<AutoRefreshPeriod>60</AutoRefreshPeriod>
-			<Period>
-				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-			</Period>
-			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-			<RestoreCurrentRow>false</RestoreCurrentRow>
-			<TopLevelParent xsi:nil="true" />
-			<ShowRoot>true</ShowRoot>
-			<AllowRootChoice>false</AllowRootChoice>
-			<UpdateOnDataChange>Auto</UpdateOnDataChange>
-			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
-			<CommandSet>
-				<ExcludedCommand>MoveUp</ExcludedCommand>
-				<ExcludedCommand>MoveDown</ExcludedCommand>
-			</CommandSet>
-			<ContextMenu name="АС_ТоварыКонтекстноеМеню" id="56" />
-			<AutoCommandBar name="АС_ТоварыКоманднаяПанель" id="57" />
-			<ExtendedTooltip name="АС_ТоварыРасширеннаяПодсказка" id="58" />
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="АС_ТоварыКонтекстноеМеню" id="56"/>
+			<AutoCommandBar name="АС_ТоварыКоманднаяПанель" id="57"/>
+			<ExtendedTooltip name="АС_ТоварыРасширеннаяПодсказка" id="58"/>
 			<SearchStringAddition name="АС_ТоварыСтрокаПоиска" id="59">
 				<AdditionSource>
 					<Item>АС_Товары</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="АС_ТоварыСтрокаПоискаКонтекстноеМеню" id="63" />
-				<ExtendedTooltip name="АС_ТоварыСтрокаПоискаРасширеннаяПодсказка" id="64" />
+				<ContextMenu name="АС_ТоварыСтрокаПоискаКонтекстноеМеню" id="63"/>
+				<ExtendedTooltip name="АС_ТоварыСтрокаПоискаРасширеннаяПодсказка" id="64"/>
 			</SearchStringAddition>
 			<ViewStatusAddition name="АС_ТоварыСостояниеПросмотра" id="65">
 				<AdditionSource>
 					<Item>АС_Товары</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="АС_ТоварыСостояниеПросмотраКонтекстноеМеню" id="69" />
-				<ExtendedTooltip name="АС_ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="70" />
+				<ContextMenu name="АС_ТоварыСостояниеПросмотраКонтекстноеМеню" id="69"/>
+				<ExtendedTooltip name="АС_ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="70"/>
 			</ViewStatusAddition>
 			<SearchControlAddition name="АС_ТоварыУправлениеПоиском" id="71">
 				<AdditionSource>
 					<Item>АС_Товары</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="АС_ТоварыУправлениеПоискомКонтекстноеМеню" id="75" />
-				<ExtendedTooltip name="АС_ТоварыУправлениеПоискомРасширеннаяПодсказка" id="76" />
+				<ContextMenu name="АС_ТоварыУправлениеПоискомКонтекстноеМеню" id="75"/>
+				<ExtendedTooltip name="АС_ТоварыУправлениеПоискомРасширеннаяПодсказка" id="76"/>
 			</SearchControlAddition>
 			<Events>
 				<Event name="Selection">АС_СписокВыбор</Event>
 			</Events>
 			<ChildItems>
-				<LabelField name="АС_ТоварыНоменклатура" id="80">
-					<DataPath>АС_Товары.Номенклатура</DataPath>
+				<InputField name="АС_ТоварыНоменклатура" id="80">
+					<DataPath>АС_Товары.НаименованиеТовара</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
-					<ContextMenu name="АС_ТоварыНоменклатураКонтекстноеМеню" id="84" />
-					<ExtendedTooltip name="АС_ТоварыНоменклатураРасширеннаяПодсказка" id="85" />
-				</LabelField>
-				<LabelField name="АС_ТоварыДата" id="86">
+					<ContextMenu name="АС_ТоварыНоменклатураКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="АС_ТоварыНоменклатураРасширеннаяПодсказка" id="85"/>
+				</InputField>
+				<InputField name="АС_ТоварыДата" id="86">
 					<DataPath>АС_Товары.Дата</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<AutoEditMode>true</AutoEditMode>
-					<ContextMenu name="АС_ТоварыДатаКонтекстноеМеню" id="90" />
-					<ExtendedTooltip name="АС_ТоварыДатаРасширеннаяПодсказка" id="91" />
-				</LabelField>
+					<ContextMenu name="АС_ТоварыДатаКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="АС_ТоварыДатаРасширеннаяПодсказка" id="91"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -176,104 +160,60 @@
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>АС_Товары.Заказ</Field>
+				<Field>АС_Товары.ЭтоЗаказНаряд</Field>
+			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
+				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
-    СтрокиТоваров.Номенклатура КАК Номенклатура,
-    СтрокиТоваров.Ссылка.Дата КАК Дата,
-    СтрокиТоваров.Ссылка КАК Заказ,
-    ВЫБОР КОГДА СтрокиТоваров.Ссылка.ВидОперации =
+    ДокументЗаказа.Ссылка КАК Заказ,
+    ДокументЗаказа.Дата КАК Дата,
+    ВЫБОР КОГДА ДокументЗаказа.ВидОперации =
         ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаряд)
-        ТОГДА ИСТИНА ИНАЧЕ ЛОЖЬ КОНЕЦ КАК ЭтоЗаказНаряд,
+        ТОГДА ИСТИНА ИНАЧЕ ЛОЖЬ КОНЕЦ КАК ЭтоЗаказНаряд
+ПОМЕСТИТЬ ВТЗаказыМодели
+ИЗ
+    Документ.ЗаказПокупателя КАК ДокументЗаказа
+        ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ДоговорыКонтрагентов КАК ДоговорАвтомобиля
+        ПО ДокументЗаказа.Договор = ДоговорАвтомобиля.Ссылка
+        ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Контрагенты КАК ПокупательАвтомобиля
+        ПО ДокументЗаказа.Контрагент = ПокупательАвтомобиля.Ссылка
+ГДЕ
+    НЕ ДокументЗаказа.ПометкаУдаления
+    И ДокументЗаказа.Дата &gt;= &amp;ПримененноеНачалоПериода
+    И ДокументЗаказа.Дата &lt;= &amp;ПримененныйКонецПериода
+    И (ВЫБОР
+        КОГДА ЕСТЬNULL(ДоговорАвтомобиля.АС_МодельАвтомобиляИзСправочника,
+            ЗНАЧЕНИЕ(Справочник.АС_Автомобили.ПустаяСсылка))
+            &lt;&gt; ЗНАЧЕНИЕ(Справочник.АС_Автомобили.ПустаяСсылка)
+        ТОГДА ДоговорАвтомобиля.АС_МодельАвтомобиляИзСправочника
+        ИНАЧЕ ПокупательАвтомобиля.АС_МодельАвтомобиляИзСправочника
+    КОНЕЦ) = &amp;МодельФормы
+ИНДЕКСИРОВАТЬ ПО
+    Заказ
+;
+
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+    ПРЕДСТАВЛЕНИЕ(СтрокиТоваров.Номенклатура) КАК НаименованиеТовара,
+    ЗаказыМодели.Дата КАК Дата,
+    ЗаказыМодели.Заказ КАК Заказ,
+    ЗаказыМодели.ЭтоЗаказНаряд КАК ЭтоЗаказНаряд,
     СтрокиТоваров.НомерСтроки КАК НомерСтроки
-ИЗ Документ.ЗаказПокупателя.Запасы КАК СтрокиТоваров
-ГДЕ ЛОЖЬ
-    И НЕ СтрокиТоваров.Ссылка.ПометкаУдаления
-    И НЕ СтрокиТоваров.ЭтоРазделитель
+ИЗ
+    ВТЗаказыМодели КАК ЗаказыМодели
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя.Запасы КАК СтрокиТоваров
+        ПО ЗаказыМодели.Заказ = СтрокиТоваров.Ссылка
+ГДЕ
+    НЕ СтрокиТоваров.ЭтоРазделитель
     И СтрокиТоваров.Номенклатура &lt;&gt; ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)
-    И СтрокиТоваров.Номенклатура &lt;&gt; ""</QueryText>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Номенклатура</dcssch:dataPath>
-					<dcssch:field>Номенклатура</dcssch:field>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Наименование товара</v8:content>
-						</v8:item>
-					</dcssch:title>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Дата</dcssch:dataPath>
-					<dcssch:field>Дата</dcssch:field>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дата заказа</v8:content>
-						</v8:item>
-					</dcssch:title>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>Заказ</dcssch:dataPath>
-					<dcssch:field>Заказ</dcssch:field>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Заказ</v8:content>
-						</v8:item>
-					</dcssch:title>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>ЭтоЗаказНаряд</dcssch:dataPath>
-					<dcssch:field>ЭтоЗаказНаряд</dcssch:field>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вид операции</v8:content>
-						</v8:item>
-					</dcssch:title>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>НомерСтроки</dcssch:dataPath>
-					<dcssch:field>НомерСтроки</dcssch:field>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Номер строки</v8:content>
-						</v8:item>
-					</dcssch:title>
-				</Field>
+    И СтрокиТоваров.Номенклатура &lt;&gt; &quot;&quot;</QueryText>
 				<KeyType>RowKey</KeyType>
 				<KeyField>Заказ</KeyField>
 				<KeyField>НомерСтроки</KeyField>
-				<ListSettings>
-					<dcsset:filter>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>7c3b799c-dcca-4de0-b6d1-c21e29b79f06</dcsset:userSettingID>
-					</dcsset:filter>
-					<dcsset:order>
-						<dcsset:item xsi:type="dcsset:OrderItemField">
-							<dcsset:field>Дата</dcsset:field>
-							<dcsset:orderType>Desc</dcsset:orderType>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:OrderItemField">
-							<dcsset:field>Заказ</dcsset:field>
-							<dcsset:orderType>Asc</dcsset:orderType>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:OrderItemField">
-							<dcsset:field>НомерСтроки</dcsset:field>
-							<dcsset:orderType>Asc</dcsset:orderType>
-						</dcsset:item>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>879ed12d-469c-402a-a3e8-61d9460ccbdc</dcsset:userSettingID>
-					</dcsset:order>
-					<dcsset:conditionalAppearance>
-						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>0d555357-2588-4db8-ad55-12d33f974e43</dcsset:userSettingID>
-					</dcsset:conditionalAppearance>
-					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:itemsUserSettingID>be46d810-9541-4bcf-9adc-54ac9d2ac8d2</dcsset:itemsUserSettingID>
-				</ListSettings>
+				<ListSettings><dcsset:filter xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings"><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>5070e3fa-88cb-46e6-a4ef-1cd959363aae</dcsset:userSettingID></dcsset:filter><dcsset:order xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings"><dcsset:item xsi:type="dcsset:OrderItemField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dcsset:field>Дата</dcsset:field><dcsset:orderType>Desc</dcsset:orderType></dcsset:item><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>7eb3306a-cd88-4f54-819d-364ce3617bb5</dcsset:userSettingID></dcsset:order><dcsset:conditionalAppearance xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings"><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>325b98a9-60e0-4a47-b175-97a6b3533596</dcsset:userSettingID></dcsset:conditionalAppearance><dcsset:itemsViewMode xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">Normal</dcsset:itemsViewMode><dcsset:itemsUserSettingID xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">9e920eed-fd7e-4643-8421-9de6bfa95403</dcsset:itemsUserSettingID></ListSettings>
 			</Settings>
 		</Attribute>
 	</Attributes>
@@ -308,11 +248,17 @@
 		<Parameter name="НачалоПериода">
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
 			</Type>
 		</Parameter>
 		<Parameter name="КонецПериода">
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
 			</Type>
 		</Parameter>
 	</Parameters>

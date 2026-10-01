@@ -4228,9 +4228,9 @@
 									<Width>40</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>40</MaxWidth>
-									<HorizontalStretch>false</HorizontalStretch>
 									<HeightInTableRows>12</HeightInTableRows>
 									<RowSelectionMode>Row</RowSelectionMode>
+									<HorizontalStretch>false</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<DataPath>Объект.АС_Применяемость</DataPath>
 									<Title>
