@@ -68,6 +68,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>АС_Автосервис</Subsystem>
+			<Subsystem>Продажи</Subsystem>
 			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
@@ -183,11 +184,14 @@
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
 			<CommonCommand>АС_ПродажиСотрудника</CommonCommand>
+			<CommonCommand>АС_ИсторияПоМоделямАвто</CommonCommand>
 			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<Constant>АС_ИндексOEMИнициализирован</Constant>
 			<CommonForm>АС_OEMАналоги</CommonForm>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
+			<CommonForm>АС_ИсторияПоМоделямАвто</CommonForm>
+			<CommonForm>АС_ТоварыМоделиАвто</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>

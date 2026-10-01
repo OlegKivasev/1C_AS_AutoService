@@ -34,6 +34,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ОграниченияДокументовПередЗаписью</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ЗапретРедактированияПоступленийПередЗаписью</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ОграниченияДокументовПередУдалением</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.АС_ИсторияПоМоделямАвто</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ИсторияПоМоделямАвто</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ТоварыМоделиАвто</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
