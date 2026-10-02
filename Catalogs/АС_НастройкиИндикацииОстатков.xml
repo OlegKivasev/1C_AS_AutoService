@@ -157,7 +157,7 @@
 					</Synonym>
 					<Comment>Цвет применяется к остатку не больше указанного количества и больше предыдущего порога.</Comment>
 					<ToolTip/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<StandardAttributes>
 						<xr:StandardAttribute name="LineNumber">
 							<xr:LinkByType/>

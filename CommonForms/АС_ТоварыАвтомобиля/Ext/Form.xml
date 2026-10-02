@@ -200,11 +200,12 @@
 			</Type>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
+				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
     Заказ.Дата КАК ДатаЗаказНаряда,
     СтрокиТоваров.Номенклатура КАК Номенклатура,
-    Заказ.Ссылка КАК ЗаказПокупателя
+    Заказ.Ссылка КАК ЗаказПокупателя,
+    СтрокиТоваров.НомерСтроки КАК НомерСтроки
 ИЗ
     Документ.ЗаказПокупателя.Запасы КАК СтрокиТоваров
         ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя КАК Заказ
@@ -272,12 +273,19 @@
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
 				</Parameter>
+				<KeyType>RowKey</KeyType>
+				<KeyField>ЗаказПокупателя</KeyField>
+				<KeyField>НомерСтроки</KeyField>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ДатаЗаказНаряда</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
@@ -302,11 +310,12 @@
 			</Type>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
+				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
     Заказ.Дата КАК ДатаЗаказНаряда,
     СтрокиРабот.Номенклатура КАК Номенклатура,
-    Заказ.Ссылка КАК ЗаказПокупателя
+    Заказ.Ссылка КАК ЗаказПокупателя,
+    СтрокиРабот.НомерСтроки КАК НомерСтроки
 ИЗ
     Документ.ЗаказПокупателя.Работы КАК СтрокиРабот
         ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя КАК Заказ
@@ -374,12 +383,19 @@
 					<dcssch:value xsi:nil="true"/>
 					<dcssch:useRestriction>true</dcssch:useRestriction>
 				</Parameter>
+				<KeyType>RowKey</KeyType>
+				<KeyField>ЗаказПокупателя</KeyField>
+				<KeyField>НомерСтроки</KeyField>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ДатаЗаказНаряда</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
