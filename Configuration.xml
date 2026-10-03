@@ -166,6 +166,7 @@
 			<Role>АС_ЗапретитьОтменуПроведения</Role>
 			<Role>АС_ЗапретитьПометкуУдаления</Role>
 			<Role>АС_ЗапретитьРедактированиеПоступлений</Role>
+			<Role>АС_ЗапретитьРедактированиеСписаний</Role>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_ИндексOEMСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
