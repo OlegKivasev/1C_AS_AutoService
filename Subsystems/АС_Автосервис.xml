@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АС_ИндикацияОстатковСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_РазрешитьИзменятьЦенуНаУслуги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_РазрешитьИзменятьЦенуНаВременныеТовары</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_РазрешитьПрименятьСкидки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ПросмотрТоваровИУслуг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ЗапретитьОтменуПроведения</xr:Item>
