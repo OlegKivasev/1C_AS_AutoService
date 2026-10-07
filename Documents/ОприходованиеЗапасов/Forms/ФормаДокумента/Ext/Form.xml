@@ -521,6 +521,10 @@
 											<Wrap>false</Wrap>
 											<ContextMenu name="ЗапасыНоменклатураКонтекстноеМеню" id="24"/>
 											<ExtendedTooltip name="ЗапасыНоменклатураРасширеннаяПодсказка" id="97"/>
+											<Events>
+												<Event name="AutoComplete">АС_ЗапасыНоменклатураАвтоПодбор</Event>
+												<Event name="TextEditEnd">АС_ЗапасыНоменклатураОкончаниеВводаТекста</Event>
+											</Events>
 										</InputField>
 										<PictureField name="ЗапасыПрослеживаемыйТовар" id="234">
 											<EditMode>EnterOnInput</EditMode>
