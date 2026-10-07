@@ -1237,15 +1237,126 @@
 												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
-										<CheckBoxField name="АС_БезФотографии" id="1000078">
-											<DataPath>АС_БезФотографии</DataPath>
-											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Без фотографии</v8:content></v8:item></Title>
-											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>CheckBox</CheckBoxType>
-											<ContextMenu name="АС_БезФотографииКонтекстноеМеню" id="1000079"/>
-											<ExtendedTooltip name="АС_БезФотографииРасширеннаяПодсказка" id="1000080"/>
-											<Events><Event name="OnChange" callType="Before">АС_БезФотографииПриИзменении</Event></Events>
-										</CheckBoxField>
+										<UsualGroup name="АС_ИзображениеОтбор" id="1000089">
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ChildItems>
+												<CheckBoxField name="АС_БезФотографии" id="1000078">
+													<DataPath>АС_БезФотографии</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Изображение</v8:content></v8:item></Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>CheckBox</CheckBoxType>
+													<ContextMenu name="АС_БезФотографииКонтекстноеМеню" id="1000079"/>
+													<ExtendedTooltip name="АС_БезФотографииРасширеннаяПодсказка" id="1000080"/>
+													<Events><Event name="OnChange" callType="Before">АС_БезФотографииПриИзменении</Event></Events>
+												</CheckBoxField>
+												<InputField name="АС_ОтборИзображение" id="1000090">
+													<DataPath>АС_ОтборИзображение</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Width>23</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ChoiceList>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Изображение отсутствует</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">1</Value></xr:Value></xr:Item>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Присутствует</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">2</Value></xr:Value></xr:Item>
+													</ChoiceList>
+													<ContextMenu name="АС_ОтборИзображениеКонтекстноеМеню" id="1000091"/>
+													<ExtendedTooltip name="АС_ОтборИзображениеРасширеннаяПодсказка" id="1000092"/>
+													<Events><Event name="OnChange" callType="Before">АС_ОтборИзображениеПриИзменении</Event></Events>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="АС_ДополнительныеНастройкиОтбор" id="1000003">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дополнительные настройки</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="style:NormalTextFont" bold="false" italic="false" underline="true" strikeout="false" kind="StyleItem"/>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дополнительные отборы номенклатуры</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Collapsed>true</Collapsed>
+									<ControlRepresentation>Button</ControlRepresentation>
+									<Representation>WeakSeparation</Representation>
+									<ShowLeftMargin>false</ShowLeftMargin>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_ДополнительныеНастройкиОтборРасширеннаяПодсказка" id="1000004"/>
+									<ChildItems>
+										<UsualGroup name="АС_ДокументыОтбор" id="1000093">
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ChildItems>
+												<CheckBoxField name="АС_БезДокументов" id="1000005">
+													<DataPath>АС_БезДокументов</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Документы</v8:content></v8:item></Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>CheckBox</CheckBoxType>
+													<ContextMenu name="АС_БезДокументовКонтекстноеМеню" id="1000006"/>
+													<ExtendedTooltip name="АС_БезДокументовРасширеннаяПодсказка" id="1000007"/>
+													<Events><Event name="OnChange" callType="Before">АС_БезДокументовПриИзменении</Event></Events>
+												</CheckBoxField>
+												<InputField name="АС_ОтборДокументы" id="1000094">
+													<DataPath>АС_ОтборДокументы</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Width>20</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ChoiceList>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Документы отсутствуют</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">1</Value></xr:Value></xr:Item>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Присутствуют</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">2</Value></xr:Value></xr:Item>
+													</ChoiceList>
+													<ContextMenu name="АС_ОтборДокументыКонтекстноеМеню" id="1000095"/>
+													<ExtendedTooltip name="АС_ОтборДокументыРасширеннаяПодсказка" id="1000096"/>
+													<Events><Event name="OnChange" callType="Before">АС_ОтборДокументыПриИзменении</Event></Events>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="АС_ПрименяемостьОтбор" id="1000097">
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ChildItems>
+												<CheckBoxField name="АС_Применяемость" id="1000098">
+													<DataPath>АС_Применяемость</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Применяемость</v8:content></v8:item></Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>CheckBox</CheckBoxType>
+													<ContextMenu name="АС_ПрименяемостьКонтекстноеМеню" id="1000099"/>
+													<ExtendedTooltip name="АС_ПрименяемостьРасширеннаяПодсказка" id="1000100"/>
+													<Events><Event name="OnChange" callType="Before">АС_ПрименяемостьПриИзменении</Event></Events>
+												</CheckBoxField>
+												<InputField name="АС_ОтборПрименяемость" id="1000101">
+													<DataPath>АС_ОтборПрименяемость</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Width>23</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ChoiceList>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Применяемость отсутствует</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">1</Value></xr:Value></xr:Item>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Присутствует</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">2</Value></xr:Value></xr:Item>
+													</ChoiceList>
+													<ContextMenu name="АС_ОтборПрименяемостьКонтекстноеМеню" id="1000102"/>
+													<ExtendedTooltip name="АС_ОтборПрименяемостьРасширеннаяПодсказка" id="1000103"/>
+													<Events><Event name="OnChange" callType="Before">АС_ОтборПрименяемостьПриИзменении</Event></Events>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
 								<UsualGroup name="ТипНоменклатурыОтбор" id="253">
@@ -1360,49 +1471,6 @@
 											<Visible>false</Visible>
 											<ContextMenu name="ОтборНаборКонтекстноеМеню" id="1203"/>
 											<ExtendedTooltip name="ОтборНаборРасширеннаяПодсказка" id="1204"/>
-										</CheckBoxField>
-									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="АС_ДополнительныеНастройкиОтбор" id="1000003">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Дополнительные настройки</v8:content>
-										</v8:item>
-									</Title>
-									<TitleFont ref="style:NormalTextFont" bold="false" italic="false" underline="true" strikeout="false" kind="StyleItem"/>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Дополнительные отборы номенклатуры</v8:content>
-										</v8:item>
-									</ToolTip>
-									<HorizontalStretch>true</HorizontalStretch>
-									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
-									<Group>AlwaysHorizontal</Group>
-									<Behavior>Usual</Behavior>
-									<Collapsed>true</Collapsed>
-									<ControlRepresentation>Button</ControlRepresentation>
-									<Representation>WeakSeparation</Representation>
-									<ShowLeftMargin>false</ShowLeftMargin>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="АС_ДополнительныеНастройкиОтборРасширеннаяПодсказка" id="1000004"/>
-									<ChildItems>
-										<CheckBoxField name="АС_БезДокументов" id="1000005">
-											<DataPath>АС_БезДокументов</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Без документов</v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>CheckBox</CheckBoxType>
-											<ContextMenu name="АС_БезДокументовКонтекстноеМеню" id="1000006"/>
-											<ExtendedTooltip name="АС_БезДокументовРасширеннаяПодсказка" id="1000007"/>
-											<Events>
-												<Event name="OnChange" callType="Before">АС_БезДокументовПриИзменении</Event>
-											</Events>
 										</CheckBoxField>
 									</ChildItems>
 								</UsualGroup>
@@ -7039,7 +7107,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Без документов</v8:content>
+					<v8:content>Документы</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -7075,8 +7143,24 @@
 			<Type><v8:Type>xs:dateTime</v8:Type><v8:DateQualifiers><v8:DateFractions>Date</v8:DateFractions></v8:DateQualifiers></Type>
 		</Attribute>
 		<Attribute name="АС_БезФотографии" id="1000088">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Без фотографии</v8:content></v8:item></Title>
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Изображение</v8:content></v8:item></Title>
 			<Type><v8:Type>xs:boolean</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборИзображение" id="1000104">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отбор изображения</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:decimal</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборДокументы" id="1000105">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отбор документов</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:decimal</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_Применяемость" id="1000106">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Применяемость</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:boolean</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборПрименяемость" id="1000107">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отбор применяемости</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:decimal</v8:Type></Type>
 		</Attribute>
 		<Attribute name="АС_ОтборМарка" id="1000020">
 			<Title>
