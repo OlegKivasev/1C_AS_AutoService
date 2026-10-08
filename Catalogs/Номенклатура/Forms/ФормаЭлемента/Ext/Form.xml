@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<WindowOpeningMode>DontBlock</WindowOpeningMode>
-	<Group>Horizontal</Group>
+	<Group>Vertical</Group>
 	<VerticalScroll>use</VerticalScroll>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -236,6 +236,19 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
+		<UsualGroup name="АС_ГруппаКолонокНоменклатуры" id="910081">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная часть</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="АС_ГруппаКолонокНоменклатурыРасширеннаяПодсказка" id="910082"/>
+			<ChildItems>
 		<UsualGroup name="ЛеваяКолонка" id="825">
 			<Title>
 				<v8:item>
@@ -4209,195 +4222,6 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="АС_ГруппаПрименяемость" id="910067">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Применяемость</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Vertical</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>WeakSeparation</Representation>
-							<ShowLeftMargin>false</ShowLeftMargin>
-							<ExtendedTooltip name="АС_ГруппаПрименяемостьРасширеннаяПодсказка" id="910068"/>
-							<ChildItems>
-								<Table name="АС_Применяемость" id="910014">
-									<Representation>List</Representation>
-									<CommandBarLocation>Top</CommandBarLocation>
-									<Width>40</Width>
-									<AutoMaxWidth>false</AutoMaxWidth>
-									<MaxWidth>40</MaxWidth>
-									<HeightInTableRows>12</HeightInTableRows>
-									<RowSelectionMode>Row</RowSelectionMode>
-									<HorizontalStretch>false</HorizontalStretch>
-									<VerticalStretch>false</VerticalStretch>
-									<DataPath>Объект.АС_Применяемость</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Применяемость по автомобилям</v8:content>
-										</v8:item>
-									</Title>
-									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="АС_ПрименяемостьКонтекстноеМеню" id="910015"/>
-									<AutoCommandBar name="АС_ПрименяемостьКоманднаяПанель" id="910016"/>
-									<ExtendedTooltip name="АС_ПрименяемостьРасширеннаяПодсказка" id="910017"/>
-									<SearchStringAddition name="АС_ПрименяемостьСтрокаПоиска" id="910058">
-										<AdditionSource>
-											<Item>АС_Применяемость</Item>
-											<Type>SearchStringRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="АС_ПрименяемостьСтрокаПоискаКонтекстноеМеню" id="910059"/>
-										<ExtendedTooltip name="АС_ПрименяемостьСтрокаПоискаРасширеннаяПодсказка" id="910060"/>
-									</SearchStringAddition>
-									<ViewStatusAddition name="АС_ПрименяемостьСостояниеПросмотра" id="910061">
-										<AdditionSource>
-											<Item>АС_Применяемость</Item>
-											<Type>ViewStatusRepresentation</Type>
-										</AdditionSource>
-										<ContextMenu name="АС_ПрименяемостьСостояниеПросмотраКонтекстноеМеню" id="910062"/>
-										<ExtendedTooltip name="АС_ПрименяемостьСостояниеПросмотраРасширеннаяПодсказка" id="910063"/>
-									</ViewStatusAddition>
-									<SearchControlAddition name="АС_ПрименяемостьУправлениеПоиском" id="910064">
-										<AdditionSource>
-											<Item>АС_Применяемость</Item>
-											<Type>SearchControl</Type>
-										</AdditionSource>
-										<ContextMenu name="АС_ПрименяемостьУправлениеПоискомКонтекстноеМеню" id="910065"/>
-										<ExtendedTooltip name="АС_ПрименяемостьУправлениеПоискомРасширеннаяПодсказка" id="910066"/>
-									</SearchControlAddition>
-									<ChildItems>
-										<InputField name="АС_ПрименяемостьАвтомобиль" id="910018">
-											<DataPath>Объект.АС_Применяемость.АС_АвтомобильПредставление</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Автомобиль</v8:content>
-												</v8:item>
-											</Title>
-											<EditMode>EnterOnInput</EditMode>
-											<AutoEditMode>true</AutoEditMode>
-											<Width>20</Width>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<ContextMenu name="АС_ПрименяемостьАвтомобильКонтекстноеМеню" id="910019"/>
-											<ExtendedTooltip name="АС_ПрименяемостьАвтомобильРасширеннаяПодсказка" id="910020"/>
-											<Events>
-												<Event name="OnChange" callType="Before">АС_ПрименяемостьАвтомобильПриИзменении</Event>
-												<Event name="AutoComplete" callType="Before">АС_ПрименяемостьАвтомобильАвтоПодбор</Event>
-											</Events>
-										</InputField>
-										<InputField name="АС_ПрименяемостьГодС" id="910027">
-											<DataPath>Объект.АС_Применяемость.ГодС</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Год с</v8:content>
-												</v8:item>
-											</Title>
-											<Width>7</Width>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<SpinButton>true</SpinButton>
-											<Format>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>ЧГ=0</v8:content>
-												</v8:item>
-											</Format>
-											<EditFormat>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>ЧГ=0</v8:content>
-												</v8:item>
-											</EditFormat>
-											<ContextMenu name="АС_ПрименяемостьГодСКонтекстноеМеню" id="910028"/>
-											<ExtendedTooltip name="АС_ПрименяемостьГодСРасширеннаяПодсказка" id="910029"/>
-											<Events>
-												<Event name="OnChange" callType="Before">АС_ПрименяемостьГодСПриИзменении</Event>
-											</Events>
-										</InputField>
-										<InputField name="АС_ПрименяемостьГодПо" id="910030">
-											<DataPath>Объект.АС_Применяемость.ГодПо</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Год по</v8:content>
-												</v8:item>
-											</Title>
-											<Width>7</Width>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<SpinButton>true</SpinButton>
-											<Format>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>ЧГ=0</v8:content>
-												</v8:item>
-											</Format>
-											<EditFormat>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>ЧГ=0</v8:content>
-												</v8:item>
-											</EditFormat>
-											<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
-											<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
-										</InputField>
-										<InputField name="АС_ПрименяемостьТипКузова" id="910069">
-											<DataPath>Объект.АС_Применяемость.ТипКузова</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Тип кузова</v8:content>
-												</v8:item>
-											</Title>
-											<Width>12</Width>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<ContextMenu name="АС_ПрименяемостьТипКузоваКонтекстноеМеню" id="910070"/>
-											<ExtendedTooltip name="АС_ПрименяемостьТипКузоваРасширеннаяПодсказка" id="910071"/>
-										</InputField>
-										<InputField name="АС_ПрименяемостьКодКузова" id="910075">
-											<DataPath>Объект.АС_Применяемость.КодКузова</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Код кузова</v8:content>
-												</v8:item>
-											</Title>
-											<Width>12</Width>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<ContextMenu name="АС_ПрименяемостьКодКузоваКонтекстноеМеню" id="910076"/>
-											<ExtendedTooltip name="АС_ПрименяемостьКодКузоваРасширеннаяПодсказка" id="910077"/>
-										</InputField>
-										<InputField name="АС_ПрименяемостьКодДвигателя" id="910072">
-											<DataPath>Объект.АС_Применяемость.КодДвигателя</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Код двигателя</v8:content>
-												</v8:item>
-											</Title>
-											<Width>12</Width>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<ContextMenu name="АС_ПрименяемостьКодДвигателяКонтекстноеМеню" id="910073"/>
-											<ExtendedTooltip name="АС_ПрименяемостьКодДвигателяРасширеннаяПодсказка" id="910074"/>
-										</InputField>
-										<InputField name="АС_ПрименяемостьЛитражДвигателя" id="910078">
-											<DataPath>Объект.АС_Применяемость.ЛитражДвигателя</DataPath>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Литраж двигателя</v8:content>
-												</v8:item>
-											</Title>
-											<Width>12</Width>
-											<AutoMaxWidth>false</AutoMaxWidth>
-											<ContextMenu name="АС_ПрименяемостьЛитражДвигателяКонтекстноеМеню" id="910079"/>
-											<ExtendedTooltip name="АС_ПрименяемостьЛитражДвигателяРасширеннаяПодсказка" id="910080"/>
-										</InputField>
-									</ChildItems>
-								</Table>
-							</ChildItems>
-						</UsualGroup>
 						<LabelDecoration name="ПраваяКолонкаДекорацияОтступ" id="842">
 							<Visible>false</Visible>
 							<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
@@ -4983,6 +4807,201 @@
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="АС_ГруппаПрименяемость" id="910067">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применяемость</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>WeakSeparation</Representation>
+			<ShowLeftMargin>false</ShowLeftMargin>
+			<ExtendedTooltip name="АС_ГруппаПрименяемостьРасширеннаяПодсказка" id="910068"/>
+			<ChildItems>
+				<Table name="АС_Применяемость" id="910014">
+					<Representation>List</Representation>
+					<CommandBarLocation>Top</CommandBarLocation>
+					<Width>95</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>95</MaxWidth>
+					<HeightInTableRows>12</HeightInTableRows>
+					<RowSelectionMode>Row</RowSelectionMode>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<DataPath>Объект.АС_Применяемость</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Применяемость по автомобилям</v8:content>
+						</v8:item>
+					</Title>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="АС_ПрименяемостьКонтекстноеМеню" id="910015"/>
+					<AutoCommandBar name="АС_ПрименяемостьКоманднаяПанель" id="910016"/>
+					<ExtendedTooltip name="АС_ПрименяемостьРасширеннаяПодсказка" id="910017"/>
+					<SearchStringAddition name="АС_ПрименяемостьСтрокаПоиска" id="910058">
+						<AdditionSource>
+							<Item>АС_Применяемость</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_ПрименяемостьСтрокаПоискаКонтекстноеМеню" id="910059"/>
+						<ExtendedTooltip name="АС_ПрименяемостьСтрокаПоискаРасширеннаяПодсказка" id="910060"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="АС_ПрименяемостьСостояниеПросмотра" id="910061">
+						<AdditionSource>
+							<Item>АС_Применяемость</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_ПрименяемостьСостояниеПросмотраКонтекстноеМеню" id="910062"/>
+						<ExtendedTooltip name="АС_ПрименяемостьСостояниеПросмотраРасширеннаяПодсказка" id="910063"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="АС_ПрименяемостьУправлениеПоиском" id="910064">
+						<AdditionSource>
+							<Item>АС_Применяемость</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_ПрименяемостьУправлениеПоискомКонтекстноеМеню" id="910065"/>
+						<ExtendedTooltip name="АС_ПрименяемостьУправлениеПоискомРасширеннаяПодсказка" id="910066"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="АС_ПрименяемостьМарка" id="910083">
+							<DataPath>Объект.АС_Применяемость.Марка</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Марка</v8:content>
+								</v8:item>
+							</Title>
+							<Width>16</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="АС_ПрименяемостьМаркаКонтекстноеМеню" id="910086"/>
+							<ExtendedTooltip name="АС_ПрименяемостьМаркаРасширеннаяПодсказка" id="910087"/>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_ПрименяемостьМаркаПриИзменении</Event>
+								<Event name="AutoComplete" callType="Before">АС_ПрименяемостьМаркаАвтоПодбор</Event>
+							</Events>
+						</InputField>
+						<InputField name="АС_ПрименяемостьМодель" id="910018">
+							<DataPath>Объект.АС_Применяемость.Автомобиль</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Модель</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<Width>18</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="АС_ПрименяемостьМодельКонтекстноеМеню" id="910019"/>
+							<ExtendedTooltip name="АС_ПрименяемостьМодельРасширеннаяПодсказка" id="910020"/>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_ПрименяемостьМодельПриИзменении</Event>
+								<Event name="AutoComplete" callType="Before">АС_ПрименяемостьМодельАвтоПодбор</Event>
+							</Events>
+						</InputField>
+						<InputField name="АС_ПрименяемостьГодС" id="910027">
+							<DataPath>Объект.АС_Применяемость.ГодС</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Год с</v8:content>
+								</v8:item>
+							</Title>
+							<Width>7</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<SpinButton>true</SpinButton>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧГ=0</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧГ=0</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ContextMenu name="АС_ПрименяемостьГодСКонтекстноеМеню" id="910028"/>
+							<ExtendedTooltip name="АС_ПрименяемостьГодСРасширеннаяПодсказка" id="910029"/>
+							<Events>
+								<Event name="OnChange" callType="Before">АС_ПрименяемостьГодСПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="АС_ПрименяемостьГодПо" id="910030">
+							<DataPath>Объект.АС_Применяемость.ГодПо</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Год по</v8:content>
+								</v8:item>
+							</Title>
+							<Width>7</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<SpinButton>true</SpinButton>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧГ=0</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧГ=0</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ContextMenu name="АС_ПрименяемостьГодПоКонтекстноеМеню" id="910031"/>
+							<ExtendedTooltip name="АС_ПрименяемостьГодПоРасширеннаяПодсказка" id="910032"/>
+						</InputField>
+						<InputField name="АС_ПрименяемостьТипКузова" id="910069">
+							<DataPath>Объект.АС_Применяемость.ТипКузова</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Тип кузова</v8:content>
+								</v8:item>
+							</Title>
+							<Width>24</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="АС_ПрименяемостьТипКузоваКонтекстноеМеню" id="910070"/>
+							<ExtendedTooltip name="АС_ПрименяемостьТипКузоваРасширеннаяПодсказка" id="910071"/>
+						</InputField>
+						<InputField name="АС_ПрименяемостьКодКузова" id="910075">
+							<DataPath>Объект.АС_Применяемость.КодКузова</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Код кузова</v8:content>
+								</v8:item>
+							</Title>
+							<Width>14</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="АС_ПрименяемостьКодКузоваКонтекстноеМеню" id="910076"/>
+							<ExtendedTooltip name="АС_ПрименяемостьКодКузоваРасширеннаяПодсказка" id="910077"/>
+						</InputField>
+						<InputField name="АС_ПрименяемостьЛитражДвигателя" id="910078">
+							<DataPath>Объект.АС_Применяемость.ЛитражДвигателя</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Литраж двигателя</v8:content>
+								</v8:item>
+							</Title>
+							<Width>10</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="АС_ПрименяемостьЛитражДвигателяКонтекстноеМеню" id="910079"/>
+							<ExtendedTooltip name="АС_ПрименяемостьЛитражДвигателяРасширеннаяПодсказка" id="910080"/>
+						</InputField>
+					</ChildItems>
+				</Table>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
