@@ -488,37 +488,57 @@
 								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
 							</Events>
 						</InputField>
-						<InputField name="АС_OEM" id="910043">
-							<DataPath>Объект.АС_OEM</DataPath>
+						<Table name="АС_OEMПоМаркам" id="910043">
+							<Representation>List</Representation>
+							<CommandBarLocation>Top</CommandBarLocation>
+							<HeightInTableRows>4</HeightInTableRows>
+							<RowSelectionMode>Row</RowSelectionMode>
+							<DataPath>Объект.АС_OEMПоМаркам</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>OEM</v8:content>
+									<v8:content>OEM по маркам автомобилей</v8:content>
 								</v8:item>
 							</Title>
-							<TitleLocation>Left</TitleLocation>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Артикулы записываются через точку с запятой.</v8:content>
+									<v8:content>Укажите один OEM и марку автомобиля в каждой строке. Для одного OEM можно добавить несколько марок.</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>25</MaxWidth>
-							<Wrap>false</Wrap>
-							<ContextMenu name="АС_OEMКонтекстноеМеню" id="910044"/>
-							<ExtendedTooltip name="АС_OEMРасширеннаяПодсказка" id="910045">
+							<MaxWidth>51</MaxWidth>
+							<ContextMenu name="АС_OEMПоМаркамКонтекстноеМеню" id="910044"/>
+							<AutoCommandBar name="АС_OEMПоМаркамКоманднаяПанель" id="910045"/>
+							<ExtendedTooltip name="АС_OEMПоМаркамРасширеннаяПодсказка" id="910046">
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Артикулы записываются через точку с запятой.</v8:content>
+										<v8:content>Одна строка — одна пара OEM и марка автомобиля. Число строк не ограничено.</v8:content>
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
-						</InputField>
+							<ChildItems>
+								<InputField name="АС_OEMПоМаркамOEM" id="910047">
+									<DataPath>Объект.АС_OEMПоМаркам.OEM</DataPath>
+									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикул</v8:content></v8:item></Title>
+									<Width>25</Width><AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="АС_OEMПоМаркамOEMКонтекстноеМеню" id="910048"/>
+									<ExtendedTooltip name="АС_OEMПоМаркамOEMРасширеннаяПодсказка" id="910049"/>
+								</InputField>
+								<InputField name="АС_OEMПоМаркамМарка" id="910050">
+									<DataPath>Объект.АС_OEMПоМаркам.Марка</DataPath>
+									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Марка автомобиля</v8:content></v8:item></Title>
+									<Width>25</Width><AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="АС_OEMПоМаркамМаркаКонтекстноеМеню" id="910051"/>
+									<ExtendedTooltip name="АС_OEMПоМаркамМаркаРасширеннаяПодсказка" id="910052"/>
+									<Events>
+										<Event name="AutoComplete" callType="Before">АС_ПрименяемостьМаркаАвтоПодбор</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Table>
 						<InputField name="Артикул" id="7">
 							<Title>
 								<v8:item>
