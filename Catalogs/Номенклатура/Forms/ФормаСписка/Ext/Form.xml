@@ -1132,6 +1132,54 @@
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="АС_OEMОтбор" id="1000110">
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="АС_OEMОтборРасширеннаяПодсказка" id="1000111"/>
+											<ChildItems>
+												<InputField name="АС_ОтборOEM" id="1000112">
+													<DataPath>АС_ОтборOEM</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикул</v8:content></v8:item></Title>
+													<TitleLocation>Left</TitleLocation>
+													<Width>24</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<EditTextUpdate>DontUse</EditTextUpdate>
+													<ContextMenu name="АС_ОтборOEMКонтекстноеМеню" id="1000113"/>
+													<ExtendedTooltip name="АС_ОтборOEMРасширеннаяПодсказка" id="1000114">
+														<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Точное совпадение OEM без учета регистра, пробелов и разделителей. Поиск выполняется автоматически.</v8:content></v8:item></Title>
+													</ExtendedTooltip>
+													<Events>
+														<Event name="OnChange" callType="Before">АС_ОтборOEMПриИзменении</Event>
+														<Event name="EditTextChange" callType="Before">АС_ОтборOEMИзменениеТекстаРедактирования</Event>
+														<Event name="Clearing" callType="Before">АС_ОтборOEMОчистка</Event>
+													</Events>
+												</InputField>
+												<InputField name="АС_ОтборOEMМарка" id="1000115">
+													<DataPath>АС_ОтборOEMМарка</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Бренд OEM</v8:content></v8:item></Title>
+													<TitleLocation>Left</TitleLocation>
+													<Width>18</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ChoiceButton>true</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<CreateButton>false</CreateButton>
+													<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
+													<ContextMenu name="АС_ОтборOEMМаркаКонтекстноеМеню" id="1000116"/>
+													<ExtendedTooltip name="АС_ОтборOEMМаркаРасширеннаяПодсказка" id="1000117">
+														<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Необязательная марка автомобиля из строки OEM. Без выбора марки поиск выполняется по всем маркам.</v8:content></v8:item></Title>
+													</ExtendedTooltip>
+													<Events>
+														<Event name="OnChange" callType="Before">АС_ОтборOEMМаркаПриИзменении</Event>
+														<Event name="AutoComplete" callType="Before">АС_ОтборOEMМаркаАвтоПодбор</Event>
+														<Event name="StartChoice" callType="Before">АС_ОтборOEMМаркаНачалоВыбора</Event>
+													</Events>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="АС_ПоступленияОтбор" id="1000052">
 											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -7117,6 +7165,18 @@
 		<Attribute name="АС_ОтборБренд" id="1000081">
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Бренд</v8:content></v8:item></Title>
 			<Type><v8:Type>cfg:CatalogRef.АС_БрендыТоваров</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборOEM" id="1000118">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикул</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>300</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type>
+		</Attribute>
+		<Attribute name="АС_ПримененныйОтборOEM" id="1000120">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Примененный отбор OEM</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>300</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборOEMМарка" id="1000119">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Бренд OEM</v8:content></v8:item></Title>
+			<Type><v8:Type>cfg:CatalogRef.АС_Автомобили</v8:Type></Type>
 		</Attribute>
 		<Attribute name="АС_ПоступившиеЗаПериод" id="1000082">
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Поступившие за период</v8:content></v8:item></Title>
