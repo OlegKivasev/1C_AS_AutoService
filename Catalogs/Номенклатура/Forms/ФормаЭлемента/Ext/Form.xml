@@ -4343,6 +4343,13 @@
 											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Добавить OEM массово</v8:content></v8:item></Title>
 											<ExtendedTooltip name="АС_МассовоДобавитьOEMРасширеннаяПодсказка" id="910161"/>
 										</Button>
+										<Button name="АС_СохранитьOEMВTXT" id="910165">
+											<Type>UsualButton</Type>
+											<Visible>true</Visible>
+											<CommandName>Form.Command.АС_СохранитьOEMВTXT</CommandName>
+											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Сохранить OEM в TXT</v8:content></v8:item></Title>
+											<ExtendedTooltip name="АС_СохранитьOEMВTXTРасширеннаяПодсказка" id="910166"/>
+										</Button>
 									</ChildItems>
 								</UsualGroup>
 								<Table name="АС_OEMПоМаркам" id="910043">
@@ -5151,6 +5158,12 @@
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Добавить OEM массово</v8:content></v8:item></Title>
 			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Ввести несколько OEM артикулов и выбрать несколько марок автомобилей</v8:content></v8:item></ToolTip>
 			<Action callType="Before">АС_МассовоДобавитьOEM</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_СохранитьOEMВTXT" id="910167">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Сохранить OEM в TXT</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Сохранить строки OEM и марки автомобилей в текстовый файл с именем артикула товара</v8:content></v8:item></ToolTip>
+			<Action callType="Before">АС_СохранитьOEMВTXT</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>

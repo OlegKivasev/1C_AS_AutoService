@@ -55,6 +55,9 @@
 							<Width>30</Width>
 							<ContextMenu name="АС_МаркиМаркаКонтекстноеМеню" id="15"/>
 							<ExtendedTooltip name="АС_МаркиМаркаРасширеннаяПодсказка" id="16"/>
+							<Events>
+								<Event name="AutoComplete">АС_МаркаАвтоПодбор</Event>
+							</Events>
 						</InputField>
 					</ChildItems>
 				</Table>
