@@ -173,8 +173,8 @@
 		<Metadata name="CommonCommand.АС_ТоварыИРаботыКонтрагента" id="1cb660ac-2f0f-4a01-ad43-d7f1b4bfd7c4" configVersion="732c045726844762726a7142fddb07f169413849"/>
 		<Metadata name="CommonCommand.АС_ТоварыИРаботыКонтрагента.CommandModule" id="1cb660ac-2f0f-4a01-ad43-d7f1b4bfd7c4.2" configVersion="86da6769a5c1548586561e004282424387eeaeb5"/>
 		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM" id="75a34c6e-99ff-4a23-8663-ae3401587a3e" configVersion="049fdb0d08dd02fe74b7eacdee24665fb4397794"/>
-		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM.Form" id="75a34c6e-99ff-4a23-8663-ae3401587a3e.0" configVersion="627094d971018c76d50b6a268fe3b1bbee90be34"/>
-		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM.Form.Module" id="75a34c6e-99ff-4a23-8663-ae3401587a3e.1" configVersion="06ff3eb1a478d750b12c533b69cfc7296775ca2b"/>
+		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM.Form" id="75a34c6e-99ff-4a23-8663-ae3401587a3e.0" configVersion="b1538850c4405d2e59c6b8b16bfac5ebb6ad6c5d"/>
+		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM.Form.Module" id="75a34c6e-99ff-4a23-8663-ae3401587a3e.1" configVersion="3c6687d96d4a9084ef116d7306a2583d50a9c766"/>
 		<Metadata name="CommonForm.АС_OEMАналоги" id="646c8410-3ee9-46b0-a68b-be5964cf3eb1" configVersion="5c84031c635f2ef8a4b29dc82aa6b218d29a4a96"/>
 		<Metadata name="CommonForm.АС_OEMАналоги.Form" id="646c8410-3ee9-46b0-a68b-be5964cf3eb1.0" configVersion="da43de021fa99f12c3eeb3d50b1d80d0abdf145c"/>
 		<Metadata name="CommonForm.АС_ИсторияПоМоделямАвто" id="1e388066-156b-45db-a1da-9b0541e70dcc" configVersion="2645d7eda625278563e3adf41a52691888998381"/>

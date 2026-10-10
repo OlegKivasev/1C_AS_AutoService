@@ -57,6 +57,8 @@
 							<ExtendedTooltip name="АС_МаркиМаркаРасширеннаяПодсказка" id="16"/>
 							<Events>
 								<Event name="AutoComplete">АС_МаркаАвтоПодбор</Event>
+								<Event name="TextEditEnd">АС_МаркаОкончаниеВводаТекста</Event>
+								<Event name="ChoiceProcessing">АС_МаркаОбработкаВыбора</Event>
 							</Events>
 						</InputField>
 					</ChildItems>
