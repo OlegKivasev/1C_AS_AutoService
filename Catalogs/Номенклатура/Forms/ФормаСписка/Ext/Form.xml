@@ -1374,6 +1374,88 @@
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="АС_OEMАртикулыОтбор" id="1000121">
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ChildItems>
+												<CheckBoxField name="АС_OEMАртикулы" id="1000122">
+													<DataPath>АС_OEMАртикулы</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикулы</v8:content></v8:item></Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>CheckBox</CheckBoxType>
+													<ContextMenu name="АС_OEMАртикулыКонтекстноеМеню" id="1000123"/>
+													<ExtendedTooltip name="АС_OEMАртикулыРасширеннаяПодсказка" id="1000124"/>
+													<Events><Event name="OnChange" callType="Before">АС_OEMАртикулыПриИзменении</Event></Events>
+												</CheckBoxField>
+												<InputField name="АС_ОтборOEMАртикулы" id="1000125">
+													<DataPath>АС_ОтборOEMАртикулы</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Width>23</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ChoiceList>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Отсутствует</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">1</Value></xr:Value></xr:Item>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Присутствует</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">2</Value></xr:Value></xr:Item>
+													</ChoiceList>
+													<ContextMenu name="АС_ОтборOEMАртикулыКонтекстноеМеню" id="1000126"/>
+													<ExtendedTooltip name="АС_ОтборOEMАртикулыРасширеннаяПодсказка" id="1000127"/>
+													<Events><Event name="OnChange" callType="Before">АС_ОтборOEMАртикулыПриИзменении</Event></Events>
+												</InputField>
+												<InputField name="АС_ОтборOEMАртикулыМарка" id="1000139">
+													<DataPath>АС_ОтборOEMАртикулыМарка</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Бренд OEM</v8:content></v8:item></Title>
+													<TitleLocation>Left</TitleLocation>
+													<Width>18</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ChoiceButton>true</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<CreateButton>false</CreateButton>
+													<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
+													<ContextMenu name="АС_ОтборOEMАртикулыМаркаКонтекстноеМеню" id="1000140"/>
+													<ExtendedTooltip name="АС_ОтборOEMАртикулыМаркаРасширеннаяПодсказка" id="1000141">
+														<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Необязательная марка автомобиля из строки OEM. Присутствует или отсутствует OEM этой марки; без выбора марки учитываются все марки.</v8:content></v8:item></Title>
+													</ExtendedTooltip>
+													<Events>
+														<Event name="OnChange" callType="Before">АС_ОтборOEMАртикулыМаркаПриИзменении</Event>
+														<Event name="AutoComplete" callType="Before">АС_ОтборOEMАртикулыМаркаАвтоПодбор</Event>
+														<Event name="StartChoice" callType="Before">АС_ОтборOEMАртикулыМаркаНачалоВыбора</Event>
+													</Events>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="АС_ЕстьАналогиОтбор" id="1000130">
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ChildItems>
+												<CheckBoxField name="АС_ЕстьАналоги" id="1000131">
+													<DataPath>АС_ЕстьАналоги</DataPath>
+													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Есть аналоги</v8:content></v8:item></Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>CheckBox</CheckBoxType>
+													<ContextMenu name="АС_ЕстьАналогиКонтекстноеМеню" id="1000132"/>
+													<ExtendedTooltip name="АС_ЕстьАналогиРасширеннаяПодсказка" id="1000133"/>
+													<Events><Event name="OnChange" callType="Before">АС_ЕстьАналогиПриИзменении</Event></Events>
+												</CheckBoxField>
+												<InputField name="АС_ОтборЕстьАналоги" id="1000134">
+													<DataPath>АС_ОтборЕстьАналоги</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<Width>23</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ListChoiceMode>true</ListChoiceMode>
+													<ChoiceList>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Нет</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">1</Value></xr:Value></xr:Item>
+														<xr:Item><xr:Presentation/><xr:CheckState>0</xr:CheckState><xr:Value xsi:type="FormChoiceListDesTimeValue"><Presentation><v8:item><v8:lang>ru</v8:lang><v8:content>Есть</v8:content></v8:item></Presentation><Value xsi:type="xs:decimal">2</Value></xr:Value></xr:Item>
+													</ChoiceList>
+													<ContextMenu name="АС_ОтборЕстьАналогиКонтекстноеМеню" id="1000135"/>
+													<ExtendedTooltip name="АС_ОтборЕстьАналогиРасширеннаяПодсказка" id="1000136"/>
+													<Events><Event name="OnChange" callType="Before">АС_ОтборЕстьАналогиПриИзменении</Event></Events>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="АС_ПрименяемостьОтбор" id="1000097">
 											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -7178,6 +7260,10 @@
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Бренд OEM</v8:content></v8:item></Title>
 			<Type><v8:Type>cfg:CatalogRef.АС_Автомобили</v8:Type></Type>
 		</Attribute>
+		<Attribute name="АС_ОтборOEMАртикулыМарка" id="1000142">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Бренд OEM</v8:content></v8:item></Title>
+			<Type><v8:Type>cfg:CatalogRef.АС_Автомобили</v8:Type></Type>
+		</Attribute>
 		<Attribute name="АС_ПоступившиеЗаПериод" id="1000082">
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Поступившие за период</v8:content></v8:item></Title>
 			<Type><v8:Type>xs:boolean</v8:Type></Type>
@@ -7212,6 +7298,22 @@
 		</Attribute>
 		<Attribute name="АС_ОтборДокументы" id="1000105">
 			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отбор документов</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:decimal</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_OEMАртикулы" id="1000128">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикулы</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:boolean</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборOEMАртикулы" id="1000129">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отбор OEM артикулов</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:decimal</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ЕстьАналоги" id="1000137">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Есть аналоги</v8:content></v8:item></Title>
+			<Type><v8:Type>xs:boolean</v8:Type></Type>
+		</Attribute>
+		<Attribute name="АС_ОтборЕстьАналоги" id="1000138">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отбор по наличию аналогов</v8:content></v8:item></Title>
 			<Type><v8:Type>xs:decimal</v8:Type></Type>
 		</Attribute>
 		<Attribute name="АС_Применяемость" id="1000106">
