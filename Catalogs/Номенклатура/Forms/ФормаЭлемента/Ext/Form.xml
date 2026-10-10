@@ -235,6 +235,9 @@
 			</ButtonGroup>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnClose" callType="Before">АС_ПриЗакрытии</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="АС_ГруппаКолонокНоменклатуры" id="910081">
 			<Title>
