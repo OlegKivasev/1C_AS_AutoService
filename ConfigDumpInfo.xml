@@ -293,7 +293,7 @@
 			<Metadata name="DataProcessor.ПечатьЭтикетокИЦенниковБПО.Attribute.ТорговыйОбъектБПО" id="fcbcd99c-4b0f-4b59-89e4-ff00060b1076"/>
 		</Metadata>
 		<Metadata name="DataProcessor.ПечатьЭтикетокИЦенниковБПО.Form.Форма" id="0e731642-f990-4fee-8c4e-8f05afd013ff" configVersion="a31c31b1f4037b3d4dbfa50214ef3d889c0891e2"/>
-		<Metadata name="DataProcessor.ПечатьЭтикетокИЦенниковБПО.Form.Форма.Form" id="0e731642-f990-4fee-8c4e-8f05afd013ff.0" configVersion="ddf42acba5c6d613b60738883b0cdd63814df09a"/>
+		<Metadata name="DataProcessor.ПечатьЭтикетокИЦенниковБПО.Form.Форма.Form" id="0e731642-f990-4fee-8c4e-8f05afd013ff.0" configVersion="53eef853f34de519867598c48d8a1490c091bf22"/>
 		<Metadata name="DefinedType.Вес" id="654d8d9f-dae2-4c26-b176-faaf409f3083" configVersion="fae792a43ff2424cc75515a9de18c0ad1e60fdb4"/>
 		<Metadata name="DefinedType.Объем" id="aedac75f-3a57-4f6b-8ce9-f84f4f6b6bc5" configVersion="37f43da97d2739290321f1a5ad11e3e814aeb630"/>
 		<Metadata name="Document.ЗаказПокупателя" id="e69ab0a1-444f-4281-94ce-65f6c75c502a" configVersion="c3e63ad8edd9990d6a54eb8d65268e75ce779af0">
