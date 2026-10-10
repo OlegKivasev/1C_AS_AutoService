@@ -190,6 +190,7 @@
 			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<Constant>АС_ИндексOEMИнициализирован</Constant>
 			<CommonForm>АС_OEMАналоги</CommonForm>
+			<CommonForm>АС_МассовоеДобавлениеOEM</CommonForm>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
 			<CommonForm>АС_ИсторияПоМоделямАвто</CommonForm>

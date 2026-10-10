@@ -169,6 +169,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.АС_МассовоеДобавлениеOEM</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.АС_OEMАналоги</name>
 		<right>
 			<name>View</name>

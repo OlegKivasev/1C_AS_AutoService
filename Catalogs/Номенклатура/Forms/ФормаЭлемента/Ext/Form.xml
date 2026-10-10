@@ -4328,6 +4328,23 @@
 										</Button>
 									</ChildItems>
 								</UsualGroup>
+								<UsualGroup name="АС_ПанельМассовогоДобавленияOEM" id="910163">
+									<Visible>true</Visible>
+									<Width>40</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_ПанельМассовогоДобавленияOEMРасширеннаяПодсказка" id="910164"/>
+									<ChildItems>
+										<Button name="АС_МассовоДобавитьOEM" id="910160">
+											<Type>UsualButton</Type>
+											<Visible>true</Visible>
+											<CommandName>Form.Command.АС_МассовоДобавитьOEM</CommandName>
+											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Добавить OEM массово</v8:content></v8:item></Title>
+											<ExtendedTooltip name="АС_МассовоДобавитьOEMРасширеннаяПодсказка" id="910161"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
 								<Table name="АС_OEMПоМаркам" id="910043">
 									<Representation>List</Representation>
 									<CommandBarLocation>Top</CommandBarLocation>
@@ -5128,6 +5145,12 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">АС_НастроитьКлючPartsAPI</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_МассовоДобавитьOEM" id="910162">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Добавить OEM массово</v8:content></v8:item></Title>
+			<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Ввести несколько OEM артикулов и выбрать несколько марок автомобилей</v8:content></v8:item></ToolTip>
+			<Action callType="Before">АС_МассовоДобавитьOEM</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>

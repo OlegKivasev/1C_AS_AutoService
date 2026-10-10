@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Массовое добавление OEM</v8:content></v8:item></Title>
+	<Width>88</Width>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="АС_Добавить" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.АС_Добавить</CommandName>
+				<ExtendedTooltip name="АС_ДобавитьРасширеннаяПодсказка" id="2"/>
+			</Button>
+			<Button name="АС_Отмена" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.АС_Отмена</CommandName>
+				<ExtendedTooltip name="АС_ОтменаРасширеннаяПодсказка" id="4"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="АС_ПоляВвода" id="5">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="АС_ПоляВводаРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<InputField name="АС_Артикулы" id="7">
+					<DataPath>АС_Артикулы</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикулы через запятую или с новой строки</v8:content></v8:item></Title>
+					<TitleLocation>Top</TitleLocation>
+					<Width>50</Width>
+					<Height>12</Height>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="АС_АртикулыКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="АС_АртикулыРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<Table name="АС_Марки" id="10">
+					<Representation>List</Representation>
+					<CommandBarLocation>Top</CommandBarLocation>
+					<HeightInTableRows>8</HeightInTableRows>
+					<RowSelectionMode>Row</RowSelectionMode>
+					<DataPath>АС_Марки</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Марки автомобилей</v8:content></v8:item></Title>
+					<Width>32</Width>
+					<ContextMenu name="АС_МаркиКонтекстноеМеню" id="11"/>
+					<AutoCommandBar name="АС_МаркиКоманднаяПанель" id="12"/>
+					<ExtendedTooltip name="АС_МаркиРасширеннаяПодсказка" id="13"/>
+					<ChildItems>
+						<InputField name="АС_МаркиМарка" id="14">
+							<DataPath>АС_Марки.Марка</DataPath>
+							<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Марка автомобиля</v8:content></v8:item></Title>
+							<ChoiceFoldersAndItems>Folders</ChoiceFoldersAndItems>
+							<Width>30</Width>
+							<ContextMenu name="АС_МаркиМаркаКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="АС_МаркиМаркаРасширеннаяПодсказка" id="16"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="АС_Подсказка" id="17">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Каждый OEM будет добавлен для каждой выбранной марки. Уже существующие пары будут пропущены. Можно разделять артикулы запятыми, точками с запятой или переносами строк.</v8:content></v8:item></Title>
+			<Width>86</Width>
+			<Wrap>true</Wrap>
+			<ContextMenu name="АС_ПодсказкаКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="АС_ПодсказкаРасширеннаяПодсказка" id="19"/>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="АС_Артикулы" id="1">
+			<Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type>
+		</Attribute>
+		<Attribute name="АС_Марки" id="2">
+			<Type><v8:Type>v8:ValueTable</v8:Type></Type>
+			<Columns>
+				<Column name="Марка" id="1">
+					<Type><v8:Type>cfg:CatalogRef.АС_Автомобили</v8:Type></Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="АС_Добавить" id="1">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Добавить</v8:content></v8:item></Title>
+			<Action>АС_Добавить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_Отмена" id="2">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Отмена</v8:content></v8:item></Title>
+			<Action>АС_Отмена</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
