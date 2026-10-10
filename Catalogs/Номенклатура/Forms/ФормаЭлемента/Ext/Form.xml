@@ -378,9 +378,6 @@
 									</v8:item>
 								</Title>
 							</ExtendedTooltip>
-							<Events>
-								<Event name="OnChange" callType="Before">АС_КатегорияНоменклатурыПриИзменении</Event>
-							</Events>
 						</InputField>
 						<InputField name="Наименование" id="3">
 							<DefaultItem>true</DefaultItem>
@@ -423,164 +420,6 @@
 								<Event name="AutoComplete" callType="Before">АС_БрендАвтоПодбор</Event>
 							</Events>
 						</InputField>
-						<InputField name="АС_ТипФильтра" id="910002">
-							<DataPath>Объект.АС_ТипФильтра</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Тип фильтра</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Left</TitleLocation>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<ContextMenu name="АС_ТипФильтраКонтекстноеМеню" id="910003"/>
-							<ExtendedTooltip name="АС_ТипФильтраРасширеннаяПодсказка" id="910004"/>
-							<Events>
-								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
-							</Events>
-						</InputField>
-						<InputField name="АС_КонструкцияФильтра" id="910005">
-							<DataPath>Объект.АС_КонструкцияФильтра</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Конструкция</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Left</TitleLocation>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<ContextMenu name="АС_КонструкцияФильтраКонтекстноеМеню" id="910006"/>
-							<ExtendedTooltip name="АС_КонструкцияФильтраРасширеннаяПодсказка" id="910007"/>
-							<Events>
-								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
-							</Events>
-						</InputField>
-						<InputField name="АС_ВариантИсполненияФильтра" id="910008">
-							<DataPath>Объект.АС_ВариантИсполненияФильтра</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Вариант исполнения</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Left</TitleLocation>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<ContextMenu name="АС_ВариантИсполненияФильтраКонтекстноеМеню" id="910009"/>
-							<ExtendedTooltip name="АС_ВариантИсполненияФильтраРасширеннаяПодсказка" id="910010"/>
-							<Events>
-								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
-							</Events>
-						</InputField>
-						<InputField name="АС_БрендФильтра" id="910011">
-							<DataPath>Объект.АС_БрендФильтра</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Бренд</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Left</TitleLocation>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<ContextMenu name="АС_БрендФильтраКонтекстноеМеню" id="910012"/>
-							<ExtendedTooltip name="АС_БрендФильтраРасширеннаяПодсказка" id="910013"/>
-							<Events>
-								<Event name="OnChange" callType="Before">АС_РеквизитФильтраПриИзменении</Event>
-							</Events>
-						</InputField>
-						<Table name="АС_OEMПоМаркам" id="910043">
-							<Representation>List</Representation>
-							<CommandBarLocation>Top</CommandBarLocation>
-							<HeightInTableRows>4</HeightInTableRows>
-							<RowSelectionMode>Row</RowSelectionMode>
-							<DataPath>Объект.АС_OEMПоМаркам</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>OEM по маркам автомобилей</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Укажите один OEM и марку автомобиля в каждой строке. Для одного OEM можно добавить несколько марок.</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>51</MaxWidth>
-							<ContextMenu name="АС_OEMПоМаркамКонтекстноеМеню" id="910044"/>
-							<AutoCommandBar name="АС_OEMПоМаркамКоманднаяПанель" id="910045"/>
-							<ExtendedTooltip name="АС_OEMПоМаркамРасширеннаяПодсказка" id="910046">
-								<Title formatted="false">
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Одна строка — одна пара OEM и марка автомобиля. Число строк не ограничено.</v8:content>
-									</v8:item>
-								</Title>
-							</ExtendedTooltip>
-							<ChildItems>
-								<InputField name="АС_OEMПоМаркамOEM" id="910047">
-									<DataPath>Объект.АС_OEMПоМаркам.OEM</DataPath>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикул</v8:content></v8:item></Title>
-									<Width>25</Width><AutoMaxWidth>false</AutoMaxWidth>
-									<ContextMenu name="АС_OEMПоМаркамOEMКонтекстноеМеню" id="910048"/>
-									<ExtendedTooltip name="АС_OEMПоМаркамOEMРасширеннаяПодсказка" id="910049"/>
-								</InputField>
-								<InputField name="АС_OEMПоМаркамМарка" id="910050">
-									<DataPath>Объект.АС_OEMПоМаркам.Марка</DataPath>
-									<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Марка автомобиля</v8:content></v8:item></Title>
-									<Width>25</Width><AutoMaxWidth>false</AutoMaxWidth>
-									<ContextMenu name="АС_OEMПоМаркамМаркаКонтекстноеМеню" id="910051"/>
-									<ExtendedTooltip name="АС_OEMПоМаркамМаркаРасширеннаяПодсказка" id="910052"/>
-									<Events>
-										<Event name="AutoComplete" callType="Before">АС_ПрименяемостьМаркаАвтоПодбор</Event>
-									</Events>
-								</InputField>
-							</ChildItems>
-						</Table>
-						<InputField name="Артикул" id="7">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Артикул</v8:content>
-								</v8:item>
-							</Title>
-							<EditMode>EnterOnInput</EditMode>
-							<AutoEditMode>true</AutoEditMode>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>25</MaxWidth>
-							<Wrap>false</Wrap>
-							<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
-							<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
-						</InputField>
-						<CheckBoxField name="АС_ИспользоватьВнутреннийАртикул" id="910040">
-							<DataPath>Объект.АС_ИспользоватьВнутреннийАртикул</DataPath>
-							<Visible>false</Visible>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Использовать внутренний артикул</v8:content>
-								</v8:item>
-							</Title>
-							<TitleLocation>Right</TitleLocation>
-							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<ContextMenu name="АС_ИспользоватьВнутреннийАртикулКонтекстноеМеню" id="910041"/>
-							<ExtendedTooltip name="АС_ИспользоватьВнутреннийАртикулРасширеннаяПодсказка" id="910042">
-								<Title formatted="false">
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>При установке для фильтра автоматически выдается общий последовательный артикул INT-00000001. Выданный номер нельзя изменить, пока флажок установлен.</v8:content>
-									</v8:item>
-								</Title>
-							</ExtendedTooltip>
-							<Events>
-								<Event name="OnChange" callType="Before">АС_ИспользоватьВнутреннийАртикулПриИзменении</Event>
-							</Events>
-						</CheckBoxField>
 						<LabelDecoration name="ДублиАртикул" id="1190">
 							<Title formatted="false">
 								<v8:item>
@@ -691,12 +530,29 @@
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="АС_ПоляТовараПодКодом" id="910050">
-							<Visible>false</Visible>
+							<Visible>true</Visible>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="АС_ПоляТовараПодКодомРасширеннаяПодсказка" id="910084"/>
+							<ChildItems>
+								<InputField name="Артикул" id="7">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Артикул</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>25</MaxWidth>
+									<Wrap>false</Wrap>
+									<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
+								</InputField>
+							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаЕдиницыИзмерения" id="1138">
 							<Title>
@@ -985,6 +841,47 @@
 								</Title>
 							</ExtendedTooltip>
 						</CheckBoxField>
+						<UsualGroup name="НедействительнаРастяжение" id="748" DisplayImportance="VeryHigh">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Недействительна</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<GroupVerticalAlign>Top</GroupVerticalAlign>
+							<Group>Horizontal</Group>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<VerticalAlign>Top</VerticalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="НедействительнаРастяжениеРасширеннаяПодсказка" id="749"/>
+							<ChildItems>
+								<CheckBoxField name="Недействительна" id="753">
+									<TitleLocation>Right</TitleLocation>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<ContextMenu name="НедействительнаКонтекстноеМеню" id="754"/>
+									<ExtendedTooltip name="НедействительнаРасширеннаяПодсказка" id="755">
+										<Title formatted="true">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номенклатура, отмеченная как недействительная, скрывается из всех списков программы, но сведения о ней остаются.
+Для отображения недействительной, следует установить флаг &lt;b&gt;"Показывать недействительную&lt;/&gt;&lt;b&gt;"&lt;/&gt; в подменю &lt;b&gt;"Еще"&lt;/&gt; в списке номенклатуры.
+
+
+Если у вас уже есть недействительная номенклатура и необходимо быстро установить для нее данный признак:
+- в списке номенклатуры выделите необходимую, например, открыв папку "Выведена из ассортимента" и нажав &lt;b&gt;Ctrl + A;&lt;/&gt;
+- перейдите в подменю &lt;b&gt;"Е&lt;/&gt;&lt;b&gt;ще" - "Изменить выделенные";&lt;/&gt;
+- в колонке &lt;b&gt;"Новое значение"&lt;/&gt; для реквизита &lt;b&gt;"Недействителен"&lt;/&gt; установите значение &lt;b&gt;"Да";&lt;/&gt;
+- нажмите &lt;b&gt;"Изменить реквизиты".&lt;/&gt;</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаДополнительныеРеквизиты" id="406">
 							<Title>
 								<v8:item>
@@ -4102,6 +3999,192 @@
 							<ContextMenu name="Декорация1КонтекстноеМеню" id="1339"/>
 							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="1340"/>
 						</LabelDecoration>
+						<UsualGroup name="ТекущиеОстатки" id="689" DisplayImportance="VeryHigh">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текущие остатки</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ТекущиеОстаткиРасширеннаяПодсказка" id="690"/>
+							<ChildItems>
+								<LabelDecoration name="ТекущиеОстаткиЗаголовок" id="368">
+									<Width>1</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>#009646</TextColor>
+									<Font ref="style:NormalTextFont" kind="StyleItem" scale="110"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Остатки</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Center</VerticalAlign>
+									<ContextMenu name="ТекущиеОстаткиЗаголовокКонтекстноеМеню" id="369"/>
+									<ExtendedTooltip name="ТекущиеОстаткиЗаголовокРасширеннаяПодсказка" id="370"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияНетОстатков" id="373">
+									<Visible>false</Visible>
+									<HorizontalStretch>true</HorizontalStretch>
+									<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
+									<Font ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem" scale="110"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Нет остатков</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияНетОстатковКонтекстноеМеню" id="374"/>
+									<ExtendedTooltip name="ДекорацияНетОстатковРасширеннаяПодсказка" id="375"/>
+								</LabelDecoration>
+								<Table name="Остатки" id="378">
+									<Representation>Tree</Representation>
+									<Visible>false</Visible>
+									<CommandBarLocation>None</CommandBarLocation>
+									<ReadOnly>true</ReadOnly>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>50</MaxWidth>
+									<Height>3</Height>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<MaxHeight>5</MaxHeight>
+									<RowSelectionMode>Cell</RowSelectionMode>
+									<Header>false</Header>
+									<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+									<VerticalLinesBWA>false</VerticalLinesBWA>
+									<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
+									<BorderColor>style:FormBackColor</BorderColor>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дерево остатки</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОстаткиКонтекстноеМеню" id="379">
+										<Autofill>false</Autofill>
+									</ContextMenu>
+									<AutoCommandBar name="ОстаткиКоманднаяПанель" id="380">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ОстаткиРасширеннаяПодсказка" id="381"/>
+									<SearchStringAddition name="ОстаткиСтрокаПоиска" id="382">
+										<AdditionSource>
+											<Item>Остатки</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ОстаткиСтрокаПоискаКонтекстноеМеню" id="383"/>
+										<ExtendedTooltip name="ОстаткиСтрокаПоискаРасширеннаяПодсказка" id="384"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ОстаткиСостояниеПросмотра" id="385">
+										<AdditionSource>
+											<Item>Остатки</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ОстаткиСостояниеПросмотраКонтекстноеМеню" id="386"/>
+										<ExtendedTooltip name="ОстаткиСостояниеПросмотраРасширеннаяПодсказка" id="387"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ОстаткиУправлениеПоиском" id="388">
+										<AdditionSource>
+											<Item>Остатки</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ОстаткиУправлениеПоискомКонтекстноеМеню" id="389"/>
+										<ExtendedTooltip name="ОстаткиУправлениеПоискомРасширеннаяПодсказка" id="390"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ОстаткиЕдиница" id="391">
+											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
+											<Width>30</Width>
+											<ContextMenu name="ОстаткиЕдиницаКонтекстноеМеню" id="392"/>
+											<ExtendedTooltip name="ОстаткиЕдиницаРасширеннаяПодсказка" id="393"/>
+										</InputField>
+										<InputField name="ОстаткиОстаток" id="394">
+											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
+											<Width>9</Width>
+											<ContextMenu name="ОстаткиОстатокКонтекстноеМеню" id="395"/>
+											<ExtendedTooltip name="ОстаткиОстатокРасширеннаяПодсказка" id="396"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="АС_ОстаткиПредставление" id="3000">
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_ОстаткиПредставлениеРасширеннаяПодсказка" id="3001"/>
+									<ChildItems>
+										<LabelField name="АС_ОстаткиСклады" id="3002">
+											<DataPath>АС_ОстаткиСклады</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>30</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="АС_ОстаткиСкладыКонтекстноеМеню" id="3003"/>
+											<ExtendedTooltip name="АС_ОстаткиСкладыРасширеннаяПодсказка" id="3004"/>
+										</LabelField>
+										<LabelField name="АС_ОстаткиКоличества" id="3005">
+											<DataPath>АС_ОстаткиКоличества</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<Width>9</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="АС_ОстаткиКоличестваКонтекстноеМеню" id="3006"/>
+											<ExtendedTooltip name="АС_ОстаткиКоличестваРасширеннаяПодсказка" id="3007"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="АС_ОстатокСУчетомЗаказовГруппа" id="3008">
+									<Group>Horizontal</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_ОстатокСУчетомЗаказовГруппаРасширеннаяПодсказка" id="3009"/>
+									<ChildItems>
+										<LabelDecoration name="АС_ОстатокСУчетомЗаказовЗаголовок" id="3010">
+											<Width>30</Width>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Остаток с учетом заказов</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="АС_ОстатокСУчетомЗаказовЗаголовокКонтекстноеМеню" id="3011"/>
+											<ExtendedTooltip name="АС_ОстатокСУчетомЗаказовЗаголовокРасширеннаяПодсказка" id="3012"/>
+										</LabelDecoration>
+										<LabelField name="АС_ОстатокСУчетомЗаказов" id="3013">
+											<DataPath>АС_ОстатокСУчетомЗаказов</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<Width>9</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="АС_ОстатокСУчетомЗаказовКонтекстноеМеню" id="3014"/>
+											<ExtendedTooltip name="АС_ОстатокСУчетомЗаказовРасширеннаяПодсказка" id="3015"/>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
+								<Button name="АС_ПоказатьАктивныеЗаказы" id="3016">
+									<Type>Hyperlink</Type>
+									<CommandName>Form.Command.АС_ПоказатьАктивныеЗаказы</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Активные заказы: 0</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="АС_ПоказатьАктивныеЗаказыРасширеннаяПодсказка" id="3017"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаЦены" id="1333">
 							<Title>
 								<v8:item>
@@ -4109,6 +4192,8 @@
 									<v8:content>Цены</v8:content>
 								</v8:item>
 							</Title>
+							<VerticalStretch>false</VerticalStretch>
+							<VerticalSpacing>None</VerticalSpacing>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<ControlRepresentation>Button</ControlRepresentation>
@@ -4243,6 +4328,61 @@
 										</Button>
 									</ChildItems>
 								</UsualGroup>
+								<Table name="АС_OEMПоМаркам" id="910043">
+									<Representation>List</Representation>
+									<CommandBarLocation>Top</CommandBarLocation>
+									<HeightInTableRows>3</HeightInTableRows>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<VerticalStretch>false</VerticalStretch>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<DataPath>Объект.АС_OEMПоМаркам</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>OEM по маркам автомобилей</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Укажите один OEM и марку автомобиля в каждой строке. Для одного OEM можно добавить несколько марок.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<Width>40</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>40</MaxWidth>
+									<ContextMenu name="АС_OEMПоМаркамКонтекстноеМеню" id="910044"/>
+									<AutoCommandBar name="АС_OEMПоМаркамКоманднаяПанель" id="910045"/>
+									<ExtendedTooltip name="АС_OEMПоМаркамРасширеннаяПодсказка" id="910046">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Одна строка — одна пара OEM и марка автомобиля. Число строк не ограничено.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+									<ChildItems>
+										<InputField name="АС_OEMПоМаркамOEM" id="910047">
+											<DataPath>Объект.АС_OEMПоМаркам.OEM</DataPath>
+											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>OEM артикул</v8:content></v8:item></Title>
+											<Width>19</Width><AutoMaxWidth>false</AutoMaxWidth><MaxWidth>19</MaxWidth>
+											<ContextMenu name="АС_OEMПоМаркамOEMКонтекстноеМеню" id="910048"/>
+											<ExtendedTooltip name="АС_OEMПоМаркамOEMРасширеннаяПодсказка" id="910049"/>
+										</InputField>
+										<InputField name="АС_OEMПоМаркамМарка" id="910050">
+											<DataPath>Объект.АС_OEMПоМаркам.Марка</DataPath>
+											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Марка автомобиля</v8:content></v8:item></Title>
+											<Width>19</Width><AutoMaxWidth>false</AutoMaxWidth><MaxWidth>19</MaxWidth>
+											<ContextMenu name="АС_OEMПоМаркамМаркаКонтекстноеМеню" id="910051"/>
+											<ExtendedTooltip name="АС_OEMПоМаркамМаркаРасширеннаяПодсказка" id="910052"/>
+											<Events>
+												<Event name="AutoComplete" callType="Before">АС_ПрименяемостьМаркаАвтоПодбор</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</Table>
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="ПраваяКолонкаДекорацияОтступ" id="842">
@@ -4560,233 +4700,6 @@
 								</Page>
 							</ChildItems>
 						</Pages>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="ТекущиеОстатки" id="689" DisplayImportance="VeryHigh">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Текущие остатки</v8:content>
-						</v8:item>
-					</Title>
-					<VerticalStretch>false</VerticalStretch>
-					<Group>Vertical</Group>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="ТекущиеОстаткиРасширеннаяПодсказка" id="690"/>
-					<ChildItems>
-						<LabelDecoration name="ТекущиеОстаткиЗаголовок" id="368">
-							<Width>1</Width>
-							<HorizontalStretch>true</HorizontalStretch>
-							<TextColor>#009646</TextColor>
-							<Font ref="style:NormalTextFont" kind="StyleItem" scale="110"/>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Остатки</v8:content>
-								</v8:item>
-							</Title>
-							<VerticalAlign>Center</VerticalAlign>
-							<ContextMenu name="ТекущиеОстаткиЗаголовокКонтекстноеМеню" id="369"/>
-							<ExtendedTooltip name="ТекущиеОстаткиЗаголовокРасширеннаяПодсказка" id="370"/>
-						</LabelDecoration>
-						<LabelDecoration name="ДекорацияНетОстатков" id="373">
-							<Visible>false</Visible>
-							<HorizontalStretch>true</HorizontalStretch>
-							<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
-							<Font ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem" scale="110"/>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Нет остатков</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="ДекорацияНетОстатковКонтекстноеМеню" id="374"/>
-							<ExtendedTooltip name="ДекорацияНетОстатковРасширеннаяПодсказка" id="375"/>
-						</LabelDecoration>
-						<Table name="Остатки" id="378">
-							<Representation>Tree</Representation>
-							<Visible>false</Visible>
-							<CommandBarLocation>None</CommandBarLocation>
-							<ReadOnly>true</ReadOnly>
-							<AutoMaxWidth>false</AutoMaxWidth>
-							<MaxWidth>50</MaxWidth>
-							<Height>3</Height>
-							<AutoMaxHeight>false</AutoMaxHeight>
-							<MaxHeight>5</MaxHeight>
-							<RowSelectionMode>Cell</RowSelectionMode>
-							<Header>false</Header>
-							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
-							<VerticalLinesBWA>false</VerticalLinesBWA>
-							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<VerticalStretch>false</VerticalStretch>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<FileDragMode>AsFile</FileDragMode>
-							<BorderColor>style:FormBackColor</BorderColor>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Дерево остатки</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="ОстаткиКонтекстноеМеню" id="379">
-								<Autofill>false</Autofill>
-							</ContextMenu>
-							<AutoCommandBar name="ОстаткиКоманднаяПанель" id="380">
-								<Autofill>false</Autofill>
-							</AutoCommandBar>
-							<ExtendedTooltip name="ОстаткиРасширеннаяПодсказка" id="381"/>
-							<SearchStringAddition name="ОстаткиСтрокаПоиска" id="382">
-								<AdditionSource>
-									<Item>Остатки</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ОстаткиСтрокаПоискаКонтекстноеМеню" id="383"/>
-								<ExtendedTooltip name="ОстаткиСтрокаПоискаРасширеннаяПодсказка" id="384"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ОстаткиСостояниеПросмотра" id="385">
-								<AdditionSource>
-									<Item>Остатки</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ОстаткиСостояниеПросмотраКонтекстноеМеню" id="386"/>
-								<ExtendedTooltip name="ОстаткиСостояниеПросмотраРасширеннаяПодсказка" id="387"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ОстаткиУправлениеПоиском" id="388">
-								<AdditionSource>
-									<Item>Остатки</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ОстаткиУправлениеПоискомКонтекстноеМеню" id="389"/>
-								<ExtendedTooltip name="ОстаткиУправлениеПоискомРасширеннаяПодсказка" id="390"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<InputField name="ОстаткиЕдиница" id="391">
-									<EditMode>EnterOnInput</EditMode>
-									<AutoEditMode>true</AutoEditMode>
-									<Width>30</Width>
-									<ContextMenu name="ОстаткиЕдиницаКонтекстноеМеню" id="392"/>
-									<ExtendedTooltip name="ОстаткиЕдиницаРасширеннаяПодсказка" id="393"/>
-								</InputField>
-								<InputField name="ОстаткиОстаток" id="394">
-									<EditMode>EnterOnInput</EditMode>
-									<AutoEditMode>true</AutoEditMode>
-									<Width>9</Width>
-									<ContextMenu name="ОстаткиОстатокКонтекстноеМеню" id="395"/>
-									<ExtendedTooltip name="ОстаткиОстатокРасширеннаяПодсказка" id="396"/>
-								</InputField>
-							</ChildItems>
-						</Table>
-						<UsualGroup name="АС_ОстаткиПредставление" id="3000">
-							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="АС_ОстаткиПредставлениеРасширеннаяПодсказка" id="3001"/>
-							<ChildItems>
-								<LabelField name="АС_ОстаткиСклады" id="3002">
-									<DataPath>АС_ОстаткиСклады</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<Width>30</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="АС_ОстаткиСкладыКонтекстноеМеню" id="3003"/>
-									<ExtendedTooltip name="АС_ОстаткиСкладыРасширеннаяПодсказка" id="3004"/>
-								</LabelField>
-								<LabelField name="АС_ОстаткиКоличества" id="3005">
-									<DataPath>АС_ОстаткиКоличества</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<HorizontalAlign>Right</HorizontalAlign>
-									<Width>9</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="АС_ОстаткиКоличестваКонтекстноеМеню" id="3006"/>
-									<ExtendedTooltip name="АС_ОстаткиКоличестваРасширеннаяПодсказка" id="3007"/>
-								</LabelField>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="АС_ОстатокСУчетомЗаказовГруппа" id="3008">
-							<Group>Horizontal</Group>
-							<Behavior>Usual</Behavior>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="АС_ОстатокСУчетомЗаказовГруппаРасширеннаяПодсказка" id="3009"/>
-							<ChildItems>
-								<LabelDecoration name="АС_ОстатокСУчетомЗаказовЗаголовок" id="3010">
-									<Width>30</Width>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Остаток с учетом заказов</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="АС_ОстатокСУчетомЗаказовЗаголовокКонтекстноеМеню" id="3011"/>
-									<ExtendedTooltip name="АС_ОстатокСУчетомЗаказовЗаголовокРасширеннаяПодсказка" id="3012"/>
-								</LabelDecoration>
-								<LabelField name="АС_ОстатокСУчетомЗаказов" id="3013">
-									<DataPath>АС_ОстатокСУчетомЗаказов</DataPath>
-									<TitleLocation>None</TitleLocation>
-									<HorizontalAlign>Right</HorizontalAlign>
-									<Width>9</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="АС_ОстатокСУчетомЗаказовКонтекстноеМеню" id="3014"/>
-									<ExtendedTooltip name="АС_ОстатокСУчетомЗаказовРасширеннаяПодсказка" id="3015"/>
-								</LabelField>
-							</ChildItems>
-						</UsualGroup>
-						<Button name="АС_ПоказатьАктивныеЗаказы" id="3016">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.АС_ПоказатьАктивныеЗаказы</CommandName>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Активные заказы: 0</v8:content>
-								</v8:item>
-							</Title>
-							<ExtendedTooltip name="АС_ПоказатьАктивныеЗаказыРасширеннаяПодсказка" id="3017"/>
-						</Button>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="НедействительнаРастяжение" id="748" DisplayImportance="VeryHigh">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Недействительна</v8:content>
-						</v8:item>
-					</Title>
-					<HorizontalStretch>true</HorizontalStretch>
-					<VerticalStretch>true</VerticalStretch>
-					<GroupVerticalAlign>Bottom</GroupVerticalAlign>
-					<Group>Horizontal</Group>
-					<HorizontalAlign>Right</HorizontalAlign>
-					<VerticalAlign>Bottom</VerticalAlign>
-					<Behavior>Usual</Behavior>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="НедействительнаРастяжениеРасширеннаяПодсказка" id="749"/>
-					<ChildItems>
-						<CheckBoxField name="Недействительна" id="753">
-							<TitleLocation>Right</TitleLocation>
-							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<ContextMenu name="НедействительнаКонтекстноеМеню" id="754"/>
-							<ExtendedTooltip name="НедействительнаРасширеннаяПодсказка" id="755">
-								<Title formatted="true">
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Номенклатура, отмеченная как недействительная, скрывается из всех списков программы, но сведения о ней остаются.
-Для отображения недействительной, следует установить флаг &lt;b&gt;"Показывать недействительную&lt;/&gt;&lt;b&gt;"&lt;/&gt; в подменю &lt;b&gt;"Еще"&lt;/&gt; в списке номенклатуры.
-
-
-Если у вас уже есть недействительная номенклатура и необходимо быстро установить для нее данный признак:
-- в списке номенклатуры выделите необходимую, например, открыв папку "Выведена из ассортимента" и нажав &lt;b&gt;Ctrl + A;&lt;/&gt;
-- перейдите в подменю &lt;b&gt;"Е&lt;/&gt;&lt;b&gt;ще" - "Изменить выделенные";&lt;/&gt;
-- в колонке &lt;b&gt;"Новое значение"&lt;/&gt; для реквизита &lt;b&gt;"Недействителен"&lt;/&gt; установите значение &lt;b&gt;"Да";&lt;/&gt;
-- нажмите &lt;b&gt;"Изменить реквизиты".&lt;/&gt;</v8:content>
-									</v8:item>
-								</Title>
-							</ExtendedTooltip>
-						</CheckBoxField>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="АС_ИнформацияСоздания" id="900100">
