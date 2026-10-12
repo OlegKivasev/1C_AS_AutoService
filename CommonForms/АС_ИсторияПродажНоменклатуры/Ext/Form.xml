@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>История продажи номенклатуры</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="АС_Обновить" id="1">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.АС_Обновить</CommandName>
+				<ExtendedTooltip name="АС_ОбновитьПодсказка" id="2"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="АС_ОписаниеИстории" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество по датам добавления товара и прибавок к позиции. Старое количество сохраняет прежние даты. Количество в единицах хранения.</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="АС_ОписаниеИсторииМеню" id="4"/>
+			<ExtendedTooltip name="АС_ОписаниеИсторииПодсказка" id="5"/>
+		</LabelDecoration>
+		<Table name="АС_История" id="10">
+			<Representation>List</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<ReadOnly>true</ReadOnly>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
+			<DataPath>АС_История</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="АС_ИсторияМеню" id="11"/>
+			<AutoCommandBar name="АС_ИсторияКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="АС_ИсторияПодсказка" id="13"/>
+			<Events>
+				<Event name="Selection">АС_ИсторияВыбор</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="АС_ИсторияНаименованиеЗаказа" id="20">
+					<DataPath>АС_История.НаименованиеЗаказа</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="АС_ИсторияНаименованиеЗаказаМеню" id="21"/>
+					<ExtendedTooltip name="АС_ИсторияНаименованиеЗаказаПодсказка" id="22"/>
+				</InputField>
+				<InputField name="АС_ИсторияДата" id="23">
+					<DataPath>АС_История.Дата</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата добавления</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="АС_ИсторияДатаМеню" id="24"/>
+					<ExtendedTooltip name="АС_ИсторияДатаПодсказка" id="25"/>
+				</InputField>
+				<InputField name="АС_ИсторияОперация" id="40">
+					<DataPath>АС_История.Операция</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Операция</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="АС_ИсторияОперацияМеню" id="41"/>
+					<ExtendedTooltip name="АС_ИсторияОперацияПодсказка" id="42"/>
+				</InputField>
+				<InputField name="АС_ИсторияКоличество" id="26">
+					<DataPath>АС_История.Количество</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="АС_ИсторияКоличествоМеню" id="27"/>
+					<ExtendedTooltip name="АС_ИсторияКоличествоПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НоменклатураФормы" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_История" id="2">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>АС_История.Заказ</Field>
+				<Field>АС_История.ЭтоЗаказНаряд</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+    Строки.Заказ, Строки.Номер, Строки.ВидОперации, Строки.ВидСтроки,
+    Строки.Номенклатура, Строки.Характеристика, Строки.НомерВариантаКП,
+    Строки.Дата, Строки.Количество
+ПОМЕСТИТЬ ВТСтрокиНоменклатуры
+ИЗ (ВЫБРАТЬ
+    Строки.Ссылка КАК Заказ,
+    Строки.Ссылка.Номер КАК Номер,
+    Строки.Ссылка.ВидОперации КАК ВидОперации,
+    "Запасы" КАК ВидСтроки,
+    Строки.Номенклатура КАК Номенклатура,
+    Строки.Характеристика КАК Характеристика,
+    Строки.НомерВариантаКП КАК НомерВариантаКП,
+    ВЫБОР КОГДА Строки.АС_ДатаДобавления = ДАТАВРЕМЯ(1, 1, 1)
+        ТОГДА Строки.Ссылка.Дата ИНАЧЕ Строки.АС_ДатаДобавления КОНЕЦ КАК Дата,
+    Строки.Количество * ВЫБОР КОГДА Строки.ЕдиницаИзмерения ССЫЛКА Справочник.ЕдиницыИзмерения
+        ТОГДА ВЫРАЗИТЬ(Строки.ЕдиницаИзмерения КАК Справочник.ЕдиницыИзмерения).Коэффициент ИНАЧЕ 1 КОНЕЦ КАК Количество
+ИЗ Документ.ЗаказПокупателя.Запасы КАК Строки
+ГДЕ Строки.Номенклатура = &amp;Номенклатура
+    И Строки.Количество &gt; 0
+    И Строки.Ссылка.Проведен
+    И НЕ Строки.Ссылка.ПометкаУдаления
+    И Строки.Ссылка.ВариантЗавершения &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВариантыЗавершенияЗаказа.Отменен)
+    И Строки.Ссылка.ВидОперации В (
+        ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаПродажу),
+        ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаряд))
+    И НЕ Строки.ЭтоРазделитель
+    И (Строки.Ссылка.ОсновнойВариантКП = 0
+        ИЛИ Строки.НомерВариантаКП = Строки.Ссылка.ОсновнойВариантКП)
+ОБЪЕДИНИТЬ ВСЕ
+ВЫБРАТЬ
+    Строки.Ссылка КАК Заказ,
+    Строки.Ссылка.Номер КАК Номер,
+    Строки.Ссылка.ВидОперации КАК ВидОперации,
+    "Работы" КАК ВидСтроки,
+    Строки.Номенклатура КАК Номенклатура,
+    Строки.Характеристика КАК Характеристика,
+    0 КАК НомерВариантаКП,
+    ВЫБОР КОГДА Строки.АС_ДатаДобавления = ДАТАВРЕМЯ(1, 1, 1)
+        ТОГДА Строки.Ссылка.Дата ИНАЧЕ Строки.АС_ДатаДобавления КОНЕЦ КАК Дата,
+    Строки.Количество * Строки.Кратность * Строки.Коэффициент КАК Количество
+ИЗ Документ.ЗаказПокупателя.Работы КАК Строки
+ГДЕ Строки.Номенклатура = &amp;Номенклатура
+    И Строки.Количество &gt; 0
+    И Строки.Ссылка.Проведен
+    И НЕ Строки.Ссылка.ПометкаУдаления
+    И Строки.Ссылка.ВариантЗавершения &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВариантыЗавершенияЗаказа.Отменен)
+    И Строки.Ссылка.ВидОперации В (
+        ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаПродажу),
+        ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаряд))
+) КАК Строки
+;
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+    Строки.Заказ, Строки.Номер, Строки.ВидОперации, Строки.ВидСтроки,
+    Строки.Номенклатура, Строки.Характеристика, Строки.НомерВариантаКП
+ПОМЕСТИТЬ ВТГруппыНоменклатуры
+ИЗ ВТСтрокиНоменклатуры КАК Строки
+;
+ВЫБРАТЬ
+    История.Заказ КАК Заказ,
+    ВЫБОР КОГДА История.ВидОперации = ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаряд)
+        ТОГДА "Заказ-наряд № " ИНАЧЕ "Заказ покупателя № " КОНЕЦ + История.Номер КАК НаименованиеЗаказа,
+    История.Дата КАК Дата,
+    История.Операция КАК Операция,
+    ВЫБОР КОГДА История.ВидОперации = ЗНАЧЕНИЕ(Перечисление.ВидыОперацийЗаказПокупателя.ЗаказНаряд)
+        ТОГДА ИСТИНА ИНАЧЕ ЛОЖЬ КОНЕЦ КАК ЭтоЗаказНаряд,
+    СУММА(История.Количество) КАК Количество
+ИЗ (
+    ВЫБРАТЬ Группы.Заказ, Группы.Номер, Группы.ВидОперации,
+        Порции.ДатаДобавления КАК Дата, Порции.Операция КАК Операция, Порции.Количество КАК Количество
+    ИЗ ВТГруппыНоменклатуры КАК Группы
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя.АС_ПорцииНоменклатуры КАК Порции
+        ПО Группы.Заказ = Порции.Ссылка
+        И Группы.ВидСтроки = Порции.ВидСтроки
+        И Группы.Номенклатура = Порции.Номенклатура
+        И Группы.Характеристика = Порции.Характеристика
+        И Группы.НомерВариантаКП = Порции.НомерВариантаКП
+    ГДЕ Порции.Количество &gt; 0
+        И Порции.ДатаДобавления &gt;= &amp;НачалоПериода
+        И Порции.ДатаДобавления &lt;= &amp;КонецПериода
+    ОБЪЕДИНИТЬ ВСЕ
+    ВЫБРАТЬ Группы.Заказ, Группы.Номер, Группы.ВидОперации,
+        Группы.Дата, "Добавление товара", Группы.Количество
+    ИЗ ВТСтрокиНоменклатуры КАК Группы
+        ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказПокупателя.АС_ПорцииНоменклатуры КАК Порции
+        ПО Группы.Заказ = Порции.Ссылка
+        И Группы.ВидСтроки = Порции.ВидСтроки
+        И Группы.Номенклатура = Порции.Номенклатура
+        И Группы.Характеристика = Порции.Характеристика
+        И Группы.НомерВариантаКП = Порции.НомерВариантаКП
+    ГДЕ Порции.Ссылка ЕСТЬ NULL
+        И Группы.Дата &gt;= &amp;НачалоПериода
+        И Группы.Дата &lt;= &amp;КонецПериода
+) КАК История
+СГРУППИРОВАТЬ ПО История.Заказ, История.Номер, История.ВидОперации, История.Дата, История.Операция
+ИМЕЮЩИЕ СУММА(История.Количество) &gt; 0</QueryText>
+				<KeyType>RowKey</KeyType>
+				<KeyField>Заказ</KeyField>
+				<KeyField>Дата</KeyField>
+				<KeyField>Операция</KeyField>
+				<ListSettings>
+					<dcsset:filter xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>5e3cf4cf-e161-468c-a286-32e04122db26</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
+						<dcsset:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Дата</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b88c0b1f-9b22-4bab-81b4-db1558e91a0f</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>c95055c7-9a07-4b98-bfce-c20430ed6b5b</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">016992bb-5489-4608-b6f4-5e8031d6c3a8</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="АС_Обновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>АС_Обновить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

@@ -246,6 +246,7 @@
 					<v8:content>Основная часть</v8:content>
 				</v8:item>
 			</Title>
+			<VerticalStretch>false</VerticalStretch>
 			<Group>Horizontal</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -880,6 +881,90 @@
 										</Title>
 									</ExtendedTooltip>
 								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="АС_ПродажиНоменклатуры" id="930001">
+							<Title><v8:item><v8:lang>ru</v8:lang><v8:content>История продаж</v8:content></v8:item></Title>
+							<VerticalStretch>false</VerticalStretch>
+							<ShowLeftMargin>false</ShowLeftMargin>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ExtendedTooltip name="АС_ПродажиНоменклатурыПодсказка" id="930002"/>
+							<ChildItems>
+								<UsualGroup name="АС_ПериодПродаж" id="930003">
+									<Visible>false</Visible>
+									<Group>AlwaysHorizontal</Group>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_ПериодПродажПодсказка" id="930004"/>
+									<ChildItems>
+										<InputField name="АС_ПродажиДатаС" id="930005">
+											<DataPath>АС_ПродажиДатаС</DataPath>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="АС_ПродажиДатаСКонтекстноеМеню" id="930006"/>
+											<ExtendedTooltip name="АС_ПродажиДатаСПодсказка" id="930007"/>
+											<Events>
+												<Event name="OnChange">АС_ПериодПродажПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="АС_ПродажиДатаПо" id="930008">
+											<DataPath>АС_ПродажиДатаПо</DataPath>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="АС_ПродажиДатаПоКонтекстноеМеню" id="930009"/>
+											<ExtendedTooltip name="АС_ПродажиДатаПоПодсказка" id="930010"/>
+											<Events>
+												<Event name="OnChange">АС_ПериодПродажПриИзменении</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="АС_СтатусПродаж" id="930011">
+									<Visible>false</Visible>
+									<TextColor>#808080</TextColor>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Товар не продавался</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="АС_СтатусПродажКонтекстноеМеню" id="930012"/>
+									<ExtendedTooltip name="АС_СтатусПродажПодсказка" id="930013"/>
+								</LabelDecoration>
+								<Button name="АС_ПродажиЗаказыПокупателя" id="930014">
+									<Type>Hyperlink</Type>
+									<Visible>false</Visible>
+									<CommandName>Form.Command.АС_ПоказатьПродажиЗаказыПокупателя</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>В заказах покупателей: 0</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="АС_ПродажиЗаказыПокупателяПодсказка" id="930016"/>
+								</Button>
+								<Button name="АС_ПродажиЗаказНаряды" id="930017">
+									<Type>Hyperlink</Type>
+									<Visible>false</Visible>
+									<CommandName>Form.Command.АС_ПоказатьПродажиЗаказНаряды</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>В заказ-нарядах: 0</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="АС_ПродажиЗаказНарядыПодсказка" id="930019"/>
+								</Button>
+								<Button name="АС_ИсторияПродаж" id="930020">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.АС_ИсторияПродаж</CommandName>
+									<ExtendedTooltip name="АС_ИсторияПродажПодсказка" id="930021"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаДополнительныеРеквизиты" id="406">
@@ -3617,6 +3702,7 @@
 					<v8:content>Правая колонка</v8:content>
 				</v8:item>
 			</Title>
+			<VerticalStretch>true</VerticalStretch>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -3632,6 +3718,7 @@
 							<v8:content>Изображение актуальные цены</v8:content>
 						</v8:item>
 					</Title>
+					<VerticalStretch>true</VerticalStretch>
 					<Group>Vertical</Group>
 					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
@@ -4192,7 +4279,7 @@
 									<v8:content>Цены</v8:content>
 								</v8:item>
 							</Title>
-							<VerticalStretch>false</VerticalStretch>
+							<VerticalStretch>true</VerticalStretch>
 							<VerticalSpacing>None</VerticalSpacing>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
@@ -4357,7 +4444,7 @@
 									<CommandBarLocation>Top</CommandBarLocation>
 									<HeightInTableRows>3</HeightInTableRows>
 									<AutoMaxHeight>false</AutoMaxHeight>
-									<VerticalStretch>false</VerticalStretch>
+									<VerticalStretch>true</VerticalStretch>
 									<RowSelectionMode>Row</RowSelectionMode>
 									<DataPath>Объект.АС_OEMПоМаркам</DataPath>
 									<Title>
@@ -5034,6 +5121,34 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="АС_ПродажиДатаС" id="1000010">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>С</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ПродажиДатаПо" id="1000011">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
 				<dcsset:selection>
@@ -5096,6 +5211,32 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
+		<Command name="АС_ПоказатьПродажиЗаказНаряды" id="930003">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Заказ-наряды за период</v8:content></v8:item></Title>
+			<Action>АС_ПоказатьПродажиЗаказНаряды</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_ПоказатьПродажиЗаказыПокупателя" id="930002">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Заказы покупателей за период</v8:content></v8:item></Title>
+			<Action>АС_ПоказатьПродажиЗаказыПокупателя</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_ИсторияПродаж" id="930001">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>История продажи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все проведённые заказы с этой номенклатурой. Количество в единицах хранения; наличие в заказе не подтверждает отгрузку.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АС_ИсторияПродаж</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
 		<Command name="АС_ПоказатьВсеПоля" id="2062">
 			<Title>
 				<v8:item>

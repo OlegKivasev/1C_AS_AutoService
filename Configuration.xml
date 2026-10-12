@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.22.0</Version>
+			<Version>1.23.0</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -171,6 +171,7 @@
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_ИндексOEMСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
+			<CommonModule>АС_ПродажиНоменклатурыСервер</CommonModule>
 			<CommonModule>АС_ЦенообразованиеСервер</CommonModule>
 			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
 			<CommonModule>АС_ИндикацияОстатковСервер</CommonModule>
@@ -178,6 +179,7 @@
 			<CommonModule>АС_ПечатьЭтикетокКлиент</CommonModule>
 			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
 			<CommonModule>АС_ОграниченияДокументовСервер</CommonModule>
+			<EventSubscription>АС_ДатыДобавленияНоменклатурыПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ОграниченияДокументовПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ЗапретРедактированияПоступленийПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ОграниченияДокументовПередУдалением</EventSubscription>
@@ -195,6 +197,7 @@
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
 			<CommonForm>АС_ИсторияПоМоделямАвто</CommonForm>
 			<CommonForm>АС_ТоварыМоделиАвто</CommonForm>
+			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
@@ -206,6 +209,7 @@
 			<Catalog>АС_БрендыФильтров</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Catalog>ДоговорыКонтрагентов</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ВидыЦен</Catalog>
