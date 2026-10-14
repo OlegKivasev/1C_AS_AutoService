@@ -890,12 +890,12 @@
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>WeakSeparation</Representation>
-							<ShowTitle>false</ShowTitle>
+							<ShowTitle>true</ShowTitle>
 							<HorizontalStretch>true</HorizontalStretch>
 							<ExtendedTooltip name="АС_ПродажиНоменклатурыПодсказка" id="930002"/>
 							<ChildItems>
 								<UsualGroup name="АС_ПериодПродаж" id="930003">
-									<Visible>false</Visible>
+									<Visible>true</Visible>
 									<Group>AlwaysHorizontal</Group>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="АС_ПериодПродажПодсказка" id="930004"/>
@@ -925,12 +925,12 @@
 									</ChildItems>
 								</UsualGroup>
 								<LabelDecoration name="АС_СтатусПродаж" id="930011">
-									<Visible>false</Visible>
+									<Visible>true</Visible>
 									<TextColor>#808080</TextColor>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Товар не продавался</v8:content>
+											<v8:content>Продаж нет</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="АС_СтатусПродажКонтекстноеМеню" id="930012"/>
