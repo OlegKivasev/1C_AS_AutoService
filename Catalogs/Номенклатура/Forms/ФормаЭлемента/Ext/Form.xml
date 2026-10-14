@@ -246,8 +246,11 @@
 					<v8:content>Основная часть</v8:content>
 				</v8:item>
 			</Title>
+			<Width>95</Width>
+			<HorizontalStretch>false</HorizontalStretch>
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Horizontal</Group>
+			<HorizontalAlign>Left</HorizontalAlign>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -260,6 +263,7 @@
 					<v8:content>Левая колонка</v8:content>
 				</v8:item>
 			</Title>
+			<HorizontalStretch>false</HorizontalStretch>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
@@ -3702,6 +3706,7 @@
 					<v8:content>Правая колонка</v8:content>
 				</v8:item>
 			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
 			<VerticalStretch>true</VerticalStretch>
 			<Group>Vertical</Group>
 			<Behavior>Usual</Behavior>
@@ -4280,7 +4285,7 @@
 								</v8:item>
 							</Title>
 							<VerticalStretch>true</VerticalStretch>
-							<VerticalSpacing>None</VerticalSpacing>
+							<VerticalSpacing>Half</VerticalSpacing>
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<ControlRepresentation>Button</ControlRepresentation>
@@ -4418,7 +4423,7 @@
 								<UsualGroup name="АС_ПанельМассовогоДобавленияOEM" id="910163">
 									<Visible>true</Visible>
 									<Width>40</Width>
-									<HorizontalStretch>false</HorizontalStretch>
+									<HorizontalStretch>true</HorizontalStretch>
 									<Group>AlwaysHorizontal</Group>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="АС_ПанельМассовогоДобавленияOEMРасширеннаяПодсказка" id="910164"/>
@@ -4461,9 +4466,9 @@
 									</ToolTip>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<Width>40</Width>
-									<HorizontalStretch>false</HorizontalStretch>
+									<HorizontalStretch>true</HorizontalStretch>
 									<AutoMaxWidth>false</AutoMaxWidth>
-									<MaxWidth>40</MaxWidth>
+									<MaxWidth>95</MaxWidth>
 									<ContextMenu name="АС_OEMПоМаркамКонтекстноеМеню" id="910044"/>
 									<AutoCommandBar name="АС_OEMПоМаркамКоманднаяПанель" id="910045"/>
 									<ExtendedTooltip name="АС_OEMПоМаркамРасширеннаяПодсказка" id="910046">
