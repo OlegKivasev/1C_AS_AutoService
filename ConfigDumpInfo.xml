@@ -265,7 +265,7 @@
 		<Metadata name="CommonPicture.ТоварУслугаСписок" id="5478beb2-fb89-46ff-950d-273ee428b9e1" configVersion="f72d49dbcc03aacd198c78361a91ac9bf0809308"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="69da427fb9d39448bdb0e22e979b500adf480ed6"/>
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="2810f94f-0c29-41ae-8dc6-623f1c451ae2" configVersion="8d254ce4debaeb75516c78b83eb75fc54435f996"/>
-		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="f7bd75a009582e3dedbafac6fa612384ed1f957b"/>
+		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="94d7b6cce1cf9fdc11429bfd78058b226f6aa69e"/>
 		<Metadata name="Constant.АС_ИндексOEMИнициализирован" id="970ddc4b-fea6-4d5e-9795-8929be797e92" configVersion="326b24f8b9d8a992e1de43b512ce7e2b26de1d40"/>
 		<Metadata name="Constant.АС_ОсновнойВидЦенБезналичногоРасчета" id="b7f5137b-f625-4ead-8e3f-003902096423" configVersion="f41c5322e9c7acbb2248326d19c636aa901dee39"/>
 		<Metadata name="DataProcessor.БанкИКасса" id="b4e40f20-0616-4e53-95f4-522ca08edea2" configVersion="f7fb35b68ccc772fce4ca0583a308e98796b1809"/>
@@ -819,10 +819,10 @@
 		<Metadata name="Role.АС_ЗапретитьРедактированиеПоступлений.Rights" id="46e07596-eab7-4834-a712-f548955a7782.0" configVersion="e458b3d46ab5fc19f8047a94c5c718b7e893dffe"/>
 		<Metadata name="Role.АС_ЗапретитьРедактированиеСписаний" id="8d098598-d042-4c99-9a97-fdf897a1a5de" configVersion="577dcbef55301a29f797a2e1f6a635aebc7642f5"/>
 		<Metadata name="Role.АС_ЗапретитьРедактированиеСписаний.Rights" id="8d098598-d042-4c99-9a97-fdf897a1a5de.0" configVersion="4bf4bce438991ebfac56aa9730b6c89c97f75af0"/>
-		<Metadata name="Role.АС_ОсновнаяРоль" id="309ae3dc-90ed-496b-a576-3c43ced6f569" configVersion="fc9f607e02ce7ff2069dd7f4267955ce46738b82"/>
-		<Metadata name="Role.АС_ОсновнаяРоль.Rights" id="309ae3dc-90ed-496b-a576-3c43ced6f569.0" configVersion="b08e2f16271f56f5a2391a3d7d6aea61212c5c20"/>
-		<Metadata name="Role.АС_ПросмотрТоваровИУслуг" id="16ebdf5c-cb42-4284-ac5e-6f79eea4ce86" configVersion="1d23281333b92d4de133e8bcdfc9473a607d725b"/>
-		<Metadata name="Role.АС_ПросмотрТоваровИУслуг.Rights" id="16ebdf5c-cb42-4284-ac5e-6f79eea4ce86.0" configVersion="b98cad77e1d3e1747be945f8b11478e6c9577018"/>
+		<Metadata name="Role.АС_ОсновнаяРоль" id="309ae3dc-90ed-496b-a576-3c43ced6f569" configVersion="12b357e98a5ebd80a9c9c84f21a52dd5a3dbdf5a"/>
+		<Metadata name="Role.АС_ОсновнаяРоль.Rights" id="309ae3dc-90ed-496b-a576-3c43ced6f569.0" configVersion="1f4cfb15bdb2b7bb5aa14c15782d2edd4f01f2fd"/>
+		<Metadata name="Role.АС_ПросмотрТоваровИУслуг" id="16ebdf5c-cb42-4284-ac5e-6f79eea4ce86" configVersion="f4e33752c376c0b4de917995223371b0ba6ab8d5"/>
+		<Metadata name="Role.АС_ПросмотрТоваровИУслуг.Rights" id="16ebdf5c-cb42-4284-ac5e-6f79eea4ce86.0" configVersion="6a8911ff76ca998cbb7bf2b2d142d5c7b620b073"/>
 		<Metadata name="Role.АС_РазрешитьИзменятьЦенуНаУслуги" id="aec53bfd-589a-490f-a976-eb397f566d7d" configVersion="c4461835879c0f96d7b9edf63030fc4433e21dd9"/>
 		<Metadata name="Role.АС_РазрешитьИзменятьЦенуНаУслуги.Rights" id="aec53bfd-589a-490f-a976-eb397f566d7d.0" configVersion="3d2f2138a8364a6e3c076124423e01e6a35bbf6a"/>
 		<Metadata name="Role.АС_РазрешитьИзменятьЦенуНаВременныеТовары" id="86524a35-e742-4fbc-a9de-8d9bdf8e2612" configVersion="087d1b9b9e3410c72f31635b559b62a1857faaf6"/>
@@ -859,7 +859,7 @@
 		<Metadata name="StyleItem.ЦветТекстаПравойПанелиОтборов" id="ee6bc5fe-8676-4944-ad71-fff9a8f1bc72" configVersion="080f7a2b900834574e0111f62e7e29cd24dd4185"/>
 		<Metadata name="StyleItem.ЦветШрифтаСеройПодсказки" id="6cc6e3f5-9642-4663-b8e6-be077a2363cf" configVersion="0f1c62f0189c3cec8cd6f78013a86490e98b321d"/>
 		<Metadata name="StyleItem.ШрифтПолужирныйУНФ" id="98b465e6-94a7-4fa4-ad87-3b985301238a" configVersion="83f9b7de3352c520f70fcae843e4e3eadd14f1e7"/>
-		<Metadata name="Subsystem.АС_Автосервис" id="9f3b0c69-8b06-4a5d-9c86-0a1bb4e8d2f7" configVersion="753ea6bfef8aca2b93be5d2fd292078b83821904"/>
+		<Metadata name="Subsystem.АС_Автосервис" id="9f3b0c69-8b06-4a5d-9c86-0a1bb4e8d2f7" configVersion="e22668e5455909e112a09c3e12478db1eed5153a"/>
 		<Metadata name="Subsystem.Продажи" id="65f151ec-ed39-40bf-9c4c-bfd3be0e3ec9" configVersion="dcf8c55392de35799e7ecd8b2ffa51c95077d18e"/>
 		<Metadata name="Subsystem.Продажи.Subsystem.Продажи" id="aa3fd2a9-87c9-4c4d-b656-1152fb24161d" configVersion="9cd080eeb24925ccf6247b413d835f66741058d9"/>
 		<Metadata name="Subsystem.Продажи.Subsystem.Продажи.CommandInterface" id="aa3fd2a9-87c9-4c4d-b656-1152fb24161d.1" configVersion="9e66c4caaeb1242a371a0d5b058ee0f4c9ff91f8"/>
@@ -869,5 +869,10 @@
 		<Metadata name="CommonModule.АС_ПродажиНоменклатурыСервер.Module" id="9118f2ad-3188-438b-aa4a-5ed3577a5e3c.0" configVersion="8ae682bb309c7a63c5a97c512e7a7761c499ea3d"/>
 		<Metadata name="EventSubscription.АС_ДатыДобавленияНоменклатурыПередЗаписью" id="74f36f93-665c-4a74-ad90-1782ff276f17" configVersion="bb91074da4fcb5c7b315bbf92fd9967910caca14"/>
 		<Metadata name="Catalog.ХарактеристикиНоменклатуры" id="04bd5588-54be-4ea2-80a0-4808ca351eaf" configVersion="ae5f6abfc57dad0354ed8dee243ba631e5664655"/>
+		<Metadata name="CommonCommand.АС_ПродажиНоменклатуры" id="2a795ee7-1b05-4dfe-b82f-38f733cfca6c" configVersion="2f1bfa3d68e7c9ac1eed6780e4a7cc1e39a13018"/>
+		<Metadata name="CommonCommand.АС_ПродажиНоменклатуры.CommandModule" id="2a795ee7-1b05-4dfe-b82f-38f733cfca6c.2" configVersion="f55675d8708e56dee53ea305bb28e5caf3c04ce7"/>
+		<Metadata name="CommonForm.АС_ПродажиНоменклатуры" id="79d25a1b-aa4b-47ea-87da-64ff33b9756e" configVersion="0451697c701c74449457d0ddf992dd98397e7281"/>
+		<Metadata name="CommonForm.АС_ПродажиНоменклатуры.Form" id="79d25a1b-aa4b-47ea-87da-64ff33b9756e.0" configVersion="6f6f443a7fcdb598445f24f5abf788664e3c6c36"/>
+		<Metadata name="CommonForm.АС_ПродажиНоменклатуры.Form.Module" id="79d25a1b-aa4b-47ea-87da-64ff33b9756e.1" configVersion="90f107dd8e4a270652c0eda869dd5c49eacb1519"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

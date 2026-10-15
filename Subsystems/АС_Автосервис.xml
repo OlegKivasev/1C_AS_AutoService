@@ -40,6 +40,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ИсторияПоМоделямАвто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ТоварыМоделиАвто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ИсторияПродажНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.АС_ПродажиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ПродажиНоменклатуры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

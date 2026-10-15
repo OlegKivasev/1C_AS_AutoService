@@ -188,6 +188,7 @@
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
 			<CommonCommand>АС_ТоварыИРаботыКонтрагента</CommonCommand>
 			<CommonCommand>АС_ПродажиСотрудника</CommonCommand>
+			<CommonCommand>АС_ПродажиНоменклатуры</CommonCommand>
 			<CommonCommand>АС_ИсторияПоМоделямАвто</CommonCommand>
 			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<Constant>АС_ИндексOEMИнициализирован</Constant>
@@ -195,6 +196,7 @@
 			<CommonForm>АС_МассовоеДобавлениеOEM</CommonForm>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
+			<CommonForm>АС_ПродажиНоменклатуры</CommonForm>
 			<CommonForm>АС_ИсторияПоМоделямАвто</CommonForm>
 			<CommonForm>АС_ТоварыМоделиАвто</CommonForm>
 			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
