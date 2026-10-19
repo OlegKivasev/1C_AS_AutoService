@@ -159,6 +159,9 @@
 			<CommonPicture>Плюс</CommonPicture>
 			<CommonPicture>СоздатьПоШаблону</CommonPicture>
 			<CommonPicture>КассаИБанк</CommonPicture>
+			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
+			<CommonPicture>МетаданныеРеквизиты</CommonPicture>
+			<CommonPicture>Предупреждение</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаВременныеТовары</Role>
@@ -264,6 +267,7 @@
 			<DataProcessor>ПечатьЭтикетокИЦенников</DataProcessor>
 			<DataProcessor>ПечатьЭтикетокИЦенниковБПО</DataProcessor>
 			<DataProcessor>БанкИКасса</DataProcessor>
+			<DataProcessor>ПоискИУдалениеДублей</DataProcessor>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>
 			<InformationRegister>АС_ВидыЦенКонтрагентов</InformationRegister>

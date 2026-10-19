@@ -55,7 +55,20 @@
 			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<DataPath>АС_Товары</DataPath>
 			<ShowCommandBar>auto</ShowCommandBar>
-			<RowFilter xsi:nil="true"/>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="АС_ТоварыКонтекстноеМеню" id="56"/>
 			<AutoCommandBar name="АС_ТоварыКоманднаяПанель" id="57"/>
 			<ExtendedTooltip name="АС_ТоварыРасширеннаяПодсказка" id="58"/>
@@ -209,11 +222,30 @@
 ГДЕ
     НЕ СтрокиТоваров.ЭтоРазделитель
     И СтрокиТоваров.Номенклатура &lt;&gt; ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)
-    И СтрокиТоваров.Номенклатура &lt;&gt; &quot;&quot;</QueryText>
+    И СтрокиТоваров.Номенклатура &lt;&gt; ""</QueryText>
 				<KeyType>RowKey</KeyType>
 				<KeyField>Заказ</KeyField>
 				<KeyField>НомерСтроки</KeyField>
-				<ListSettings><dcsset:filter xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings"><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>5070e3fa-88cb-46e6-a4ef-1cd959363aae</dcsset:userSettingID></dcsset:filter><dcsset:order xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings"><dcsset:item xsi:type="dcsset:OrderItemField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dcsset:field>Дата</dcsset:field><dcsset:orderType>Desc</dcsset:orderType></dcsset:item><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>7eb3306a-cd88-4f54-819d-364ce3617bb5</dcsset:userSettingID></dcsset:order><dcsset:conditionalAppearance xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings"><dcsset:viewMode>Normal</dcsset:viewMode><dcsset:userSettingID>325b98a9-60e0-4a47-b175-97a6b3533596</dcsset:userSettingID></dcsset:conditionalAppearance><dcsset:itemsViewMode xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">Normal</dcsset:itemsViewMode><dcsset:itemsUserSettingID xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">9e920eed-fd7e-4643-8421-9de6bfa95403</dcsset:itemsUserSettingID></ListSettings>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Дата</dcsset:field>
+							<dcsset:orderType>Desc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>7eb3306a-cd88-4f54-819d-364ce3617bb5</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
 			</Settings>
 		</Attribute>
 	</Attributes>

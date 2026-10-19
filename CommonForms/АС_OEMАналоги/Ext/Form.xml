@@ -30,9 +30,9 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event>
-		<Event name="OnOpen">АС_ПриОткрытии</Event>
 		<Event name="NotificationProcessing">АС_ОбработкаОповещения</Event>
+		<Event name="OnOpen">АС_ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="АС_Поиск" id="40">
@@ -62,8 +62,8 @@
 		<Table name="АС_СписокOEMАналогов" id="1">
 			<Representation>List</Representation>
 			<CommandBarLocation>None</CommandBarLocation>
-			<HeightInTableRows>18</HeightInTableRows>
 			<ReadOnly>true</ReadOnly>
+			<HeightInTableRows>18</HeightInTableRows>
 			<RowSelectionMode>Row</RowSelectionMode>
 			<DataPath>АС_СписокOEMАналогов</DataPath>
 			<Title>
@@ -73,14 +73,39 @@
 				</v8:item>
 			</Title>
 			<CommandSet>
-				<ExcludedCommand>Find</ExcludedCommand>
 				<ExcludedCommand>CancelSearch</ExcludedCommand>
+				<ExcludedCommand>Find</ExcludedCommand>
 			</CommandSet>
+			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="АС_СписокOEMАналоговКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="АС_СписокOEMАналоговКоманднаяПанель" id="3">
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
 			<ExtendedTooltip name="АС_СписокOEMАналоговРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="АС_СписокOEMАналоговСтрокаПоиска" id="54">
+				<AdditionSource>
+					<Item>АС_СписокOEMАналогов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АС_СписокOEMАналоговСтрокаПоискаКонтекстноеМеню" id="55"/>
+				<ExtendedTooltip name="АС_СписокOEMАналоговСтрокаПоискаРасширеннаяПодсказка" id="56"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="АС_СписокOEMАналоговСостояниеПросмотра" id="57">
+				<AdditionSource>
+					<Item>АС_СписокOEMАналогов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АС_СписокOEMАналоговСостояниеПросмотраКонтекстноеМеню" id="58"/>
+				<ExtendedTooltip name="АС_СписокOEMАналоговСостояниеПросмотраРасширеннаяПодсказка" id="59"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="АС_СписокOEMАналоговУправлениеПоиском" id="60">
+				<AdditionSource>
+					<Item>АС_СписокOEMАналогов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="АС_СписокOEMАналоговУправлениеПоискомКонтекстноеМеню" id="61"/>
+				<ExtendedTooltip name="АС_СписокOEMАналоговУправлениеПоискомРасширеннаяПодсказка" id="62"/>
+			</SearchControlAddition>
 			<Events>
 				<Event name="Selection">АС_СписокOEMАналоговВыбор</Event>
 			</Events>

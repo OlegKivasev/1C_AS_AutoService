@@ -22,7 +22,7 @@
 	</Events>
 	<ChildItems>
 		<LabelDecoration name="АС_ОписаниеИстории" id="3">
-			<Title>
+			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Количество по датам добавления товара и прибавок к позиции. Старое количество сохраняет прежние даты. Количество в единицах хранения.</v8:content>
@@ -33,15 +33,52 @@
 		</LabelDecoration>
 		<Table name="АС_История" id="10">
 			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
 			<ChangeRowSet>false</ChangeRowSet>
 			<ChangeRowOrder>false</ChangeRowOrder>
-			<ReadOnly>true</ReadOnly>
 			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<DataPath>АС_История</DataPath>
-			<RowFilter xsi:nil="true"/>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="АС_ИсторияМеню" id="11"/>
 			<AutoCommandBar name="АС_ИсторияКоманднаяПанель" id="12"/>
 			<ExtendedTooltip name="АС_ИсторияПодсказка" id="13"/>
+			<SearchStringAddition name="АС_ИсторияСтрокаПоиска" id="43">
+				<AdditionSource>
+					<Item>АС_История</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АС_ИсторияСтрокаПоискаКонтекстноеМеню" id="44"/>
+				<ExtendedTooltip name="АС_ИсторияСтрокаПоискаРасширеннаяПодсказка" id="45"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="АС_ИсторияСостояниеПросмотра" id="46">
+				<AdditionSource>
+					<Item>АС_История</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="АС_ИсторияСостояниеПросмотраКонтекстноеМеню" id="47"/>
+				<ExtendedTooltip name="АС_ИсторияСостояниеПросмотраРасширеннаяПодсказка" id="48"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="АС_ИсторияУправлениеПоиском" id="49">
+				<AdditionSource>
+					<Item>АС_История</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="АС_ИсторияУправлениеПоискомКонтекстноеМеню" id="50"/>
+				<ExtendedTooltip name="АС_ИсторияУправлениеПоискомРасширеннаяПодсказка" id="51"/>
+			</SearchControlAddition>
 			<Events>
 				<Event name="Selection">АС_ИсторияВыбор</Event>
 			</Events>
@@ -216,24 +253,24 @@
 				<KeyField>Дата</KeyField>
 				<KeyField>Операция</KeyField>
 				<ListSettings>
-					<dcsset:filter xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
+					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>5e3cf4cf-e161-468c-a286-32e04122db26</dcsset:userSettingID>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
-					<dcsset:order xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
-						<dcsset:item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcsset:OrderItemField">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
 							<dcsset:field>Дата</dcsset:field>
 							<dcsset:orderType>Desc</dcsset:orderType>
 						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>b88c0b1f-9b22-4bab-81b4-db1558e91a0f</dcsset:userSettingID>
 					</dcsset:order>
-					<dcsset:conditionalAppearance xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
+					<dcsset:conditionalAppearance>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>c95055c7-9a07-4b98-bfce-c20430ed6b5b</dcsset:userSettingID>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
 					</dcsset:conditionalAppearance>
-					<dcsset:itemsViewMode xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">Normal</dcsset:itemsViewMode>
-					<dcsset:itemsUserSettingID xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">016992bb-5489-4608-b6f4-5e8031d6c3a8</dcsset:itemsUserSettingID>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
 				</ListSettings>
 			</Settings>
 		</Attribute>

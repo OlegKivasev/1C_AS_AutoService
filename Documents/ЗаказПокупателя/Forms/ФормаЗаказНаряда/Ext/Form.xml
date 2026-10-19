@@ -1422,19 +1422,36 @@
 									<ExtendedTooltip name="РаботыГруппаНоменклатураСПрослеживаемостьюРасширеннаяПодсказка" id="2613"/>
 									<ChildItems>
 										<InputField name="АС_РаботыДатаДобавления" id="950004">
-										<DataPath>Объект.Работы.АС_ДатаДобавления</DataPath>
-										<Visible>false</Visible>
-										<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Дата добавления</v8:content></v8:item></Title>
-										<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Первая дата позиции. Для архивного количества её можно уточнить до первого сохранения после обновления.</v8:content></v8:item></ToolTip>
-										<ContextMenu name="АС_РаботыДатаДобавленияКонтекстноеМеню" id="950005"/>
-										<ExtendedTooltip name="АС_РаботыДатаДобавленияПодсказка" id="950006"/>
+											<DataPath>Объект.Работы.АС_ДатаДобавления</DataPath>
+											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата добавления</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Первая дата позиции. Для архивного количества её можно уточнить до первого сохранения после обновления.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ContextMenu name="АС_РаботыДатаДобавленияКонтекстноеМеню" id="950005"/>
+											<ExtendedTooltip name="АС_РаботыДатаДобавленияПодсказка" id="950006"/>
 										</InputField>
 										<InputField name="АС_РаботыИдентификаторСтрокиПродажи" id="950010">
 											<DataPath>Объект.Работы.АС_ИдентификаторСтрокиПродажи</DataPath>
 											<Visible>false</Visible>
-											<UserVisible><xr:Common>false</xr:Common></UserVisible>
+											<UserVisible>
+												<xr:Common>false</xr:Common>
+											</UserVisible>
 											<ReadOnly>true</ReadOnly>
-											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Идентификатор строки продажи</v8:content></v8:item></Title>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идентификатор строки продажи</v8:content>
+												</v8:item>
+											</Title>
 											<ContextMenu name="АС_РаботыИдентификаторСтрокиПродажиКонтекстноеМеню" id="950011"/>
 											<ExtendedTooltip name="АС_РаботыИдентификаторСтрокиПродажиПодсказка" id="950012"/>
 										</InputField>
@@ -3882,19 +3899,36 @@
 											<ExtendedTooltip name="ЗапасыГруппаНоменклатураРасширеннаяПодсказка" id="1761"/>
 											<ChildItems>
 												<InputField name="АС_ЗапасыДатаДобавления" id="950001">
-												<DataPath>Объект.Запасы.АС_ДатаДобавления</DataPath>
-												<Visible>false</Visible>
-												<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Дата добавления</v8:content></v8:item></Title>
-												<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Первая дата позиции. Для архивного количества её можно уточнить до первого сохранения после обновления.</v8:content></v8:item></ToolTip>
-												<ContextMenu name="АС_ЗапасыДатаДобавленияКонтекстноеМеню" id="950002"/>
-												<ExtendedTooltip name="АС_ЗапасыДатаДобавленияПодсказка" id="950003"/>
+													<DataPath>Объект.Запасы.АС_ДатаДобавления</DataPath>
+													<Visible>false</Visible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Дата добавления</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Первая дата позиции. Для архивного количества её можно уточнить до первого сохранения после обновления.</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ContextMenu name="АС_ЗапасыДатаДобавленияКонтекстноеМеню" id="950002"/>
+													<ExtendedTooltip name="АС_ЗапасыДатаДобавленияПодсказка" id="950003"/>
 												</InputField>
 												<InputField name="АС_ЗапасыИдентификаторСтрокиПродажи" id="950007">
 													<DataPath>Объект.Запасы.АС_ИдентификаторСтрокиПродажи</DataPath>
 													<Visible>false</Visible>
-													<UserVisible><xr:Common>false</xr:Common></UserVisible>
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
 													<ReadOnly>true</ReadOnly>
-													<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Идентификатор строки продажи</v8:content></v8:item></Title>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Идентификатор строки продажи</v8:content>
+														</v8:item>
+													</Title>
 													<ContextMenu name="АС_ЗапасыИдентификаторСтрокиПродажиКонтекстноеМеню" id="950008"/>
 													<ExtendedTooltip name="АС_ЗапасыИдентификаторСтрокиПродажиПодсказка" id="950009"/>
 												</InputField>
@@ -8148,12 +8182,12 @@
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
 			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
 				<Field>Объект.АС_ПорцииНоменклатуры</Field>
 				<Field>Объект.Запасы.АС_ДатаДобавления</Field>
 				<Field>Объект.Запасы.АС_ИдентификаторСтрокиПродажи</Field>
 				<Field>Объект.Работы.АС_ДатаДобавления</Field>
 				<Field>Объект.Работы.АС_ИдентификаторСтрокиПродажи</Field>
-				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
 			<Columns>
 				<AdditionalColumns table="Объект.Работы">

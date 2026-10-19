@@ -4,13 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>CommonForm.АС_ИсторияПродажНоменклатуры</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.АС_ТоварыМоделиАвто</name>
 		<right>
 			<name>View</name>
@@ -76,6 +69,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.АС_ПродажиНоменклатуры</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.АС_ИндексOEMНоменклатуры</name>
 		<right>
 			<name>Read</name>
@@ -98,13 +98,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.АС_МассовоеДобавлениеOEM</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonForm.АС_OEMАналоги</name>
 		<right>
 			<name>View</name>
@@ -113,6 +106,13 @@
 	</object>
 	<object>
 		<name>CommonForm.АС_ТоварыАвтомобиля</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.АС_МассовоеДобавлениеOEM</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -130,6 +130,20 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.АС_ПродажиНоменклатуры</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.АС_ИсторияПродажНоменклатуры</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.АС_ИндексOEMИнициализирован</name>
 		<right>
 			<name>Read</name>
@@ -139,20 +153,6 @@
 			<name>Update</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.АС_ПродажиНоменклатуры</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.АС_ПродажиНоменклатуры</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

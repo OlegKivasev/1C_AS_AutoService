@@ -813,8 +813,8 @@
 													<ContextMenu name="СостояниеЗаказаКонтекстноеМеню" id="33"/>
 													<ExtendedTooltip name="СостояниеЗаказаРасширеннаяПодсказка" id="161"/>
 												</LabelField>
-													<LabelField name="Контрагент" id="12">
-														<DataPath>Список.АС_ПоставщикДляОтображения</DataPath>
+												<LabelField name="Контрагент" id="12">
+													<DataPath>Список.АС_ПоставщикДляОтображения</DataPath>
 													<Width>30</Width>
 													<ContextMenu name="КонтрагентКонтекстноеМеню" id="13"/>
 													<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="165"/>
