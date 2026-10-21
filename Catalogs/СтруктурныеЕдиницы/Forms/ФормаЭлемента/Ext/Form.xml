@@ -1,0 +1,1335 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<ButtonGroup name="ГруппаГлобальныеКоманды" id="50">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Глобальные команды</v8:content>
+					</v8:item>
+				</Title>
+				<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
+				<ExtendedTooltip name="ГруппаГлобальныеКомандыРасширеннаяПодсказка" id="51"/>
+				<ChildItems>
+					<Button name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="55"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<LabelDecoration name="НадписьСкладУправляющейСистемы" id="177">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>43</MaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>
+Склад управляющей системы. Редактирование запрещено.
+
+</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="НадписьСкладУправляющейСистемыКонтекстноеМеню" id="178"/>
+			<ExtendedTooltip name="НадписьСкладУправляющейСистемыРасширеннаяПодсказка" id="179"/>
+		</LabelDecoration>
+		<InputField name="Наименование" id="3">
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MaxWidth>30</MaxWidth>
+			<Wrap>false</Wrap>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<UsualGroup name="ГруппаОсновныеРеквизиты" id="154">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основные реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<United>false</United>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновныеРеквизитыРасширеннаяПодсказка" id="155"/>
+			<ChildItems>
+				<UsualGroup name="Тип" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<InputField name="ТипСтруктурнойЕдиницы" id="7">
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>30</MaxWidth>
+							<Wrap>false</Wrap>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ChooseType>false</ChooseType>
+							<ChoiceListButton>false</ChoiceListButton>
+							<ContextMenu name="ТипСтруктурнойЕдиницыКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ТипСтруктурнойЕдиницыРасширеннаяПодсказка" id="32">
+								<TextColor>style:ToolTipTextColor</TextColor>
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Склад - возможна торговля оптом и в розницу. 
+Право редактирования цен определяется настройками пользователя.
+
+Розничный склад - возможна розничная торговля.
+Для чеков ККМ и отчетов о розничных продажах можно отключить, либо настроить исключения контроля остатков в &lt;&lt;a href="%1"&gt;&gt;настройках программы&lt;&lt;/a&gt;&gt;.
+
+Розничный склад (суммовой учет) - возможна только розничная торговля. Цены в чеках ККМ и отчетах о розничных продажах менять вручную нельзя. Учет поступления и выбытия товаров только в денежном выражении.
+
+Магазин или группа складов- объект аналитики объединяющий группу структурных единиц (склады, торговые точки). Не участвует в движениях. Может быть выбран в качестве основного магазина или группы в настройках пользователя. Имеет только один уровень вложенности элементов. 
+
+Подразделение - объект накопления затрат. Используется как аналитика учета доходов и расходов, финансового результата, планирования продаж, учета зарплаты и прочих. В производстве, перемещения на подразделение являются отложенными затратами идущими на себестоимость продукции. </v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</InputField>
+						<UsualGroup name="ГруппаПодсказка" id="116">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подсказка</v8:content>
+								</v8:item>
+							</Title>
+							<Group>HorizontalIfPossible</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПодсказкаРасширеннаяПодсказка" id="117"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияПодсказкаОтступ" id="118">
+									<Width>12</Width>
+									<ContextMenu name="ДекорацияПодсказкаОтступКонтекстноеМеню" id="119"/>
+									<ExtendedTooltip name="ДекорацияПодсказкаОтступРасширеннаяПодсказка" id="120"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияПодсказка" id="113">
+									<Width>30</Width>
+									<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
+									<ContextMenu name="ДекорацияПодсказкаКонтекстноеМеню" id="114"/>
+									<ExtendedTooltip name="ДекорацияПодсказкаРасширеннаяПодсказка" id="115"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="РодительКод" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Родитель код</v8:content>
+						</v8:item>
+					</Title>
+					<Width>44</Width>
+					<Group>Horizontal</Group>
+					<HorizontalSpacing>OneAndHalf</HorizontalSpacing>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="РодительКодРасширеннаяПодсказка" id="27"/>
+					<ChildItems>
+						<InputField name="Родитель" id="5">
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>30</MaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Wrap>false</Wrap>
+							<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="28"/>
+						</InputField>
+						<InputField name="Код" id="1">
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<Width>5</Width>
+							<Wrap>false</Wrap>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="29"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="Организация" id="13">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<Wrap>false</Wrap>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ВидЦенСписания" id="180">
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<ContextMenu name="ВидЦенСписанияКонтекстноеМеню" id="181"/>
+					<ExtendedTooltip name="ВидЦенСписанияРасширеннаяПодсказка" id="182">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Вид цен для документа Списание запасов</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</InputField>
+				<InputField name="РозничныйВидЦен" id="17">
+					<MarkRequiredComplete>false</MarkRequiredComplete>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<AutoMarkIncomplete>false</AutoMarkIncomplete>
+					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+					<ContextMenu name="РозничныйВидЦенКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="РозничныйВидЦенРасширеннаяПодсказка" id="35"/>
+				</InputField>
+				<InputField name="МОЛ" id="15">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<ContextMenu name="МОЛКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="МОЛРасширеннаяПодсказка" id="36"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОрдерныйУчет" id="121">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ордерный учет</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Button</ControlRepresentation>
+			<Representation>NormalSeparation</Representation>
+			<ShowLeftMargin>false</ShowLeftMargin>
+			<ExtendedTooltip name="ГруппаОрдерныйУчетРасширеннаяПодсказка" id="122"/>
+			<ChildItems>
+				<CheckBoxField name="ОрдерныйСклад" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать ордерный учет</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Right</TitleLocation>
+					<ContextMenu name="ОрдерныйСкладКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ОрдерныйСкладРасширеннаяПодсказка" id="33"/>
+				</CheckBoxField>
+				<UsualGroup name="ГруппаИспользовать" id="146">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа использовать</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<Group>HorizontalIfPossible</Group>
+					<VerticalSpacing>Half</VerticalSpacing>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>DontUse</ThroughAlign>
+					<ExtendedTooltip name="ГруппаИспользоватьРасширеннаяПодсказка" id="147">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>При каких видах складских операций используется ордерная схема.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+					<ChildItems>
+						<LabelDecoration name="Декорация2" id="170">
+							<ContextMenu name="Декорация2КонтекстноеМеню" id="171"/>
+							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="172"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаИспользоватьВертикальная" id="168">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа использовать вертикальная</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИспользоватьВертикальнаяРасширеннаяПодсказка" id="169"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьОрдернуюСхемуПриПоступлении" id="134">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При поступлении</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<ContextMenu name="ИспользоватьОрдернуюСхемуПриПоступленииКонтекстноеМеню" id="135"/>
+									<ExtendedTooltip name="ИспользоватьОрдернуюСхемуПриПоступленииРасширеннаяПодсказка" id="136"/>
+								</CheckBoxField>
+								<CheckBoxField name="ИспользоватьОрдернуюСхемуПриПеремещении" id="137">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При перемещении</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<ContextMenu name="ИспользоватьОрдернуюСхемуПриПеремещенииКонтекстноеМеню" id="138"/>
+									<ExtendedTooltip name="ИспользоватьОрдернуюСхемуПриПеремещенииРасширеннаяПодсказка" id="139"/>
+								</CheckBoxField>
+								<CheckBoxField name="ИспользоватьОрдернуюСхемуПриОтгрузке" id="140">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При отгрузке</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<ContextMenu name="ИспользоватьОрдернуюСхемуПриОтгрузкеКонтекстноеМеню" id="141"/>
+									<ExtendedTooltip name="ИспользоватьОрдернуюСхемуПриОтгрузкеРасширеннаяПодсказка" id="142"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаВидУчетаОрдерныхСкладов" id="164">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа вид учета ордерных складов</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>WeakSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВидУчетаОрдерныхСкладовРасширеннаяПодсказка" id="165"/>
+					<ChildItems>
+						<InputField name="ВидУчетаОрдерныхСкладов" id="123">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Учет остатков по документам</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Left</TitleLocation>
+							<MarkRequiredComplete>true</MarkRequiredComplete>
+							<Width>8</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>30</MaxWidth>
+							<AutoMarkIncomplete>true</AutoMarkIncomplete>
+							<ContextMenu name="ВидУчетаОрдерныхСкладовКонтекстноеМеню" id="124"/>
+							<ExtendedTooltip name="ВидУчетаОрдерныхСкладовРасширеннаяПодсказка" id="125"/>
+						</InputField>
+						<UsualGroup name="ГруппаВидУчетаОрдерныхСкладовПодсказки" id="166">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа вид учета ордерных складов подсказки</v8:content>
+								</v8:item>
+							</Title>
+							<Group>HorizontalIfPossible</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВидУчетаОрдерныхСкладовПодсказкиРасширеннаяПодсказка" id="167"/>
+							<ChildItems>
+								<LabelDecoration name="ДекорацияПодсказкаОтступ1" id="161">
+									<Width>17</Width>
+									<ContextMenu name="ДекорацияПодсказкаОтступ1КонтекстноеМеню" id="162"/>
+									<ExtendedTooltip name="ДекорацияПодсказкаОтступ1РасширеннаяПодсказка" id="163"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияПодсказка1" id="158">
+									<Width>31</Width>
+									<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При поступлении/отгрузке товаров первичными документами являются приходные/расходные складские ордера. На их основании вводятся дальнейшие документы поступления/отгрузки.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ДекорацияПодсказка1КонтекстноеМеню" id="159"/>
+									<ExtendedTooltip name="ДекорацияПодсказка1РасширеннаяПодсказка" id="160"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+						<CheckBoxField name="УчетОстатковПоЯчейкам" id="131">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Учет остатков к поступлению/отгрузке по ячейкам</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Включает контроль остатков в разрезе ячеек  по регистрам Запасы к поступлению/Отгрузке при создании Приходного/Расходного ордеров.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="УчетОстатковПоЯчейкамКонтекстноеМеню" id="132"/>
+							<ExtendedTooltip name="УчетОстатковПоЯчейкамРасширеннаяПодсказка" id="133">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Включает контроль остатков по ячейкам указанных в первичных документах.
+
+Пример: 
+1. Для учета остатков по складским ордерам, если в ордере указана ячейка, тогда в  накладной необходимо будет указать ячейки в соответствии с складским ордером.
+2. Для учета остатков по накладным, если в  накладной указана ячейка, тогда в складском ордере необходимо будет указать ячейки в соответствии с  накладной. 
+</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПечать" id="80">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Button</ControlRepresentation>
+			<Representation>WeakSeparation</Representation>
+			<ShowLeftMargin>false</ShowLeftMargin>
+			<ExtendedTooltip name="ГруппаПечатьРасширеннаяПодсказка" id="81"/>
+			<ChildItems>
+				<InputField name="НаименованиеПолное" id="82">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование (полное)</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Left</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Используется при формировании печатных форм "Счет-фактура" и "Универсальный передаточный документ", когда подразделение выступает в роли грузоотправителя.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<VerticalStretch>false</VerticalStretch>
+					<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="84"/>
+				</InputField>
+				<InputField name="ПодписьМОЛ" id="85">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<ContextMenu name="ПодписьМОЛКонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="ПодписьМОЛРасширеннаяПодсказка" id="87"/>
+				</InputField>
+				<InputField name="ГоловнаяОрганизация" id="88">
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<ListChoiceMode>true</ListChoiceMode>
+					<QuickChoice>true</QuickChoice>
+					<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+					<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="ГоловнаяОрганизацияРасширеннаяПодсказка" id="90">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Используется при формировании печатных форм, например, УПД или счет-фактура.
+
+Если в документе головная организация указана одновременно для подразделения и для организации, то при печати приоритетными будут данные из карточки организации.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</InputField>
+				<InputField name="ГоловнаяОрганизацияИНН" id="91">
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>12</MaxWidth>
+					<ContextMenu name="ГоловнаяОрганизацияИННКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="ГоловнаяОрганизацияИННРасширеннаяПодсказка" id="93"/>
+				</InputField>
+				<InputField name="КПП" id="94">
+					<Visible>false</Visible>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>12</MaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="КППКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="КППРасширеннаяПодсказка" id="96"/>
+				</InputField>
+				<InputField name="ЦифровойИндексОбособленногоПодразделения" id="97">
+					<Visible>false</Visible>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цифровой индекс обособленного подразделения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ContextMenu name="ЦифровойИндексОбособленногоПодразделенияКонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="ЦифровойИндексОбособленногоПодразделенияРасширеннаяПодсказка" id="99"/>
+				</InputField>
+				<InputField name="УсловияХранения" id="100">
+					<TitleLocation>Left</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<Height>2</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MaxHeight>2</MaxHeight>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="УсловияХраненияКонтекстноеМеню" id="101"/>
+					<ExtendedTooltip name="УсловияХраненияРасширеннаяПодсказка" id="102"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="КонтактнаяИнформация" id="68">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адреса, телефоны</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адреса, телефоны</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Button</ControlRepresentation>
+			<Representation>NormalSeparation</Representation>
+			<ShowLeftMargin>false</ShowLeftMargin>
+			<ExtendedTooltip name="КонтактнаяИнформацияРасширеннаяПодсказка" id="69"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="175">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Button</ControlRepresentation>
+			<Representation>WeakSeparation</Representation>
+			<ShowLeftMargin>false</ShowLeftMargin>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="176"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаРеквизиты" id="173">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные реквизиты</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРеквизитыРасширеннаяПодсказка" id="174"/>
+				</UsualGroup>
+				<Button name="СоздатьНовыйДопРеквизит" id="103">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<CommandName>0</CommandName>
+					<ShapeRepresentation>None</ShapeRepresentation>
+					<ButtonImportance>Supplementary</ButtonImportance>
+					<ExtendedTooltip name="СоздатьНовыйДопРеквизитРасширеннаяПодсказка" id="104"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПрочее" id="156">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочее</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>WeakSeparation</Representation>
+			<United>false</United>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПрочееРасширеннаяПодсказка" id="157"/>
+			<ChildItems>
+				<Button name="ОбработкаМенеджерПодсказокТиповыеСхемыУчета_Розница" id="70">
+					<Type>Hyperlink</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Типовые схемы учета розничных продаж</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОбработкаМенеджерПодсказокТиповыеСхемыУчета_РозницаРасширеннаяПодсказка" id="71"/>
+				</Button>
+				<UsualGroup name="Автоперемещение" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автоперемещение</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="АвтоперемещениеРасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<Button name="АвтоперемещениеЗапасов" id="56">
+							<Type>Hyperlink</Type>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="АвтоперемещениеЗапасовРасширеннаяПодсказка" id="57"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<Button name="ОбработкаВидыСкидокНаценокРучныеИАвтоматическиеОткрытьОкругления" id="78">
+					<Type>Hyperlink</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настроить округления сумм</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОбработкаВидыСкидокНаценокРучныеИАвтоматическиеОткрытьОкругленияРасширеннаяПодсказка" id="79"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="Декорация1" id="110">
+			<VerticalStretch>true</VerticalStretch>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="111"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="112"/>
+		</LabelDecoration>
+		<UsualGroup name="ГруппаНедействителен" id="105">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Недействителен</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>HorizontalIfPossible</Group>
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНедействителенРасширеннаяПодсказка" id="106"/>
+			<ChildItems>
+				<CheckBoxField name="Недействителен" id="107">
+					<TitleLocation>Right</TitleLocation>
+					<ContextMenu name="НедействителенКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="НедействителенРасширеннаяПодсказка" id="109"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.21">
+		<WindowOpeningMode>DontBlock</WindowOpeningMode>
+		<Group>Vertical</Group>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<ButtonGroup name="ГруппаГлобальныеКоманды" id="50">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Глобальные команды</v8:content>
+						</v8:item>
+					</Title>
+					<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
+					<ExtendedTooltip name="ГруппаГлобальныеКомандыРасширеннаяПодсказка" id="51"/>
+					<ChildItems>
+						<Button name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="54">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="55"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<LabelDecoration name="НадписьСкладУправляющейСистемы" id="177">
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<MaxWidth>43</MaxWidth>
+				<HorizontalStretch>true</HorizontalStretch>
+				<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
+				<Title formatted="false">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>
+Склад управляющей системы. Редактирование запрещено.
+
+</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<ContextMenu name="НадписьСкладУправляющейСистемыКонтекстноеМеню" id="178"/>
+				<ExtendedTooltip name="НадписьСкладУправляющейСистемыРасширеннаяПодсказка" id="179"/>
+			</LabelDecoration>
+			<InputField name="Наименование" id="3">
+				<EditMode>EnterOnInput</EditMode>
+				<AutoEditMode>true</AutoEditMode>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<MaxWidth>30</MaxWidth>
+				<Wrap>false</Wrap>
+				<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+				<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="30"/>
+			</InputField>
+			<UsualGroup name="ГруппаОсновныеРеквизиты" id="154">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Основные реквизиты</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>NormalSeparation</Representation>
+				<United>false</United>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОсновныеРеквизитыРасширеннаяПодсказка" id="155"/>
+				<ChildItems>
+					<UsualGroup name="Тип" id="10">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Тип</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="31"/>
+						<ChildItems>
+							<InputField name="ТипСтруктурнойЕдиницы" id="7">
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>30</MaxWidth>
+								<Wrap>false</Wrap>
+								<ListChoiceMode>true</ListChoiceMode>
+								<ChooseType>false</ChooseType>
+								<ChoiceListButton>false</ChoiceListButton>
+								<ContextMenu name="ТипСтруктурнойЕдиницыКонтекстноеМеню" id="8"/>
+								<ExtendedTooltip name="ТипСтруктурнойЕдиницыРасширеннаяПодсказка" id="32">
+									<TextColor>style:ToolTipTextColor</TextColor>
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Склад - возможна торговля оптом и в розницу. 
+Право редактирования цен определяется настройками пользователя.
+
+Розничный склад - возможна розничная торговля.
+Для чеков ККМ и отчетов о розничных продажах можно отключить, либо настроить исключения контроля остатков в &lt;&lt;a href="%1"&gt;&gt;настройках программы&lt;&lt;/a&gt;&gt;.
+
+Розничный склад (суммовой учет) - возможна только розничная торговля. Цены в чеках ККМ и отчетах о розничных продажах менять вручную нельзя. Учет поступления и выбытия товаров только в денежном выражении.
+
+Магазин или группа складов- объект аналитики объединяющий группу структурных единиц (склады, торговые точки). Не участвует в движениях. Может быть выбран в качестве основного магазина или группы в настройках пользователя. Имеет только один уровень вложенности элементов. 
+
+Подразделение - объект накопления затрат. Используется как аналитика учета доходов и расходов, финансового результата, планирования продаж, учета зарплаты и прочих. В производстве, перемещения на подразделение являются отложенными затратами идущими на себестоимость продукции. </v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</InputField>
+							<UsualGroup name="ГруппаПодсказка" id="116">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа подсказка</v8:content>
+									</v8:item>
+								</Title>
+								<Group>HorizontalIfPossible</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПодсказкаРасширеннаяПодсказка" id="117"/>
+								<ChildItems>
+									<LabelDecoration name="ДекорацияПодсказкаОтступ" id="118">
+										<Width>12</Width>
+										<ContextMenu name="ДекорацияПодсказкаОтступКонтекстноеМеню" id="119"/>
+										<ExtendedTooltip name="ДекорацияПодсказкаОтступРасширеннаяПодсказка" id="120"/>
+									</LabelDecoration>
+									<LabelDecoration name="ДекорацияПодсказка" id="113">
+										<Width>30</Width>
+										<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
+										<ContextMenu name="ДекорацияПодсказкаКонтекстноеМеню" id="114"/>
+										<ExtendedTooltip name="ДекорацияПодсказкаРасширеннаяПодсказка" id="115"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="РодительКод" id="9">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Родитель код</v8:content>
+							</v8:item>
+						</Title>
+						<Width>44</Width>
+						<Group>Horizontal</Group>
+						<HorizontalSpacing>OneAndHalf</HorizontalSpacing>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="РодительКодРасширеннаяПодсказка" id="27"/>
+						<ChildItems>
+							<InputField name="Родитель" id="5">
+								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>30</MaxWidth>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Wrap>false</Wrap>
+								<ContextMenu name="РодительКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="28"/>
+							</InputField>
+							<InputField name="Код" id="1">
+								<UserVisible>
+									<xr:Common>false</xr:Common>
+								</UserVisible>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
+								<Width>5</Width>
+								<Wrap>false</Wrap>
+								<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+								<ExtendedTooltip name="КодРасширеннаяПодсказка" id="29"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<InputField name="Организация" id="13">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<Wrap>false</Wrap>
+						<ContextMenu name="ОрганизацияКонтекстноеМеню" id="14"/>
+						<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="34"/>
+					</InputField>
+					<InputField name="ВидЦенСписания" id="180">
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<ContextMenu name="ВидЦенСписанияКонтекстноеМеню" id="181"/>
+						<ExtendedTooltip name="ВидЦенСписанияРасширеннаяПодсказка" id="182">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вид цен для документа Списание запасов</v8:content>
+								</v8:item>
+							</Title>
+						</ExtendedTooltip>
+					</InputField>
+					<InputField name="РозничныйВидЦен" id="17">
+						<MarkRequiredComplete>false</MarkRequiredComplete>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<AutoMarkIncomplete>false</AutoMarkIncomplete>
+						<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+						<ContextMenu name="РозничныйВидЦенКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="РозничныйВидЦенРасширеннаяПодсказка" id="35"/>
+					</InputField>
+					<InputField name="МОЛ" id="15">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<ContextMenu name="МОЛКонтекстноеМеню" id="16"/>
+						<ExtendedTooltip name="МОЛРасширеннаяПодсказка" id="36"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаОрдерныйУчет" id="121">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ордерный учет</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Collapsible</Behavior>
+				<Collapsed>true</Collapsed>
+				<ControlRepresentation>Button</ControlRepresentation>
+				<Representation>NormalSeparation</Representation>
+				<ShowLeftMargin>false</ShowLeftMargin>
+				<ExtendedTooltip name="ГруппаОрдерныйУчетРасширеннаяПодсказка" id="122"/>
+				<ChildItems>
+					<CheckBoxField name="ОрдерныйСклад" id="11">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Использовать ордерный учет</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Right</TitleLocation>
+						<ContextMenu name="ОрдерныйСкладКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ОрдерныйСкладРасширеннаяПодсказка" id="33"/>
+					</CheckBoxField>
+					<UsualGroup name="ГруппаИспользовать" id="146">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа использовать</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<Group>HorizontalIfPossible</Group>
+						<VerticalSpacing>Half</VerticalSpacing>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ThroughAlign>DontUse</ThroughAlign>
+						<ExtendedTooltip name="ГруппаИспользоватьРасширеннаяПодсказка" id="147">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>При каких видах складских операций используется ордерная схема.</v8:content>
+								</v8:item>
+							</Title>
+						</ExtendedTooltip>
+						<ChildItems>
+							<LabelDecoration name="Декорация2" id="170">
+								<ContextMenu name="Декорация2КонтекстноеМеню" id="171"/>
+								<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="172"/>
+							</LabelDecoration>
+							<UsualGroup name="ГруппаИспользоватьВертикальная" id="168">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа использовать вертикальная</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаИспользоватьВертикальнаяРасширеннаяПодсказка" id="169"/>
+								<ChildItems>
+									<CheckBoxField name="ИспользоватьОрдернуюСхемуПриПоступлении" id="134">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>При поступлении</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Right</TitleLocation>
+										<ContextMenu name="ИспользоватьОрдернуюСхемуПриПоступленииКонтекстноеМеню" id="135"/>
+										<ExtendedTooltip name="ИспользоватьОрдернуюСхемуПриПоступленииРасширеннаяПодсказка" id="136"/>
+									</CheckBoxField>
+									<CheckBoxField name="ИспользоватьОрдернуюСхемуПриПеремещении" id="137">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>При перемещении</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Right</TitleLocation>
+										<ContextMenu name="ИспользоватьОрдернуюСхемуПриПеремещенииКонтекстноеМеню" id="138"/>
+										<ExtendedTooltip name="ИспользоватьОрдернуюСхемуПриПеремещенииРасширеннаяПодсказка" id="139"/>
+									</CheckBoxField>
+									<CheckBoxField name="ИспользоватьОрдернуюСхемуПриОтгрузке" id="140">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>При отгрузке</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Right</TitleLocation>
+										<ContextMenu name="ИспользоватьОрдернуюСхемуПриОтгрузкеКонтекстноеМеню" id="141"/>
+										<ExtendedTooltip name="ИспользоватьОрдернуюСхемуПриОтгрузкеРасширеннаяПодсказка" id="142"/>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаВидУчетаОрдерныхСкладов" id="164">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа вид учета ордерных складов</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>WeakSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаВидУчетаОрдерныхСкладовРасширеннаяПодсказка" id="165"/>
+						<ChildItems>
+							<InputField name="ВидУчетаОрдерныхСкладов" id="123">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Учет остатков по документам</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Left</TitleLocation>
+								<MarkRequiredComplete>true</MarkRequiredComplete>
+								<Width>8</Width>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>30</MaxWidth>
+								<AutoMarkIncomplete>true</AutoMarkIncomplete>
+								<ContextMenu name="ВидУчетаОрдерныхСкладовКонтекстноеМеню" id="124"/>
+								<ExtendedTooltip name="ВидУчетаОрдерныхСкладовРасширеннаяПодсказка" id="125"/>
+							</InputField>
+							<UsualGroup name="ГруппаВидУчетаОрдерныхСкладовПодсказки" id="166">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа вид учета ордерных складов подсказки</v8:content>
+									</v8:item>
+								</Title>
+								<Group>HorizontalIfPossible</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаВидУчетаОрдерныхСкладовПодсказкиРасширеннаяПодсказка" id="167"/>
+								<ChildItems>
+									<LabelDecoration name="ДекорацияПодсказкаОтступ1" id="161">
+										<Width>17</Width>
+										<ContextMenu name="ДекорацияПодсказкаОтступ1КонтекстноеМеню" id="162"/>
+										<ExtendedTooltip name="ДекорацияПодсказкаОтступ1РасширеннаяПодсказка" id="163"/>
+									</LabelDecoration>
+									<LabelDecoration name="ДекорацияПодсказка1" id="158">
+										<Width>31</Width>
+										<TextColor>style:ТекстВторостепеннойНадписи</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>При поступлении/отгрузке товаров первичными документами являются приходные/расходные складские ордера. На их основании вводятся дальнейшие документы поступления/отгрузки.</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ДекорацияПодсказка1КонтекстноеМеню" id="159"/>
+										<ExtendedTooltip name="ДекорацияПодсказка1РасширеннаяПодсказка" id="160"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+							<CheckBoxField name="УчетОстатковПоЯчейкам" id="131">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Учет остатков к поступлению/отгрузке по ячейкам</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Включает контроль остатков в разрезе ячеек  по регистрам Запасы к поступлению/Отгрузке при создании Приходного/Расходного ордеров.</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<ContextMenu name="УчетОстатковПоЯчейкамКонтекстноеМеню" id="132"/>
+								<ExtendedTooltip name="УчетОстатковПоЯчейкамРасширеннаяПодсказка" id="133">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Включает контроль остатков по ячейкам указанных в первичных документах.
+
+Пример: 
+1. Для учета остатков по складским ордерам, если в ордере указана ячейка, тогда в  накладной необходимо будет указать ячейки в соответствии с складским ордером.
+2. Для учета остатков по накладным, если в  накладной указана ячейка, тогда в складском ордере необходимо будет указать ячейки в соответствии с  накладной. 
+</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаПечать" id="80">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Collapsible</Behavior>
+				<Collapsed>true</Collapsed>
+				<ControlRepresentation>Button</ControlRepresentation>
+				<Representation>WeakSeparation</Representation>
+				<ShowLeftMargin>false</ShowLeftMargin>
+				<ExtendedTooltip name="ГруппаПечатьРасширеннаяПодсказка" id="81"/>
+				<ChildItems>
+					<InputField name="НаименованиеПолное" id="82">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Наименование (полное)</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Left</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Используется при формировании печатных форм "Счет-фактура" и "Универсальный передаточный документ", когда подразделение выступает в роли грузоотправителя.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<VerticalStretch>false</VerticalStretch>
+						<ContextMenu name="НаименованиеПолноеКонтекстноеМеню" id="83"/>
+						<ExtendedTooltip name="НаименованиеПолноеРасширеннаяПодсказка" id="84"/>
+					</InputField>
+					<InputField name="ПодписьМОЛ" id="85">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<ContextMenu name="ПодписьМОЛКонтекстноеМеню" id="86"/>
+						<ExtendedTooltip name="ПодписьМОЛРасширеннаяПодсказка" id="87"/>
+					</InputField>
+					<InputField name="ГоловнаяОрганизация" id="88">
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<ListChoiceMode>true</ListChoiceMode>
+						<QuickChoice>true</QuickChoice>
+						<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+						<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="89"/>
+						<ExtendedTooltip name="ГоловнаяОрганизацияРасширеннаяПодсказка" id="90">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется при формировании печатных форм, например, УПД или счет-фактура.
+
+Если в документе головная организация указана одновременно для подразделения и для организации, то при печати приоритетными будут данные из карточки организации.</v8:content>
+								</v8:item>
+							</Title>
+						</ExtendedTooltip>
+					</InputField>
+					<InputField name="ГоловнаяОрганизацияИНН" id="91">
+						<Visible>false</Visible>
+						<ReadOnly>true</ReadOnly>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>12</MaxWidth>
+						<ContextMenu name="ГоловнаяОрганизацияИННКонтекстноеМеню" id="92"/>
+						<ExtendedTooltip name="ГоловнаяОрганизацияИННРасширеннаяПодсказка" id="93"/>
+					</InputField>
+					<InputField name="КПП" id="94">
+						<Visible>false</Visible>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>12</MaxWidth>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="КППКонтекстноеМеню" id="95"/>
+						<ExtendedTooltip name="КППРасширеннаяПодсказка" id="96"/>
+					</InputField>
+					<InputField name="ЦифровойИндексОбособленногоПодразделения" id="97">
+						<Visible>false</Visible>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Цифровой индекс обособленного подразделения</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<ContextMenu name="ЦифровойИндексОбособленногоПодразделенияКонтекстноеМеню" id="98"/>
+						<ExtendedTooltip name="ЦифровойИндексОбособленногоПодразделенияРасширеннаяПодсказка" id="99"/>
+					</InputField>
+					<InputField name="УсловияХранения" id="100">
+						<TitleLocation>Left</TitleLocation>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<Height>2</Height>
+						<AutoMaxHeight>false</AutoMaxHeight>
+						<MaxHeight>2</MaxHeight>
+						<MultiLine>true</MultiLine>
+						<ContextMenu name="УсловияХраненияКонтекстноеМеню" id="101"/>
+						<ExtendedTooltip name="УсловияХраненияРасширеннаяПодсказка" id="102"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="КонтактнаяИнформация" id="68">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адреса, телефоны</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Collapsible</Behavior>
+				<CollapsedRepresentationTitle>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Адреса, телефоны</v8:content>
+					</v8:item>
+				</CollapsedRepresentationTitle>
+				<Collapsed>true</Collapsed>
+				<ControlRepresentation>Button</ControlRepresentation>
+				<Representation>NormalSeparation</Representation>
+				<ShowLeftMargin>false</ShowLeftMargin>
+				<ExtendedTooltip name="КонтактнаяИнформацияРасширеннаяПодсказка" id="69"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаДополнительныеРеквизиты" id="175">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительные реквизиты</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Collapsible</Behavior>
+				<Collapsed>true</Collapsed>
+				<ControlRepresentation>Button</ControlRepresentation>
+				<Representation>WeakSeparation</Representation>
+				<ShowLeftMargin>false</ShowLeftMargin>
+				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="176"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаРеквизиты" id="173">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дополнительные реквизиты</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаРеквизитыРасширеннаяПодсказка" id="174"/>
+					</UsualGroup>
+					<Button name="СоздатьНовыйДопРеквизит" id="103">
+						<Type>UsualButton</Type>
+						<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+						<CommandName>0</CommandName>
+						<ShapeRepresentation>None</ShapeRepresentation>
+						<ButtonImportance>Supplementary</ButtonImportance>
+						<ExtendedTooltip name="СоздатьНовыйДопРеквизитРасширеннаяПодсказка" id="104"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаПрочее" id="156">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Прочее</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>WeakSeparation</Representation>
+				<United>false</United>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаПрочееРасширеннаяПодсказка" id="157"/>
+				<ChildItems>
+					<Button name="ОбработкаМенеджерПодсказокТиповыеСхемыУчета_Розница" id="70">
+						<Type>Hyperlink</Type>
+						<CommandName>0</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Типовые схемы учета розничных продаж</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ОбработкаМенеджерПодсказокТиповыеСхемыУчета_РозницаРасширеннаяПодсказка" id="71"/>
+					</Button>
+					<UsualGroup name="Автоперемещение" id="48">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Автоперемещение</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="АвтоперемещениеРасширеннаяПодсказка" id="49"/>
+						<ChildItems>
+							<Button name="АвтоперемещениеЗапасов" id="56">
+								<Type>Hyperlink</Type>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="АвтоперемещениеЗапасовРасширеннаяПодсказка" id="57"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<Button name="ОбработкаВидыСкидокНаценокРучныеИАвтоматическиеОткрытьОкругления" id="78">
+						<Type>Hyperlink</Type>
+						<CommandName>0</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настроить округления сумм</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ОбработкаВидыСкидокНаценокРучныеИАвтоматическиеОткрытьОкругленияРасширеннаяПодсказка" id="79"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<LabelDecoration name="Декорация1" id="110">
+				<VerticalStretch>true</VerticalStretch>
+				<ContextMenu name="Декорация1КонтекстноеМеню" id="111"/>
+				<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="112"/>
+			</LabelDecoration>
+			<UsualGroup name="ГруппаНедействителен" id="105">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Недействителен</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>HorizontalIfPossible</Group>
+				<HorizontalAlign>Right</HorizontalAlign>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНедействителенРасширеннаяПодсказка" id="106"/>
+				<ChildItems>
+					<CheckBoxField name="Недействителен" id="107">
+						<TitleLocation>Right</TitleLocation>
+						<ContextMenu name="НедействителенКонтекстноеМеню" id="108"/>
+						<ExtendedTooltip name="НедействителенРасширеннаяПодсказка" id="109"/>
+					</CheckBoxField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

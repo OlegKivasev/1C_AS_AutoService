@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.23.1</Version>
+			<Version>1.23.2</Version>
 			<Caption/>
 			<ShortCaption/>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
@@ -99,6 +99,22 @@
 			<StyleItem>ВидДняПроизводственногоКалендаряСубботаЦвет</StyleItem>
 			<StyleItem>ЦветСуммыПоступления</StyleItem>
 			<StyleItem>ПеремещениеДСВЖурналахЦвет</StyleItem>
+			<StyleItem>ШрифтОбычный12РМК</StyleItem>
+			<StyleItem>ШрифтОбычныйПолужирный8РМК</StyleItem>
+			<StyleItem>ШрифтОбычныйПолужирный18РМК</StyleItem>
+			<StyleItem>ЦветТекстаСверхЗаказаРМК</StyleItem>
+			<StyleItem>ШрифтПоляВводаРМК</StyleItem>
+			<StyleItem>ШрифтОбычныйПолужирный14РМК</StyleItem>
+			<StyleItem>ЦветАктивнойКнопкиРМК</StyleItem>
+			<StyleItem>ЦветНеАктивизированногоПунктаРМК</StyleItem>
+			<StyleItem>ШрифтОбычныйПолужирный12РМК</StyleItem>
+			<StyleItem>ШрифтПоляВводаРМК18</StyleItem>
+			<StyleItem>ШрифтОбычныйПолужирныйРМК</StyleItem>
+			<StyleItem>ТекстВторостепеннойНадписиРМК</StyleItem>
+			<StyleItem>ЦветКнопкиОтказатьсяРМК</StyleItem>
+			<StyleItem>ЦветФонаРежимаКоррекцииРМК</StyleItem>
+			<StyleItem>ЦветАктивизированногоПунктаРМК</StyleItem>
+			<StyleItem>ШрифтДекорацииОченьКрупныйРМК</StyleItem>
 			<CommonPicture>ИсторияИзменений</CommonPicture>
 			<CommonPicture>УстановитьСвязь</CommonPicture>
 			<CommonPicture>РазорватьСвязь</CommonPicture>
@@ -162,6 +178,40 @@
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonPicture>МетаданныеРеквизиты</CommonPicture>
 			<CommonPicture>Предупреждение</CommonPicture>
+			<CommonPicture>РМКСостояниеНастроек</CommonPicture>
+			<CommonPicture>ПросмотрЭлементовПалитрыРМК</CommonPicture>
+			<CommonPicture>ПлиточныйИнтерфейсРМК</CommonPicture>
+			<CommonPicture>РМКМодификатор</CommonPicture>
+			<CommonPicture>СтрелкаВлевоРМК</CommonPicture>
+			<CommonPicture>RUB</CommonPicture>
+			<CommonPicture>РМКОткрытьДенежныйЯщик</CommonPicture>
+			<CommonPicture>РМКВесы</CommonPicture>
+			<CommonPicture>РМКНеактивныйВыбор</CommonPicture>
+			<CommonPicture>ИзбранныеТоварыРМК</CommonPicture>
+			<CommonPicture>ПереходДомойРМК</CommonPicture>
+			<CommonPicture>СтрелкаВправоРМК</CommonPicture>
+			<CommonPicture>РМКАктивныйВыбор</CommonPicture>
+			<CommonPicture>РМКПоискПоШтрихкоду</CommonPicture>
+			<CommonPicture>РМКОтборы</CommonPicture>
+			<CommonPicture>Order</CommonPicture>
+			<CommonPicture>ПечатьТоварногоЧека</CommonPicture>
+			<CommonPicture>НастройкиТарированияВесов</CommonPicture>
+			<CommonPicture>РМКУстройствоРаспознавания16</CommonPicture>
+			<CommonPicture>РМКЗеленаяСтрелкаВниз48</CommonPicture>
+			<CommonPicture>Cancel</CommonPicture>
+			<CommonPicture>РМКЦифроваяПанель</CommonPicture>
+			<CommonPicture>Scales</CommonPicture>
+			<CommonPicture>РМККоллекцияОстаткиТоваров</CommonPicture>
+			<CommonPicture>Sale</CommonPicture>
+			<CommonPicture>Search</CommonPicture>
+			<CommonPicture>РМКСтатусТовара</CommonPicture>
+			<CommonPicture>НайтиКарту</CommonPicture>
+			<CommonPicture>СозданиеКартыЗеленый</CommonPicture>
+			<CommonPicture>ClosingX</CommonPicture>
+			<CommonPicture>РМКУдалитьВсеВидыОплаты</CommonPicture>
+			<CommonPicture>ЗакрытьДанныеПокупателя</CommonPicture>
+			<CommonPicture>ESC</CommonPicture>
+			<CommonPicture>ЗакрытьСмену</CommonPicture>
 			<Role>АС_ОсновнаяРоль</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаУслуги</Role>
 			<Role>АС_РазрешитьИзменятьЦенуНаВременныеТовары</Role>
@@ -176,6 +226,7 @@
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonModule>АС_ПродажиНоменклатурыСервер</CommonModule>
 			<CommonModule>АС_ЦенообразованиеСервер</CommonModule>
+			<CommonModule>АС_ПереносВыручкиРМКСервер</CommonModule>
 			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
 			<CommonModule>АС_ИндикацияОстатковСервер</CommonModule>
 			<CommonModule>АС_ПлатежиЗаказовКлиент</CommonModule>
@@ -204,6 +255,7 @@
 			<CommonForm>АС_ИсторияПоМоделямАвто</CommonForm>
 			<CommonForm>АС_ТоварыМоделиАвто</CommonForm>
 			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
+			<CommonForm>НастройкиРабочегоМестаКассира</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
@@ -230,6 +282,7 @@
 			<Catalog>Ячейки</Catalog>
 			<Catalog>СтраныМира</Catalog>
 			<Catalog>ВидыАлкогольнойПродукции</Catalog>
+			<Catalog>НастройкиРабочегоМестаКассира</Catalog>
 			<Document>ЗаказПокупателя</Document>
 			<Document>ЗаказПоставщику</Document>
 			<Document>ПриходнаяНакладная</Document>
@@ -263,12 +316,16 @@
 			<Enum>ЧастотаРасчетаКурсовыхРазниц</Enum>
 			<Enum>ТипыШаблонов</Enum>
 			<Enum>ВидыОперацийЭквайринга</Enum>
+			<Enum>ВидыМодификаторовРМК</Enum>
+			<Enum>ВидыОтображения</Enum>
 			<DataProcessor>НастройкаПрограммы</DataProcessor>
 			<DataProcessor>ПечатьЭтикетокИЦенников</DataProcessor>
 			<DataProcessor>ПечатьЭтикетокИЦенниковБПО</DataProcessor>
 			<DataProcessor>БанкИКасса</DataProcessor>
 			<DataProcessor>ПоискИУдалениеДублей</DataProcessor>
+			<DataProcessor>РабочееМестоКассира</DataProcessor>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
+			<InformationRegister>АС_ПереносыВыручкиРМК</InformationRegister>
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>
 			<InformationRegister>АС_ВидыЦенКонтрагентов</InformationRegister>
 			<InformationRegister>ОстаткиТоваров</InformationRegister>
