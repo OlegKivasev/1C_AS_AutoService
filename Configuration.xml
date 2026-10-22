@@ -293,6 +293,7 @@
 			<Document>УстановкаЦенНоменклатуры</Document>
 			<Document>ПоступлениеВКассу</Document>
 			<Document>ПоступлениеНаСчет</Document>
+			<Document>ЧекККМ</Document>
 			<Enum>ДействияГрупповогоИзмененияСтрок</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>
