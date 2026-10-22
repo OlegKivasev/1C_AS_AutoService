@@ -684,6 +684,9 @@
 					</Title>
 					<Type>
 						<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМВозврат</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОтчетОРозничныхПродажах</v8:Type>
 					</Type>
 				</Column>
 				<Column name="Номенклатура" id="5">
