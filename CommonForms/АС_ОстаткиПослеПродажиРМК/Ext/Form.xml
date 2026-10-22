@@ -7,15 +7,17 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>false</Autofill></AutoCommandBar>
 	<Events><Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event></Events>
 	<ChildItems>
-		<LabelDecoration name="АС_Заголовок" id="1">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Остатки после продажи</v8:content></v8:item></Title>
-			<Font ref="style:ШрифтОбычныйПолужирный18РМК" kind="StyleItem"/>
-			<ExtendedTooltip name="АС_ЗаголовокПодсказка" id="2"/>
-		</LabelDecoration>
 		<LabelDecoration name="АС_Описание" id="3">
-			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>С учётом заказов • Все склады</v8:content></v8:item></Title>
+			<Visible>false</Visible>
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Продажа завершена. Получить остатки не удалось. Повторять продажу не нужно.</v8:content></v8:item></Title>
 			<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
 			<ExtendedTooltip name="АС_ОписаниеПодсказка" id="4"/>
+		</LabelDecoration>
+		<LabelDecoration name="АС_НапоминаниеОЗаказе" id="5">
+			<TextColor>#C00000</TextColor>
+			<Font ref="style:ШрифтОбычныйПолужирный14РМК" kind="StyleItem"/>
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Проверьте остатки товаров с учётом заказов. При необходимости оформите заказ поставщику.</v8:content></v8:item></Title>
+			<ExtendedTooltip name="АС_НапоминаниеОЗаказеПодсказка" id="6"/>
 		</LabelDecoration>
 		<Table name="АС_Остатки" id="10">
 			<DataPath>АС_Остатки</DataPath>
@@ -67,36 +69,39 @@
 					<ContextMenu name="АС_ОстаткиПроданоМеню" id="36"/>
 					<ExtendedTooltip name="АС_ОстаткиПроданоПодсказка" id="37"/>
 				</InputField>
-				<InputField name="АС_ОстаткиЕдиницаИзмерения" id="40">
-					<DataPath>АС_Остатки.ЕдиницаИзмерения</DataPath>
-					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Ед.</v8:content></v8:item></Title>
-					<ReadOnly>true</ReadOnly>
-					<Width>8</Width>
-					<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
-					<ContextMenu name="АС_ОстаткиЕдиницаИзмеренияМеню" id="41"/>
-					<ExtendedTooltip name="АС_ОстаткиЕдиницаИзмеренияПодсказка" id="42"/>
-				</InputField>
 				<InputField name="АС_ОстаткиОстатокСУчетомЗаказов" id="45">
 					<DataPath>АС_Остатки.ОстатокСУчетомЗаказов</DataPath>
 					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Остаток с учётом заказов</v8:content></v8:item></Title>
 					<ReadOnly>true</ReadOnly>
 					<Width>24</Width>
+					<Format><v8:item><v8:lang>ru</v8:lang><v8:content>ЧН=0; ЧДЦ=3</v8:content></v8:item></Format>
 					<Font ref="style:ШрифтОбычныйПолужирный14РМК" kind="StyleItem"/>
 					<ContextMenu name="АС_ОстаткиОстатокСУчетомЗаказовМеню" id="46"/>
 					<ExtendedTooltip name="АС_ОстаткиОстатокСУчетомЗаказовПодсказка" id="47"/>
 				</InputField>
 			</ChildItems>
 		</Table>
-		<Button name="АС_Понятно" id="80">
-			<Type>UsualButton</Type>
-			<DefaultButton>true</DefaultButton>
-			<CommandName>Form.Command.АС_Понятно</CommandName>
-			<Width>24</Width>
-			<Height>2</Height>
-			<BackColor>style:ЦветАктивнойКнопкиРМК</BackColor>
-			<Font ref="style:ШрифтОбычныйПолужирный14РМК" kind="StyleItem"/>
-			<ExtendedTooltip name="АС_ПонятноПодсказка" id="81"/>
-		</Button>
+		<UsualGroup name="АС_ГруппаЗакрытия" id="82">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="АС_ГруппаЗакрытияПодсказка" id="83"/>
+			<ChildItems>
+				<Button name="АС_Понятно" id="80">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.АС_Понятно</CommandName>
+					<Width>24</Width>
+					<Height>2</Height>
+					<BackColor>style:ЦветАктивнойКнопкиРМК</BackColor>
+					<Font ref="style:ШрифтОбычныйПолужирный14РМК" kind="StyleItem"/>
+					<ExtendedTooltip name="АС_ПонятноПодсказка" id="81"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="АС_Остатки" id="1">
@@ -106,8 +111,8 @@
 				<Column name="Характеристика" id="2"><Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type></Column>
 				<Column name="Организация" id="3"><Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type></Column>
 				<Column name="Продано" id="4"><Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>3</v8:FractionDigits><v8:AllowedSign>Any</v8:AllowedSign></v8:NumberQualifiers></Type></Column>
-				<Column name="ЕдиницаИзмерения" id="5"><Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type></Column>
 				<Column name="ОстатокСУчетомЗаказов" id="6"><Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>3</v8:FractionDigits><v8:AllowedSign>Any</v8:AllowedSign></v8:NumberQualifiers></Type></Column>
+				<Column name="Номенклатура" id="7"><Type><v8:Type>cfg:CatalogRef.Номенклатура</v8:Type></Type></Column>
 			</Columns>
 		</Attribute>
 	</Attributes>

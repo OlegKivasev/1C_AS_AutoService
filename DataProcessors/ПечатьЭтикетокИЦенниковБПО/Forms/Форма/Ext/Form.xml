@@ -290,12 +290,12 @@
 								</Popup>
 								<Button name="ПереместитьВверх" id="768">
 									<Type>CommandBarButton</Type>
-									<CommandName>Form.Item.Товары.StandardCommand.MoveUp</CommandName>
+									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ПереместитьВверхРасширеннаяПодсказка" id="769"/>
 								</Button>
 								<Button name="ПереместитьВниз" id="770">
 									<Type>CommandBarButton</Type>
-									<CommandName>Form.Item.Товары.StandardCommand.MoveDown</CommandName>
+									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ПереместитьВнизРасширеннаяПодсказка" id="771"/>
 								</Button>
 								<Button name="ВыбратьИзДанныхМобильногоПриложения" id="887">
@@ -397,10 +397,6 @@
 							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Товары</DataPath>
-							<CommandSet>
-								<ExcludedCommand>Add</ExcludedCommand>
-								<ExcludedCommand>Copy</ExcludedCommand>
-							</CommandSet>
 							<SearchStringLocation>None</SearchStringLocation>
 							<ViewStatusLocation>None</ViewStatusLocation>
 							<SearchControlLocation>None</SearchControlLocation>
@@ -434,9 +430,6 @@
 								<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="642"/>
 								<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="643"/>
 							</SearchControlAddition>
-							<Events>
-								<Event name="OnStartEdit" callType="Before">ТоварыПриНачалеРедактирования</Event>
-							</Events>
 							<ChildItems>
 								<CheckBoxField name="ТоварыВыбран" id="842">
 									<DataPath>Объект.Товары.Выбран</DataPath>
@@ -1394,12 +1387,12 @@
 									</Popup>
 									<Button name="ПереместитьВверх" id="768">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Item.Товары.StandardCommand.MoveUp</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="ПереместитьВверхРасширеннаяПодсказка" id="769"/>
 									</Button>
 									<Button name="ПереместитьВниз" id="770">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Item.Товары.StandardCommand.MoveDown</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="ПереместитьВнизРасширеннаяПодсказка" id="771"/>
 									</Button>
 									<Button name="ВыбратьИзДанныхМобильногоПриложения" id="887">
@@ -1481,10 +1474,6 @@
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Товары</DataPath>
-								<CommandSet>
-									<ExcludedCommand>Add</ExcludedCommand>
-									<ExcludedCommand>Copy</ExcludedCommand>
-								</CommandSet>
 								<SearchStringLocation>None</SearchStringLocation>
 								<ViewStatusLocation>None</ViewStatusLocation>
 								<SearchControlLocation>None</SearchControlLocation>
@@ -1518,9 +1507,6 @@
 									<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="642"/>
 									<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="643"/>
 								</SearchControlAddition>
-								<Events>
-									<Event name="OnStartEdit" callType="Before">ТоварыПриНачалеРедактирования</Event>
-								</Events>
 								<ChildItems>
 									<CheckBoxField name="ТоварыВыбран" id="842">
 										<DataPath>Объект.Товары.Выбран</DataPath>
