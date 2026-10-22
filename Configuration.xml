@@ -256,6 +256,7 @@
 			<CommonForm>АС_ТоварыМоделиАвто</CommonForm>
 			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
 			<CommonForm>НастройкиРабочегоМестаКассира</CommonForm>
+			<CommonForm>АС_ОстаткиПослеПродажиРМК</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>

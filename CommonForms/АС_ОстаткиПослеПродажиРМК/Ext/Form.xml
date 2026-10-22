@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Остатки после продажи</v8:content></v8:item></Title>
+	<Width>110</Width>
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"><Autofill>false</Autofill></AutoCommandBar>
+	<Events><Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event></Events>
+	<ChildItems>
+		<LabelDecoration name="АС_Заголовок" id="1">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Остатки после продажи</v8:content></v8:item></Title>
+			<Font ref="style:ШрифтОбычныйПолужирный18РМК" kind="StyleItem"/>
+			<ExtendedTooltip name="АС_ЗаголовокПодсказка" id="2"/>
+		</LabelDecoration>
+		<LabelDecoration name="АС_Описание" id="3">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>С учётом заказов • Все склады</v8:content></v8:item></Title>
+			<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
+			<ExtendedTooltip name="АС_ОписаниеПодсказка" id="4"/>
+		</LabelDecoration>
+		<Table name="АС_Остатки" id="10">
+			<DataPath>АС_Остатки</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<Height>12</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
+			<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
+			<ContextMenu name="АС_ОстаткиМеню" id="11"/>
+			<AutoCommandBar name="АС_ОстаткиКоманднаяПанель" id="12"><Autofill>false</Autofill></AutoCommandBar>
+			<ExtendedTooltip name="АС_ОстаткиПодсказка" id="13"/>
+			<ChildItems>
+				<InputField name="АС_ОстаткиТовар" id="20">
+					<DataPath>АС_Остатки.Товар</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Товар</v8:content></v8:item></Title>
+					<ReadOnly>true</ReadOnly>
+					<Width>50</Width>
+					<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
+					<ContextMenu name="АС_ОстаткиТоварМеню" id="21"/>
+					<ExtendedTooltip name="АС_ОстаткиТоварПодсказка" id="22"/>
+				</InputField>
+				<InputField name="АС_ОстаткиХарактеристика" id="25">
+					<DataPath>АС_Остатки.Характеристика</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Характеристика</v8:content></v8:item></Title>
+					<ReadOnly>true</ReadOnly>
+					<Width>20</Width>
+					<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
+					<ContextMenu name="АС_ОстаткиХарактеристикаМеню" id="26"/>
+					<ExtendedTooltip name="АС_ОстаткиХарактеристикаПодсказка" id="27"/>
+				</InputField>
+				<InputField name="АС_ОстаткиОрганизация" id="30">
+					<DataPath>АС_Остатки.Организация</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Организация</v8:content></v8:item></Title>
+					<ReadOnly>true</ReadOnly>
+					<Width>22</Width>
+					<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
+					<ContextMenu name="АС_ОстаткиОрганизацияМеню" id="31"/>
+					<ExtendedTooltip name="АС_ОстаткиОрганизацияПодсказка" id="32"/>
+				</InputField>
+				<InputField name="АС_ОстаткиПродано" id="35">
+					<DataPath>АС_Остатки.Продано</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Продано</v8:content></v8:item></Title>
+					<ReadOnly>true</ReadOnly>
+					<Width>12</Width>
+					<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
+					<ContextMenu name="АС_ОстаткиПроданоМеню" id="36"/>
+					<ExtendedTooltip name="АС_ОстаткиПроданоПодсказка" id="37"/>
+				</InputField>
+				<InputField name="АС_ОстаткиЕдиницаИзмерения" id="40">
+					<DataPath>АС_Остатки.ЕдиницаИзмерения</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Ед.</v8:content></v8:item></Title>
+					<ReadOnly>true</ReadOnly>
+					<Width>8</Width>
+					<Font ref="style:ШрифтОбычный12РМК" kind="StyleItem"/>
+					<ContextMenu name="АС_ОстаткиЕдиницаИзмеренияМеню" id="41"/>
+					<ExtendedTooltip name="АС_ОстаткиЕдиницаИзмеренияПодсказка" id="42"/>
+				</InputField>
+				<InputField name="АС_ОстаткиОстатокСУчетомЗаказов" id="45">
+					<DataPath>АС_Остатки.ОстатокСУчетомЗаказов</DataPath>
+					<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Остаток с учётом заказов</v8:content></v8:item></Title>
+					<ReadOnly>true</ReadOnly>
+					<Width>24</Width>
+					<Font ref="style:ШрифтОбычныйПолужирный14РМК" kind="StyleItem"/>
+					<ContextMenu name="АС_ОстаткиОстатокСУчетомЗаказовМеню" id="46"/>
+					<ExtendedTooltip name="АС_ОстаткиОстатокСУчетомЗаказовПодсказка" id="47"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Button name="АС_Понятно" id="80">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.АС_Понятно</CommandName>
+			<Width>24</Width>
+			<Height>2</Height>
+			<BackColor>style:ЦветАктивнойКнопкиРМК</BackColor>
+			<Font ref="style:ШрифтОбычныйПолужирный14РМК" kind="StyleItem"/>
+			<ExtendedTooltip name="АС_ПонятноПодсказка" id="81"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="АС_Остатки" id="1">
+			<Type><v8:Type>v8:ValueTable</v8:Type></Type>
+			<Columns>
+				<Column name="Товар" id="1"><Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type></Column>
+				<Column name="Характеристика" id="2"><Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type></Column>
+				<Column name="Организация" id="3"><Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type></Column>
+				<Column name="Продано" id="4"><Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>3</v8:FractionDigits><v8:AllowedSign>Any</v8:AllowedSign></v8:NumberQualifiers></Type></Column>
+				<Column name="ЕдиницаИзмерения" id="5"><Type><v8:Type>xs:string</v8:Type><v8:StringQualifiers><v8:Length>0</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers></Type></Column>
+				<Column name="ОстатокСУчетомЗаказов" id="6"><Type><v8:Type>xs:decimal</v8:Type><v8:NumberQualifiers><v8:Digits>15</v8:Digits><v8:FractionDigits>3</v8:FractionDigits><v8:AllowedSign>Any</v8:AllowedSign></v8:NumberQualifiers></Type></Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="АС_Понятно" id="1">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Понятно</v8:content></v8:item></Title>
+			<Action>АС_Понятно</Action>
+		</Command>
+	</Commands>
+</Form>

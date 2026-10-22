@@ -81,7 +81,7 @@
 					</Synonym>
 					<Comment>Касса для наличной выручки из РМК.</Comment>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Кассы</v8:Type>
+						<v8:TypeId>98ed910c-8d52-48c4-b52f-c8c6c26a7a52</v8:TypeId>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -161,7 +161,7 @@
 					</Synonym>
 					<Comment>Банковский счет для автоматических поступлений по картам из РМК.</Comment>
 					<Type>
-						<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+						<v8:TypeId>62a89c4f-64c1-463c-976e-bbecea8a1b46</v8:TypeId>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

@@ -2490,19 +2490,29 @@
 																	</ChildItems>
 																</UsualGroup>
 																<CheckBoxField name="АС_АвтоПоступлениеПоКартам" id="980007">
-																<DataPath>НастройкаРМК.АС_АвтоПоступлениеПоКартам</DataPath>
-																<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Автоматически отражать оплату картой в банке</v8:content></v8:item></Title>
-																<TitleLocation>Right</TitleLocation>
-																<ContextMenu name="АС_АвтоПоступлениеПоКартамКонтекстноеМеню" id="980008"/>
-																<ExtendedTooltip name="АС_АвтоПоступлениеПоКартамРасширеннаяПодсказка" id="980009"/>
-															</CheckBoxField>
-															<InputField name="АС_БанковскийСчетКартРМК" id="980010">
-																<DataPath>НастройкаРМК.АС_БанковскийСчетКартРМК</DataPath>
-																<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Банковский счёт для оплаты картой</v8:content></v8:item></Title>
-																<ContextMenu name="АС_БанковскийСчетКартРМККонтекстноеМеню" id="980011"/>
-																<ExtendedTooltip name="АС_БанковскийСчетКартРМКРасширеннаяПодсказка" id="980012"/>
-															</InputField>
-															<CheckBoxField name="ИспользоватьОплатуНесколькимиКартами" id="1507">
+																	<DataPath>НастройкаРМК.АС_АвтоПоступлениеПоКартам</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Автоматически отражать оплату картой в банке</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>Right</TitleLocation>
+																	<ContextMenu name="АС_АвтоПоступлениеПоКартамКонтекстноеМеню" id="980008"/>
+																	<ExtendedTooltip name="АС_АвтоПоступлениеПоКартамРасширеннаяПодсказка" id="980009"/>
+																</CheckBoxField>
+																<InputField name="АС_БанковскийСчетКартРМК" id="980010">
+																	<DataPath>НастройкаРМК.АС_БанковскийСчетКартРМК</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Банковский счёт для оплаты картой</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="АС_БанковскийСчетКартРМККонтекстноеМеню" id="980011"/>
+																	<ExtendedTooltip name="АС_БанковскийСчетКартРМКРасширеннаяПодсказка" id="980012"/>
+																</InputField>
+																<CheckBoxField name="ИспользоватьОплатуНесколькимиКартами" id="1507">
 																	<TitleLocation>Right</TitleLocation>
 																	<ToolTip>
 																		<v8:item>
@@ -2603,17 +2613,27 @@
 																			</ChildItems>
 																		</UsualGroup>
 																		<CheckBoxField name="АС_ИспользоватьОсновнуюКассу" id="980001">
-																		<DataPath>НастройкаРМК.АС_ИспользоватьОсновнуюКассу</DataPath>
-																		<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Использовать основную кассу</v8:content></v8:item></Title>
-																		<TitleLocation>Right</TitleLocation>
-																		<ContextMenu name="АС_ИспользоватьОсновнуюКассуКонтекстноеМеню" id="980002"/>
-																		<ExtendedTooltip name="АС_ИспользоватьОсновнуюКассуРасширеннаяПодсказка" id="980003"/>
+																			<DataPath>НастройкаРМК.АС_ИспользоватьОсновнуюКассу</DataPath>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Использовать основную кассу</v8:content>
+																				</v8:item>
+																			</Title>
+																			<TitleLocation>Right</TitleLocation>
+																			<ContextMenu name="АС_ИспользоватьОсновнуюКассуКонтекстноеМеню" id="980002"/>
+																			<ExtendedTooltip name="АС_ИспользоватьОсновнуюКассуРасширеннаяПодсказка" id="980003"/>
 																		</CheckBoxField>
 																		<InputField name="АС_ОсновнаяКасса" id="980004">
-																		<DataPath>НастройкаРМК.АС_ОсновнаяКасса</DataPath>
-																		<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Основная касса</v8:content></v8:item></Title>
-																		<ContextMenu name="АС_ОсновнаяКассаКонтекстноеМеню" id="980005"/>
-																		<ExtendedTooltip name="АС_ОсновнаяКассаРасширеннаяПодсказка" id="980006"/>
+																			<DataPath>НастройкаРМК.АС_ОсновнаяКасса</DataPath>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Основная касса</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ContextMenu name="АС_ОсновнаяКассаКонтекстноеМеню" id="980005"/>
+																			<ExtendedTooltip name="АС_ОсновнаяКассаРасширеннаяПодсказка" id="980006"/>
 																		</InputField>
 																		<UsualGroup name="ГруппаПокупюрныйВводНаличных" id="1142">
 																			<Title>
