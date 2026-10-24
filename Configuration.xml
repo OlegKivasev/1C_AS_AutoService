@@ -235,6 +235,8 @@
 			<CommonModule>АС_УсловияВозвратаПоставщикамСервер</CommonModule>
 			<CommonModule>АС_ОграниченияДокументовСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияРМККлиент</CommonModule>
+			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
+			<CommonModule>ПодключаемыеКоманды</CommonModule>
 			<EventSubscription>АС_ДатыДобавленияНоменклатурыПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ОграниченияДокументовПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ЗапретРедактированияПоступленийПередЗаписью</EventSubscription>

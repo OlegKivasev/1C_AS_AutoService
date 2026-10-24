@@ -540,6 +540,7 @@
 													</SearchControlAddition>
 													<Events>
 														<Event name="Selection" callType="Before">АС_СписокБанковскиеВыпискиВыбор</Event>
+														<Event name="OnGetDataAtServer">АС_СписокПриПолученииДанныхНаСервере</Event>
 													</Events>
 													<ChildItems>
 														<ColumnGroup name="Строки" id="628">

@@ -9,7 +9,7 @@
 					<v8:content>Платежи заказов клиент</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Выбор места поступления денег при создании поступления на счет из заказа покупателя.</Comment>
+			<Comment>Выбор места поступления денег при создании поступления на счет из заказа покупателя и расходной накладной.</Comment>
 			<Global>false</Global>
 			<ClientManagedApplication>true</ClientManagedApplication>
 			<Server>false</Server>
