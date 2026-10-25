@@ -572,15 +572,40 @@
 													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>14</MaxWidth>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ДФ='dd.MM.yyyy HH:mm'</v8:content>
+														</v8:item>
+													</Format>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ДФ='dd.MM.yyyy HH:mm'</v8:content>
+														</v8:item>
+													</EditFormat>
 													<ContextMenu name="ЗНСтартКонтекстноеМеню" id="187"/>
 													<ExtendedTooltip name="ЗНСтартРасширеннаяПодсказка" id="944"/>
 												</InputField>
 												<InputField name="ЗНФиниш" id="188">
-													<DataPath>Объект.Финиш</DataPath>
+													<DataPath>АС_ФактическийФиниш</DataPath>
+													<ReadOnly>false</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<AutoEditMode>true</AutoEditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>14</MaxWidth>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ДФ='dd.MM.yyyy HH:mm'</v8:content>
+														</v8:item>
+													</Format>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ДФ='dd.MM.yyyy HH:mm'</v8:content>
+														</v8:item>
+													</EditFormat>
 													<ContextMenu name="ЗНФинишКонтекстноеМеню" id="189"/>
 													<ExtendedTooltip name="ЗНФинишРасширеннаяПодсказка" id="945"/>
 												</InputField>
@@ -601,7 +626,8 @@
 											<ExtendedTooltip name="ГруппаДатаОплатыРасширеннаяПодсказка" id="2632"/>
 											<ChildItems>
 												<InputField name="ДатаОплаты" id="2633">
-													<DataPath>Объект.ОплатаДо</DataPath>
+													<DataPath>АС_ДатаФактическойОплаты</DataPath>
+													<ReadOnly>false</ReadOnly>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -611,8 +637,21 @@
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
 													<EditMode>EnterOnInput</EditMode>
 													<AutoEditMode>true</AutoEditMode>
-													<Width>12</Width>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<MaxWidth>14</MaxWidth>
 													<Wrap>false</Wrap>
+													<Format>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ДФ='dd.MM.yyyy HH:mm'</v8:content>
+														</v8:item>
+													</Format>
+													<EditFormat>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ДФ='dd.MM.yyyy HH:mm'</v8:content>
+														</v8:item>
+													</EditFormat>
 													<ContextMenu name="ДатаОплатыКонтекстноеМеню" id="2634"/>
 													<ExtendedTooltip name="ДатаОплатыРасширеннаяПодсказка" id="2635"/>
 												</InputField>
@@ -11075,6 +11114,34 @@
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="АС_ФактическийФиниш" id="1000270">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Финиш</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ДатаФактическойОплаты" id="1000271">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
 		</Attribute>
 		<Attribute name="АС_СуммаРабот" id="1000235">
 			<Title>
