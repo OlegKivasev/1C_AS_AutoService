@@ -2,7 +2,7 @@
 
 Проект — файловая выгрузка конфигурации 1С, а не Git-репозиторий.
 
-Перед началом задачи прочитайте `E:\YandexDisk\Work\library\AIOS\AGENTS.md`, затем
+Перед началом задачи прочитайте `F:\Yandex.Disk\Work\library\AIOS\AGENTS.md`, затем
 `WIKI/index.md` и страницу проекта `WIKI/projects/unf-autoservice-1c.md`.
 
 Изучение правил базы знаний выполняйте через отдельного субагента. Создайте

@@ -5689,6 +5689,33 @@
 											<ScrollOnCompress>false</ScrollOnCompress>
 											<ExtendedTooltip name="КатегорииОтборРасширеннаяПодсказка" id="1140"/>
 											<ChildItems>
+												<InputField name="АС_ПоискКатегорий" id="1000226">
+													<DataPath>АС_ПоискКатегорий</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<EditTextUpdate>DontUse</EditTextUpdate>
+													<InputHint>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Категории: части слов и Enter</v8:content>
+														</v8:item>
+													</InputHint>
+													<ContextMenu name="АС_ПоискКатегорийКонтекстноеМеню" id="1000227"/>
+													<ExtendedTooltip name="АС_ПоискКатегорийРасширеннаяПодсказка" id="1000228">
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Введите части слов через пробел, например «элек топ» для «Электрический топливный насос». Порядок слов и регистр не важны. Enter — найти, повторный Enter — следующее совпадение.</v8:content>
+															</v8:item>
+														</Title>
+													</ExtendedTooltip>
+													<Events>
+														<Event name="EditTextChange" callType="Before">АС_ПоискВДеревеИзменениеТекстаРедактирования</Event>
+														<Event name="TextEditEnd" callType="Before">АС_ПоискВДеревеОкончаниеВводаТекста</Event>
+													</Events>
+												</InputField>
 												<Table name="ОтборКатегории" id="1141">
 													<Representation>Tree</Representation>
 													<CommandBarLocation>None</CommandBarLocation>
@@ -5860,6 +5887,33 @@
 											<ScrollOnCompress>false</ScrollOnCompress>
 											<ExtendedTooltip name="ИерархияГруппыОтборРасширеннаяПодсказка" id="228"/>
 											<ChildItems>
+												<InputField name="АС_ПоискГрупп" id="1000229">
+													<DataPath>АС_ПоискГрупп</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<HorizontalStretch>true</HorizontalStretch>
+													<ChoiceButton>false</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<EditTextUpdate>DontUse</EditTextUpdate>
+													<InputHint>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Папки: части слов и Enter</v8:content>
+														</v8:item>
+													</InputHint>
+													<ContextMenu name="АС_ПоискГруппКонтекстноеМеню" id="1000230"/>
+													<ExtendedTooltip name="АС_ПоискГруппРасширеннаяПодсказка" id="1000231">
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Введите части слов через пробел, например «элек топ» для «Электрический топливный насос». Порядок слов и регистр не важны. Enter — найти, повторный Enter — следующее совпадение.</v8:content>
+															</v8:item>
+														</Title>
+													</ExtendedTooltip>
+													<Events>
+														<Event name="EditTextChange" callType="Before">АС_ПоискВДеревеИзменениеТекстаРедактирования</Event>
+														<Event name="TextEditEnd" callType="Before">АС_ПоискВДеревеОкончаниеВводаТекста</Event>
+													</Events>
+												</InputField>
 												<Table name="ОтборИерархия" id="408">
 													<Representation>Tree</Representation>
 													<CommandBarLocation>None</CommandBarLocation>
@@ -6754,6 +6808,24 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
+		<Attribute name="АС_ПоискКатегорий" id="1000232">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>300</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ПоискГрупп" id="1000233">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>300</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 		<Attribute name="СписокЗапасы" id="1000001">
 			<Title>
 				<v8:item>
