@@ -3395,6 +3395,27 @@
 														<CommandName>0</CommandName>
 														<ExtendedTooltip name="СписокЗапасыКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка" id="899"/>
 													</Button>
+													<Popup name="АС_СписокЗапасыКопировать" id="1000234">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Копировать</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="АС_СписокЗапасыКопироватьРасширеннаяПодсказка" id="1000235"/>
+														<ChildItems>
+															<Button name="АС_СписокЗапасыКопироватьНаименование" id="1000236">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.АС_КопироватьНаименование</CommandName>
+																<ExtendedTooltip name="АС_СписокЗапасыКопироватьНаименованиеРасширеннаяПодсказка" id="1000237"/>
+															</Button>
+															<Button name="АС_СписокЗапасыКопироватьАртикул" id="1000238">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.АС_КопироватьАртикул</CommandName>
+																<ExtendedTooltip name="АС_СписокЗапасыКопироватьАртикулРасширеннаяПодсказка" id="1000239"/>
+															</Button>
+														</ChildItems>
+													</Popup>
 													<Popup name="СписокЗапасыКонтекстноеМенюГруппаЕЩЕ" id="1705">
 														<Title>
 															<v8:item>
@@ -6840,6 +6861,8 @@
 			<UseAlways>
 				<Field>~СписокЗапасы.КартинкаУдалитьИзКорзины</Field>
 				<Field>~СписокЗапасы.СтавкаНДС</Field>
+				<Field>СписокЗапасы.Артикул</Field>
+				<Field>СписокЗапасы.Наименование</Field>
 				<Field>СписокЗапасы.ВалютаЦены</Field>
 				<Field>СписокЗапасы.ВалютаЦеныПредставление</Field>
 				<Field>СписокЗапасы.Весовой</Field>
@@ -8514,6 +8537,28 @@
 			<Action callType="Before">АС_ОбновитьСписокЗапасов</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_КопироватьНаименование" id="1000240">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Копировать наименование</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">АС_КопироватьНаименование</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
+		</Command>
+		<Command name="АС_КопироватьАртикул" id="1000241">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Копировать артикул</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">АС_КопироватьАртикул</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
 		</Command>
 	</Commands>
 	<BaseForm version="2.21">
