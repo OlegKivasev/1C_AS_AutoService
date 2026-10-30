@@ -7098,6 +7098,7 @@
 											<v8:content>Подвал</v8:content>
 										</v8:item>
 									</Title>
+									<HorizontalStretch>true</HorizontalStretch>
 									<VerticalStretch>false</VerticalStretch>
 									<Group>Horizontal</Group>
 									<Behavior>Usual</Behavior>
@@ -7131,9 +7132,10 @@
 												</v8:item>
 											</Title>
 											<HorizontalStretch>true</HorizontalStretch>
-											<Group>HorizontalIfPossible</Group>
-											<HorizontalSpacing>Double</HorizontalSpacing>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<Group>Vertical</Group>
 											<HorizontalAlign>Right</HorizontalAlign>
+											<VerticalAlign>Top</VerticalAlign>
 											<Behavior>Usual</Behavior>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
@@ -7146,55 +7148,17 @@
 															<v8:content>Скидки итоги</v8:content>
 														</v8:item>
 													</Title>
-													<Group>HorizontalIfPossible</Group>
-													<HorizontalSpacing>Half</HorizontalSpacing>
-													<HorizontalAlign>Left</HorizontalAlign>
+													<HorizontalStretch>false</HorizontalStretch>
+													<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+													<Group>Horizontal</Group>
+													<HorizontalSpacing>Single</HorizontalSpacing>
+													<HorizontalAlign>Right</HorizontalAlign>
+													<VerticalAlign>Top</VerticalAlign>
 													<Behavior>Usual</Behavior>
 													<Representation>None</Representation>
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="СкидкиИтогиРасширеннаяПодсказка" id="2059"/>
 													<ChildItems>
-														<UsualGroup name="Скидки" id="2036">
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Скидки</v8:content>
-																</v8:item>
-															</Title>
-															<Group>Vertical</Group>
-															<HorizontalAlign>Left</HorizontalAlign>
-															<Behavior>Usual</Behavior>
-															<Representation>None</Representation>
-															<ShowTitle>false</ShowTitle>
-															<BackColor>style:FormBackColor</BackColor>
-															<ExtendedTooltip name="СкидкиРасширеннаяПодсказка" id="2037"/>
-															<ChildItems>
-																<InputField name="СкидкаПроцент" id="2038">
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Скидка руч., %</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ToolTipRepresentation>Button</ToolTipRepresentation>
-																	<Width>10</Width>
-																	<EditTextUpdate>OnValueChange</EditTextUpdate>
-																	<ContextMenu name="СкидкаПроцентКонтекстноеМеню" id="2039"/>
-																	<ExtendedTooltip name="СкидкаПроцентРасширеннаяПодсказка" id="2040"/>
-																</InputField>
-																<InputField name="СкидкаСумма" id="2046">
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Скидка руч., Σ</v8:content>
-																		</v8:item>
-																	</Title>
-																	<Width>10</Width>
-																	<ContextMenu name="СкидкаСуммаКонтекстноеМеню" id="2047"/>
-																	<ExtendedTooltip name="СкидкаСуммаРасширеннаяПодсказка" id="2048"/>
-																</InputField>
-															</ChildItems>
-														</UsualGroup>
 														<UsualGroup name="ИтогиВесИОбъем" id="3152">
 															<Title>
 																<v8:item>
@@ -7203,9 +7167,11 @@
 																</v8:item>
 															</Title>
 															<HorizontalStretch>false</HorizontalStretch>
-															<VerticalStretch>true</VerticalStretch>
+															<VerticalStretch>false</VerticalStretch>
+															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 															<Group>Vertical</Group>
-															<HorizontalAlign>Left</HorizontalAlign>
+															<HorizontalAlign>Right</HorizontalAlign>
+															<VerticalAlign>Top</VerticalAlign>
 															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
@@ -7218,7 +7184,7 @@
 																	<ReadOnly>true</ReadOnly>
 																	<Width>9</Width>
 																	<MaxWidth>9</MaxWidth>
-																	<HorizontalStretch>true</HorizontalStretch>
+																	<HorizontalStretch>false</HorizontalStretch>
 																	<TextEdit>false</TextEdit>
 																	<ChoiceListButton>false</ChoiceListButton>
 																	<ContextMenu name="ИтогОбъемКонтекстноеМеню" id="3155"/>
@@ -7236,12 +7202,107 @@
 																	</ToolTip>
 																	<Width>9</Width>
 																	<MaxWidth>9</MaxWidth>
-																	<HorizontalStretch>true</HorizontalStretch>
+																	<HorizontalStretch>false</HorizontalStretch>
 																	<TextEdit>false</TextEdit>
 																	<ChoiceListButton>false</ChoiceListButton>
 																	<ContextMenu name="ИтогВесКонтекстноеМеню" id="3158"/>
 																	<ExtendedTooltip name="ИтогВесРасширеннаяПодсказка" id="3159"/>
 																</InputField>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="Скидки" id="2036">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Скидки</v8:content>
+																</v8:item>
+															</Title>
+															<HorizontalStretch>false</HorizontalStretch>
+															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+															<Group>Vertical</Group>
+															<HorizontalAlign>Right</HorizontalAlign>
+															<VerticalAlign>Top</VerticalAlign>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<BackColor>style:FormBackColor</BackColor>
+															<ExtendedTooltip name="СкидкиРасширеннаяПодсказка" id="2037"/>
+															<ChildItems>
+																<InputField name="СкидкаПроцент" id="2038">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Скидка руч., %</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTipRepresentation>Button</ToolTipRepresentation>
+																	<Width>10</Width>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<EditTextUpdate>OnValueChange</EditTextUpdate>
+																	<ContextMenu name="СкидкаПроцентКонтекстноеМеню" id="2039"/>
+																	<ExtendedTooltip name="СкидкаПроцентРасширеннаяПодсказка" id="2040"/>
+																</InputField>
+																<InputField name="СкидкаСумма" id="2046">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Скидка руч., Σ</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Width>10</Width>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="СкидкаСуммаКонтекстноеМеню" id="2047"/>
+																	<ExtendedTooltip name="СкидкаСуммаРасширеннаяПодсказка" id="2048"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
+														<UsualGroup name="АС_СтрокаОплаты" id="1000303">
+															<Visible>false</Visible>
+															<HorizontalStretch>false</HorizontalStretch>
+															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+															<Group>Vertical</Group>
+															<HorizontalAlign>Right</HorizontalAlign>
+															<VerticalAlign>Top</VerticalAlign>
+															<Behavior>Usual</Behavior>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<BackColor>0:1df935d0-dbff-44ad-b3b5-057382fc07e1</BackColor>
+															<ExtendedTooltip name="АС_СтрокаОплатыРасширеннаяПодсказка" id="1000304"/>
+															<ChildItems>
+																<LabelField name="АС_СуммаОплачено" id="4001">
+																	<DataPath>АС_СуммаОплачено</DataPath>
+																	<ReadOnly>true</ReadOnly>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Оплачено</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>Left</TitleLocation>
+																	<HorizontalAlign>Right</HorizontalAlign>
+																	<Width>9</Width>
+																	<Height>1</Height>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="АС_СуммаОплаченоКонтекстноеМеню" id="4002"/>
+																	<ExtendedTooltip name="АС_СуммаОплаченоРасширеннаяПодсказка" id="4003"/>
+																</LabelField>
+																<LabelField name="АС_СуммаДолжен" id="4004">
+																	<DataPath>АС_СуммаДолжен</DataPath>
+																	<ReadOnly>true</ReadOnly>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Должен</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>Left</TitleLocation>
+																	<HorizontalAlign>Right</HorizontalAlign>
+																	<Width>9</Width>
+																	<Height>1</Height>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="АС_СуммаДолженКонтекстноеМеню" id="4005"/>
+																	<ExtendedTooltip name="АС_СуммаДолженРасширеннаяПодсказка" id="4006"/>
+																</LabelField>
 															</ChildItems>
 														</UsualGroup>
 														<UsualGroup name="Итоги" id="2034">
@@ -7251,78 +7312,65 @@
 																	<v8:content>Итоги</v8:content>
 																</v8:item>
 															</Title>
+															<HorizontalStretch>false</HorizontalStretch>
+															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 															<Group>Vertical</Group>
-															<HorizontalAlign>Left</HorizontalAlign>
+															<HorizontalAlign>Right</HorizontalAlign>
+															<VerticalAlign>Top</VerticalAlign>
 															<Behavior>Usual</Behavior>
 															<Representation>None</Representation>
 															<ShowTitle>false</ShowTitle>
 															<BackColor>0:1df935d0-dbff-44ad-b3b5-057382fc07e1</BackColor>
 															<ExtendedTooltip name="ИтогиРасширеннаяПодсказка" id="2035"/>
 															<ChildItems>
-																<InputField name="ИтогСуммаНДС" id="2052">
-																	<ReadOnly>true</ReadOnly>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>НДС</v8:content>
-																		</v8:item>
-																	</Title>
-																	<Width>12</Width>
-																	<TextEdit>false</TextEdit>
-																	<ChoiceListButton>false</ChoiceListButton>
-																	<ContextMenu name="ИтогСуммаНДСКонтекстноеМеню" id="2053"/>
-																	<ExtendedTooltip name="ИтогСуммаНДСРасширеннаяПодсказка" id="2054"/>
-																</InputField>
-																<InputField name="АС_СуммаОплачено" id="4001">
-																	<DataPath>АС_СуммаОплачено</DataPath>
-																	<Visible>false</Visible>
-																	<ReadOnly>true</ReadOnly>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Оплачено</v8:content>
-																		</v8:item>
-																	</Title>
-																	<Width>12</Width>
-																	<TextEdit>false</TextEdit>
-																	<ChoiceListButton>false</ChoiceListButton>
-																	<ContextMenu name="АС_СуммаОплаченоКонтекстноеМеню" id="4002"/>
-																	<ExtendedTooltip name="АС_СуммаОплаченоРасширеннаяПодсказка" id="4003"/>
-																</InputField>
-																<InputField name="АС_СуммаДолжен" id="4004">
-																	<DataPath>АС_СуммаДолжен</DataPath>
-																	<Visible>false</Visible>
-																	<ReadOnly>true</ReadOnly>
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Должен</v8:content>
-																		</v8:item>
-																	</Title>
-																	<Width>12</Width>
-																	<TextEdit>false</TextEdit>
-																	<ChoiceListButton>false</ChoiceListButton>
-																	<ContextMenu name="АС_СуммаДолженКонтекстноеМеню" id="4005"/>
-																	<ExtendedTooltip name="АС_СуммаДолженРасширеннаяПодсказка" id="4006"/>
-																</InputField>
-																<InputField name="ИтогВсего" id="2055" DisplayImportance="VeryHigh">
-																	<Title>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>Всего</v8:content>
-																		</v8:item>
-																	</Title>
-																	<ToolTip>
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>В том числе стоимость доставки</v8:content>
-																		</v8:item>
-																	</ToolTip>
-																	<Width>12</Width>
-																	<ChoiceListButton>false</ChoiceListButton>
-																	<ContextMenu name="ИтогВсегоКонтекстноеМеню" id="2056"/>
-																	<ExtendedTooltip name="ИтогВсегоРасширеннаяПодсказка" id="2057"/>
-																</InputField>
+																<UsualGroup name="АС_СтрокаСтоимости" id="1000305">
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+																	<Group>Vertical</Group>
+																	<HorizontalAlign>Right</HorizontalAlign>
+																	<VerticalAlign>Top</VerticalAlign>
+																	<Behavior>Usual</Behavior>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="АС_СтрокаСтоимостиРасширеннаяПодсказка" id="1000306"/>
+																	<ChildItems>
+																		<InputField name="ИтогСуммаНДС" id="2052">
+																			<ReadOnly>true</ReadOnly>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>НДС</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Width>9</Width>
+																			<HorizontalStretch>false</HorizontalStretch>
+																			<TextEdit>false</TextEdit>
+																			<ChoiceListButton>false</ChoiceListButton>
+																			<ContextMenu name="ИтогСуммаНДСКонтекстноеМеню" id="2053"/>
+																			<ExtendedTooltip name="ИтогСуммаНДСРасширеннаяПодсказка" id="2054"/>
+																		</InputField>
+																		<InputField name="ИтогВсего" id="2055" DisplayImportance="VeryHigh">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Всего</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>В том числе стоимость доставки</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Width>9</Width>
+																			<HorizontalStretch>false</HorizontalStretch>
+																			<ChoiceListButton>false</ChoiceListButton>
+																			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																			<ContextMenu name="ИтогВсегоКонтекстноеМеню" id="2056"/>
+																			<ExtendedTooltip name="ИтогВсегоРасширеннаяПодсказка" id="2057"/>
+																		</InputField>
+																	</ChildItems>
+																</UsualGroup>
 															</ChildItems>
 														</UsualGroup>
 													</ChildItems>
@@ -11703,7 +11751,7 @@
 				<v8:NumberQualifiers>
 					<v8:Digits>15</v8:Digits>
 					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
