@@ -221,6 +221,12 @@
 			<Role>АС_ЗапретитьПометкуУдаления</Role>
 			<Role>АС_ЗапретитьРедактированиеПоступлений</Role>
 			<Role>АС_ЗапретитьРедактированиеСписаний</Role>
+			<CommonModule>ТабличныеЧастиУНФКлиентСервер</CommonModule>
+			<CommonModule>ТабличныеЧастиУНФКлиент</CommonModule>
+			<CommonModule>ГрупповоеИзменениеСтрокСервер</CommonModule>
+			<CommonModule>СкидкиНаценкиКлиентСервер</CommonModule>
+			<CommonModule>СкидкиНаценкиСерверПереопределяемый</CommonModule>
+			<CommonModule>СкидкиНаценкиСервер</CommonModule>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
 			<CommonModule>АС_ИндексOEMСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
