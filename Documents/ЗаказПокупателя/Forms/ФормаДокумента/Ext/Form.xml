@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<Group>Vertical</Group>
 	<AutoTime>CurrentOrLast</AutoTime>
@@ -436,7 +436,6 @@
 													</NonselectedPictureText>
 													<TextColor>style:BorderColor</TextColor>
 													<BorderColor>style:ButtonBorderColor</BorderColor>
-													<PictureColor>style:BorderColor</PictureColor>
 													<ContextMenu name="ЛоготипВыставлениеСчетовКонтекстноеМеню" id="3541"/>
 													<ExtendedTooltip name="ЛоготипВыставлениеСчетовРасширеннаяПодсказка" id="3542"/>
 												</PictureField>
@@ -553,7 +552,6 @@
 														<xr:Ref>CommonPicture.ВыставлениеСчетовQR</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
-													<PictureColor>style:BorderColor</PictureColor>
 													<ContextMenu name="ДекорацияQRКонтекстноеМеню" id="3722"/>
 													<ExtendedTooltip name="ДекорацияQRРасширеннаяПодсказка" id="3723"/>
 												</PictureDecoration>
@@ -7768,7 +7766,6 @@
 																							<TextColor>style:BorderColor</TextColor>
 																							<BorderColor>style:ButtonBorderColor</BorderColor>
 																							<FileDragMode>AsFile</FileDragMode>
-																							<PictureColor>style:BorderColor</PictureColor>
 																							<ContextMenu name="ФаксимилеПодписьРуководителяКонтекстноеМеню" id="3641">
 																								<ChildItems>
 																									<Button name="ФаксимилеПодписиКонтекстноеМенюУдалитьФаксимилеПодписи1" id="3643">
@@ -7867,7 +7864,6 @@
 																							<TextColor>style:BorderColor</TextColor>
 																							<BorderColor>style:ButtonBorderColor</BorderColor>
 																							<FileDragMode>AsFile</FileDragMode>
-																							<PictureColor>style:BorderColor</PictureColor>
 																							<ContextMenu name="ФаксимилеПодписьБухгалтераКонтекстноеМеню" id="3653">
 																								<ChildItems>
 																									<Button name="ФаксимилеПодписиКонтекстноеМенюУдалитьФаксимилеПодписи2" id="3655">
@@ -7945,7 +7941,6 @@
 													</NonselectedPictureText>
 													<TextColor>style:BorderColor</TextColor>
 													<BorderColor>style:ButtonBorderColor</BorderColor>
-													<PictureColor>style:BorderColor</PictureColor>
 													<ContextMenu name="ПечатьВыставлениеСчетовКонтекстноеМеню" id="3660"/>
 													<ExtendedTooltip name="ПечатьВыставлениеСчетовРасширеннаяПодсказка" id="3661"/>
 												</PictureField>
@@ -11844,7 +11839,7 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<BaseForm version="2.21">
+	<BaseForm version="2.22">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Vertical</Group>
 		<AutoTime>CurrentOrLast</AutoTime>
@@ -12275,7 +12270,6 @@
 														</NonselectedPictureText>
 														<TextColor>style:BorderColor</TextColor>
 														<BorderColor>style:ButtonBorderColor</BorderColor>
-														<PictureColor>style:BorderColor</PictureColor>
 														<ContextMenu name="ЛоготипВыставлениеСчетовКонтекстноеМеню" id="3541"/>
 														<ExtendedTooltip name="ЛоготипВыставлениеСчетовРасширеннаяПодсказка" id="3542"/>
 													</PictureField>
@@ -12392,7 +12386,6 @@
 															<xr:Ref>CommonPicture.ВыставлениеСчетовQR</xr:Ref>
 															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
-														<PictureColor>style:BorderColor</PictureColor>
 														<ContextMenu name="ДекорацияQRКонтекстноеМеню" id="3722"/>
 														<ExtendedTooltip name="ДекорацияQRРасширеннаяПодсказка" id="3723"/>
 													</PictureDecoration>
@@ -19438,7 +19431,6 @@
 																								<TextColor>style:BorderColor</TextColor>
 																								<BorderColor>style:ButtonBorderColor</BorderColor>
 																								<FileDragMode>AsFile</FileDragMode>
-																								<PictureColor>style:BorderColor</PictureColor>
 																								<ContextMenu name="ФаксимилеПодписьРуководителяКонтекстноеМеню" id="3641">
 																									<ChildItems>
 																										<Button name="ФаксимилеПодписиКонтекстноеМенюУдалитьФаксимилеПодписи1" id="3643">
@@ -19537,7 +19529,6 @@
 																								<TextColor>style:BorderColor</TextColor>
 																								<BorderColor>style:ButtonBorderColor</BorderColor>
 																								<FileDragMode>AsFile</FileDragMode>
-																								<PictureColor>style:BorderColor</PictureColor>
 																								<ContextMenu name="ФаксимилеПодписьБухгалтераКонтекстноеМеню" id="3653">
 																									<ChildItems>
 																										<Button name="ФаксимилеПодписиКонтекстноеМенюУдалитьФаксимилеПодписи2" id="3655">
@@ -19615,7 +19606,6 @@
 														</NonselectedPictureText>
 														<TextColor>style:BorderColor</TextColor>
 														<BorderColor>style:ButtonBorderColor</BorderColor>
-														<PictureColor>style:BorderColor</PictureColor>
 														<ContextMenu name="ПечатьВыставлениеСчетовКонтекстноеМеню" id="3660"/>
 														<ExtendedTooltip name="ПечатьВыставлениеСчетовРасширеннаяПодсказка" id="3661"/>
 													</PictureField>

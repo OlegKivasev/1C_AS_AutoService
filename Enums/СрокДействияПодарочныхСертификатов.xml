@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<Enum uuid="05e384a0-710c-405f-9b79-fa03cf3d490a">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.СрокДействияПодарочныхСертификатов" category="Ref">
@@ -20,6 +20,7 @@
 			<Name>СрокДействияПодарочныхСертификатов</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>5a79b3f5-0b8b-4d6a-89d1-b868000ff481</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="a9071e39-98ff-412f-b825-7f319c95c82f">
@@ -29,6 +30,7 @@
 					<Name>БезОграниченияСрока</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>6b2b4cdc-8b3d-460f-bca2-0a0db6135a85</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="f45df0c4-fd89-427c-8187-e5694eba1ce2">
@@ -38,6 +40,7 @@
 					<Name>СОграничениемНаДату</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2a968e86-a4e5-4708-9a3f-7f7ec274b8dc</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="ddc3518f-7d64-41ae-b8fd-6bd3bf7894bd">
@@ -47,6 +50,7 @@
 					<Name>ПериодПослеПродажи</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>5cc08cb9-6cf5-43be-b01d-51e94a8c58b9</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<Enum uuid="b75412d5-1629-4dc6-9875-584adfd9b7bd">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ДаНет" category="Ref">
@@ -20,6 +20,7 @@
 			<Name>ДаНет</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>d07fe822-4285-4f2f-9381-c2ab125458b9</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="c6964996-dce8-44f5-9ef1-80d4d41b9ee1">
@@ -29,6 +30,7 @@
 					<Name>Да</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>f22528ef-23fb-491b-8d83-e81d10673dfc</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="370cc9c5-911c-4e78-80d5-13e22be23afc">
@@ -38,6 +40,7 @@
 					<Name>Нет</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>31b92f93-2f85-437d-a3b9-2f73d8b94f9b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

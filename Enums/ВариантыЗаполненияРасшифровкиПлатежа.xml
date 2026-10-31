@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<Enum uuid="28b93eb6-c323-49b1-8bc4-8fdded3a29a7">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ВариантыЗаполненияРасшифровкиПлатежа" category="Ref">
@@ -20,6 +20,7 @@
 			<Name>ВариантыЗаполненияРасшифровкиПлатежа</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>44dc99c9-e86c-4b30-966a-23d66848b397</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="b4326b3b-1dcf-4a42-add6-7a9788a75a3a">
@@ -29,6 +30,7 @@
 					<Name>Вручную</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a66bd8f3-35a7-4f24-abf0-6f793a6e4687</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6e595909-aa12-4dea-be0d-65b9b7f5f6ec">
@@ -38,6 +40,7 @@
 					<Name>Просмотр</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>7e245375-ce9b-4484-bcc4-4641099f7f09</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

@@ -18,13 +18,13 @@
 			</Synonym>
 			<Comment/>
 			<ExtendedConfigurationObject>19baf0b7-7a49-4dae-ad3c-909d2e51c702</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 			<Global>false</Global>
 			<ClientManagedApplication>true</ClientManagedApplication>
 			<Server>true</Server>
 			<ExternalConnection>true</ExternalConnection>
 			<ClientOrdinaryApplication>true</ClientOrdinaryApplication>
 			<ServerCall>false</ServerCall>
-			<Privileged>false</Privileged>
 			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
 		</Properties>
 	</CommonModule>

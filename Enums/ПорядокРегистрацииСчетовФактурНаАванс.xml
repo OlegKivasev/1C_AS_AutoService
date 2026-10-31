@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<Enum uuid="83248ef7-8474-4ffa-b252-249e63d50a95">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ПорядокРегистрацииСчетовФактурНаАванс" category="Ref">
@@ -20,6 +20,7 @@
 			<Name>ПорядокРегистрацииСчетовФактурНаАванс</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>9bfeba25-b7f2-47d2-a092-b9ea51bc3cf7</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="7af272ec-c668-4e0b-a4a7-36a22a87477d">
@@ -29,6 +30,7 @@
 					<Name>КромеЗачтенныхВТечениеПятиДней</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ec2b57ad-eb7e-4fd6-bafc-a57189de75dd</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8093513f-f08c-4aa8-aded-2360a3a12ea1">
@@ -38,6 +40,7 @@
 					<Name>НаВсеАвансы</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>6a220803-44e2-40f5-89b5-22f07995ccf8</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="44ab425a-634e-4539-99c0-5a27a3d61553">
@@ -47,6 +50,7 @@
 					<Name>КромеЗачтенныхВТечениеМесяца</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>f15e4c54-0c5d-48b7-9e0c-55ad58c1d56f</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="eed9f9ec-3b64-4dda-9bed-a6aa7a908a93">
@@ -56,6 +60,7 @@
 					<Name>КромеЗачтенныхВТечениеНалоговогоПериода</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>4f89457f-3b27-4cd8-aedf-630d575f203b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9fde29ea-b619-4e6e-89a5-a9745312e018">
@@ -65,6 +70,7 @@
 					<Name>НеРегистрироватьСчетаФактурыНаАвансы</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>e2481f1c-3e01-4a41-b65a-0eaad56cb444</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

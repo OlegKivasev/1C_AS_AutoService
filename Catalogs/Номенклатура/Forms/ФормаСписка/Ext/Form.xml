@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<Group>Vertical</Group>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -257,7 +257,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">186</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">Поставщик</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -6410,7 +6410,7 @@
 															<ChoiceParameterLinks>
 																<xr:Link>
 																	<xr:Name>Отбор.Владелец</xr:Name>
-																	<xr:DataPath xsi:type="xs:string">68</xr:DataPath>
+																	<xr:DataPath xsi:type="xs:string">ОтборКатегорииТекущая</xr:DataPath>
 																	<xr:ValueChange>Clear</xr:ValueChange>
 																</xr:Link>
 															</ChoiceParameterLinks>
@@ -6615,7 +6615,6 @@
 													<Border width="1">
 														<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
 													</Border>
-													<PictureColor>style:НедоступныеДанныеЦвет</PictureColor>
 													<ContextMenu name="АдресКартинкиКонтекстноеМеню" id="1300"/>
 													<ExtendedTooltip name="АдресКартинкиРасширеннаяПодсказка" id="1301"/>
 												</PictureField>
@@ -6862,7 +6861,6 @@
 				<Field>~СписокЗапасы.КартинкаУдалитьИзКорзины</Field>
 				<Field>~СписокЗапасы.СтавкаНДС</Field>
 				<Field>СписокЗапасы.Артикул</Field>
-				<Field>СписокЗапасы.Наименование</Field>
 				<Field>СписокЗапасы.ВалютаЦены</Field>
 				<Field>СписокЗапасы.ВалютаЦеныПредставление</Field>
 				<Field>СписокЗапасы.Весовой</Field>
@@ -6877,6 +6875,7 @@
 				<Field>СписокЗапасы.КатегорияНоменклатуры</Field>
 				<Field>СписокЗапасы.КоличествоОстаток</Field>
 				<Field>СписокЗапасы.Коэффициент</Field>
+				<Field>СписокЗапасы.Наименование</Field>
 				<Field>СписокЗапасы.Недействителен</Field>
 				<Field>СписокЗапасы.Номенклатура</Field>
 				<Field>СписокЗапасы.Номинал</Field>
@@ -8560,8 +8559,1469 @@
 			<CurrentRowUse>Use</CurrentRowUse>
 			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
 		</Command>
+		<Command name="ИзменитьВыделенные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить выделенные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить выделенные объекты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ИзменитьВыделенные</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СоздатьНоменклатуру" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать номенклатуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">СоздатьНоменклатуру</Action>
+			<Representation>Text</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ИзменитьНоменклатуру" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить номенклатуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F2</Shortcut>
+			<Action callType="Before">ИзменитьНоменклатуру</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СоздатьГруппу" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СоздатьГруппу</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СкопироватьНоменклатуру" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать номенклатуру</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать номенклатуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F9</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.CloneListItem</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">СкопироватьНоменклатуру</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
+		</Command>
+		<Command name="ПометитьНаУдалениеНоменклатуру" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить на удаление / Снять пометку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пометить на удаление номенклатуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПометитьНаУдалениеНоменклатуру</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПереместитьВГруппу" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переместить в группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переместить в группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПереместитьВГруппу</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ИзменитьГруппу" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ИзменитьГруппу</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СкопироватьГруппу" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СкопироватьГруппу</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ДобавитьВКорзинуИзСписка" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ДобавитьВКорзинуИзСписка</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыбратьВСписке" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать в списке</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать в списке</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ВыбратьВСписке</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
+		</Command>
+		<Command name="УстановитьПометкуУдаленияГруппы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку удаления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку удаления группы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">УстановитьПометкуУдаленияГруппы</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПоискПоШтрихкоду" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск по штрихкоду</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск по штрихкоду</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F7</Shortcut>
+			<Action callType="Before">ПоискПоШтрихкоду</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПоказыватьНедействительную" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать недействительную</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать недействительную</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПоказыватьНедействительную</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ИерархияВключаяВложенные" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать номенклатуру вложенных групп</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">ИерархияВключаяВложенные</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="РеквизитДопУпорядочиванияКатегорииУвеличить" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вверх</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит доп упорядочивания увеличить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveUp</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">РеквизитДопУпорядочиванияКатегорииУвеличить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="РеквизитДопУпорядочиванияКатегорииУменьшить" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вниз</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит доп упорядочивания увеличить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveDown</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">РеквизитДопУпорядочиванияКатегорииУменьшить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="РеквизитДопУпорядочиванияУвеличить" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вверх</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит доп упорядочивания увеличить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveUp</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">РеквизитДопУпорядочиванияУвеличить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="РеквизитДопУпорядочиванияУменьшить" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вниз</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит доп упорядочивания увеличить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveDown</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">РеквизитДопУпорядочиванияУменьшить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОткрытьСправочникКатегории" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список категорий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть справочник категории</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Catalog</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ОткрытьСправочникКатегории</Action>
+		</Command>
+		<Command name="ИзменитьКатегорию" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить категорию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ИзменитьКатегорию</Action>
+		</Command>
+		<Command name="ОбновитьВидыСтавокНДС" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить виды ставок НДС</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить виды ставок НДС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОбновитьВидыСтавокНДС</Action>
+			<FunctionalOptions>
+				<Item>dce9ff4f-4fce-464e-8d50-f82ae0da723a</Item>
+				<Item>f49e8f0e-1a6b-496c-812a-febcb0ea1678</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="СоздатьНоменклатуруСервис1СНоменклатура" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить номенклатуру из сервиса 1С:Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить номенклатуру из сервиса 1С:Номенклатура</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ДобавитьРаботаСНоменклатурой</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">СоздатьНоменклатуруСервис1СНоменклатура</Action>
+		</Command>
+		<Command name="ОбновитьОстатки" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить остатки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить остатки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОбновитьОстатки</Action>
+			<FunctionalOptions>
+				<Item>f49e8f0e-1a6b-496c-812a-febcb0ea1678</Item>
+				<Item>dce9ff4f-4fce-464e-8d50-f82ae0da723a</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="НастройкиОтборов" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">НастройкиОтборов</Action>
+		</Command>
+		<Command name="ИзображениеПредыдущее" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изображение предыдущее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изображение предыдущее</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ПромотатьНазад" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Промотать назад</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Промотать назад</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="СвернутьДерево" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свернуть дерево</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свернуть дерево</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СвернутьДерево</Action>
+		</Command>
+		<Command name="РазвернутьДерево" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть дерево</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть дерево</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">РазвернутьДерево</Action>
+		</Command>
+		<Command name="СвернутьВеткуДереваОстатков" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свернуть ветку дерева остатков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свернуть ветку дерева остатков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СвернутьВеткуДереваОстатков</Action>
+		</Command>
+		<Command name="РазвернутьВеткуДереваОстатков" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть ветку дерева остатков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть ветку дерева остатков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">РазвернутьВеткуДереваОстатков</Action>
+		</Command>
+		<Command name="ОткрытьОтчетОстаткиПрогноз" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки товаров (прогноз)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть отчет остатки (прогноз)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Report</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ОткрытьОтчетОстаткиПрогноз</Action>
+		</Command>
+		<Command name="ОформитьДокументСчетНаОплату" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументСчетНаОплату</Action>
+		</Command>
+		<Command name="ОформитьДокументЗаказПокупателя" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ покупателя</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументЗаказПокупателя</Action>
+		</Command>
+		<Command name="ОформитьДокументЗаказНаряд" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ-наряд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументЗаказНаряд</Action>
+		</Command>
+		<Command name="ОформитьДокументРасходнаяНакладная" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расходная накладная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументРасходнаяНакладная</Action>
+		</Command>
+		<Command name="ОформитьДокументАктВыполненныхРабот" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Акт выполненных работ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументАктВыполненныхРабот</Action>
+		</Command>
+		<Command name="ОформитьДокументЗаказПоставщику" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ поставщику</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументЗаказПоставщику</Action>
+		</Command>
+		<Command name="ОформитьДокументПриходнаяНакладная" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приходная накладная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументПриходнаяНакладная</Action>
+		</Command>
+		<Command name="ОформитьДокументЧекККМ" id="42">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чек ККМ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ счет на оплату</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОформитьДокументЧекККМ</Action>
+		</Command>
+		<Command name="ГруппаВыбрать" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ChooseValue</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ГруппаВыбрать</Action>
+		</Command>
+		<Command name="ОбновитьДеревоОстатков" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить дерево остатков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить дерево остатков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОбновитьДеревоОстатков</Action>
+		</Command>
+		<Command name="УдалитьИзКорзины" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">УдалитьИзКорзины</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПоказатьАналогиМобильныйКлиент" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать аналоги</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать аналоги мобильный клиент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПоказатьАналогиМобильныйКлиент</Action>
+		</Command>
+		<Command name="ПоказатьСопутствующиеТоварыМобильныйКлиент" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать сопутствующие товары </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать сопутствующие товары мобильный клиент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПоказатьСопутствующиеТоварыМобильныйКлиент</Action>
+		</Command>
+		<Command name="ИзменитьНоменклатуруДерево" id="48">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить номенклатуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>F2</Shortcut>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ИзменитьНоменклатуруДерево</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПоказатьСопутствующиеТовары" id="50">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать сопутствующие товары </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать сопутствующие товары мобильный клиент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПоказатьСопутствующиеТоварыМобильныйКлиент</Action>
+			<FunctionalOptions>
+				<Item>939615cc-f8cc-4cb1-9571-d8de61b390e6</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ПоказатьАналоги" id="49">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать аналоги</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать аналоги мобильный клиент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПоказатьАналогиМобильныйКлиент</Action>
+			<FunctionalOptions>
+				<Item>8baa15a3-d05f-49ab-83cb-486a5797e8db</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ОбъединитьВыделенные" id="51">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объединить выделенные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объединить выделенные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОбъединитьВыделенные</Action>
+		</Command>
+		<Command name="СоздатьДокумент" id="52">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СоздатьДокумент</Action>
+		</Command>
+		<Command name="ОформитьДокумент" id="53">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.СтрелкаВниз</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ОформитьДокумент</Action>
+		</Command>
+		<Command name="ОчиститьКорзину" id="54">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить корзину</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить корзину</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ОчиститьКорзину</Action>
+		</Command>
+		<Command name="Отложить" id="55">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отложить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отложить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">Отложить</Action>
+		</Command>
+		<Command name="ПродолжитьПодобор" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="ПоказатьОстатки" id="57">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать остатки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать остатки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ВидимостьРазрешена</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ПоказатьОстатки</Action>
+			<FunctionalOptions>
+				<Item>dce9ff4f-4fce-464e-8d50-f82ae0da723a</Item>
+				<Item>f49e8f0e-1a6b-496c-812a-febcb0ea1678</Item>
+			</FunctionalOptions>
+		</Command>
+		<Command name="ОформитьДокументКорзинаРасшифровка" id="58">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ корзина расшифровка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформить документ корзина расшифровка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.СтрелкаВниз</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ОформитьДокументКорзинаРасшифровка</Action>
+		</Command>
+		<Command name="ПеренестиВДокумент" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести в документ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести в документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ПеренестиВДокумент</Action>
+		</Command>
+		<Command name="ДобавитьВКорзинуРасшифровкаОстатков" id="60">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину расшифровка остатков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину расшифровка остатков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ДобавитьВКорзинуРасшифровкаОстактов</Action>
+		</Command>
+		<Command name="УдалитьИзКорзиныРасшифровкаОстатков" id="61">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину расшифровка остатков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину расшифровка остатков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">УдалитьИзКорзиныРасшифровкаОстактов</Action>
+		</Command>
+		<Command name="ПоказатьВСписке" id="62">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать в списке</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать в списке</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ShowInList</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ПоказатьВСписке</Action>
+		</Command>
+		<Command name="ПерейтиСписок" id="63">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти к списку номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Alt+F2</Shortcut>
+			<Action callType="Before">ПерейтиСписок</Action>
+		</Command>
+		<Command name="ПерейтиПоиск" id="64">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти поиск</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Alt+F3</Shortcut>
+			<Action callType="Before">ПерейтиПоиск</Action>
+		</Command>
+		<Command name="ПерейтиИерархия" id="65">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Иерархия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти иерархия</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Alt+F5</Shortcut>
+			<Action callType="Before">ПерейтиИерархия</Action>
+		</Command>
+		<Command name="ПерейтиКорзина" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Корзина</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти корзина</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Alt+F6</Shortcut>
+			<Action callType="Before">ПерейтиКорзина</Action>
+		</Command>
+		<Command name="ЗагрузкаДанныхИзExcel" id="67">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка данных из Excel</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузка данных из excel</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗагрузкаИзВнешнегоИсточника</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ЗагрузкаДанныхИзExcel</Action>
+		</Command>
+		<Command name="ПерейтиКРодителю" id="68">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти к родителю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти к родителю</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveRight</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ПерейтиКРодителю</Action>
+		</Command>
+		<Command name="СкопироватьКатегорию" id="69">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать категорию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СкопироватьКатегорию</Action>
+		</Command>
+		<Command name="УстановитьПометкуУдаленияКатегории" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку удаления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку удаления категории</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Delete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">УстановитьПометкуУдаленияКатегории</Action>
+		</Command>
+		<Command name="СведенияОДокументе" id="71">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведения о документе...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведения о документе</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СведенияОДокументе</Action>
+		</Command>
+		<Command name="КомандаОтменаОтбора" id="72">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена отбора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда отмена отбора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>BackSpace</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.ОтветитьНаПисьмоУНФ</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">КомандаОтменаОтбора</Action>
+		</Command>
+		<Command name="ИзменитьСегмент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить сегмент</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить сегмент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ИзменитьСегмент</Action>
+		</Command>
+		<Command name="ВыбратьВИерархии" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать в иерархии</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">ВыбратьВИерархии</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
+		</Command>
+		<Command name="НазадКСпискуНоменклатуры" id="73">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назад к списку</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">НазадКСпискуНоменклатуры</Action>
+		</Command>
+		<Command name="КомандыСегментов" id="74">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды сегментов</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>CommonPicture.МенюДополнительныеФункции</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">КомандыСегментов</Action>
+		</Command>
+		<Command name="КомандыКатегорий" id="75">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды категорий</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>CommonPicture.МенюДополнительныеФункции</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">КомандыКатегорий</Action>
+		</Command>
+		<Command name="КомандыГрупп" id="76">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды групп</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>CommonPicture.МенюДополнительныеФункции</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">КомандыГрупп</Action>
+		</Command>
+		<Command name="НастройкиОтборовНоменклатураПоставщиков" id="78">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">НастройкиОтборовНоменклатураПоставщиков</Action>
+		</Command>
+		<Command name="ИзменитьНоменклатуруПоставщика" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить номенклатуру поставщика</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить номенклатуру поставщика</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">ИзменитьНоменклатуруПоставщика</Action>
+		</Command>
+		<Command name="КомандыНоменклатурыПоставщиков" id="80">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды номенклатуры поставщиков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды номенклатуры поставщиков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.МенюДополнительныеФункции</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">КомандыНоменклатурыПоставщиков</Action>
+		</Command>
+		<Command name="ДобавитьВКорзинуИзСпискаНоменклатураПоставщиков" id="81">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">ДобавитьВКорзинуИзСпискаНоменклатураПоставщиков</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="УдалитьИзКорзиныДобавитьВКорзинуИзСпискаНоменклатураПоставщиков" id="82">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в корзину из списка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">УдалитьИзКорзиныНоменклатураПоставщиков</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыбратьВСпискеНоменклатураПоставщиков" id="83">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">ВыбратьВСпискеНоменклатураПоставщиков</Action>
+		</Command>
+		<Command name="СоздатьНоменклатуруПоставщика" id="84">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">СоздатьНоменклатуруПоставщика</Action>
+		</Command>
+		<Command name="СкоприроватьНоменклатуруПоставщика" id="85">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скопировать</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">СкоприроватьНоменклатуруПоставщика</Action>
+		</Command>
+		<Command name="УстановитьПометкуУдаленияНоменклатураПоставщика" id="86">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить пометку удаления</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">УстановитьПометкуУдаленияНоменклатураПоставщика</Action>
+		</Command>
+		<Command name="ПереместитьВверхНоменклатураПоставщика" id="87">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вверх</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">ПереместитьВверхНоменклатураПоставщика</Action>
+		</Command>
+		<Command name="ПереместитьВнизНоменклатураПоставщика" id="88">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вниз</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">ПереместитьВнизНоменклатураПоставщика</Action>
+		</Command>
+		<Command name="СвернутьДеревоГруппКатегорий" id="77">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свернуть все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свернуть дерево групп категорий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CollapseAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">СвернутьДеревоГруппКатегорий</Action>
+		</Command>
+		<Command name="РазвернутьДеревоГруппКатегорий" id="89">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Развернуть дерево групп категорий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ExpandAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">РазвернутьДеревоГруппКатегорий</Action>
+		</Command>
+		<Command name="СортироватьКатегорииПоНаименованию" id="90">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать по наименованию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать категории по наименованию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СортироватьКатегорииПоНаименованию</Action>
+		</Command>
+		<Command name="СортироватьГруппыПоНаименованию" id="91">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать по наименованию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сортировать группы по наименованию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">СортироватьГруппыПоНаименованию</Action>
+		</Command>
 	</Commands>
-	<BaseForm version="2.21">
+	<BaseForm version="2.22">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Vertical</Group>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -8819,7 +10279,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">186</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">Поставщик</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -13989,7 +15449,7 @@
 																<ChoiceParameterLinks>
 																	<xr:Link>
 																		<xr:Name>Отбор.Владелец</xr:Name>
-																		<xr:DataPath xsi:type="xs:string">68</xr:DataPath>
+																		<xr:DataPath xsi:type="xs:string">ОтборКатегорииТекущая</xr:DataPath>
 																		<xr:ValueChange>Clear</xr:ValueChange>
 																	</xr:Link>
 																</ChoiceParameterLinks>
@@ -14194,7 +15654,6 @@
 														<Border width="1">
 															<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
 														</Border>
-														<PictureColor>style:НедоступныеДанныеЦвет</PictureColor>
 														<ContextMenu name="АдресКартинкиКонтекстноеМеню" id="1300"/>
 														<ExtendedTooltip name="АдресКартинкиРасширеннаяПодсказка" id="1301"/>
 													</PictureField>

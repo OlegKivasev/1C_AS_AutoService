@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<DataProcessor uuid="ca157b17-b5d6-4536-84e5-0262f23d8df0">
 		<InternalInfo>
 			<xr:GeneratedType name="DataProcessorObject.ПечатьЭтикетокИЦенниковБПО" category="Object">
@@ -16,6 +16,7 @@
 			<Name>ПечатьЭтикетокИЦенниковБПО</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>b647814e-42de-4f39-b7d4-8de98bf88a27</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="fcbcd99c-4b0f-4b59-89e4-ff00060b1076">
@@ -25,6 +26,7 @@
 					<Name>ТорговыйОбъектБПО</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>7715242d-7260-4ca2-8a6f-e7c7ebc78bcf</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>6af88af9-5016-4314-8d83-19a0682531b9</v8:TypeId>
 					</Type>
@@ -37,6 +39,7 @@
 					<Name>ПечатьНаОбычномПринтере</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>3411ab55-2e05-47f8-81f6-8df5303e9a04</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -49,6 +52,7 @@
 					<Name>ВидЦены</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>7e38bffe-528c-4838-9298-2ca1ce12498b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>dde389bf-829f-435c-874f-7333e6635d28</v8:TypeId>
 					</Type>
@@ -61,6 +65,7 @@
 					<Name>ВидЦеныАкционный</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>b088a4ae-6e96-4ef1-82ac-e9a680145cfd</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>dde389bf-829f-435c-874f-7333e6635d28</v8:TypeId>
 					</Type>
@@ -73,6 +78,7 @@
 					<Name>КаждаяЭтикеткаНаНовомЛисте</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ac0de2d8-a18b-4d0b-a142-33b7284c94ea</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -85,6 +91,7 @@
 					<Name>РежимПечати</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>e5510bec-047d-43b3-959d-67a9f27a992a</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -110,6 +117,7 @@
 					<Name>Товары</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>4ae4b8fd-e5f6-411b-94f1-50ff7cd17160</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="265d5eac-cd1e-420f-83a1-9d9d359ab924">
@@ -119,6 +127,7 @@
 							<Name>Выбран</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>1d280c6b-8f57-43a3-ab71-b807a0d77068</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -131,6 +140,7 @@
 							<Name>НоменклатураБПО</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>416fe4e1-9165-4995-b636-72cefcff3a8c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>33ccea99-d100-4166-9890-cf0f5ec03bb0</v8:TypeId>
 							</Type>
@@ -143,6 +153,7 @@
 							<Name>ХарактеристикаБПО</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>79425f5a-cec4-4bf0-ad00-4306944d426c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>e84e8762-86a3-415d-9a46-121ab2accd2d</v8:TypeId>
 							</Type>
@@ -155,6 +166,7 @@
 							<Name>УпаковкаБПО</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>6a70777d-d783-42f1-99a4-741a4de874be</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>5c940b8e-e4c7-4306-a431-e1e7b81c1b21</v8:TypeId>
 							</Type>
@@ -167,6 +179,7 @@
 							<Name>ОрганизацияБПО</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5c0a8518-a50a-4399-bd5d-ef484df0833c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>d229b658-97dd-4834-addc-643cf99271be</v8:TypeId>
 							</Type>
@@ -179,6 +192,7 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>bf68af4e-e9c9-4570-92ce-994f6481a3a7</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>09e14b81-e36d-4ff8-b21b-c41172266147</v8:TypeId>
 							</Type>
@@ -191,6 +205,7 @@
 							<Name>Штрихкод</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2e91bbdc-fc15-4e79-b7c7-f355994e3232</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -207,6 +222,7 @@
 							<Name>ШаблонЦенникаЭтикетки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>48aff18a-94d4-4e04-b1fe-dba19394db19</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>d87160bb-2aa0-42e4-92ea-c5140c96e8cc</v8:TypeId>
 							</Type>
@@ -219,6 +235,7 @@
 							<Name>Количество</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2bc75c85-dbe1-42f4-a023-c7d157a8e141</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>

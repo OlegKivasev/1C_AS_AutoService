@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<Catalog uuid="7e9ebab6-6dfb-436e-bf1e-6814fc121680">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
@@ -36,6 +36,7 @@
 			<Name>Номенклатура</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>bea7f781-5f18-4219-997c-9a767fb284be</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 			<Hierarchical>true</Hierarchical>
 			<CodeLength>11</CodeLength>
 			<DescriptionLength>100</DescriptionLength>
@@ -556,6 +557,7 @@
 					<Name>ВидСтавкиНДС</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>27d64301-1b5e-4ac9-82b2-fc31566ecc01</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:EnumRef.ВидыСтавокНДС</v8:Type>
 					</Type>
@@ -568,6 +570,7 @@
 					<Name>СчетУчетаЗатрат</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>fecab396-8b88-44fa-b328-6a0a2920dfc4</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type>
 					</Type>
@@ -580,6 +583,7 @@
 					<Name>НаправлениеДеятельности</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>4a820996-d36c-4681-a90e-8bddd53206e6</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.НаправленияДеятельности</v8:Type>
 					</Type>
@@ -592,6 +596,7 @@
 					<Name>ИспользоватьПартии</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>329a9d17-e027-4bae-8fc7-744dd587d5c4</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -604,6 +609,7 @@
 					<Name>Номинал</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>1ac16af2-1e35-4a45-8878-89aaac2adbf1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -621,6 +627,7 @@
 					<Name>ОбъемДАЛ</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>e14e8f32-3b0f-40c3-b776-9ee1ea940449</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -638,6 +645,7 @@
 					<Name>ЕдиницаИзмерения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>29ee8eb2-cd83-4cc1-b40d-4e152378ea5c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.КлассификаторЕдиницИзмерения</v8:Type>
 					</Type>
@@ -650,6 +658,7 @@
 					<Name>ЦеноваяГруппа</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>9a67ba32-2b9e-4e6a-9c20-7ddee1ad0951</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ЦеновыеГруппы</v8:Type>
 					</Type>
@@ -662,6 +671,7 @@
 					<Name>ПроизводительИмпортерАлкогольнойПродукции</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>9a1e739f-e9a5-472f-8caa-fe208335c2cf</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
@@ -674,6 +684,7 @@
 					<Name>СчетУчетаЗапасов</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>4366f2f7-ebc2-41cc-b496-b7c9db977701</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type>
 					</Type>
@@ -686,6 +697,7 @@
 					<Name>СчетУчетаНДСПоПриобретеннымЦенностям</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>af1c4820-4447-4d22-b578-9c0778bda56c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type>
 					</Type>
@@ -698,6 +710,7 @@
 					<Name>СчетУчетаНДСПоРеализации</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>0f2884ab-5c47-4603-9a6e-7e97c8aad163</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type>
 					</Type>
@@ -710,6 +723,7 @@
 					<Name>Склад</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2422f318-d2d7-4825-8a73-3422fb7c9b76</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СтруктурныеЕдиницы</v8:Type>
 					</Type>
@@ -722,6 +736,7 @@
 					<Name>НормаВремени</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>d8e94c18-a135-4478-875a-51130c2f7909</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -739,6 +754,7 @@
 					<Name>ДатаИзменения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>54c682e4-f3e2-4d2c-9af6-465c2cd87f10</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -754,6 +770,7 @@
 					<Name>ИспользоватьХарактеристики</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>eabbc395-20ec-4d94-8a18-9b2813338d54</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -766,6 +783,7 @@
 					<Name>НаименованиеПолное</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c14397a9-756b-499c-a0cb-dffb36b39d37</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -782,6 +800,7 @@
 					<Name>Вес</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c5e9b842-544a-44f2-ab17-9f8914c321c7</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.Вес</v8:TypeSet>
 					</Type>
@@ -794,6 +813,7 @@
 					<Name>Артикул</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>943e74c4-655a-4b9c-b82e-7e5efda13c74</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -810,6 +830,7 @@
 					<Name>МетодОценки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>1272ae5d-3d76-41d7-8089-96b9d0e2171d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:EnumRef.МетодОценкиЗапасов</v8:Type>
 					</Type>
@@ -822,6 +843,7 @@
 					<Name>Ячейка</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>8c6e695d-2b4a-4304-809b-8acce08e0f4f</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Ячейки</v8:Type>
 					</Type>
@@ -834,6 +856,7 @@
 					<Name>КатегорияНоменклатуры</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>684049cc-bea4-46ee-b11f-a71286339275</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.КатегорииНоменклатуры</v8:Type>
 					</Type>
@@ -846,6 +869,7 @@
 					<Name>Поставщик</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c714b2ec-44f0-4d97-9f0f-b2917a0fd654</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
@@ -858,6 +882,7 @@
 					<Name>СпособПополнения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>162fcfbc-81f7-4247-a636-ea2f863673b1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:EnumRef.СпособыПополненияЗапасов</v8:Type>
 					</Type>
@@ -870,6 +895,7 @@
 					<Name>СрокПополнения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>cf4cac86-4a08-4439-82dc-b647c0606794</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -887,6 +913,7 @@
 					<Name>ТипНоменклатуры</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>142f8ba7-a38b-4348-9c20-d7d426b19366</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
 					</Type>
@@ -899,6 +926,7 @@
 					<Name>СрокИсполненияЗаказа</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>e4906827-1a4e-4c7c-afdc-e652546cf903</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -916,6 +944,7 @@
 					<Name>Недействителен</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>10add62f-df6c-44d4-a086-eb92ce5f478b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -928,6 +957,7 @@
 					<Name>ФиксированнаяСтоимость</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2548c88f-0447-47f4-8d7e-17f246c5409c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -940,6 +970,7 @@
 					<Name>СтранаПроисхождения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>b7a20330-3d7b-48a8-ad27-9b401b40d2d1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
 					</Type>
@@ -952,6 +983,7 @@
 					<Name>ВидАлкогольнойПродукции</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>be8db162-636d-4966-9ad7-c9c779ac99df</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ВидыАлкогольнойПродукции</v8:Type>
 					</Type>
@@ -964,6 +996,7 @@
 					<Name>ИмпортнаяАлкогольнаяПродукция</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ed90b54d-4857-423d-b417-247de43be2d1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -976,6 +1009,7 @@
 					<Name>Объем</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a74696bf-5501-4ca5-88cb-7bfa51d5ba5c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeSet>cfg:DefinedType.Объем</v8:TypeSet>
 					</Type>
@@ -988,6 +1022,7 @@
 					<Name>Комментарий</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>25d2b654-7af2-4ff9-9565-690f90e3301d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -1004,6 +1039,7 @@
 					<Name>ЭтоНабор</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>4dbba081-9eaa-47f3-8b32-540627a1a1af</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1016,6 +1052,7 @@
 					<Name>ИспользоватьСерииНоменклатуры</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>501ec8d0-f433-4e78-8667-b7ba36ab1f63</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1028,6 +1065,7 @@
 					<Name>ГарантийныйСрок</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>35f803ff-aa75-4774-a3f2-d34b001eaa5e</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -1045,6 +1083,7 @@
 					<Name>ВыписыватьГарантийныйТалон</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>7131d585-dfd4-429d-8705-61ea6c1a0f08</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1057,6 +1096,7 @@
 					<Name>ПроверятьЗаполнениеПартий</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a4fec3ac-4e1d-4920-a364-ed3b4ea7789d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1069,6 +1109,7 @@
 					<Name>ПроверятьЗаполнениеХарактеристики</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>0dd72a9e-1f77-4a57-ab87-47b982a2a7d8</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1081,6 +1122,7 @@
 					<Name>Весовой</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>165addcf-6131-40df-99fc-ec736fc2ffa8</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1093,6 +1135,7 @@
 					<Name>ЗапретитьВводДробногоКоличества</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>dc4740f3-246d-4984-8660-96168ae976ab</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>

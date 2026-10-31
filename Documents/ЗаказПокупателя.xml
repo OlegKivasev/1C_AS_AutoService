@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<Document uuid="e69ab0a1-444f-4281-94ce-65f6c75c502a">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ЗаказПокупателя" category="Object">
@@ -36,6 +36,7 @@
 			<Name>ЗаказПокупателя</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>9133d1ee-54e6-4556-8f42-a94010c0b021</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
@@ -252,6 +253,7 @@
 					<Name>Автор</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>481bb258-bbe5-4a53-89fc-2cdbf9bc1ed3</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>a0c73d8d-dbc6-4ea9-ba05-d0ea3681cda2</v8:TypeId>
 					</Type>
@@ -264,6 +266,7 @@
 					<Name>АдресДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a9208501-82e3-440e-b5d9-c5db36b9782d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -280,6 +283,7 @@
 					<Name>БанковскийСчет</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>571d8f35-5093-45ef-ac32-348e93ef2294</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>62a89c4f-64c1-463c-976e-bbecea8a1b46</v8:TypeId>
 					</Type>
@@ -292,6 +296,7 @@
 					<Name>ВариантЗавершения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>770c91af-6239-4137-b6ae-11ae314e0f36</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>1f1e5dfb-9dca-4bdc-9c9c-3c0f0ff73799</v8:TypeId>
 					</Type>
@@ -304,6 +309,7 @@
 					<Name>Вес</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>d2eeeef4-dd3b-4151-b7f9-46f5f9623778</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>97de40a6-7c79-4206-b33a-ff68ed1e6626</v8:TypeId>
 					</Type>
@@ -316,6 +322,7 @@
 					<Name>ВидЗаказа</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>3164e35f-3601-42b5-ba0d-68001304ec8b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>74062cdf-de88-471e-8789-916b2c6f6715</v8:TypeId>
 						<v8:TypeId>e99c181d-c760-4478-a342-b6294ee86710</v8:TypeId>
@@ -329,6 +336,7 @@
 					<Name>ВидОперации</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>fd1e7d34-4bc2-4c14-b4a7-bdb058ca9024</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>61b8248e-92a7-464e-88ff-5793e10b8af4</v8:TypeId>
 					</Type>
@@ -341,6 +349,7 @@
 					<Name>ВидЭлектронногоДокумента</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>affe3621-4455-4fe2-b270-9ebbcdaef7e7</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>32e867e4-8af1-482e-a917-242990782a17</v8:TypeId>
 					</Type>
@@ -353,6 +362,7 @@
 					<Name>ВремяДоставкиПо</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2661b775-837f-4bb5-9095-897d90b6d6d5</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -368,6 +378,7 @@
 					<Name>ВремяДоставкиС</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>5f53512a-270f-4a38-be26-aec7b9d89ead</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -383,6 +394,7 @@
 					<Name>Высота</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>0894370c-3c45-4501-bf58-526cde6b78b0</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -400,6 +412,7 @@
 					<Name>Грузоотправитель</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a6f7c5df-c1a6-4349-819e-9ea05d5a4165</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
@@ -412,6 +425,7 @@
 					<Name>Грузополучатель</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>b46fbfc7-e318-4c26-827b-99d1af50ae6c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
@@ -424,6 +438,7 @@
 					<Name>ДатаОтгрузки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>e9e03101-b170-4fdc-a01c-996193bbb1ab</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -439,6 +454,7 @@
 					<Name>Длина</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>6cca43d9-9bfc-4988-8848-ee38e19bae8a</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -456,6 +472,7 @@
 					<Name>Договор</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>1864a4fa-3bca-4347-bf6a-82bdf3e87b6f</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>4c78b0ad-0bb7-49b1-98cf-b817e6e50563</v8:TypeId>
 					</Type>
@@ -468,6 +485,7 @@
 					<Name>ДополнительнаяИнформацияПоДоставке</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>3dfaa35d-c7a1-4f85-a3a2-cc1ba916da36</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -484,6 +502,7 @@
 					<Name>Заметки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a5bd6e48-04c6-4b69-947f-5933fbd837ad</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -500,6 +519,7 @@
 					<Name>ЗапаснойТелефон</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>02d27418-e374-45e7-b46b-bfb796564486</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -516,6 +536,7 @@
 					<Name>ЗапланироватьОплату</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a83a9f6f-42b4-47f7-a3fa-239d478073c0</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -528,6 +549,7 @@
 					<Name>ЗонаТариф</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>1a6f8cc9-3b70-455f-827e-97ec37be1b9a</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>af2cbea4-714f-4c91-876d-020b5fb40c9e</v8:TypeId>
 					</Type>
@@ -540,6 +562,7 @@
 					<Name>ИсточникПривлечения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>f634cf92-7612-4e05-b354-abc9d2d16c1b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>2fcf0fd4-74de-480f-b70b-24d22ef9612d</v8:TypeId>
 					</Type>
@@ -552,6 +575,7 @@
 					<Name>Касса</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>40b29a9d-d013-4561-9f2c-c88ad5a45fff</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>98ed910c-8d52-48c4-b52f-c8c6c26a7a52</v8:TypeId>
 					</Type>
@@ -564,6 +588,7 @@
 					<Name>КассаККМ</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>bb654696-0e2e-4a1e-b8dd-165d44099af9</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>18ba739f-03c0-48c5-8997-fa01b7dd802e</v8:TypeId>
 					</Type>
@@ -576,6 +601,7 @@
 					<Name>Комментарий</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>e31f38f0-d57f-4c04-a6ee-5e6e0e60f295</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -592,6 +618,7 @@
 					<Name>КонтактноеЛицо</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>59921b6a-7a85-41a3-8a29-b63f8baf2b28</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -608,6 +635,7 @@
 					<Name>КонтактныйТелефон</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>32a16cfb-e789-4ff7-ac7f-903fae83159d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -624,6 +652,7 @@
 					<Name>Контрагент</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>1371d910-ad1b-48fe-ae24-803656eb6c75</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
@@ -636,6 +665,7 @@
 					<Name>Курьер</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c8160045-cd73-4412-83ba-524064f0935b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>7bd3f280-05cd-45f5-9a68-fe9105e09663</v8:TypeId>
 					</Type>
@@ -648,6 +678,7 @@
 					<Name>НоменклатураДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>f2199f82-90c8-4137-a3a8-95f4278b0a3e</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 					</Type>
@@ -660,6 +691,7 @@
 					<Name>Объем</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>8f45e402-16cf-4c91-8898-d28dd358ea75</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>cc528bda-c053-4787-9e93-a39d07996f01</v8:TypeId>
 					</Type>
@@ -672,6 +704,7 @@
 					<Name>ОбъявленнаяЦенность</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>28ba06ff-497d-4221-a73c-cfcd326425c1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -689,6 +722,7 @@
 					<Name>ОжидаемаяДатаВручения</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>1e32518d-1f43-4fae-bb80-578eb75fb538</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -704,6 +738,7 @@
 					<Name>Организация</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ba7dcb3b-b8b9-4d44-ab5f-56f7a228f10d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>a1af1af2-f26f-40c9-a516-a66ff64531ed</v8:TypeId>
 					</Type>
@@ -716,6 +751,7 @@
 					<Name>Ответственный</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>39cd3d5b-31c2-4c40-9842-b206bf4f8df1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 					</Type>
@@ -728,6 +764,7 @@
 					<Name>ПодписьГлавногоБухгалтера</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>5993bce1-05d5-4fb3-9004-ebf9f38291c7</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>767c73be-7578-4464-ae18-867d506810f6</v8:TypeId>
 					</Type>
@@ -740,6 +777,7 @@
 					<Name>ПодписьРуководителя</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>0d42e2a7-9592-4373-b508-bcb398fd0b47</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>767c73be-7578-4464-ae18-867d506810f6</v8:TypeId>
 					</Type>
@@ -752,6 +790,7 @@
 					<Name>ПочтаПолучателя</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>43d0b2bb-1867-4394-9271-4bb9cdb62282</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -768,6 +807,7 @@
 					<Name>ПричинаОтмены</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>53635dbc-e103-40e1-9d1c-bcf42439c3ef</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>adb2d638-d156-4ae1-a22b-ae8cd63be4e1</v8:TypeId>
 					</Type>
@@ -780,6 +820,7 @@
 					<Name>Проект</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>fbc829c4-1bcd-4808-b01b-6b36c9122563</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>bfa26a81-a6e2-4059-b75f-ff99d645a733</v8:TypeId>
 					</Type>
@@ -792,6 +833,7 @@
 					<Name>ПунктВыдачиЗаказа</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c3f448e2-e045-44a8-836a-ccc0f541990d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>f0f79056-b2d6-44d6-b0fc-403a9e9d2083</v8:TypeId>
 					</Type>
@@ -804,6 +846,7 @@
 					<Name>СлужбаДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>0c1c7386-8a70-431e-9007-5114e865d469</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>f0565a15-7715-41cb-a587-5623cedd02f9</v8:TypeId>
 					</Type>
@@ -816,6 +859,7 @@
 					<Name>Событие</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>76453cfb-cbad-4fd8-b92d-21fb31ff16b2</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>95931e87-9643-4d14-ae7f-d0de3d6318d4</v8:TypeId>
 					</Type>
@@ -828,6 +872,7 @@
 					<Name>СостояниеЗаказа</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2e33dd49-eee5-4cf8-b315-72bf4d578b18</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>e1340650-4174-4332-9884-6baf2ae48387</v8:TypeId>
 						<v8:TypeId>fcd1e511-d7a1-4044-82c6-225ea1eb536f</v8:TypeId>
@@ -841,6 +886,7 @@
 					<Name>СпособДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c5b7ecca-3342-40ee-8907-1b0f0c68a491</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>09e0b713-e450-4964-b508-1d02e1fb8843</v8:TypeId>
 					</Type>
@@ -853,6 +899,7 @@
 					<Name>СпособЗачетаПредоплаты</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>326f8f0e-184e-4340-8412-1831f7183930</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>b2341ba3-9065-4e23-aa7a-a94df1c813fd</v8:TypeId>
 					</Type>
@@ -865,6 +912,7 @@
 					<Name>СтавкаНДСДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>6f4dc270-36a5-4f32-b9eb-10729ceb9f71</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>8d9acc5b-3a77-491b-8548-34cde19d209b</v8:TypeId>
 					</Type>
@@ -877,6 +925,7 @@
 					<Name>СтоимостьДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>d5f361f9-efd1-4bb9-b758-b80e17c96565</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -894,6 +943,7 @@
 					<Name>СтруктурнаяЕдиницаПродажи</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c037ce80-438d-4bd5-a229-6b1018139d89</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>2690b154-7e54-4c58-a3d7-fcb8ae5b5bdb</v8:TypeId>
 					</Type>
@@ -906,6 +956,7 @@
 					<Name>СтруктурнаяЕдиницаРезерв</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>cc75100d-688a-42ed-a22d-dd728573cad6</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>2690b154-7e54-4c58-a3d7-fcb8ae5b5bdb</v8:TypeId>
 					</Type>
@@ -918,6 +969,7 @@
 					<Name>СуммаНДСДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>63be8476-392a-4f57-b074-2f8c0c5a58ec</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -935,6 +987,7 @@
 					<Name>ТипДенежныхСредств</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>eb6369ed-d980-4c8a-b9c5-bb684afd3f2b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>a1360ac1-ec4c-4ed6-aa97-2f7a6e8c68da</v8:TypeId>
 					</Type>
@@ -947,6 +1000,7 @@
 					<Name>ТрекНомер</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>9988c38c-7e4f-4609-82bb-54ec4a666b08</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -963,6 +1017,7 @@
 					<Name>Ширина</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c13bf126-0fe4-48d0-8970-9de8b57607c6</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -980,6 +1035,7 @@
 					<Name>СебестоимостьДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>8926403e-9491-48c9-a7cd-17d57866294e</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -997,6 +1053,7 @@
 					<Name>СервисДоставки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>50db91c3-b54a-4b08-b790-e61068d5e08c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>d1ff42f5-58d3-4c3b-92ae-6e4cc74db7de</v8:TypeId>
 					</Type>
@@ -1009,6 +1066,7 @@
 					<Name>ТекстУсловийСчетаЗаказа</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>b1955c87-41af-4719-b970-3ec3809f757b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -1025,6 +1083,7 @@
 					<Name>ДатаПоступления</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>f1d7a6e0-171a-49d3-a402-ce505bc5de00</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -1040,6 +1099,7 @@
 					<Name>ОплаченВВыставленииСчетов</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>b60b2e2b-51df-445e-af87-5b716c93ab6e</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1052,6 +1112,7 @@
 					<Name>ОплатаДо</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>a7dcac75-c75a-4916-aa77-42341e641bb4</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -1067,6 +1128,7 @@
 					<Name>ОтгруженВВыставленииСчетов</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>c9762a5f-cb94-4297-947d-0706ebab1911</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1079,6 +1141,7 @@
 					<Name>ИспользоватьСкидкиВыставлениеСчетов</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>51eb320a-bef4-4f37-baa9-ec943ea7d65b</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1091,6 +1154,7 @@
 					<Name>РекламныйБлокПечтаныхФорм</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>b1f5d52c-e47d-406f-b6b4-660345d0a0ab</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>0616a9c4-139c-4aa8-bca6-3469adeef420</v8:TypeId>
 					</Type>
@@ -1103,6 +1167,7 @@
 					<Name>ВидЗакрывающегоДокументаВыставлениеСчетов</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2375da1d-b988-46b8-ac27-1bf9c79ac1c1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>068a461d-18dd-4a8b-847b-731a95853f00</v8:TypeId>
 					</Type>
@@ -1115,6 +1180,7 @@
 					<Name>НомерЗакрывающегоДокументаВыставлениеСчетов</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>5e79178e-0a18-43fe-b704-05113f8e24ba</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -1131,6 +1197,7 @@
 					<Name>ДатаЗакрывающегоДокументаВыставлениеСчетов</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>16802373-7fe5-4847-97ed-0d9958d797c7</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -1146,6 +1213,7 @@
 					<Name>Лид</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>dae64d8b-7f52-4ce8-9818-587e54c3a2c2</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>01965a51-ef91-42eb-b963-f6ce05b61435</v8:TypeId>
 					</Type>
@@ -1158,6 +1226,7 @@
 					<Name>АдресСайта</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>11dadc59-94ae-4842-8927-8a6177b25b37</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -1174,6 +1243,7 @@
 					<Name>АдресЭП</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>d693f7b7-85fa-42a4-b544-49dd9058ab00</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -1190,6 +1260,7 @@
 					<Name>ВидРабот</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>de9cbba2-552f-4ac2-9cfa-b3d5587d3ef8</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 					</Type>
@@ -1202,6 +1273,7 @@
 					<Name>ДокументОснование</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2186dc65-f31c-4133-bdee-31b527383342</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>1b7942f7-dfc9-4364-836c-e18c43f9d2ad</v8:TypeId>
 						<v8:TypeId>747537b1-8af5-4c24-9898-a13890b54baa</v8:TypeId>
@@ -1216,6 +1288,7 @@
 					<Name>ДокументПоступления</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2ffca705-bab3-46d8-8136-bfdca653cce3</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>1b7942f7-dfc9-4364-836c-e18c43f9d2ad</v8:TypeId>
 					</Type>
@@ -1228,6 +1301,7 @@
 					<Name>НомерЧекаККМ</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>7027b16d-5c1d-4200-b418-31c5b0554f41</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -1245,6 +1319,7 @@
 					<Name>ПодписьКассира</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>4a2a4fdb-5e0c-48ca-ac3c-0b722f191983</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>767c73be-7578-4464-ae18-867d506810f6</v8:TypeId>
 					</Type>
@@ -1257,6 +1332,7 @@
 					<Name>Старт</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>2c48e04f-1e74-4ff0-b26e-167cb2ef31ce</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -1272,6 +1348,7 @@
 					<Name>Телефон</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>3a37c1d6-de59-49ae-b21c-27cac93da31e</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -1288,6 +1365,7 @@
 					<Name>УчитыватьВНУ</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>59779deb-381a-43f3-a59e-3505ce7a3bc7</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1300,6 +1378,7 @@
 					<Name>Финиш</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>7089b554-08ab-41b6-baa1-37616941b3c9</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
@@ -1315,6 +1394,7 @@
 					<Name>ЭтоУниверсальныйДокумент</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>088b1de7-3f9b-4c62-9372-00119d6877db</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
@@ -1327,6 +1407,7 @@
 					<Name>Ячейка</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>f7e1353a-c752-4e07-8b91-0b2c45ef7208</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 					<Type>
 						<v8:TypeId>9bc3fdae-153b-444b-9f59-dfa989305ca9</v8:TypeId>
 					</Type>
@@ -1352,6 +1433,7 @@
 					<Name>Запасы</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>3827a494-db18-4d85-98ff-9376e84082d1</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="7602f0e4-88d7-49cd-95b2-2d7d7e3ca5a5">
@@ -1739,6 +1821,7 @@
 							<Name>ТипНоменклатурыЗапас</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c9678a18-1e16-4f8e-b3d5-779f9fd0f450</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -1751,6 +1834,7 @@
 							<Name>Номенклатура</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>28f6394b-43df-422c-bc24-88973f4e6c54</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
@@ -1768,6 +1852,7 @@
 							<Name>Характеристика</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>0aca9fa6-afb0-4514-962d-331ac296b043</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -1780,6 +1865,7 @@
 							<Name>СерииНоменклатуры</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>dcc0869d-4549-4e63-9129-192f6767f91f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -1796,6 +1882,7 @@
 							<Name>Резерв</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2bf717df-ff11-40be-ae4a-83f7dd05a082</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1813,6 +1900,7 @@
 							<Name>РезервОтгрузка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>466c022a-9f54-4ee6-931b-e289fc949459</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1830,6 +1918,7 @@
 							<Name>ЕдиницаИзмерения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e64cc8ee-4dc5-480c-acb0-145322d9d2ae</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>6eacc26c-7509-4ca5-91ba-4af203b89964</v8:TypeId>
 								<v8:TypeId>8e3bc82d-8e1f-4c4b-80be-7cfff345e705</v8:TypeId>
@@ -1843,6 +1932,7 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>bd365b51-d408-43d0-b319-57a41944d0b9</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1860,6 +1950,7 @@
 							<Name>ПроцентСкидкиНаценки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>1b952e91-590b-4961-95ec-a46c11bd9abf</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1877,6 +1968,7 @@
 							<Name>СуммаСкидкиНаценки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2626be4a-89c5-4fcd-ae90-d010648281f0</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1894,6 +1986,7 @@
 							<Name>Сумма</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>8a221069-5758-4a3a-bd23-c768badd2b91</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1911,6 +2004,7 @@
 							<Name>СтавкаНДС</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>55672676-5c6d-41a6-86f0-74444c834892</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>8d9acc5b-3a77-491b-8548-34cde19d209b</v8:TypeId>
 							</Type>
@@ -1923,6 +2017,7 @@
 							<Name>СуммаНДС</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5ade3171-7f5a-4acd-b40f-4d64c9c01f91</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1940,6 +2035,7 @@
 							<Name>Всего</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>a90219fb-0f6b-4251-a2cd-9cbdef234592</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -1957,6 +2053,7 @@
 							<Name>ДатаОтгрузки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>8a7d406d-4553-46fc-8a57-c9f52497fcb6</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -1972,6 +2069,7 @@
 							<Name>Спецификация</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>0d289408-0c0c-473b-8077-1f71f13dce96</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>20d9e33c-860f-475b-9b09-6acb205cdc44</v8:TypeId>
 							</Type>
@@ -1984,6 +2082,7 @@
 							<Name>Содержание</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>477bf1f3-1679-405d-b548-1e8f88643294</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -2000,6 +2099,7 @@
 							<Name>ПроцентАвтоматическойСкидки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>1da95e3c-ae47-49a0-a408-6ea4d423ca4e</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2017,6 +2117,7 @@
 							<Name>СуммаАвтоматическойСкидки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>14dd83f1-526e-4138-9fda-51ee19bf4e6a</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2034,6 +2135,7 @@
 							<Name>Количество</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>eab6261f-3bbf-4b7b-a320-ba7c54502cf0</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2051,6 +2153,7 @@
 							<Name>КлючСвязи</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>14b34b32-c714-4a6b-8422-5d4bac8728ef</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2068,6 +2171,7 @@
 							<Name>СтранаПроисхождения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c87733c0-a58c-4a9e-82fb-51f29b4fac3c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>a632bd12-a6c8-4c7b-b1aa-05a5211f601a</v8:TypeId>
 							</Type>
@@ -2080,6 +2184,7 @@
 							<Name>НомерГТД</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e221f0a6-df2c-4eee-970c-480ffbf9f30f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>8a8e03ec-8bf1-4e0f-937d-7e470e9910c2</v8:TypeId>
 							</Type>
@@ -2092,6 +2197,7 @@
 							<Name>Партия</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>a388309a-394f-4bbc-bc04-855057b75dee</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>77f013d3-5913-4ada-b0ae-1ff76ce84ff9</v8:TypeId>
 							</Type>
@@ -2104,6 +2210,7 @@
 							<Name>Вес</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>97e4302d-b36e-410d-ba77-a3719ba36e4c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>97de40a6-7c79-4206-b33a-ff68ed1e6626</v8:TypeId>
 							</Type>
@@ -2116,6 +2223,7 @@
 							<Name>Объем</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>a4eae1d8-a504-49cf-b35a-d7c99abc0c08</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>cc528bda-c053-4787-9e93-a39d07996f01</v8:TypeId>
 							</Type>
@@ -2128,6 +2236,7 @@
 							<Name>НомерВариантаКП</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>b4a6fe1a-dd79-494a-b527-a9a5f20c7baf</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2145,6 +2254,7 @@
 							<Name>ЭтоРазделитель</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d5e57fa8-e7c7-49b0-aed8-853fab12f4cd</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -2157,6 +2267,7 @@
 							<Name>НоменклатураНабора</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>8cccead4-35fe-42a2-94cc-87d9750ec883</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -2169,6 +2280,7 @@
 							<Name>ХарактеристикаНабора</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>bc61a42f-5194-499f-b2fd-2fd18b00c358</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -2181,6 +2293,7 @@
 							<Name>ДоляСтоимости</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c28c42cf-ecb0-464e-871c-a230d475c2fa</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2198,6 +2311,7 @@
 							<Name>СтруктурнаяЕдиницаРезерв</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>19d5f2d1-c224-48bb-a8f7-b6758e0dbbd6</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>2690b154-7e54-4c58-a3d7-fcb8ae5b5bdb</v8:TypeId>
 							</Type>
@@ -2210,6 +2324,7 @@
 							<Name>Ячейка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>738e1bfe-9e85-4760-965b-f1ae566382ec</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>9bc3fdae-153b-444b-9f59-dfa989305ca9</v8:TypeId>
 							</Type>
@@ -2222,6 +2337,7 @@
 							<Name>КоличествоСобрано</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2568f0bb-59be-4a81-b5bb-e1bb9f497e94</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2239,6 +2355,7 @@
 							<Name>ПрослеживаемыйТовар</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>74e64144-1a2b-41f1-9154-25cb2de82a77</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -2251,6 +2368,7 @@
 							<Name>КодТНВЭД</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c9a7f3e5-01f9-4bae-b676-1596937728c9</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>95dc5b7f-7919-4c8b-8b10-7feb97459ac7</v8:TypeId>
 							</Type>
@@ -2263,6 +2381,7 @@
 							<Name>ИдентификаторСтроки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>918b7f26-5e89-4166-8da7-5f6cc4b27151</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>1d9a7212-1d20-4202-a0b7-53ef24729467</v8:TypeId>
 							</Type>
@@ -2275,6 +2394,7 @@
 							<Name>ПрослеживаемыйКомплект</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d2e062ac-9737-4800-9b63-1e3f08238f67</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -2287,6 +2407,7 @@
 							<Name>ПродажаПодарка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>cb1975de-5edf-42af-ba97-84cfe2289406</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -2299,6 +2420,7 @@
 							<Name>СуммаСкидкиОплатыБонусом</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>248cc792-8c61-4135-bb26-5992b34142cd</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2316,6 +2438,7 @@
 							<Name>ДокументПоступления</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>49300edb-6f61-49aa-a6d7-6b48929ac7f4</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>1b7942f7-dfc9-4364-836c-e18c43f9d2ad</v8:TypeId>
 							</Type>
@@ -2841,6 +2964,7 @@
 					<Name>МатериалыЗаказчика</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>0eb66dc4-bef5-4b4d-a222-14126bcfff79</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="18caf990-a140-4eec-ab67-5c55e8db31c0">
@@ -2850,6 +2974,7 @@
 							<Name>Номенклатура</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>6833bee3-8916-4bc2-b004-d9626f603832</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -2862,6 +2987,7 @@
 							<Name>Характеристика</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>8fa05e9e-f713-48ca-a2af-84748539fe15</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -2874,6 +3000,7 @@
 							<Name>Количество</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5c06e3c8-6e92-41b9-ae30-89c652646048</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -2891,6 +3018,7 @@
 							<Name>ЕдиницаИзмерения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>440c9447-52ea-4bc5-a6f5-40e8a13c1b56</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>6eacc26c-7509-4ca5-91ba-4af203b89964</v8:TypeId>
 								<v8:TypeId>8e3bc82d-8e1f-4c4b-80be-7cfff345e705</v8:TypeId>
@@ -2904,6 +3032,7 @@
 							<Name>ДатаПоступления</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c1f48eee-6f5e-47c8-87f2-ace79daed66d</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -2919,6 +3048,7 @@
 							<Name>Комментарий</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2e3f3720-d6de-4341-aab2-4efd37ce6943</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -2935,6 +3065,7 @@
 							<Name>Содержание</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>3e3ba608-a358-44ab-a81d-22bee644c5e0</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -2962,6 +3093,7 @@
 					<Name>ПлатежныйКалендарь</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>95451f70-913e-41d6-b085-3344da2c4ccd</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="11917081-e7f3-4aaa-9adb-bff7630f89ec">
@@ -2971,6 +3103,7 @@
 							<Name>ДатаОплаты</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d09b4d40-c1b4-4194-88df-7701dad4665d</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -2986,6 +3119,7 @@
 							<Name>ПроцентОплаты</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>99040b87-6df0-455a-8b08-79acc8f0cc70</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3003,6 +3137,7 @@
 							<Name>СуммаОплаты</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>20eb0b38-554c-409b-af6d-16bf6891a5d6</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3020,6 +3155,7 @@
 							<Name>СуммаНДСОплаты</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>930fa6ec-391b-4733-bcfc-1b9544a55430</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3037,6 +3173,7 @@
 							<Name>Постфикс</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>0fe9b3aa-af58-4f62-b49c-d3095e70df79</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -3064,6 +3201,7 @@
 					<Name>Предоплата</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>416b9b00-f558-4cb4-bf34-1235e675d88d</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="2cdda386-fd89-4e14-8e5c-404800d92665">
@@ -3073,6 +3211,7 @@
 							<Name>Документ</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>4eb19b5c-c5e9-4725-9207-74beac280879</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>12aaba46-50c2-4b87-8a19-ff505a961e9b</v8:TypeId>
 								<v8:TypeId>42a21868-7e2f-485c-a334-a793c8e52eee</v8:TypeId>
@@ -3094,6 +3233,7 @@
 							<Name>НомерСертификата</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>02611505-6357-43a2-bca0-b679417e5095</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>6dbd5cf4-ea88-4196-bb8c-428f2a0b2b42</v8:TypeId>
 							</Type>
@@ -3106,6 +3246,7 @@
 							<Name>СуммаРасчетов</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>fa9fbd96-9b69-4894-8eff-fb0cb80f14b7</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3123,6 +3264,7 @@
 							<Name>Курс</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>951b9da6-d2c3-4383-8b6d-2cac90dbb1b9</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3140,6 +3282,7 @@
 							<Name>Кратность</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f977176c-76a8-4c00-9a92-dc2cb99a9a72</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3157,6 +3300,7 @@
 							<Name>СуммаПлатежа</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>90f76cb7-7a75-40ba-83b5-1edd6343f563</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3174,6 +3318,7 @@
 							<Name>ОплатаСертификатом</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>3de103ad-585a-4096-97a4-d0cbd0e625b0</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -3186,6 +3331,7 @@
 							<Name>ЭтоПредоплатаБезЗаказа</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>b57f1950-634b-4cb6-abea-ecea986df08f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -3198,6 +3344,7 @@
 							<Name>СуммаПогашенияСертификата</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>9aab3a60-52f4-45f2-b802-de8707678179</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3215,6 +3362,7 @@
 							<Name>ОплатаБонусами</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>3fa7559a-4d07-44e4-8980-5d97307ce4cd</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -3238,6 +3386,7 @@
 					<Name>Подарки</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>7967632a-212c-41f7-8651-8b610fe73748</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="f3a8e156-0127-473f-906f-4a42caf7af25">
@@ -3247,6 +3396,7 @@
 							<Name>СкидкаНаценка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5ccb193f-28af-4d49-a031-e8b6a5d4c821</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>7319aa2c-8103-4734-afbe-02b1cedd7f80</v8:TypeId>
 							</Type>
@@ -3259,6 +3409,7 @@
 							<Name>Номенклатура</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>412fe73a-6005-4507-97be-ae7947d87f2a</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -3271,6 +3422,7 @@
 							<Name>Характеристика</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f638f2bd-7ddb-4992-9aef-119a3ca971ef</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -3283,6 +3435,7 @@
 							<Name>Количество</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e16876cf-a899-4990-afa2-c5083a9d9d70</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3300,6 +3453,7 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>6c4ea4e9-4221-4794-9206-9e3097d63bea</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3317,6 +3471,7 @@
 							<Name>Сумма</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>03d40a40-6b1d-4a53-a045-594508715cfd</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3334,6 +3489,7 @@
 							<Name>СтруктурнаяЕдиница</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ba897ebf-b91c-47ab-a915-9c8db8a29d8f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>2690b154-7e54-4c58-a3d7-fcb8ae5b5bdb</v8:TypeId>
 							</Type>
@@ -3346,6 +3502,7 @@
 							<Name>Ячейка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2221780a-43f2-40ad-b83c-c129eb3092c8</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>9bc3fdae-153b-444b-9f59-dfa989305ca9</v8:TypeId>
 							</Type>
@@ -3358,6 +3515,7 @@
 							<Name>КлючСвязи</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f1585cfc-500a-4fdf-954e-3b1531b808c2</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3375,6 +3533,7 @@
 							<Name>ЕдиницаИзмерения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>46d51740-c3f2-4755-88c1-d49f6e2e827e</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>6eacc26c-7509-4ca5-91ba-4af203b89964</v8:TypeId>
 								<v8:TypeId>8e3bc82d-8e1f-4c4b-80be-7cfff345e705</v8:TypeId>
@@ -3388,6 +3547,7 @@
 							<Name>СтатусУказанияСерий</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e8a9b26a-5239-4a6d-b0d3-b2dd082ac9f7</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3405,6 +3565,7 @@
 							<Name>ШтрихкодУпаковки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>469c1caa-6876-4d16-a606-eb5e3610459f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>06a2b6e4-cf73-4fe5-92e9-205f6ba11cbd</v8:TypeId>
 							</Type>
@@ -3417,6 +3578,7 @@
 							<Name>Справка2</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>1cb15aee-cb7d-45a0-bfc1-d2ca7fa2e260</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>45372435-f50a-42a4-a204-6ab18ad74d56</v8:TypeId>
 							</Type>
@@ -3429,6 +3591,7 @@
 							<Name>СерииНоменклатуры</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>a0c7887e-daa3-427d-a8af-8c8af1f59c28</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -3445,6 +3608,7 @@
 							<Name>НомерВариантаКП</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>31fab882-9b57-43dc-b4cf-57cc68ae4658</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3462,6 +3626,7 @@
 							<Name>ВыдачаПодаркаОтменена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>4543d6bc-9954-4a05-8615-8dc323fe6599</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -3485,6 +3650,7 @@
 					<Name>БонусныеБаллыКНачислению</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>8cfde873-abe1-43a3-a913-192716158594</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="d4756ba0-9137-4ce7-bca6-4cd1e9cbe00e">
@@ -3494,6 +3660,7 @@
 							<Name>КлючСвязи</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>4a436df4-fb4b-4bfa-9d58-e18f7900e3e7</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3511,6 +3678,7 @@
 							<Name>СкидкаНаценка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ca5f50bd-6dc2-4639-a331-bf95b2275b07</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>7319aa2c-8103-4734-afbe-02b1cedd7f80</v8:TypeId>
 							</Type>
@@ -3523,6 +3691,7 @@
 							<Name>ДатаНачисления</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5e7988f7-b205-406a-b210-c67fcc278d55</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -3538,6 +3707,7 @@
 							<Name>ДатаСписания</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>9a806c41-38cf-4029-afbf-3f4840a3f463</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -3553,6 +3723,7 @@
 							<Name>КоличествоБонусныхБаллов</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d8d7d3f5-c03c-4cd5-a1b7-a47be0219748</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3570,6 +3741,7 @@
 							<Name>НомерВариантаКП</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f97a3b41-7295-40c1-b3a2-5fc5196a2c5a</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3598,6 +3770,7 @@
 					<Name>ОтмененныеЗапасы</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ce366ca2-b536-4bdf-9cb0-06ad083de860</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="424aeed2-8f31-4431-a515-1c29f5842677">
@@ -3607,6 +3780,7 @@
 							<Name>Номенклатура</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>13b01d51-7eeb-4125-8955-f006d69af5cd</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
@@ -3624,6 +3798,7 @@
 							<Name>Характеристика</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>bdd16cbc-80a6-462a-a404-2ccc5f7ecad1</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -3636,6 +3811,7 @@
 							<Name>Количество</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d09cc558-e51c-4f27-bdd9-a7c75af295e8</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3653,6 +3829,7 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>77c6b930-ce90-40e3-9fd6-6577c702c9cc</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3670,6 +3847,7 @@
 							<Name>ПричинаОтмены</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>431aa156-0db3-4a8f-bac6-6e454d9f9ad4</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>adb2d638-d156-4ae1-a22b-ae8cd63be4e1</v8:TypeId>
 							</Type>
@@ -3682,6 +3860,7 @@
 							<Name>ДатаОтмены</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>46649eb6-4f3a-4cda-beb7-f41f47682a1d</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -3697,6 +3876,7 @@
 							<Name>Автор</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ed2a4e2c-f4da-4de2-b4b7-bbc9efcab9ef</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 							</Type>
@@ -3709,6 +3889,7 @@
 							<Name>СерииНоменклатуры</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>585bbec3-ca52-4b75-a41d-f41ac72be941</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -3725,6 +3906,7 @@
 							<Name>ЕдиницаИзмерения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>3530187d-c564-4d2f-8121-4ceb4a59e9ce</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>6eacc26c-7509-4ca5-91ba-4af203b89964</v8:TypeId>
 								<v8:TypeId>8e3bc82d-8e1f-4c4b-80be-7cfff345e705</v8:TypeId>
@@ -3738,6 +3920,7 @@
 							<Name>Спецификация</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2579f499-fffa-4e9c-9410-bb37682615a1</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>20d9e33c-860f-475b-9b09-6acb205cdc44</v8:TypeId>
 							</Type>
@@ -3750,6 +3933,7 @@
 							<Name>Содержание</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>cdbbdb5b-9497-44f3-acb8-c234fb6779d8</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -3766,6 +3950,7 @@
 							<Name>СтранаПроисхождения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2d277bfa-89ca-4314-8914-347fdffd0dca</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>a632bd12-a6c8-4c7b-b1aa-05a5211f601a</v8:TypeId>
 							</Type>
@@ -3778,6 +3963,7 @@
 							<Name>НомерГТД</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>03c0dad8-4896-4901-8af5-92c129bbc17c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>8a8e03ec-8bf1-4e0f-937d-7e470e9910c2</v8:TypeId>
 							</Type>
@@ -3790,6 +3976,7 @@
 							<Name>Партия</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>024b6e1c-a48c-4285-bcf8-5050fcaf9dc2</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>77f013d3-5913-4ada-b0ae-1ff76ce84ff9</v8:TypeId>
 							</Type>
@@ -3802,6 +3989,7 @@
 							<Name>НомерВариантаКП</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d7cd95fa-1541-43ed-9581-8fe8f2048ef7</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3819,6 +4007,7 @@
 							<Name>ПрослеживаемыйТовар</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f8f81253-6e58-43c2-9756-4e87bac9bf9f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -3831,6 +4020,7 @@
 							<Name>СостояниеОтмены</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>8d491bae-750c-4ce1-b15e-ff1af3cc9dcc</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>e1340650-4174-4332-9884-6baf2ae48387</v8:TypeId>
 								<v8:TypeId>fcd1e511-d7a1-4044-82c6-225ea1eb536f</v8:TypeId>
@@ -3844,6 +4034,7 @@
 							<Name>Кратность</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>0ad92457-3d56-47e2-8a1e-03707c911bff</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3861,6 +4052,7 @@
 							<Name>Коэффициент</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>21078f5c-9304-4a22-b4af-ea335cf5a63a</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -3878,6 +4070,7 @@
 							<Name>ЭтоРабота</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d0ef7a33-1267-42ec-b710-fdb9997b6356</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -3890,6 +4083,7 @@
 							<Name>НоменклатураНабора</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>76650561-1513-4fea-bae5-8cda0c9d4681</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -3902,6 +4096,7 @@
 							<Name>ХарактеристикаНабора</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5fba575b-25e6-4d04-aaf5-eb9b79a54137</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -4235,6 +4430,7 @@
 					<Name>Работы</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>10952c6c-de05-4ec1-bd4e-821e35c83f10</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="708a3a21-71c5-4b60-8a84-64b8824f7b49">
@@ -4244,6 +4440,7 @@
 							<Name>ВидРабот</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>6a2d67ba-23be-43ae-8746-ab33d7df8dee</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -4256,6 +4453,7 @@
 							<Name>Номенклатура</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f391c932-1842-4375-b727-fcb62936b890</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -4268,6 +4466,7 @@
 							<Name>ТипНоменклатурыУслуга</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d563ba36-8dab-477e-bb57-fac9e025525c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -4280,6 +4479,7 @@
 							<Name>Характеристика</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>8e6b5008-4784-44bd-9c89-c463ba1793b2</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -4292,6 +4492,7 @@
 							<Name>Спецификация</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f482955c-179f-4180-8360-04d404a322f3</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>20d9e33c-860f-475b-9b09-6acb205cdc44</v8:TypeId>
 							</Type>
@@ -4304,6 +4505,7 @@
 							<Name>Количество</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>a163decc-0ce1-40aa-9eff-c3027f98c257</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4321,6 +4523,7 @@
 							<Name>Цена</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>96b08108-a39d-4ff2-bd05-81001fcccc8c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4338,6 +4541,7 @@
 							<Name>Сумма</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>69e9b923-a82e-4a29-8e6e-1cba6a152609</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4355,6 +4559,7 @@
 							<Name>ПроцентСкидкиНаценки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>1f04fba6-95b6-4afb-8114-f4468d72352a</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4372,6 +4577,7 @@
 							<Name>СуммаСкидкиНаценки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e698f179-5ee1-490e-99d5-d861adac9ecf</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4389,6 +4595,7 @@
 							<Name>СтавкаНДС</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d41dadee-c31b-444e-a562-f7195a4edab2</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>8d9acc5b-3a77-491b-8548-34cde19d209b</v8:TypeId>
 							</Type>
@@ -4401,6 +4608,7 @@
 							<Name>СуммаНДС</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>aba6ee43-7b8f-435e-96f1-590a1254444d</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4418,6 +4626,7 @@
 							<Name>Всего</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>21f2a0f6-5051-489b-8f59-d76f57e616c3</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4435,6 +4644,7 @@
 							<Name>Содержание</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>21e99425-311d-4640-bfcb-6bcedb3cc97f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -4451,6 +4661,7 @@
 							<Name>КлючСвязи</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ec912fec-3077-42d2-a380-ca7fd38c45a9</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4468,6 +4679,7 @@
 							<Name>Кратность</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ef9cc2df-8c91-4ead-9529-70613c6e040d</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4485,6 +4697,7 @@
 							<Name>Коэффициент</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>724f0ef2-ad26-4fde-88af-2beddab5c892</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4502,6 +4715,7 @@
 							<Name>ПроцентАвтоматическойСкидки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ef811f2e-6baa-4d9c-8917-f84472fb383c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4519,6 +4733,7 @@
 							<Name>СуммаАвтоматическойСкидки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d8253050-2460-4226-a5ab-5c1fc494fd11</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4536,6 +4751,7 @@
 							<Name>КлючСвязиДляСкидокНаценок</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c880c72b-554e-4e62-bf57-a5ec9c0667a2</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4553,6 +4769,7 @@
 							<Name>НоменклатураНабора</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>94755baa-4c01-449c-914f-136aa947f1c1</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -4565,6 +4782,7 @@
 							<Name>ХарактеристикаНабора</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c2b87e8d-db5c-4aa3-b9ad-c28fa50ddc13</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -4577,6 +4795,7 @@
 							<Name>ДоляСтоимости</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>87ebc961-a454-493e-abe7-3ee5544095b1</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4594,6 +4813,7 @@
 							<Name>СуммаСкидкиОплатыБонусом</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>63229a0a-1416-4068-a0a5-12fda240faea</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4611,6 +4831,7 @@
 							<Name>ИдентификаторСтроки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>810e166d-f13f-41b1-8f96-ae72b7e858a2</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>1d9a7212-1d20-4202-a0b7-53ef24729467</v8:TypeId>
 							</Type>
@@ -4623,6 +4844,7 @@
 							<Name>ПрослеживаемыйТовар</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>420e1909-025e-4356-b66b-6c8c3abfa4c0</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -4635,6 +4857,7 @@
 							<Name>ПрослеживаемыйКомплект</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>9532c02d-1310-417e-8b18-b4bb878bcfcd</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -4813,6 +5036,7 @@
 					<Name>Исполнители</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>fd72cbc8-d918-4618-b77b-78e39776998a</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="25fd498a-69e3-4e88-a7b6-37f93ee83a12">
@@ -4822,6 +5046,7 @@
 							<Name>Сотрудник</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>4e587db6-4b8a-4ff0-85e2-f8ce149eeb2a</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 							</Type>
@@ -4834,6 +5059,7 @@
 							<Name>КТУ</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e86bee57-544d-4e78-b808-e106a2ec84b3</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4851,6 +5077,7 @@
 							<Name>ВидНачисленияУдержания</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>d5a2515f-7a16-4dca-8695-d3b0c23ffe0b</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>bdfc1718-eb75-408c-97e3-603fa00d2605</v8:TypeId>
 							</Type>
@@ -4863,6 +5090,7 @@
 							<Name>РазмерНачисленияУдержания</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>4a93c4f2-99e7-4143-8add-b1a119293d1f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4880,6 +5108,7 @@
 							<Name>КлючСвязи</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5cbe6054-6aad-406d-9010-17cf342afdba</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4897,6 +5126,7 @@
 							<Name>СуммаНачисления</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f9cf401e-f3fc-465d-8cfa-c87d2f560db0</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4925,6 +5155,7 @@
 					<Name>Материалы</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ba90171c-9b71-4d8e-a6b3-9d9ec34da97c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="90562208-b557-4ac4-9c9c-a2b6110cba9d">
@@ -4934,6 +5165,7 @@
 							<Name>КлючСвязи</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>358962b2-a4eb-4702-81f8-ed201051780b</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -4951,6 +5183,7 @@
 							<Name>Номенклатура</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>dbb1546c-90ea-4a0d-b0e6-08330e0bb930</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4b1b49cb-5430-4f80-9818-a1cef1b3d410</v8:TypeId>
 							</Type>
@@ -4963,6 +5196,7 @@
 							<Name>Характеристика</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>fd0a2e48-9bfc-4d8a-8d16-e01c9c52ec96</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>618217c2-2313-418a-acf3-09d1a5415430</v8:TypeId>
 							</Type>
@@ -4975,6 +5209,7 @@
 							<Name>Партия</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>390ee88e-ac15-4145-bc18-bf9ae446ca53</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>77f013d3-5913-4ada-b0ae-1ff76ce84ff9</v8:TypeId>
 							</Type>
@@ -4987,6 +5222,7 @@
 							<Name>СерииНоменклатуры</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ab90591b-3223-4fd8-aafc-cbce0a40def4</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -5003,6 +5239,7 @@
 							<Name>Количество</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>95ab7a2c-26dc-4da3-ad5b-eab4b3d3a7a1</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5020,6 +5257,7 @@
 							<Name>Резерв</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>7e834faa-681f-4ba0-887d-f0a87fe46226</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5037,6 +5275,7 @@
 							<Name>РезервОтгрузка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>99957aa3-563f-463c-9197-3ae0f993178e</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5054,6 +5293,7 @@
 							<Name>ЕдиницаИзмерения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>7acc7f13-992f-4183-b8ab-f35695b5f3ab</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>6eacc26c-7509-4ca5-91ba-4af203b89964</v8:TypeId>
 								<v8:TypeId>8e3bc82d-8e1f-4c4b-80be-7cfff345e705</v8:TypeId>
@@ -5067,6 +5307,7 @@
 							<Name>СтранаПроисхождения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>4aed1112-e406-45b3-b6ae-48c710fac442</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>a632bd12-a6c8-4c7b-b1aa-05a5211f601a</v8:TypeId>
 							</Type>
@@ -5079,6 +5320,7 @@
 							<Name>НомерГТД</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e0f79c19-0442-4c2d-a31f-95a67e41ca64</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>8a8e03ec-8bf1-4e0f-937d-7e470e9910c2</v8:TypeId>
 							</Type>
@@ -5091,6 +5333,7 @@
 							<Name>КлючСвязиСерииНоменклатуры</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>187ca4c2-7f5b-4143-adde-30c3ef02d12f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5108,6 +5351,7 @@
 							<Name>СтруктурнаяЕдиницаРезерв</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>af4c79f7-af36-4c6c-96da-1be461dcde0f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>2690b154-7e54-4c58-a3d7-fcb8ae5b5bdb</v8:TypeId>
 							</Type>
@@ -5120,6 +5364,7 @@
 							<Name>Ячейка</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>53dd815a-bef2-446b-8037-d12457ad5d2c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>9bc3fdae-153b-444b-9f59-dfa989305ca9</v8:TypeId>
 							</Type>
@@ -5132,6 +5377,7 @@
 							<Name>ДокументПоступления</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>5aed280e-5a43-4171-92d9-e3bbd5e1b4fe</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>1b7942f7-dfc9-4364-836c-e18c43f9d2ad</v8:TypeId>
 							</Type>
@@ -5144,6 +5390,7 @@
 							<Name>ПрослеживаемыйТовар</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>31fd8408-4b95-4324-a103-af22f69835d2</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5156,6 +5403,7 @@
 							<Name>КодТНВЭД</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>59f96b2a-3dc8-4347-92cb-3c590cca70db</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>95dc5b7f-7919-4c8b-8b10-7feb97459ac7</v8:TypeId>
 							</Type>
@@ -5168,6 +5416,7 @@
 							<Name>ИдентификаторСтроки</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>8b4bef14-5ce8-4cdb-8942-59e0faef6f59</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>1d9a7212-1d20-4202-a0b7-53ef24729467</v8:TypeId>
 							</Type>
@@ -5180,6 +5429,7 @@
 							<Name>ПрослеживаемыйКомплект</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>6f3bc6b2-a1e0-47a6-96d9-60c909b61a65</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5192,6 +5442,7 @@
 							<Name>Содержание</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>a85fa767-5e4b-4945-877b-00efaf45a8b7</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
@@ -5219,6 +5470,7 @@
 					<Name>РесурсыПредприятия</Name>
 					<Comment/>
 					<ExtendedConfigurationObject>ca117547-da35-47e7-98af-9e99570520ac</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="f2e32665-731b-49e2-acba-50c831cd527c">
@@ -5228,6 +5480,7 @@
 							<Name>РесурсПредприятия</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>4e259f8b-2ad2-4d89-93af-0aefe33285a4</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>4de7f804-e661-417b-8ec4-10add8ce9cb8</v8:TypeId>
 							</Type>
@@ -5240,6 +5493,7 @@
 							<Name>Мощность</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ab63e3fe-5c65-41c2-a1a5-d5416d096a1e</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5257,6 +5511,7 @@
 							<Name>Длительность</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>3cd7b1ce-06d3-4cda-b164-7e871c461d18</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -5272,6 +5527,7 @@
 							<Name>Старт</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>7771874f-88db-41bb-b7fb-b6aaeb53c48b</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -5287,6 +5543,7 @@
 							<Name>Финиш</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>44e7c5ac-cb02-4d14-b21e-6a01d79c809b</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:DateQualifiers>
@@ -5302,6 +5559,7 @@
 							<Name>Пн</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f9f05bf5-77cf-4b2f-b26a-1bffc8d039ad</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5314,6 +5572,7 @@
 							<Name>Вт</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>18577e4e-cfd1-448c-80cb-c78e71dca1de</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5326,6 +5585,7 @@
 							<Name>Ср</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>ee40377a-12a4-4905-b93c-79e0c5a36d3c</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5338,6 +5598,7 @@
 							<Name>Чт</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>c03de776-8d98-4078-b0b2-b39d9692ceaa</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5350,6 +5611,7 @@
 							<Name>Пт</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>49eb1a6d-e201-4672-ac31-65e46d3cea4f</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5362,6 +5624,7 @@
 							<Name>Сб</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>3277becb-9522-482c-a185-ee2406d04890</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5374,6 +5637,7 @@
 							<Name>Вс</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f5856969-8bb0-4f9d-9ed2-12e81d8a65c1</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5386,6 +5650,7 @@
 							<Name>ИнтервалПовторения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>3a3b3a2d-7ecc-4857-8226-98df8015b6d3</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5403,6 +5668,7 @@
 							<Name>ЗавершатьПосле</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e4a4b3e8-c289-4882-a508-c9a0cb67ce21</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:dateTime</v8:Type>
 								<v8:Type>xs:decimal</v8:Type>
@@ -5424,6 +5690,7 @@
 							<Name>ВидЗавершения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>9a016f71-82e9-47f2-b69d-7c2e3741ef08</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>edba3d12-728b-4c9e-a219-88bde4c44b1a</v8:TypeId>
 							</Type>
@@ -5436,6 +5703,7 @@
 							<Name>ВидПовтора</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f1b8458c-0210-4e29-9caa-18c26280eb85</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:TypeId>b48956e1-c610-4d57-8800-7cd0d60d9c87</v8:TypeId>
 							</Type>
@@ -5448,6 +5716,7 @@
 							<Name>ДатаПовторения</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>e25cb33c-a832-4b11-9bc9-8494ab83807d</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5465,6 +5734,7 @@
 							<Name>ПоследнийДеньМесяца</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>392caf91-0829-43f7-add9-d64e91abf8f7</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:boolean</v8:Type>
 							</Type>
@@ -5477,6 +5747,7 @@
 							<Name>ДеньНеделиМесяца</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>f8bed6b2-5df7-475e-9650-21342b4c8b43</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5494,6 +5765,7 @@
 							<Name>НомерНеделиМесяца</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>58c405ba-c1b8-4d77-b176-81353ed14981</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>
@@ -5511,6 +5783,7 @@
 							<Name>НомерМесяца</Name>
 							<Comment/>
 							<ExtendedConfigurationObject>2d46b06d-bf9d-485f-b31c-2fafc4749b98</ExtendedConfigurationObject>
+							<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>
 								<v8:NumberQualifiers>

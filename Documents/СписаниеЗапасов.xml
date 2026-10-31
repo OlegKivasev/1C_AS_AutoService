@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
+	<Document uuid="04d1297c-77dd-4b25-a021-4bc24dce5e17">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеЗапасов" category="Object">
+				<xr:TypeId>a5b9366a-8945-4571-b857-160cd78efe13</xr:TypeId>
+				<xr:ValueId>44fc8bc6-1340-49db-af0c-35ebb056d512</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеЗапасов" category="Ref">
+				<xr:TypeId>7a4b40ed-d14c-4c47-be94-b0391b54cba7</xr:TypeId>
+				<xr:ValueId>7887c48e-bf5e-47b6-8d77-4b8c18704566</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеЗапасов" category="Selection">
+				<xr:TypeId>058ed806-cfbb-4d96-b638-4e41cabeb749</xr:TypeId>
+				<xr:ValueId>7d2aa5c7-bd3f-4444-a7f1-2717befff158</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеЗапасов" category="List">
+				<xr:TypeId>1017b3a2-fac1-44cf-b0cb-d4de49434d95</xr:TypeId>
+				<xr:ValueId>ae85064a-90b1-45b1-b3c5-907d323afd8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеЗапасов" category="Manager">
+				<xr:TypeId>6202f1c5-9de8-4f0d-a623-93397a720b08</xr:TypeId>
+				<xr:ValueId>fff75ecf-134f-4630-8487-a700c56d8240</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеЗапасов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>63fc9824-0dd1-4e3b-bce6-34e0806fc11f</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="275f2e42-9664-49ef-b6e8-36bdac5ec82c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>54061a7b-b591-4e85-b8ee-bfdb8a04099c</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
+					<Type><v8:TypeId>a1af1af2-f26f-40c9-a516-a66ff64531ed</v8:TypeId></Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bb64ec5a-4a92-46b7-9662-8b40d938dd47">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Корреспонденция</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7a5d8d18-0c19-43fa-bd17-fb0829399f40</ExtendedConfigurationObject>
+					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
+					<Type><v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type></Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d5c255b6-8bf0-413e-8be0-ad256fc3269e">
+				<Properties>
+					<Name>АС_ПоставщикВозврата</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Поставщик</v8:content></v8:item></Synonym>
+					<Comment/>
+					<Type><v8:Type>cfg:CatalogRef.Контрагенты</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
