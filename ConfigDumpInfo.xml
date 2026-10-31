@@ -364,9 +364,10 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ПечатьЭтикетокИЦенниковБПО.Form.Форма" id="0e731642-f990-4fee-8c4e-8f05afd013ff" configVersion="a31c31b1f4037b3d4dbfa50214ef3d889c0891e2"/>
 		<Metadata name="DataProcessor.ПечатьЭтикетокИЦенниковБПО.Form.Форма.Form" id="0e731642-f990-4fee-8c4e-8f05afd013ff.0" configVersion="062796964af2d5183151367c0fc9394f5f3924c9"/>
-		<Metadata name="DataProcessor.ПоискИУдалениеДублей" id="b3a0e2c0-a9f1-4eda-b9ff-55b8bcec6f20" configVersion="0e77287c3edd7afd2dfe32931b61d753da40902c"/>
+		<Metadata name="DataProcessor.ПоискИУдалениеДублей" id="b3a0e2c0-a9f1-4eda-b9ff-55b8bcec6f20" configVersion="8574022c7d3aa7255ad9ddf2e65982cc9703068f"/>
+		<Metadata name="DataProcessor.ПоискИУдалениеДублей.ObjectModule" id="b3a0e2c0-a9f1-4eda-b9ff-55b8bcec6f20.0" configVersion="eb22b485fc9aa847401194e933dcbc81718a2ba3"/>
 		<Metadata name="DataProcessor.ПоискИУдалениеДублей.Form.ПоискДублей" id="64990109-6181-40ce-b3cb-f794d882aa03" configVersion="328abe615eb22f3908ab66ac604897ce9970819d"/>
-		<Metadata name="DataProcessor.ПоискИУдалениеДублей.Form.ПоискДублей.Form" id="64990109-6181-40ce-b3cb-f794d882aa03.0" configVersion="73f7e6fc514843cdb4b78f6cf543b7670db9d54f"/>
+		<Metadata name="DataProcessor.ПоискИУдалениеДублей.Form.ПоискДублей.Form" id="64990109-6181-40ce-b3cb-f794d882aa03.0" configVersion="5622df5939c4d89206590c60675347e26315d043"/>
 		<Metadata name="DataProcessor.РабочееМестоКассира" id="0caca7b6-6fbf-46ef-bbcc-bdb246a7be25" configVersion="b89d09b2fac2848a95027356e29e728ffd61a8a5"/>
 		<Metadata name="DataProcessor.РабочееМестоКассира.Form.ФормаРМК" id="f44f9965-5962-4347-b2bf-6ab7f3ae6188" configVersion="c0bdbcc3b8bd4953b3dfe6be09eb0f75446ffd4f"/>
 		<Metadata name="DataProcessor.РабочееМестоКассира.Form.ФормаРМК.Form" id="f44f9965-5962-4347-b2bf-6ab7f3ae6188.0" configVersion="3398662f64e11ff1fb1c30cb08b6a54bab54bd79"/>
