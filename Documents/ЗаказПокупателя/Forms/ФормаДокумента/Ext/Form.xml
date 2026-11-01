@@ -7301,6 +7301,24 @@
 																	<ContextMenu name="АС_СуммаДолженКонтекстноеМеню" id="4005"/>
 																	<ExtendedTooltip name="АС_СуммаДолженРасширеннаяПодсказка" id="4006"/>
 																</LabelField>
+																<LabelField name="АС_СуммаПереплаты" id="1000307">
+																	<DataPath>АС_СуммаПереплаты</DataPath>
+																	<Visible>false</Visible>
+																	<ReadOnly>true</ReadOnly>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Переплата</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>Left</TitleLocation>
+																	<HorizontalAlign>Right</HorizontalAlign>
+																	<Width>9</Width>
+																	<Height>1</Height>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<ContextMenu name="АС_СуммаПереплатыКонтекстноеМеню" id="1000308"/>
+																	<ExtendedTooltip name="АС_СуммаПереплатыРасширеннаяПодсказка" id="1000309"/>
+																</LabelField>
 															</ChildItems>
 														</UsualGroup>
 														<UsualGroup name="Итоги" id="2034">
@@ -11760,6 +11778,16 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="АС_СуммаПереплаты" id="1000197">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
 		<Attribute name="АС_АвтозаполнениеИзЗаказаПоставщика" id="1000195">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -11838,6 +11866,20 @@
 				<dcsset:presentation xsi:type="xs:string">Нет доступного остатка с учетом заказов</dcsset:presentation>
 			</dcsset:item>
 		</ConditionalAppearance>
+		<Attribute name="АС_СтоимостьТребуетСнимка" id="1000198">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_АдресСнимкаСтоимости" id="1000199">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<BaseForm version="2.22">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>

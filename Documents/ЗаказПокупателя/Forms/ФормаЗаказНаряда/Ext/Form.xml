@@ -8237,6 +8237,24 @@
 													<ContextMenu name="АС_СуммаДолженКонтекстноеМеню" id="1000310"/>
 													<ExtendedTooltip name="АС_СуммаДолженРасширеннаяПодсказка" id="1000311"/>
 												</LabelField>
+												<LabelField name="АС_СуммаПереплаты" id="1000452">
+													<DataPath>АС_СуммаПереплаты</DataPath>
+													<Visible>false</Visible>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Переплата</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Left</TitleLocation>
+													<HorizontalAlign>Right</HorizontalAlign>
+													<Width>9</Width>
+													<Height>1</Height>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="АС_СуммаПереплатыКонтекстноеМеню" id="1000453"/>
+													<ExtendedTooltip name="АС_СуммаПереплатыРасширеннаяПодсказка" id="1000454"/>
+												</LabelField>
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="ЗНИтоги" id="329">
@@ -12094,6 +12112,16 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="АС_СуммаПереплаты" id="1000319">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
 				<dcsset:selection>
@@ -12167,6 +12195,20 @@
 				</dcsset:appearance>
 			</dcsset:item>
 		</ConditionalAppearance>
+		<Attribute name="АС_СтоимостьТребуетСнимка" id="1000320">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_АдресСнимкаСтоимости" id="1000321">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="АС_ОткрытьКарточкуНоменклатуры" id="1000239">
