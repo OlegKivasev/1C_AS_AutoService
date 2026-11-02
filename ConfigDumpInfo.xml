@@ -188,7 +188,7 @@
 		<Metadata name="CommonForm.АС_ИсторияПоМоделямАвто" id="1e388066-156b-45db-a1da-9b0541e70dcc" configVersion="3f227431e56493e7bca83f56f5623e8e1ef0aeef"/>
 		<Metadata name="CommonForm.АС_ИсторияПоМоделямАвто.Form" id="1e388066-156b-45db-a1da-9b0541e70dcc.0" configVersion="caf616ca4a6e51e83d3abdd1890c249f92a7eb87"/>
 		<Metadata name="CommonForm.АС_ИсторияПродажНоменклатуры" id="886bb54d-98b7-41a9-93dd-8e433cb452ab" configVersion="1ac36bb14863b47d14b1ab3ac17a939aba31505e"/>
-		<Metadata name="CommonForm.АС_ИсторияПродажНоменклатуры.Form" id="886bb54d-98b7-41a9-93dd-8e433cb452ab.0" configVersion="04efb269b00803a9f48b9ce91f38a4d0926ba892"/>
+		<Metadata name="CommonForm.АС_ИсторияПродажНоменклатуры.Form" id="886bb54d-98b7-41a9-93dd-8e433cb452ab.0" configVersion="239fd0d168e983bd39034d3eecdcc325f6b454f3"/>
 		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM" id="75a34c6e-99ff-4a23-8663-ae3401587a3e" configVersion="50e6ff0efae993f3d4800f8f878793891754dc25"/>
 		<Metadata name="CommonForm.АС_ОстаткиПослеПродажиРМК" id="bca4a921-6ef9-4d30-a725-4a1f39ea5c41" configVersion="561f7b6de304ba27a64286ca0986105319e78eb1"/>
 		<Metadata name="CommonForm.АС_ОстаткиПослеПродажиРМК.Form" id="bca4a921-6ef9-4d30-a725-4a1f39ea5c41.0" configVersion="8bdd29121a4870cedde18445ccb14131f2f6ac19"/>
@@ -196,7 +196,7 @@
 		<Metadata name="CommonForm.АС_ПродажиСотрудника" id="fc9c3ac0-2a3c-4ea4-b7ce-74e80e0fbc16" configVersion="6a72a27e14791313a3f804752484bab13aed2d5b"/>
 		<Metadata name="CommonForm.АС_ПродажиСотрудника.Form" id="fc9c3ac0-2a3c-4ea4-b7ce-74e80e0fbc16.0" configVersion="9292d9c12047d4be43c9e041ab9035e9d1e1a412"/>
 		<Metadata name="CommonForm.АС_ТоварыАвтомобиля" id="6dbada05-5320-4a95-a2ff-79002e243602" configVersion="7233d441240fe28c3fa5fccc9cf96c8e0b66a574"/>
-		<Metadata name="CommonForm.АС_ТоварыАвтомобиля.Form" id="6dbada05-5320-4a95-a2ff-79002e243602.0" configVersion="9a758dc6cde3973fe71044c17e35b1b71d94174f"/>
+		<Metadata name="CommonForm.АС_ТоварыАвтомобиля.Form" id="6dbada05-5320-4a95-a2ff-79002e243602.0" configVersion="14d9d3cf6b8b581f39edb0870c6cb8faa60bae99"/>
 		<Metadata name="CommonForm.АС_ТоварыМоделиАвто" id="157680f7-c36f-4889-9f33-844c4d43aa67" configVersion="d1b81f1d75900ff726debf9dccc7d7960d09ddf0"/>
 		<Metadata name="CommonForm.АС_ТоварыМоделиАвто.Form" id="157680f7-c36f-4889-9f33-844c4d43aa67.0" configVersion="553463df28bb5ab5aa695932bdee5f56cb3ddac5"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18" configVersion="201f86074625af7c93fc736a0b5e44579cc34903"/>
@@ -220,7 +220,7 @@
 		<Metadata name="CommonModule.АС_ПоступлениеЗаказовПоставщикамСервер" id="0a44695f-e2f0-4d26-a967-f9b60d4a63a8" configVersion="7179b13f3a0090342323d85d15b572612ec996fb"/>
 		<Metadata name="CommonModule.АС_ПоступлениеЗаказовПоставщикамСервер.Module" id="0a44695f-e2f0-4d26-a967-f9b60d4a63a8.0" configVersion="0b051a69a1e45e12b7d8e8d62f0f40bee0118f0e"/>
 		<Metadata name="CommonModule.АС_ПродажиНоменклатурыСервер" id="9118f2ad-3188-438b-aa4a-5ed3577a5e3c" configVersion="f435236c808904a77acfb62d130c471a17670f00"/>
-		<Metadata name="CommonModule.АС_ПродажиНоменклатурыСервер.Module" id="9118f2ad-3188-438b-aa4a-5ed3577a5e3c.0" configVersion="0ec49149ce4a40754fa1025109b394b5741dcd84"/>
+		<Metadata name="CommonModule.АС_ПродажиНоменклатурыСервер.Module" id="9118f2ad-3188-438b-aa4a-5ed3577a5e3c.0" configVersion="859505f81c0e70f4c0e20a8e8d478a7d721aaed2"/>
 		<Metadata name="CommonModule.АС_СинонимыПоискаСервер" id="964fe187-df9c-4d5e-bb6a-acec716df042" configVersion="9dc57ea50c5909f3ae6bf12b86f01e8c70855f0d"/>
 		<Metadata name="CommonModule.АС_СинонимыПоискаСервер.Module" id="964fe187-df9c-4d5e-bb6a-acec716df042.0" configVersion="2c3d1c60f9f9c57ca1e6fa3e3783c330eb9b7e03"/>
 		<Metadata name="CommonModule.АС_УсловияВозвратаПоставщикамСервер" id="4b00b730-0bc5-46ff-b69d-a2713ff7117f" configVersion="65d4f088cf1e1c548328136a3e8692fd7101c704"/>
