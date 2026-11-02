@@ -157,8 +157,8 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.СрокИсполненияЗаказа" id="fafde9ac-0a55-4b2c-bb59-c8f684faa6c0"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ИспользоватьПартии" id="fcd48de0-c7d5-4535-8f52-17abe8c4d57f"/>
 		</Metadata>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7" configVersion="4d8b1f54e0af47f4d99ec6d0bc79a6501bd33498"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7.0" configVersion="ed197b91fe7076e4ea3a05f289f4802b85b24458"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7" configVersion="56fe97d0e23a1acd4f9afeb61837a12d107bb691"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7.0" configVersion="ce438d0df176987e6a043e2dabd8e9dc812fb7ee"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa" configVersion="7d3ee536e1d232b27a1baa204cd7c880f64c6ee7"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa.0" configVersion="60121974778728975b28e22c3f891de415fc229c"/>
 		<Metadata name="Catalog.Номенклатура.ManagerModule" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680.3" configVersion="54f983cfe424e8179f27631680ef6af4b7b45d84"/>

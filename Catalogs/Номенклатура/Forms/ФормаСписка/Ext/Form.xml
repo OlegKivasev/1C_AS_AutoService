@@ -2314,6 +2314,8 @@
 													<v8:content>Поиск: введите строку и нажмите Enter</v8:content>
 												</v8:item>
 											</InputHint>
+											<EditTextUpdate>DontUse</EditTextUpdate>
+											<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 											<ContextMenu name="СтрокаРасширенногоПоискаКонтекстноеМеню" id="2024"/>
 											<ExtendedTooltip name="СтрокаРасширенногоПоискаРасширеннаяПодсказка" id="2025"/>
 											<Events>
