@@ -42,6 +42,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ИсторияПродажНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.АС_ПродажиНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ПродажиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АС_АгрегаторСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АС_НастройкиАгрегатора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_РемонтАгрегатораПриЗаписи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_НастройкиАгрегатора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_ОчередьРемонтовАгрегатора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АС_ГотовностьТоваровАгрегатора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_СверкаКарточекАгрегатора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_ПервичнаяВыгрузкаАгрегатора</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

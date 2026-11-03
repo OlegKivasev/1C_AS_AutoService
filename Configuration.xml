@@ -253,10 +253,13 @@
 			<CommonModule>ОбщегоНазначенияРМКУНФ</CommonModule>
 			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
 			<CommonModule>ПодключаемыеКоманды</CommonModule>
+			<CommonModule>АС_АгрегаторСервер</CommonModule>
+			<CommonModule>АС_ГотовностьТоваровАгрегатора</CommonModule>
 			<EventSubscription>АС_ДатыДобавленияНоменклатурыПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ОграниченияДокументовПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ЗапретРедактированияПоступленийПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ОграниченияДокументовПередУдалением</EventSubscription>
+			<EventSubscription>АС_РемонтАгрегатораПриЗаписи</EventSubscription>
 			<DefinedType>Вес</DefinedType>
 			<DefinedType>Объем</DefinedType>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
@@ -266,6 +269,7 @@
 			<CommonCommand>АС_ИсторияПоМоделямАвто</CommonCommand>
 			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<Constant>АС_ИндексOEMИнициализирован</Constant>
+			<Constant>АС_НастройкиАгрегатора</Constant>
 			<CommonForm>АС_OEMАналоги</CommonForm>
 			<CommonForm>АС_МассовоеДобавлениеOEM</CommonForm>
 			<CommonForm>АС_ТоварыАвтомобиля</CommonForm>
@@ -276,6 +280,7 @@
 			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
 			<CommonForm>НастройкиРабочегоМестаКассира</CommonForm>
 			<CommonForm>АС_ОстаткиПослеПродажиРМК</CommonForm>
+			<CommonForm>АС_НастройкиАгрегатора</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
@@ -351,6 +356,9 @@
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>
 			<InformationRegister>АС_ВидыЦенКонтрагентов</InformationRegister>
 			<InformationRegister>ОстаткиТоваров</InformationRegister>
+			<InformationRegister>АС_ОчередьРемонтовАгрегатора</InformationRegister>
+			<InformationRegister>АС_СверкаКарточекАгрегатора</InformationRegister>
+			<InformationRegister>АС_ПервичнаяВыгрузкаАгрегатора</InformationRegister>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>
