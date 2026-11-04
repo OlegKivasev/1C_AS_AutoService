@@ -22,6 +22,10 @@
 				<xr:TypeId>6202f1c5-9de8-4f0d-a623-93397a720b08</xr:TypeId>
 				<xr:ValueId>fff75ecf-134f-4630-8487-a700c56d8240</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -40,7 +44,9 @@
 					<Comment/>
 					<ExtendedConfigurationObject>54061a7b-b591-4e85-b8ee-bfdb8a04099c</ExtendedConfigurationObject>
 					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
-					<Type><v8:TypeId>a1af1af2-f26f-40c9-a516-a66ff64531ed</v8:TypeId></Type>
+					<Type>
+						<v8:TypeId>a1af1af2-f26f-40c9-a516-a66ff64531ed</v8:TypeId>
+					</Type>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="bb64ec5a-4a92-46b7-9662-8b40d938dd47">
@@ -51,18 +57,48 @@
 					<Comment/>
 					<ExtendedConfigurationObject>7a5d8d18-0c19-43fa-bd17-fb0829399f40</ExtendedConfigurationObject>
 					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
-					<Type><v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type></Type>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type>
+					</Type>
 				</Properties>
 			</Attribute>
 			<Attribute uuid="d5c255b6-8bf0-413e-8be0-ad256fc3269e">
 				<Properties>
 					<Name>АС_ПоставщикВозврата</Name>
-					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Поставщик</v8:content></v8:item></Synonym>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поставщик</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
-					<Type><v8:Type>cfg:CatalogRef.Контрагенты</v8:Type></Type>
-					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>Use</FullTextSearch><DataHistory>DontUse</DataHistory>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>

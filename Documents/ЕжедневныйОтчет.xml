@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
+	<Document uuid="0761ec28-7531-4517-8869-56029c7bd62e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЕжедневныйОтчет" category="Object">
+				<xr:TypeId>9b36eef4-a63a-4726-a670-a0060ab8c031</xr:TypeId>
+				<xr:ValueId>fe58bfd8-6ede-46dd-a518-44bd421142c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЕжедневныйОтчет" category="Ref">
+				<xr:TypeId>61207996-49bc-4b6f-89f5-8435f57f4f28</xr:TypeId>
+				<xr:ValueId>b5f29179-1842-4cdf-98ff-6855829bcfd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЕжедневныйОтчет" category="Selection">
+				<xr:TypeId>082b97c1-fb4c-4ed6-b126-1bd843a31ee5</xr:TypeId>
+				<xr:ValueId>53ca605f-b98a-454a-a9ba-38ce8061ce08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЕжедневныйОтчет" category="List">
+				<xr:TypeId>4a5e1b33-3d19-46b4-8039-99a7afe7ea90</xr:TypeId>
+				<xr:ValueId>5f156d54-3177-44b8-9004-eef744e6f8c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЕжедневныйОтчет" category="Manager">
+				<xr:TypeId>84d3fa2a-5477-4c1d-8862-4dbd83ff635b</xr:TypeId>
+				<xr:ValueId>49aaba25-817e-4362-8e8a-07979a89df07</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЕжедневныйОтчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>550ef012-fd1b-4f14-b143-dea7de65344c</ExtendedConfigurationObject>
+			<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

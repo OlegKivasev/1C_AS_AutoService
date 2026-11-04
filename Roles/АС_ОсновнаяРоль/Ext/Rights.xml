@@ -283,6 +283,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.АС_НастройкиАгрегатора</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.АС_СчетчикВнутреннихАртикулов</name>
 		<right>
 			<name>Read</name>
@@ -376,7 +383,10 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.АС_НастройкиАгрегатора</name>
-		<right><name>View</name><value>true</value></right>
+		<name>CommonForm.АС_ВыборВидаЗаказа</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
 	</object>
 </Rights>

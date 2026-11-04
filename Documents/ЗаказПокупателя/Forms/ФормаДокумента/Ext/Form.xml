@@ -11830,6 +11830,20 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="АС_СтоимостьТребуетСнимка" id="1000198">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_АдресСнимкаСтоимости" id="1000199">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
 				<dcsset:selection>
@@ -11866,20 +11880,6 @@
 				<dcsset:presentation xsi:type="xs:string">Нет доступного остатка с учетом заказов</dcsset:presentation>
 			</dcsset:item>
 		</ConditionalAppearance>
-		<Attribute name="АС_СтоимостьТребуетСнимка" id="1000198">
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="АС_АдресСнимкаСтоимости" id="1000199">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
 	</Attributes>
 	<BaseForm version="2.22">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>

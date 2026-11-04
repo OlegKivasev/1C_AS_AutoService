@@ -30,6 +30,10 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>d646fca8-deb2-461e-af27-63abf9d6b3e4</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>ManagedApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -232,6 +236,7 @@
 			<Role>АС_ЗапретитьРедактированиеСписаний</Role>
 			<CommonModule>ТабличныеЧастиУНФКлиентСервер</CommonModule>
 			<CommonModule>ТабличныеЧастиУНФКлиент</CommonModule>
+			<CommonModule>БыстрыеФормыУНФВызовСервера</CommonModule>
 			<CommonModule>ГрупповоеИзменениеСтрокСервер</CommonModule>
 			<CommonModule>СкидкиНаценкиКлиентСервер</CommonModule>
 			<CommonModule>СкидкиНаценкиСерверПереопределяемый</CommonModule>
@@ -279,6 +284,7 @@
 			<CommonForm>АС_ТоварыМоделиАвто</CommonForm>
 			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
 			<CommonForm>НастройкиРабочегоМестаКассира</CommonForm>
+			<CommonForm>АС_ВыборВидаЗаказа</CommonForm>
 			<CommonForm>АС_ОстаткиПослеПродажиРМК</CommonForm>
 			<CommonForm>АС_НастройкиАгрегатора</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
@@ -318,6 +324,7 @@
 			<Document>ПоступлениеНаСчет</Document>
 			<Document>ЧекККМ</Document>
 			<Document>СписаниеЗапасов</Document>
+			<Document>ЕжедневныйОтчет</Document>
 			<Enum>ДействияГрупповогоИзмененияСтрок</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>СпособыЗачетаИРаспределенияПлатежей</Enum>

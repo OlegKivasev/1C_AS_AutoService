@@ -18,10 +18,10 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event>
-		<Event name="OnOpen">АС_ПриОткрытии</Event>
-		<Event name="OnClose">АС_ПриЗакрытии</Event>
 		<Event name="NotificationProcessing">АС_ОбработкаОповещения</Event>
+		<Event name="OnOpen">АС_ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">АС_ПриСозданииНаСервере</Event>
+		<Event name="OnClose">АС_ПриЗакрытии</Event>
 	</Events>
 	<ChildItems>
 		<LabelDecoration name="АС_ОписаниеИстории" id="3">
@@ -41,6 +41,7 @@
 			<ChangeRowOrder>false</ChangeRowOrder>
 			<UseAlternationRowColorBWA>true</UseAlternationRowColorBWA>
 			<DataPath>АС_История</DataPath>
+			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="АС_ИсторияМеню" id="11"/>
 			<AutoCommandBar name="АС_ИсторияКоманднаяПанель" id="12"/>
 			<ExtendedTooltip name="АС_ИсторияПодсказка" id="13"/>
@@ -172,10 +173,10 @@
 			<Columns>
 				<Column name="Заказ" id="1">
 					<Type>
-						<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
-						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
 						<v8:Type>cfg:DocumentRef.СписаниеЗапасов</v8:Type>
-						<v8:Type>cfg:DocumentRef.ПеремещениеЗапасов</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
+						<v8:TypeId>18f143e3-9f5c-4784-8d7e-88ef021c722e</v8:TypeId>
 					</Type>
 				</Column>
 				<Column name="НаименованиеЗаказа" id="2">

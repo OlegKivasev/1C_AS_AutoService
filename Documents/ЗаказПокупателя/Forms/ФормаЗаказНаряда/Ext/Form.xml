@@ -1241,7 +1241,7 @@
 								</Button>
 								<Button name="РаботыИзменитьСтроки" id="1421">
 									<Type>CommandBarButton</Type>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.РаботыИзменитьСтроки</CommandName>
 									<ExtendedTooltip name="РаботыИзменитьСтрокиРасширеннаяПодсказка" id="1422"/>
 								</Button>
 								<Button name="РаботыНастройкаФормы" id="2347">
@@ -1286,13 +1286,13 @@
 									<ChildItems>
 										<Button name="РаботыУстановитьФлажки" id="1427">
 											<Type>UsualButton</Type>
-											<CommandName>0</CommandName>
+											<CommandName>Form.Command.РаботыУстановитьФлажки</CommandName>
 											<ExtendedTooltip name="РаботыУстановитьФлажкиРасширеннаяПодсказка" id="1428"/>
 										</Button>
 										<Button name="РаботыСнятьФлажки" id="1429">
 											<Type>UsualButton</Type>
 											<Visible>false</Visible>
-											<CommandName>0</CommandName>
+											<CommandName>Form.Command.РаботыСнятьФлажки</CommandName>
 											<ExtendedTooltip name="РаботыСнятьФлажкиРасширеннаяПодсказка" id="1430"/>
 										</Button>
 									</ChildItems>
@@ -1319,12 +1319,12 @@
 								<Button name="РаботыВыполнитьДействие" id="1446">
 									<Type>UsualButton</Type>
 									<SkipOnInput>false</SkipOnInput>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.РаботыВыполнитьДействие</CommandName>
 									<ExtendedTooltip name="РаботыВыполнитьДействиеРасширеннаяПодсказка" id="1447"/>
 								</Button>
 								<Button name="РаботыОтменитьИзменения" id="1453">
 									<Type>UsualButton</Type>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.РаботыОтменитьИзменения</CommandName>
 									<ExtendedTooltip name="РаботыОтменитьИзмененияРасширеннаяПодсказка" id="1454"/>
 								</Button>
 							</ChildItems>
@@ -3667,7 +3667,7 @@
 								</Button>
 								<Button name="ЗапасыИзменитьСтроки" id="1513">
 									<Type>CommandBarButton</Type>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.ЗапасыИзменитьСтроки</CommandName>
 									<ExtendedTooltip name="ЗапасыИзменитьСтрокиРасширеннаяПодсказка" id="1514"/>
 								</Button>
 								<Button name="ЗапасыНастройкаФормы" id="2353">
@@ -3706,13 +3706,13 @@
 									<ChildItems>
 										<Button name="ЗапасыУстановитьФлажки" id="1519">
 											<Type>UsualButton</Type>
-											<CommandName>0</CommandName>
+											<CommandName>Form.Command.ЗапасыУстановитьФлажки</CommandName>
 											<ExtendedTooltip name="ЗапасыУстановитьФлажкиРасширеннаяПодсказка" id="1520"/>
 										</Button>
 										<Button name="ЗапасыСнятьФлажки" id="1521">
 											<Type>UsualButton</Type>
 											<Visible>false</Visible>
-											<CommandName>0</CommandName>
+											<CommandName>Form.Command.ЗапасыСнятьФлажки</CommandName>
 											<ExtendedTooltip name="ЗапасыСнятьФлажкиРасширеннаяПодсказка" id="1522"/>
 										</Button>
 									</ChildItems>
@@ -3739,12 +3739,12 @@
 								<Button name="ЗапасыВыполнитьДействие" id="1538">
 									<Type>UsualButton</Type>
 									<SkipOnInput>false</SkipOnInput>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.ЗапасыВыполнитьДействие</CommandName>
 									<ExtendedTooltip name="ЗапасыВыполнитьДействиеРасширеннаяПодсказка" id="1539"/>
 								</Button>
 								<Button name="ЗапасыОтменитьИзменения" id="1545">
 									<Type>UsualButton</Type>
-									<CommandName>0</CommandName>
+									<CommandName>Form.Command.ЗапасыОтменитьИзменения</CommandName>
 									<ExtendedTooltip name="ЗапасыОтменитьИзмененияРасширеннаяПодсказка" id="1546"/>
 								</Button>
 							</ChildItems>
@@ -12122,6 +12122,20 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="АС_СтоимостьТребуетСнимка" id="1000320">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_АдресСнимкаСтоимости" id="1000321">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
 				<dcsset:selection>
@@ -12195,20 +12209,6 @@
 				</dcsset:appearance>
 			</dcsset:item>
 		</ConditionalAppearance>
-		<Attribute name="АС_СтоимостьТребуетСнимка" id="1000320">
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="АС_АдресСнимкаСтоимости" id="1000321">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="АС_ОткрытьКарточкуНоменклатуры" id="1000239">
@@ -13030,7 +13030,6 @@
 					<v8:content>Выполнить</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action callType="Before">ЗапасыВыполнитьДействие</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -13048,7 +13047,6 @@
 					<v8:content>Изменить строки таблицы</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action callType="Before">ЗапасыИзменитьСтроки</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗапасыОтменитьИзменения" id="39">
@@ -13064,7 +13062,6 @@
 					<v8:content>Отменить все изменения</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action callType="Before">ЗапасыОтменитьИзменения</Action>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -13085,7 +13082,6 @@
 				<xr:Ref>StdPicture.CheckAll</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">ЗапасыСнятьФлажки</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -13106,7 +13102,6 @@
 				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">ЗапасыУстановитьФлажки</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -13123,7 +13118,6 @@
 					<v8:content>Выполнить</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action callType="Before">РаботыВыполнитьДействие</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -13141,7 +13135,6 @@
 					<v8:content>Изменить строки таблицы</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action callType="Before">РаботыИзменитьСтроки</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РаботыОтменитьИзменения" id="47">
@@ -13157,7 +13150,6 @@
 					<v8:content>Отменить все изменения</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action callType="Before">РаботыОтменитьИзменения</Action>
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -13178,7 +13170,6 @@
 				<xr:Ref>StdPicture.CheckAll</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">РаботыСнятьФлажки</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -13199,7 +13190,6 @@
 				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">РаботыУстановитьФлажки</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>

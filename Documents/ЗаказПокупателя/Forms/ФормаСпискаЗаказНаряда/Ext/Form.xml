@@ -1839,7 +1839,6 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-
 				<Field>Список.ВидЗаказа</Field>
 				<Field>Список.КонтактноеЛицо</Field>
 				<Field>Список.Контрагент</Field>
