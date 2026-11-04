@@ -191,7 +191,7 @@
 		<Metadata name="CommonForm.АС_ИсторияПродажНоменклатуры.Form" id="886bb54d-98b7-41a9-93dd-8e433cb452ab.0" configVersion="7c83ac600fc5bcabe663ac125753e2a59c88c466"/>
 		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM" id="75a34c6e-99ff-4a23-8663-ae3401587a3e" configVersion="50e6ff0efae993f3d4800f8f878793891754dc25"/>
 		<Metadata name="CommonForm.АС_НастройкиАгрегатора" id="7cc2ed1c-ca9e-55c7-adde-2c5e3101d87e" configVersion="d601f9107ea46c92c6437fedf6308af8b4833255"/>
-		<Metadata name="CommonForm.АС_НастройкиАгрегатора.Form" id="7cc2ed1c-ca9e-55c7-adde-2c5e3101d87e.0" configVersion="b8e00af805e9e2e7d5f18c0870336f1fdb5bc4c0"/>
+		<Metadata name="CommonForm.АС_НастройкиАгрегатора.Form" id="7cc2ed1c-ca9e-55c7-adde-2c5e3101d87e.0" configVersion="80e9745fc469fbbdfedaf253ffbbec41fc359fcb"/>
 		<Metadata name="CommonForm.АС_ВыборВидаЗаказа" id="9094173a-ff70-4d80-aa1e-9f0977bd7414" configVersion="b4932ea1208aac93405312f14ebd215a69230c3b"/>
 		<Metadata name="CommonForm.АС_ВыборВидаЗаказа.Form" id="9094173a-ff70-4d80-aa1e-9f0977bd7414.0" configVersion="b58348d8af6d6a0ff45f8fe99ae92c85e53b2d1a"/>
 		<Metadata name="CommonForm.АС_ОстаткиПослеПродажиРМК" id="bca4a921-6ef9-4d30-a725-4a1f39ea5c41" configVersion="561f7b6de304ba27a64286ca0986105319e78eb1"/>
@@ -206,7 +206,7 @@
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18" configVersion="201f86074625af7c93fc736a0b5e44579cc34903"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира.Form" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18.0" configVersion="b62515c153ed8408dd0f517464a92e6c5fedcb9c"/>
 		<Metadata name="CommonModule.АС_АгрегаторСервер" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5" configVersion="a5ba68824febd6f1246918048e3680cf708cba7f"/>
-		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="28c5453b13aedca867fed4e46024f9303aad7ef7"/>
+		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="4b49efa5e64f09c2d120cb588db379a39777bb00"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора" id="0a5c9ac1-1ce6-5961-b332-5fe687722322" configVersion="4e60092dbdfbf462c50b58815985c8c888b1236c"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора.Module" id="0a5c9ac1-1ce6-5961-b332-5fe687722322.0" configVersion="f86ec677bd9c15346d7ff93772e834ca50da3cf4"/>
 		<Metadata name="CommonModule.АС_ДоступностьТоваровСервер" id="cd83447a-0340-45fd-87b1-9f9183ae5883" configVersion="ed8f6f8cd2ac019b80a63d4255ece17b377da585"/>
