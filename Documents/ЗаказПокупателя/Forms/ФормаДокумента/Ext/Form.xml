@@ -835,6 +835,27 @@
 														</InputField>
 													</ChildItems>
 												</UsualGroup>
+												<InputField name="АС_VINАвтомобиля" id="1000311">
+													<DataPath>АС_VINАвтомобиля</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<SkipOnInput>true</SkipOnInput>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>VIN</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>VIN из карточки физического лица или выбранного договора юридического лица.</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Width>22</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="АС_VINАвтомобиляКонтекстноеМеню" id="1000312"/>
+													<ExtendedTooltip name="АС_VINАвтомобиляРасширеннаяПодсказка" id="1000313"/>
+												</InputField>
 												<UsualGroup name="ГруппаОтгрузкаОплатаКалькуляция" id="3681">
 													<Title>
 														<v8:item>
@@ -11834,6 +11855,16 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="АС_VINАвтомобиля" id="1000310">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>17</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>false</SavedData>
 		</Attribute>
 		<Attribute name="АС_АдресСнимкаСтоимости" id="1000199">
 			<Type>
