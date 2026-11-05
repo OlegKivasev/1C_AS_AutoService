@@ -865,39 +865,6 @@
 									<ContextMenu name="НомерКартинкиОплатыКонтекстноеМеню" id="114"/>
 									<ExtendedTooltip name="НомерКартинкиОплатыРасширеннаяПодсказка" id="161"/>
 								</PictureField>
-								<PictureField name="НомерКартинкиДокументыБухгалтеру" id="1000200">
-									<DataPath>Список.НомерКартинкиДокументыБухгалтеру</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Документы бухгалтеру</v8:content>
-										</v8:item>
-									</Title>
-									<TitleLocation>None</TitleLocation>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Состояние отправки документов бухгалтеру</v8:content>
-										</v8:item>
-									</ToolTip>
-									<HeaderPicture>
-										<xr:Ref>CommonPicture.ЭлектронныйДокументИсходящий</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</HeaderPicture>
-									<Width>2</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<VerticalStretch>false</VerticalStretch>
-									<ValuesPicture>
-										<xr:Ref>CommonPicture.СостояниеЗаказа</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</ValuesPicture>
-									<Border width="1">
-										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
-									</Border>
-									<FileDragMode>AsFile</FileDragMode>
-									<ContextMenu name="НомерКартинкиДокументыБухгалтеруКонтекстноеМеню" id="1000201"/>
-									<ExtendedTooltip name="НомерКартинкиДокументыБухгалтеруРасширеннаяПодсказка" id="1000202"/>
-								</PictureField>
 								<LabelField name="Дата" id="4">
 									<DefaultItem>true</DefaultItem>
 									<Title>
@@ -1931,15 +1898,6 @@
 			КОНЕЦ
 	КОНЕЦ КАК НомерКартинкиОплаты,
 	ВЫБОР
-		КОГДА ДокументЗаказПокупателя.АС_ДокументыБухгалтеру = ЗНАЧЕНИЕ(Перечисление.АС_ДокументыБухгалтеру.Отправлено)
-			ТОГДА 0
-		КОГДА ДокументЗаказПокупателя.АС_ДокументыБухгалтеру = ЗНАЧЕНИЕ(Перечисление.АС_ДокументыБухгалтеру.НаРассмотрении)
-			ТОГДА 3
-		КОГДА ДокументЗаказПокупателя.АС_ДокументыБухгалтеру = ЗНАЧЕНИЕ(Перечисление.АС_ДокументыБухгалтеру.НеОтправлено)
-			ТОГДА 6
-		ИНАЧЕ -1
-	КОНЕЦ КАК НомерКартинкиДокументыБухгалтеру,
-	ВЫБОР
 		КОГДА ДокументЗаказПокупателя.Финиш &lt; &amp;АктуальнаяДатаВремяСеанса
 				И НЕ ГрафикВыполнения.Заказ ЕСТЬ NULL
 			ТОГДА ИСТИНА
@@ -2267,16 +2225,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Номер картинки оплаты</v8:content>
-						</v8:item>
-					</dcssch:title>
-				</Field>
-				<Field xsi:type="dcssch:DataSetFieldField">
-					<dcssch:dataPath>НомерКартинкиДокументыБухгалтеру</dcssch:dataPath>
-					<dcssch:field>НомерКартинкиДокументыБухгалтеру</dcssch:field>
-					<dcssch:title xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Номер картинки документов бухгалтеру</v8:content>
 						</v8:item>
 					</dcssch:title>
 				</Field>
