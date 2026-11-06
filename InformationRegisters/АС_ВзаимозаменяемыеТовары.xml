@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
+	<InformationRegister uuid="d9ee7575-56c9-4e3d-bb8f-e1c96f390b33">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АС_ВзаимозаменяемыеТовары" category="Record">
+				<xr:TypeId>fc22c9cc-9e72-4fb4-8c81-49c1739a0435</xr:TypeId>
+				<xr:ValueId>0091f28d-b0ac-4169-b8b2-03bcaf07fbc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АС_ВзаимозаменяемыеТовары" category="Manager">
+				<xr:TypeId>7d03e7a4-b501-400b-b685-5836e3ab1172</xr:TypeId>
+				<xr:ValueId>d740af32-18da-4d02-a3f7-6cc7e162baa9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АС_ВзаимозаменяемыеТовары" category="Selection">
+				<xr:TypeId>99c900cb-66b7-43f2-ba27-5f32f433b746</xr:TypeId>
+				<xr:ValueId>11e94a35-a775-4237-8963-b22dd481053c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АС_ВзаимозаменяемыеТовары" category="List">
+				<xr:TypeId>bea40e5a-da5f-4a6b-8d94-0ae298ebf229</xr:TypeId>
+				<xr:ValueId>2e470286-67b1-4010-86b9-79b7e01a6776</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АС_ВзаимозаменяемыеТовары" category="RecordSet">
+				<xr:TypeId>6f2c245a-c8d3-44cd-a452-c91a5dc558e2</xr:TypeId>
+				<xr:ValueId>2c9399be-e534-4d9e-ba96-22c215b1ea6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АС_ВзаимозаменяемыеТовары" category="RecordKey">
+				<xr:TypeId>75665916-c702-4f2f-b3ac-6753ba955b84</xr:TypeId>
+				<xr:ValueId>ed5b6bf7-c94f-4780-9712-0009b12fac01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АС_ВзаимозаменяемыеТовары" category="RecordManager">
+				<xr:TypeId>b1423c92-74dc-450f-8a27-24b7fb338dfc</xr:TypeId>
+				<xr:ValueId>120cc348-be24-4c19-a8f8-f9ecc1fd3398</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АС_ВзаимозаменяемыеТовары</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Взаимозаменяемые товары</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Связи номенклатуры, определённые по совпадению артикула или вручную.</Comment>
+			<UseStandardCommands>false</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="d656b6e4-7505-4992-8253-ac9312db83c2">
+				<Properties>
+					<Name>АвтоматическиДобавлено</Name>
+					<Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Добавлено автоматически</v8:content></v8:item></Synonym>
+					<Comment>Истина для связи, добавленной по совпадению артикула; ложь для ручной связи.</Comment>
+					<Type><v8:Type>xs:boolean</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>ShowError</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Indexing>DontIndex</Indexing><FullTextSearch>DontUse</FullTextSearch><DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ff6f4f2f-258f-49b7-8fd4-4310df291e3b">
+				<Properties>
+					<Name>Номенклатура</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Номенклатура</v8:content></v8:item></Synonym><Comment/><Type><v8:Type>cfg:CatalogRef.Номенклатура</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>ShowError</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Master>true</Master><MainFilter>true</MainFilter><DenyIncompleteValues>true</DenyIncompleteValues><Indexing>Index</Indexing><FullTextSearch>DontUse</FullTextSearch><DataHistory>DontUse</DataHistory><TypeReductionMode>TransformValues</TypeReductionMode>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1b43ab6e-da2c-40d8-9730-28649c5271b7">
+				<Properties>
+					<Name>ВзаимозаменяемыйТовар</Name><Synonym><v8:item><v8:lang>ru</v8:lang><v8:content>Взаимозаменяемый товар</v8:content></v8:item></Synonym><Comment/><Type><v8:Type>cfg:CatalogRef.Номенклатура</v8:Type></Type>
+					<PasswordMode>false</PasswordMode><Format/><EditFormat/><ToolTip/><MarkNegatives>false</MarkNegatives><Mask/><MultiLine>false</MultiLine><ExtendedEdit>false</ExtendedEdit><MinValue xsi:nil="true"/><MaxValue xsi:nil="true"/><FillFromFillingValue>false</FillFromFillingValue><FillValue xsi:nil="true"/><FillChecking>ShowError</FillChecking><ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems><ChoiceParameterLinks/><ChoiceParameters/><QuickChoice>Auto</QuickChoice><CreateOnInput>Auto</CreateOnInput><ChoiceForm/><LinkByType/><ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput><Master>true</Master><MainFilter>true</MainFilter><DenyIncompleteValues>true</DenyIncompleteValues><Indexing>Index</Indexing><FullTextSearch>DontUse</FullTextSearch><DataHistory>DontUse</DataHistory><TypeReductionMode>TransformValues</TypeReductionMode>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

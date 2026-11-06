@@ -2544,6 +2544,12 @@
 													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="СписокЗапасыИзменитьВыделенныеРасширеннаяПодсказка" id="728"/>
 												</Button>
+												<Button name="АС_СписокЗапасыСделатьВзаимозаменяемыми" id="1000400">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.АС_СделатьВзаимозаменяемыми</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="АС_СписокЗапасыСделатьВзаимозаменяемымиРасширеннаяПодсказка" id="1000401"/>
+												</Button>
 												<Button name="СписокЗапасыОбъединитьВыделенные" id="1697">
 													<Type>CommandBarButton</Type>
 													<CommandName>0</CommandName>
@@ -8518,6 +8524,23 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
+		<Command name="АС_СделатьВзаимозаменяемыми" id="1000402">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сделать взаимозаменяемыми</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить выделенные товары к взаимозаменяемым товарам текущей строки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Before">АС_СделатьВзаимозаменяемыми</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
+		</Command>
 		<Command name="АС_ОбновитьСписокЗапасов" id="1000108">
 			<Title>
 				<v8:item>
