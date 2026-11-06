@@ -12155,24 +12155,6 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="АС_ПервичноеОткрытиеЗавершено" id="1000459">
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-			<SavedData>false</SavedData>
-		</Attribute>
-		<Attribute name="АС_НачальныеОстаткиЗапасовГотовы" id="1000460">
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-			<SavedData>false</SavedData>
-		</Attribute>
-		<Attribute name="АС_НачальнаяДоступностьГотова" id="1000461">
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-			<SavedData>false</SavedData>
-		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
 				<dcsset:selection>
