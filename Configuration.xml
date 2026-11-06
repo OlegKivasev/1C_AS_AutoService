@@ -357,6 +357,7 @@
 			<DataProcessor>БанкИКасса</DataProcessor>
 			<DataProcessor>ПоискИУдалениеДублей</DataProcessor>
 			<DataProcessor>РабочееМестоКассира</DataProcessor>
+			<DataProcessor>РасчетПотребностей</DataProcessor>
 			<InformationRegister>АС_СчетчикВнутреннихАртикулов</InformationRegister>
 			<InformationRegister>АС_ПереносыВыручкиРМК</InformationRegister>
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>

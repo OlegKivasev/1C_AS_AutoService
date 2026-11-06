@@ -973,6 +973,148 @@
 										</Button>
 									</ChildItems>
 								</UsualGroup>
+								<UsualGroup name="АС_ПродажиИЗакупка" id="1000147">
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowLeftMargin>false</ShowLeftMargin>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="АС_ПродажиИЗакупкаПодсказка" id="1000148"/>
+									<ChildItems>
+										<LabelDecoration name="АС_ЗакупкаСтатус" id="1000149">
+											<TextColor>#808080</TextColor>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Запишите товар для расчёта закупки</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="АС_ЗакупкаСтатусКонтекстноеМеню" id="1000150"/>
+											<ExtendedTooltip name="АС_ЗакупкаСтатусПодсказка" id="1000151"/>
+										</LabelDecoration>
+										<UsualGroup name="АС_ЗакупкаМесяцы" id="1000173">
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowLeftMargin>false</ShowLeftMargin>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="АС_ЗакупкаМесяцыПодсказка" id="1000174"/>
+											<ChildItems>
+												<LabelDecoration name="АС_ЗакупкаМесяц1" id="1000152">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Продано: 0</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="АС_ЗакупкаМесяц1КонтекстноеМеню" id="1000153"/>
+													<ExtendedTooltip name="АС_ЗакупкаМесяц1Подсказка" id="1000154"/>
+												</LabelDecoration>
+												<LabelDecoration name="АС_ЗакупкаМесяц2" id="1000155">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Продано: 0</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="АС_ЗакупкаМесяц2КонтекстноеМеню" id="1000156"/>
+													<ExtendedTooltip name="АС_ЗакупкаМесяц2Подсказка" id="1000157"/>
+												</LabelDecoration>
+												<LabelDecoration name="АС_ЗакупкаМесяц3" id="1000158">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Продано: 0</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="АС_ЗакупкаМесяц3КонтекстноеМеню" id="1000159"/>
+													<ExtendedTooltip name="АС_ЗакупкаМесяц3Подсказка" id="1000160"/>
+												</LabelDecoration>
+												<LabelDecoration name="АС_ЗакупкаМесяц4" id="1000161">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Продано: 0</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="АС_ЗакупкаМесяц4КонтекстноеМеню" id="1000162"/>
+													<ExtendedTooltip name="АС_ЗакупкаМесяц4Подсказка" id="1000163"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="АС_ЗакупкаИтоги" id="1000175">
+											<Visible>false</Visible>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>NormalSeparation</Representation>
+											<ShowLeftMargin>false</ShowLeftMargin>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="АС_ЗакупкаИтогиПодсказка" id="1000176"/>
+											<ChildItems>
+												<LabelDecoration name="АС_ЗакупкаСреднее" id="1000164">
+													<TextColor>#000000</TextColor>
+													<Font ref="style:NormalTextFont" bold="true" kind="StyleItem"/>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>В среднем за месяц: 0</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Фактические продажи за четыре завершённых месяца с учётом возвратов, разделённые на четыре. На экране среднее округляется вверх до целого; исходная статистика остаётся точной. Месяцы без продаж учитываются.</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ContextMenu name="АС_ЗакупкаСреднееКонтекстноеМеню" id="1000165"/>
+													<ExtendedTooltip name="АС_ЗакупкаСреднееПодсказка" id="1000166"/>
+												</LabelDecoration>
+												<Button name="АС_ЗакупкаКПоступлению" id="1000167">
+													<Type>Hyperlink</Type>
+													<CommandName>Form.Command.АС_ПоказатьЗаказыКПоступлению</CommandName>
+													<Font ref="style:NormalTextFont" bold="true" kind="StyleItem"/>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>К поступлению: 0</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Свободный остаток заказов поставщикам за вычетом размещения под заказы покупателей, как в списке номенклатуры. Все организации. Нажмите, чтобы увидеть поставщиков, количества и открыть заказ поставщику.</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="АС_ЗакупкаКПоступлениюПодсказка" id="1000169"/>
+												</Button>
+												<LabelDecoration name="АС_ЗакупкаРекомендация" id="1000170">
+													<TextColor>#000000</TextColor>
+													<Font ref="style:NormalTextFont" bold="true" kind="StyleItem"/>
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Рекомендованная закупка: 0</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Штатный расчёт потребностей УНФ по продажам на ближайший календарный месяц, по истории за четыре полных месяца. Дополнительно учитывает незавершённую потребность активных заказов и заказ-нарядов: товары и материалы. Явный резерв не вычитается повторно, поступление под заказ покрывает сначала этот заказ. Необеспеченная часть считается занятой сегодня; сверх неё планируется запас на следующий месяц. Учитывает сроки и частичное исполнение поступлений, свободный запас и настроенные уровни запасов. Организации и характеристики рассчитываются отдельно. По каждому складу учитываются его нормы и дни наличия. При общей норме или данных без склада используется один сводный расчёт без поправки на отсутствие. Общие и складские нормы не суммируются. Срок поставки и страховой процент не предполагаются. Результат округляется вверх до целого отдельно по каждой области. Расчёт обновляется примерно раз в минуту.</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ContextMenu name="АС_ЗакупкаРекомендацияКонтекстноеМеню" id="1000171"/>
+													<ExtendedTooltip name="АС_ЗакупкаРекомендацияПодсказка" id="1000172"/>
+												</LabelDecoration>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
 								<UsualGroup name="ГруппаДополнительныеРеквизиты" id="406">
 									<Title>
 										<v8:item>
@@ -5103,6 +5245,16 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
+		<Attribute name="АС_АдресКэшаЗакупки" id="1000012">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>false</SavedData>
+		</Attribute>
 		<Attribute name="Объект" id="1000001">
 			<Type>
 				<v8:Type>cfg:CatalogObject.Номенклатура</v8:Type>
@@ -5261,6 +5413,16 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
+		<Command name="АС_ПоказатьЗаказыКПоступлению" id="1000018">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказы поставщикам к поступлению</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">АС_ПоказатьЗаказыКПоступлению</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
 		<Command name="АС_ПоказатьПродажиЗаказНаряды" id="930003">
 			<Title>
 				<v8:item>
