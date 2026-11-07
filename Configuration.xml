@@ -250,6 +250,7 @@
 			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
 			<CommonModule>АС_ИндикацияОстатковСервер</CommonModule>
 			<CommonModule>АС_ПлатежиЗаказовКлиент</CommonModule>
+			<CommonModule>АС_БезопасноеОбновлениеКлиент</CommonModule>
 			<CommonModule>АС_ПечатьЭтикетокКлиент</CommonModule>
 			<CommonModule>АС_ПоступлениеЗаказовПоставщикамСервер</CommonModule>
 			<CommonModule>АС_УсловияВозвратаПоставщикамСервер</CommonModule>
