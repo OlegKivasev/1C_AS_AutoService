@@ -158,10 +158,10 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.ИспользоватьПартии" id="fcd48de0-c7d5-4535-8f52-17abe8c4d57f"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7" configVersion="a440c8c05f75a306c61cc70b47c2b4870d46eeb8"/>
-		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7.0" configVersion="a747a3bbf396475ebdfb72cff6bb675b201d4f8c"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="c0082dc5-f9ad-4e52-b963-b838dbe7d6d7.0" configVersion="58617d93f475a03256532a29fbc51f07970486d9"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa" configVersion="bbe061aad4ae8018fea38190e076e26b20f53d60"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="b02b34a5-9d0f-4d7d-a299-5ac1c20f41fa.0" configVersion="79db25c3e78f132e73f886874585270334a47cca"/>
-		<Metadata name="Catalog.Номенклатура.ManagerModule" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680.3" configVersion="33915913ac1c79d1966d5799d4034c50ec18bce8"/>
+		<Metadata name="Catalog.Номенклатура.ManagerModule" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680.3" configVersion="2e363584738201aab2a007397028a4cc305d913b"/>
 		<Metadata name="Catalog.Номенклатура.ObjectModule" id="7e9ebab6-6dfb-436e-bf1e-6814fc121680.0" configVersion="9361517cef40e155dddf62af4f1ca6f7411f9531"/>
 		<Metadata name="Catalog.Сотрудники" id="14879c58-0fa9-4e61-ba6b-eb3254e3c5b0" configVersion="44986a5caf34955492d80984a7a6423aebdc8cc5"/>
 		<Metadata name="Catalog.СтавкиНДС" id="c0e93544-5b73-4b76-8dd2-c994cc3f0eb6" configVersion="f0649c281fced9f2025f09029c1c95c6f6085125"/>
@@ -230,7 +230,7 @@
 		<Metadata name="CommonModule.АС_ПродажиНоменклатурыСервер" id="9118f2ad-3188-438b-aa4a-5ed3577a5e3c" configVersion="32b3d16df22faae78244e6a406f698fa8b76ad40"/>
 		<Metadata name="CommonModule.АС_ПродажиНоменклатурыСервер.Module" id="9118f2ad-3188-438b-aa4a-5ed3577a5e3c.0" configVersion="a9da784c311644bfc161146539cbc982c7ec8a0e"/>
 		<Metadata name="CommonModule.АС_СинонимыПоискаСервер" id="964fe187-df9c-4d5e-bb6a-acec716df042" configVersion="9dc57ea50c5909f3ae6bf12b86f01e8c70855f0d"/>
-		<Metadata name="CommonModule.АС_СинонимыПоискаСервер.Module" id="964fe187-df9c-4d5e-bb6a-acec716df042.0" configVersion="a809345f768b4a48579b338eb76a963a0067ab62"/>
+		<Metadata name="CommonModule.АС_СинонимыПоискаСервер.Module" id="964fe187-df9c-4d5e-bb6a-acec716df042.0" configVersion="aa646e4e242624d5deae57f2e71850611ee7f24a"/>
 		<Metadata name="CommonModule.АС_УсловияВозвратаПоставщикамСервер" id="4b00b730-0bc5-46ff-b69d-a2713ff7117f" configVersion="65d4f088cf1e1c548328136a3e8692fd7101c704"/>
 		<Metadata name="CommonModule.АС_УсловияВозвратаПоставщикамСервер.Module" id="4b00b730-0bc5-46ff-b69d-a2713ff7117f.0" configVersion="0f6f5c9d0d0fff9cf0ba4579136769c3afd123c7"/>
 		<Metadata name="CommonModule.АС_ЦенообразованиеСервер" id="f20cf4b7-52e4-4ab5-a38e-c49c4ecbe5e4" configVersion="d86b6d4cc2222ac3708e26f3bafdf6393d1d7fe7"/>
