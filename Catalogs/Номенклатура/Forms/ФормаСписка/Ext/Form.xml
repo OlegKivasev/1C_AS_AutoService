@@ -1450,6 +1450,21 @@
 												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
+										<CheckBoxField name="АС_РекомендацииПоЗакупке" id="1000500">
+											<DataPath>АС_РекомендацииПоЗакупке</DataPath>
+											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Рекомендации по закупке</v8:content></v8:item></Title>
+											<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Только товары, которые нужно докупить. Расчёт как в карточке: четыре полных месяца продаж, остатки, активные заказы и ожидаемые поставки по всем областям учёта.</v8:content></v8:item></ToolTip>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>CheckBox</CheckBoxType>
+											<ContextMenu name="АС_РекомендацииПоЗакупкеКонтекстноеМеню" id="1000501"/>
+											<ExtendedTooltip name="АС_РекомендацииПоЗакупкеПодсказка" id="1000502"/>
+											<Events><Event name="OnChange">АС_РекомендацииПоЗакупкеПриИзменении</Event></Events>
+										</CheckBoxField>
+										<LabelDecoration name="АС_СостояниеЗакупки" id="1000503">
+											<Visible>false</Visible>
+											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Рекомендации по закупке</v8:content></v8:item></Title>
+											<ExtendedTooltip name="АС_СостояниеЗакупкиПодсказка" id="1000504"/>
+										</LabelDecoration>
 										<UsualGroup name="АС_ПродажиОтбор" id="1000065">
 											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -7861,6 +7876,9 @@
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="АС_РекомендацииПоЗакупке" id="1000500">
+			<Type><v8:Type>xs:boolean</v8:Type></Type>
 		</Attribute>
 		<Attribute name="АС_ПроданныеЗаПериод" id="1000085">
 			<Title>
