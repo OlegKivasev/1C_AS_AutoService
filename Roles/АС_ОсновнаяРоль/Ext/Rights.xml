@@ -305,6 +305,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.АС_ОтладкаАгрегатора</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.АС_СчетчикВнутреннихАртикулов</name>
 		<right>
 			<name>Read</name>

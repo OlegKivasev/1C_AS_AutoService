@@ -267,6 +267,10 @@
 			<EventSubscription>АС_ЗапретРедактированияПоступленийПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ОграниченияДокументовПередУдалением</EventSubscription>
 			<EventSubscription>АС_РемонтАгрегатораПриЗаписи</EventSubscription>
+			<ScheduledJob>АС_ПоискНоменклатурыАгрегатора</ScheduledJob>
+			<ScheduledJob>АС_ОбновлениеЗаказНарядовАгрегатора</ScheduledJob>
+			<ScheduledJob>АС_ОтправкаЗаказНарядовАгрегатора</ScheduledJob>
+			<ScheduledJob>АС_СверкаЗаказНарядовАгрегатора</ScheduledJob>
 			<DefinedType>Вес</DefinedType>
 			<DefinedType>Объем</DefinedType>
 			<CommonCommand>АС_ТоварыАвтомобиля</CommonCommand>
@@ -289,6 +293,7 @@
 			<CommonForm>АС_ВыборВидаЗаказа</CommonForm>
 			<CommonForm>АС_ОстаткиПослеПродажиРМК</CommonForm>
 			<CommonForm>АС_НастройкиАгрегатора</CommonForm>
+			<CommonForm>АС_ОтладкаАгрегатора</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
