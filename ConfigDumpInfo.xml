@@ -190,8 +190,8 @@
 		<Metadata name="CommonForm.АС_ИсторияПродажНоменклатуры" id="886bb54d-98b7-41a9-93dd-8e433cb452ab" configVersion="1ac36bb14863b47d14b1ab3ac17a939aba31505e"/>
 		<Metadata name="CommonForm.АС_ИсторияПродажНоменклатуры.Form" id="886bb54d-98b7-41a9-93dd-8e433cb452ab.0" configVersion="7c83ac600fc5bcabe663ac125753e2a59c88c466"/>
 		<Metadata name="CommonForm.АС_МассовоеДобавлениеOEM" id="75a34c6e-99ff-4a23-8663-ae3401587a3e" configVersion="50e6ff0efae993f3d4800f8f878793891754dc25"/>
-		<Metadata name="CommonForm.АС_НастройкиАгрегатора" id="7cc2ed1c-ca9e-55c7-adde-2c5e3101d87e" configVersion="d601f9107ea46c92c6437fedf6308af8b4833255"/>
-		<Metadata name="CommonForm.АС_НастройкиАгрегатора.Form" id="7cc2ed1c-ca9e-55c7-adde-2c5e3101d87e.0" configVersion="80e9745fc469fbbdfedaf253ffbbec41fc359fcb"/>
+		<Metadata name="CommonForm.АС_НастройкиАгрегатора" id="7cc2ed1c-ca9e-55c7-adde-2c5e3101d87e" configVersion="c4fab1de0565b0007bffd4401010dbf2f7022979"/>
+		<Metadata name="CommonForm.АС_НастройкиАгрегатора.Form" id="7cc2ed1c-ca9e-55c7-adde-2c5e3101d87e.0" configVersion="ae02c7dc6dc7668d7128613c5c98b2873f94e221"/>
 		<Metadata name="CommonForm.АС_ВыборВидаЗаказа" id="9094173a-ff70-4d80-aa1e-9f0977bd7414" configVersion="b4932ea1208aac93405312f14ebd215a69230c3b"/>
 		<Metadata name="CommonForm.АС_ВыборВидаЗаказа.Form" id="9094173a-ff70-4d80-aa1e-9f0977bd7414.0" configVersion="b58348d8af6d6a0ff45f8fe99ae92c85e53b2d1a"/>
 		<Metadata name="CommonForm.АС_ОстаткиПослеПродажиРМК" id="bca4a921-6ef9-4d30-a725-4a1f39ea5c41" configVersion="561f7b6de304ba27a64286ca0986105319e78eb1"/>
@@ -205,8 +205,8 @@
 		<Metadata name="CommonForm.АС_ТоварыМоделиАвто.Form" id="157680f7-c36f-4889-9f33-844c4d43aa67.0" configVersion="553463df28bb5ab5aa695932bdee5f56cb3ddac5"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18" configVersion="201f86074625af7c93fc736a0b5e44579cc34903"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира.Form" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18.0" configVersion="b62515c153ed8408dd0f517464a92e6c5fedcb9c"/>
-		<Metadata name="CommonModule.АС_АгрегаторСервер" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5" configVersion="a5ba68824febd6f1246918048e3680cf708cba7f"/>
-		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="458239ba81655199e0883446727059460534eb37"/>
+		<Metadata name="CommonModule.АС_АгрегаторСервер" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5" configVersion="bed00fd0996ca432c77f9aab69d49da289e6b68e"/>
+		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="e91a468fc6e72d4827cdc945859f47b91f1818fb"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора" id="0a5c9ac1-1ce6-5961-b332-5fe687722322" configVersion="4e60092dbdfbf462c50b58815985c8c888b1236c"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора.Module" id="0a5c9ac1-1ce6-5961-b332-5fe687722322.0" configVersion="f86ec677bd9c15346d7ff93772e834ca50da3cf4"/>
 		<Metadata name="CommonModule.АС_ДоступностьТоваровСервер" id="cd83447a-0340-45fd-87b1-9f9183ae5883" configVersion="fdfe56964284b8ac665195f1d2269f6a1434120c"/>
@@ -354,8 +354,8 @@
 		<Metadata name="CommonPicture.ТоварУслугаСписок" id="5478beb2-fb89-46ff-950d-273ee428b9e1" configVersion="356178371fb74f3b933e1899634073dc729ca068"/>
 		<Metadata name="CommonPicture.УстановитьСвязь" id="7068a67c-1907-43ca-9644-11145cfdddab" configVersion="b73a3c2562ad21632387fad9b87b8f760d8f0453"/>
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="2810f94f-0c29-41ae-8dc6-623f1c451ae2" configVersion="fb656e1e74fc525a1a0e0c4aa7f6f7c082468923"/>
-		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="1ae808c0e08ddeef9cb3817708508218737b42b3"/>
-		<Metadata name="Configuration.АС_Автосервис.ManagedApplicationModule" id="a0e863ee-1d45-4464-82da-7957703b2382.6" configVersion="9842c1ef3d6145ff124b81053058ddb19d645a10"/>
+		<Metadata name="Configuration.АС_Автосервис" id="3fa482b0-9812-4d5e-86f0-bf90240dfa01" configVersion="97bb92324b564ca99b46b5341f1448ececd46502"/>
+		<Metadata name="Configuration.АС_Автосервис.ManagedApplicationModule" id="a0e863ee-1d45-4464-82da-7957703b2382.6" configVersion="63e5a37fc6acfa05abab477e7da99c5e414d8ea4"/>
 		<Metadata name="Constant.АС_ИндексOEMИнициализирован" id="970ddc4b-fea6-4d5e-9795-8929be797e92" configVersion="a0a926996318bdbfd7e8781a2f5091aca16e9779"/>
 		<Metadata name="Constant.АС_НастройкиАгрегатора" id="953e1eef-8a05-586d-9392-477391049e4c" configVersion="1988981e8cf51640620cd9069d935b9ce1deb57e"/>
 		<Metadata name="Constant.АС_ОсновнойВидЦенБезналичногоРасчета" id="b7f5137b-f625-4ead-8e3f-003902096423" configVersion="5d485d31b0e4e93567c24203a9c419cf0eefb6f5"/>
@@ -1049,5 +1049,7 @@
 		<Metadata name="Subsystem.Продажи.Subsystem.Продажи.CommandInterface" id="aa3fd2a9-87c9-4c4d-b656-1152fb24161d.1" configVersion="9e66c4caaeb1242a371a0d5b058ee0f4c9ff91f8"/>
 		<Metadata name="CommonModule.АС_БезопасноеОбновлениеКлиент" id="45b6b664-698f-4072-9402-6d4a789ce56a" configVersion="c374bd5b68659582ab32d19f162f4e3504569a15"/>
 		<Metadata name="CommonModule.АС_БезопасноеОбновлениеКлиент.Module" id="45b6b664-698f-4072-9402-6d4a789ce56a.0" configVersion="0bec3e4da240d43accaed1222a20030f91bd5569"/>
+		<Metadata name="CommonModule.АС_НоменклатураАгрегатора" id="a7a8a00a-052a-47f3-9908-aad56b46fb91" configVersion="0e1920bd1958f374f7a356bd33910b6cfe01dbd5"/>
+		<Metadata name="CommonModule.АС_НоменклатураАгрегатора.Module" id="a7a8a00a-052a-47f3-9908-aad56b46fb91.0" configVersion="a9d7745b8a764da9d5f0cfe00c0b229f39053f4a"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
