@@ -206,7 +206,7 @@
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18" configVersion="201f86074625af7c93fc736a0b5e44579cc34903"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира.Form" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18.0" configVersion="b62515c153ed8408dd0f517464a92e6c5fedcb9c"/>
 		<Metadata name="CommonModule.АС_АгрегаторСервер" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5" configVersion="bed00fd0996ca432c77f9aab69d49da289e6b68e"/>
-		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="de2ae60b278314eb6dfcfb59fcda76e681726668"/>
+		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="ca36fa1b1ea12ae18af8fa9a276e5f588df7a63e"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора" id="0a5c9ac1-1ce6-5961-b332-5fe687722322" configVersion="4e60092dbdfbf462c50b58815985c8c888b1236c"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора.Module" id="0a5c9ac1-1ce6-5961-b332-5fe687722322.0" configVersion="f86ec677bd9c15346d7ff93772e834ca50da3cf4"/>
 		<Metadata name="CommonModule.АС_ДоступностьТоваровСервер" id="cd83447a-0340-45fd-87b1-9f9183ae5883" configVersion="fdfe56964284b8ac665195f1d2269f6a1434120c"/>
