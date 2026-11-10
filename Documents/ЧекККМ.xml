@@ -32,6 +32,43 @@
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="107bbbab-00a2-53ee-b999-ae49ffd3a181">
+				<Properties>
+					<Name>АС_ОплатаНаличными</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оплата наличными</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Администратор запрещает ручные и автоматические скидки для строки заказа покупателя или заказ-наряда.</Comment>
+					<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="10df40e3-eb71-426b-9a09-454134a8cabd">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.Запасы" category="TabularSection">

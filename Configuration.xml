@@ -245,6 +245,7 @@
 			<CommonModule>АС_ИндексOEMСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonModule>АС_ПродажиНоменклатурыСервер</CommonModule>
+			<CommonModule>АС_РежимОплатыКлиентСервер</CommonModule>
 			<CommonModule>АС_ЦенообразованиеСервер</CommonModule>
 			<CommonModule>АС_ПереносВыручкиРМКСервер</CommonModule>
 			<CommonModule>АС_СинонимыПоискаСервер</CommonModule>
@@ -292,6 +293,7 @@
 			<CommonForm>НастройкиРабочегоМестаКассира</CommonForm>
 			<CommonForm>АС_ВыборВидаЗаказа</CommonForm>
 			<CommonForm>АС_ОстаткиПослеПродажиРМК</CommonForm>
+			<CommonForm>АС_НастройкиРежимаОплаты</CommonForm>
 			<CommonForm>АС_НастройкиАгрегатора</CommonForm>
 			<CommonForm>АС_ОтладкаАгрегатора</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>

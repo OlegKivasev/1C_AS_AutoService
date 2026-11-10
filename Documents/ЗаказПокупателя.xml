@@ -40,6 +40,43 @@
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="ff56f1f7-e09e-5b4a-81eb-2f2438eb6669">
+				<Properties>
+					<Name>АС_ОплатаНаличными</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оплата наличными</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Администратор запрещает ручные и автоматические скидки для строки заказа покупателя или заказ-наряда.</Comment>
+					<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>DontUse</DataHistory>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="86b76e74-36e8-4c52-91f4-b3d7bd51cf00">
 				<Properties>
 					<Name>АС_Пробег</Name>
@@ -1398,6 +1435,127 @@
 					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
+					<Attribute uuid="009e8d79-328b-59f9-b60a-322040f66dab">
+						<Properties>
+							<Name>АС_ИсходнаяЦенаРаботы</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Исходная цена работы</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Служебное значение для восстановления исходной цены и скидки при округлении итога заказ-наряда.</Comment>
+							<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>5</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>DontUse</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9f1397a3-67f6-539a-9e4e-d6f18228e8b8">
+						<Properties>
+							<Name>АС_ЦенаРаботыПослеНаценки</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Цена работы после наценки</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Служебное значение для восстановления исходной цены и скидки при округлении итога заказ-наряда.</Comment>
+							<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>5</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>DontUse</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8c7facfc-93ac-5cbf-95bb-bb3e58fc0147">
+						<Properties>
+							<Name>АС_НоменклатураИсходнойЦены</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номенклатура исходной цены</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Служебное значение для восстановления исходной цены и скидки при округлении итога заказ-наряда.</Comment>
+							<Type>
+							<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>DontUse</DataHistory>
+						</Properties>
+					</Attribute>
 					<Attribute uuid="7602f0e4-88d7-49cd-95b2-2d7d7e3ca5a5">
 						<Properties>
 							<Name>АС_ЦенаДоОкругленияЗН</Name>
@@ -4395,6 +4553,127 @@
 					<ActionOnConfigurationObjectMissing>Auto</ActionOnConfigurationObjectMissing>
 				</Properties>
 				<ChildObjects>
+					<Attribute uuid="40c59cd0-afbb-54a1-999e-8f298b017ff7">
+						<Properties>
+							<Name>АС_ИсходнаяЦенаРаботы</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Исходная цена работы</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Служебное значение для восстановления исходной цены и скидки при округлении итога заказ-наряда.</Comment>
+							<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>5</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>DontUse</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3785c010-b02e-55b7-a85c-b3e7397a5cef">
+						<Properties>
+							<Name>АС_ЦенаРаботыПослеНаценки</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Цена работы после наценки</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Служебное значение для восстановления исходной цены и скидки при округлении итога заказ-наряда.</Comment>
+							<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>15</v8:Digits>
+								<v8:FractionDigits>5</v8:FractionDigits>
+								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>DontUse</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1f6d45e6-7967-5bbd-ae56-1261448d1aac">
+						<Properties>
+							<Name>АС_НоменклатураИсходнойЦены</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номенклатура исходной цены</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Служебное значение для восстановления исходной цены и скидки при округлении итога заказ-наряда.</Comment>
+							<Type>
+							<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>DontUse</DataHistory>
+						</Properties>
+					</Attribute>
 					<Attribute uuid="708a3a21-71c5-4b60-8a84-64b8824f7b49">
 						<InternalInfo/>
 						<Properties>
