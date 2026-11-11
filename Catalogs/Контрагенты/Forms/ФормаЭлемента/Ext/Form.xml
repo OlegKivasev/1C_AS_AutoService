@@ -2,6 +2,10 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.22">
 	<WindowOpeningMode>DontBlock</WindowOpeningMode>
 	<Group>Vertical</Group>
+	<CommandSet>
+		<ExcludedCommand>Write</ExcludedCommand>
+		<ExcludedCommand>WriteAndClose</ExcludedCommand>
+	</CommandSet>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -9,13 +13,13 @@
 			<Button name="ФормаЗаписатьИЗакрыть" id="1613">
 				<Type>CommandBarButton</Type>
 				<DefaultButton>true</DefaultButton>
-				<CommandName>0</CommandName>
+				<CommandName>Form.Command.АС_ЗаписатьИЗакрыть</CommandName>
 				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="1614"/>
 			</Button>
 			<Button name="ФормаЗаписать" id="1615">
 				<Type>CommandBarButton</Type>
-				<CommandName>0</CommandName>
+				<CommandName>Form.Command.АС_Записать</CommandName>
 				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="1616"/>
 			</Button>
 			<ButtonGroup name="КомандыФормыСтандартные" id="1611">
@@ -3148,6 +3152,18 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="АС_ЗаписатьИЗакрыть" id="1000100">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Записать и закрыть</v8:content></v8:item></Title>
+			<Shortcut>Ctrl+Enter</Shortcut>
+			<Action>АС_ЗаписатьИЗакрыть</Action>
+		</Command>
+		<Command name="АС_Записать" id="1000101">
+			<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Записать</v8:content></v8:item></Title>
+			<Shortcut>Ctrl+S</Shortcut>
+			<Action>АС_Записать</Action>
+		</Command>
+	</Commands>
 	<BaseForm version="2.22">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Vertical</Group>

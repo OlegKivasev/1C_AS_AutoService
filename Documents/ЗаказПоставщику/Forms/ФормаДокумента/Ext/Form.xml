@@ -3124,7 +3124,6 @@
 				<xr:Ref>CommonPicture.ВставкаСтрок</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">ЗапасыВставитьСтроки</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -3147,7 +3146,6 @@
 				<xr:Ref>CommonPicture.КопированиеСтрок</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">ЗапасыКопироватьСтроки</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -3169,7 +3167,6 @@
 				<xr:Ref>CommonPicture.КопированиеСтрок</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">МатериалыКопироватьСтроки</Action>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -3191,7 +3188,6 @@
 				<xr:Ref>CommonPicture.ВставкаСтрок</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
-			<Action callType="Before">МатериалыВставитьСтроки</Action>
 			<Representation>Picture</Representation>
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
