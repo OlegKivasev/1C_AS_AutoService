@@ -206,7 +206,7 @@
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18" configVersion="201f86074625af7c93fc736a0b5e44579cc34903"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира.Form" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18.0" configVersion="b62515c153ed8408dd0f517464a92e6c5fedcb9c"/>
 		<Metadata name="CommonModule.АС_АгрегаторСервер" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5" configVersion="bed00fd0996ca432c77f9aab69d49da289e6b68e"/>
-		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="ca36fa1b1ea12ae18af8fa9a276e5f588df7a63e"/>
+		<Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="b2338fd663569fca3a3156633150c79742e478a0"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора" id="0a5c9ac1-1ce6-5961-b332-5fe687722322" configVersion="4e60092dbdfbf462c50b58815985c8c888b1236c"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора.Module" id="0a5c9ac1-1ce6-5961-b332-5fe687722322.0" configVersion="f86ec677bd9c15346d7ff93772e834ca50da3cf4"/>
 		<Metadata name="CommonModule.АС_ДоступностьТоваровСервер" id="cd83447a-0340-45fd-87b1-9f9183ae5883" configVersion="fdfe56964284b8ac665195f1d2269f6a1434120c"/>
@@ -234,7 +234,7 @@
 		<Metadata name="CommonModule.АС_УсловияВозвратаПоставщикамСервер" id="4b00b730-0bc5-46ff-b69d-a2713ff7117f" configVersion="65d4f088cf1e1c548328136a3e8692fd7101c704"/>
 		<Metadata name="CommonModule.АС_УсловияВозвратаПоставщикамСервер.Module" id="4b00b730-0bc5-46ff-b69d-a2713ff7117f.0" configVersion="0f6f5c9d0d0fff9cf0ba4579136769c3afd123c7"/>
 		<Metadata name="CommonModule.АС_ЦенообразованиеСервер" id="f20cf4b7-52e4-4ab5-a38e-c49c4ecbe5e4" configVersion="8cca190d71d1fd15d5de020d76cb1bec05807184"/>
-		<Metadata name="CommonModule.АС_ЦенообразованиеСервер.Module" id="f20cf4b7-52e4-4ab5-a38e-c49c4ecbe5e4.0" configVersion="a269ae65b4c257eae5bf827190534b22e077749c"/>
+		<Metadata name="CommonModule.АС_ЦенообразованиеСервер.Module" id="f20cf4b7-52e4-4ab5-a38e-c49c4ecbe5e4.0" configVersion="5bcdd790b85a06e1232f57b1dc18d0a83b505adb"/>
 		<Metadata name="CommonModule.БыстрыеФормыУНФВызовСервера" id="d9b3de43-ba5e-4d0a-a987-6a01719da705" configVersion="1620ee6468fb427fa97a4abd8fa00c19ea0dca14"/>
 		<Metadata name="CommonModule.БыстрыеФормыУНФВызовСервера.Module" id="d9b3de43-ba5e-4d0a-a987-6a01719da705.0" configVersion="1731d0d358f7de40b8c345fd2ab1b0e3ca680998"/>
 		<Metadata name="CommonModule.ГрупповоеИзменениеСтрокСервер" id="1fc6b404-ba9a-4f87-a4f9-394e320abdc7" configVersion="2a2d10978ec145804c325cf8565bdd11fb7f4c2e"/>
@@ -254,7 +254,7 @@
 		<Metadata name="CommonModule.СкидкиНаценкиСерверПереопределяемый" id="55456432-1866-4484-af0d-c2b40186096c" configVersion="e6359fc276b23ff9a7305191c7d51529edf164aa"/>
 		<Metadata name="CommonModule.СкидкиНаценкиСерверПереопределяемый.Module" id="55456432-1866-4484-af0d-c2b40186096c.0" configVersion="69438a79176a1c708b7332228e08aa1142fb0427"/>
 		<Metadata name="CommonModule.ТабличныеЧастиУНФКлиент" id="2ca88e81-0310-47fc-ae50-9ab892ca90f8" configVersion="e72dae8f48095e7d385fbbcdb58059be18065182"/>
-		<Metadata name="CommonModule.ТабличныеЧастиУНФКлиент.Module" id="2ca88e81-0310-47fc-ae50-9ab892ca90f8.0" configVersion="c39deed4acafcf2afe9698f6e19f9a3ec1a9d64a"/>
+		<Metadata name="CommonModule.ТабличныеЧастиУНФКлиент.Module" id="2ca88e81-0310-47fc-ae50-9ab892ca90f8.0" configVersion="8b3b89ef34fe58c5590aded2de219e304c7f8054"/>
 		<Metadata name="CommonModule.ТабличныеЧастиУНФКлиентСервер" id="90272d80-2bc8-48f2-b673-ab3433b81c09" configVersion="0ea8c312203d26f09c8cecaba36893967fa35569"/>
 		<Metadata name="CommonModule.ТабличныеЧастиУНФКлиентСервер.Module" id="90272d80-2bc8-48f2-b673-ab3433b81c09.0" configVersion="02006d71f5f3356cd5f99ebab83f6134173ad685"/>
 		<Metadata name="CommonPicture.Cancel" id="2ac7dbef-2d55-47a9-84a4-245cd0343e2b" configVersion="af211c2ac29baab0c6b5108a8bf161be30d18e44"/>
@@ -1071,7 +1071,7 @@
 		<Metadata name="ScheduledJob.АС_СверкаЗаказНарядовАгрегатора" id="95e9b3cc-f7b7-4489-a677-7551a72b7305" configVersion="8bad1f49bf5483d76a9dbc4575fa16b5dc4eb092"/>
 		<Metadata name="ScheduledJob.АС_СверкаЗаказНарядовАгрегатора.Schedule" id="95e9b3cc-f7b7-4489-a677-7551a72b7305.0" configVersion="a96aa9d8451224a244ac72c9ec6fd57116302dcd"/>
 		<Metadata name="CommonModule.АС_РежимОплатыКлиентСервер" id="c6b61a20-9a6c-5276-a6df-275c6ee95c25" configVersion="ca4a9298867b921f2c09032b8c7294b915ab4e3c"/>
-		<Metadata name="CommonModule.АС_РежимОплатыКлиентСервер.Module" id="c6b61a20-9a6c-5276-a6df-275c6ee95c25.0" configVersion="c8f3129c10a59b407fe59081aad0e85af9e75a1c"/>
+		<Metadata name="CommonModule.АС_РежимОплатыКлиентСервер.Module" id="c6b61a20-9a6c-5276-a6df-275c6ee95c25.0" configVersion="3c909ce8a76bec7e9c724e6753f0f01208bae987"/>
 		<Metadata name="CommonForm.АС_НастройкиРежимаОплаты" id="907d0c3e-868d-5834-bd80-6dc7f7aca4ac" configVersion="015929a07b889cd01acb18926d64cdf0f019c941"/>
 		<Metadata name="CommonForm.АС_НастройкиРежимаОплаты.Form" id="907d0c3e-868d-5834-bd80-6dc7f7aca4ac.0" configVersion="a4ae417d3fc04e68eb5e9530dc4717d74a6c3ab6"/>
 	</ConfigVersions>
