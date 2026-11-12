@@ -8704,6 +8704,11 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
+		<Attribute name="АС_НовыйДокументДляТелефона" id="1000314">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 		<Attribute name="Объект" id="1000001">
 			<Type>
 				<v8:Type>cfg:DocumentObject.ЗаказПокупателя</v8:Type>
