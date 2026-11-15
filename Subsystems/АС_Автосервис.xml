@@ -37,6 +37,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ЗапретРедактированияПоступленийПередЗаписью</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.АС_ОграниченияДокументовПередУдалением</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.АС_ИсторияПоМоделямАвто</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.АС_ОграниченияПокупателей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ОграниченияПокупателей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АС_ОграниченияПокупателейСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АС_ОграниченияПокупателей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ИсторияПоМоделямАвто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ТоварыМоделиАвто</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.АС_ИсторияПродажНоменклатуры</xr:Item>

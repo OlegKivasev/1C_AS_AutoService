@@ -243,6 +243,7 @@
 			<CommonModule>СкидкиНаценкиСерверПереопределяемый</CommonModule>
 			<CommonModule>СкидкиНаценкиСервер</CommonModule>
 			<CommonModule>АС_ДоступностьТоваровСервер</CommonModule>
+			<CommonModule>АС_ОграниченияПокупателейСервер</CommonModule>
 			<CommonModule>АС_ИндексOEMСервер</CommonModule>
 			<CommonModule>АС_НоменклатураСервер</CommonModule>
 			<CommonModule>АС_ПродажиНоменклатурыСервер</CommonModule>
@@ -281,6 +282,7 @@
 			<CommonCommand>АС_ПродажиСотрудника</CommonCommand>
 			<CommonCommand>АС_ПродажиНоменклатуры</CommonCommand>
 			<CommonCommand>АС_ИсторияПоМоделямАвто</CommonCommand>
+			<CommonCommand>АС_ОграниченияПокупателей</CommonCommand>
 			<Constant>АС_ОсновнойВидЦенБезналичногоРасчета</Constant>
 			<Constant>АС_ИндексOEMИнициализирован</Constant>
 			<Constant>АС_НастройкиАгрегатора</Constant>
@@ -290,6 +292,7 @@
 			<CommonForm>АС_ПродажиСотрудника</CommonForm>
 			<CommonForm>АС_ПродажиНоменклатуры</CommonForm>
 			<CommonForm>АС_ИсторияПоМоделямАвто</CommonForm>
+			<CommonForm>АС_ОграниченияПокупателей</CommonForm>
 			<CommonForm>АС_ТоварыМоделиАвто</CommonForm>
 			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
 			<CommonForm>НастройкиРабочегоМестаКассира</CommonForm>
@@ -374,6 +377,7 @@
 			<InformationRegister>АС_ИндексOEMНоменклатуры</InformationRegister>
 			<InformationRegister>АС_ВзаимозаменяемыеТовары</InformationRegister>
 			<InformationRegister>АС_ВидыЦенКонтрагентов</InformationRegister>
+			<InformationRegister>АС_ОграниченияПокупателей</InformationRegister>
 			<InformationRegister>ОстаткиТоваров</InformationRegister>
 			<InformationRegister>АС_ОчередьРемонтовАгрегатора</InformationRegister>
 			<InformationRegister>АС_СверкаКарточекАгрегатора</InformationRegister>
