@@ -2707,7 +2707,7 @@
 																			<v8:content>Ожидаемое количество поступления свободной (не привязанной к заказам покупателя) номенклатуры по датам</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<Group>InCell</Group>
+																	<Group>Horizontal</Group>
 																	<ShowInHeader>true</ShowInHeader>
 																	<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
 																	<ExtendedTooltip name="ЗапасыКПоступлениюКоличествоИРасшифровкаРасширеннаяПодсказка" id="2674"/>
@@ -9673,6 +9673,34 @@
 								<v8:Length>10</v8:Length>
 								<v8:AllowedLength>Variable</v8:AllowedLength>
 							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="АС_КПоступлениюОригиналТекст" id="136">
+						<Title><v8:item><v8:lang>ru</v8:lang><v8:content>К поступлению оригинала</v8:content></v8:item></Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers><v8:Length>100</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="АС_КПоступлениюЗаменыТекст" id="137">
+						<Title><v8:item><v8:lang>ru</v8:lang><v8:content>К поступлению замен</v8:content></v8:item></Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers><v8:Length>100</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="АС_КПоступлениюОригиналДатаТекст" id="138">
+						<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Дата поступления оригинала</v8:content></v8:item></Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers><v8:Length>100</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="АС_КПоступлениюЗаменыДатаТекст" id="139">
+						<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Дата поступления замен</v8:content></v8:item></Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers><v8:Length>100</v8:Length><v8:AllowedLength>Variable</v8:AllowedLength></v8:StringQualifiers>
 						</Type>
 					</Column>
 				</AdditionalColumns>
