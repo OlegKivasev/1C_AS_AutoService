@@ -43,8 +43,8 @@
 					</Synonym>
 					<Comment>Администратор запрещает ручные и автоматические скидки для строки заказа покупателя или заказ-наряда.</Comment>
 					<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
 					<EditFormat/>
@@ -55,6 +55,8 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

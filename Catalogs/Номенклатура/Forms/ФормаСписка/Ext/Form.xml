@@ -1452,17 +1452,35 @@
 										</UsualGroup>
 										<CheckBoxField name="АС_РекомендацииПоЗакупке" id="1000500">
 											<DataPath>АС_РекомендацииПоЗакупке</DataPath>
-											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Рекомендации по закупке</v8:content></v8:item></Title>
-											<ToolTip><v8:item><v8:lang>ru</v8:lang><v8:content>Только товары, которые нужно докупить. Расчёт как в карточке: четыре полных месяца продаж, остатки, активные заказы и ожидаемые поставки по всем областям учёта.</v8:content></v8:item></ToolTip>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Рекомендации по закупке</v8:content>
+												</v8:item>
+											</Title>
 											<TitleLocation>Right</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Только товары, которые нужно докупить. Расчёт как в карточке: четыре полных месяца продаж, остатки, активные заказы и ожидаемые поставки по всем областям учёта.</v8:content>
+												</v8:item>
+											</ToolTip>
 											<CheckBoxType>CheckBox</CheckBoxType>
 											<ContextMenu name="АС_РекомендацииПоЗакупкеКонтекстноеМеню" id="1000501"/>
 											<ExtendedTooltip name="АС_РекомендацииПоЗакупкеПодсказка" id="1000502"/>
-											<Events><Event name="OnChange">АС_РекомендацииПоЗакупкеПриИзменении</Event></Events>
+											<Events>
+												<Event name="OnChange" callType="Before">АС_РекомендацииПоЗакупкеПриИзменении</Event>
+											</Events>
 										</CheckBoxField>
 										<LabelDecoration name="АС_СостояниеЗакупки" id="1000503">
 											<Visible>false</Visible>
-											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Рекомендации по закупке</v8:content></v8:item></Title>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Рекомендации по закупке</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="АС_СостояниеЗакупкиКонтекстноеМеню" id="1000559"/>
 											<ExtendedTooltip name="АС_СостояниеЗакупкиПодсказка" id="1000504"/>
 										</LabelDecoration>
 										<UsualGroup name="АС_ПродажиОтбор" id="1000065">
@@ -3504,6 +3522,9 @@
 												<ContextMenu name="СписокЗапасыУправлениеПоискомКонтекстноеМеню" id="112"/>
 												<ExtendedTooltip name="СписокЗапасыУправлениеПоискомРасширеннаяПодсказка" id="113"/>
 											</SearchControlAddition>
+											<Events>
+												<Event name="OnGetDataAtServer" callType="After">АС_ЗаполнитьПредставлениеКПоступлениюПослеПолученияДанных</Event>
+											</Events>
 											<ChildItems>
 												<PictureField name="ЕстьФайлы" id="1269">
 													<DataPath>СписокЗапасы.ЕстьФайлы</DataPath>
@@ -6883,6 +6904,9 @@
 			<UseAlways>
 				<Field>~СписокЗапасы.КартинкаУдалитьИзКорзины</Field>
 				<Field>~СписокЗапасы.СтавкаНДС</Field>
+				<Field>СписокЗапасы.АС_КПоступлению</Field>
+				<Field>СписокЗапасы.АС_КПоступлениюЗамены</Field>
+				<Field>СписокЗапасы.АС_КПоступлениюПредставление</Field>
 				<Field>СписокЗапасы.Артикул</Field>
 				<Field>СписокЗапасы.ВалютаЦены</Field>
 				<Field>СписокЗапасы.ВалютаЦеныПредставление</Field>
@@ -6984,6 +7008,9 @@
 	ЗНАЧЕНИЕ(Справочник.Валюты.ПустаяСсылка) КАК ВалютаЦены,
 	ВЫРАЗИТЬ("""" КАК СТРОКА(3)) КАК ВалютаЦеныПредставление,
 	ЕСТЬNULL(Остатки.Количество, 0) КАК КоличествоОстаток,
+	0 КАК АС_КПоступлению,
+	0 КАК АС_КПоступлениюЗамены,
+	"" КАК АС_КПоступлениюПредставление,
 	ЕСТЬNULL(Остатки.Резерв, 0) КАК Резерв,
 	НоменклатураПереопределяемый.ИспользоватьСерииНоменклатуры КАК ИспользоватьСерииНоменклатуры,
 	НоменклатураПереопределяемый.ГарантийныйСрок КАК ГарантийныйСрок,
@@ -7878,7 +7905,9 @@
 			</Type>
 		</Attribute>
 		<Attribute name="АС_РекомендацииПоЗакупке" id="1000500">
-			<Type><v8:Type>xs:boolean</v8:Type></Type>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Attribute>
 		<Attribute name="АС_ПроданныеЗаПериод" id="1000085">
 			<Title>

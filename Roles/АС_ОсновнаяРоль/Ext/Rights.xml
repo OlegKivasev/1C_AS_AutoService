@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>CommonCommand.АС_ОграниченияПокупателей</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.АС_ТоварыМоделиАвто</name>
 		<right>
 			<name>View</name>
@@ -161,7 +168,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АС_ВзаимозаменяемыеТовары</name>
+		<name>InformationRegister.АС_ИндексOEMНоменклатуры</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -176,13 +183,9 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.АС_ИндексOEMНоменклатуры</name>
+		<name>InformationRegister.АС_ОграниченияПокупателей</name>
 		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -237,6 +240,13 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.АС_ОграниченияПокупателей</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -305,13 +315,6 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.АС_ОтладкаАгрегатора</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.АС_СчетчикВнутреннихАртикулов</name>
 		<right>
 			<name>Read</name>
@@ -332,6 +335,20 @@
 	</object>
 	<object>
 		<name>CommonForm.АС_ИсторияПродажНоменклатуры</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.АС_НастройкиРежимаОплаты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.АС_ВыборВидаЗаказа</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -405,37 +422,20 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.АС_ВыборВидаЗаказа</name>
+		<name>CommonForm.АС_ОтладкаАгрегатора</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.АС_НастройкиРежимаОплаты</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.АС_ОграниченияПокупателей</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.АС_ОграниченияПокупателей</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АС_ОграниченияПокупателей</name>
+		<name>InformationRegister.АС_ВзаимозаменяемыеТовары</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>

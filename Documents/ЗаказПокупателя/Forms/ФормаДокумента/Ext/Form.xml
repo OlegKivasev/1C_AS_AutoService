@@ -2707,7 +2707,7 @@
 																			<v8:content>Ожидаемое количество поступления свободной (не привязанной к заказам покупателя) номенклатуры по датам</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<Group>Horizontal</Group>
+																	<Group>InCell</Group>
 																	<ShowInHeader>true</ShowInHeader>
 																	<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
 																	<ExtendedTooltip name="ЗапасыКПоступлениюКоличествоИРасшифровкаРасширеннаяПодсказка" id="2674"/>
@@ -11869,7 +11869,6 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
-			<SavedData>false</SavedData>
 		</Attribute>
 		<Attribute name="АС_АдресСнимкаСтоимости" id="1000199">
 			<Type>

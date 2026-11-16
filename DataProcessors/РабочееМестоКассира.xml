@@ -30,8 +30,8 @@
 					</Synonym>
 					<Comment>Администратор запрещает ручные и автоматические скидки для строки заказа покупателя или заказ-наряда.</Comment>
 					<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
 					<EditFormat/>
