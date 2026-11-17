@@ -495,6 +495,51 @@
 												</LabelDecoration>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="АС_ДанныеМеханика" id="1000469">
+											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Данные механика</v8:content>
+												</v8:item>
+											</Title>
+											<TitleTextColor>style:ГиперссылкаЦвет</TitleTextColor>
+											<TitleFont ref="style:NormalTextFont" kind="StyleItem"/>
+											<Group>Vertical</Group>
+											<Behavior>PopUp</Behavior>
+											<Collapsed>true</Collapsed>
+											<Representation>WeakSeparation</Representation>
+											<ShowLeftMargin>false</ShowLeftMargin>
+											<ExtendedTooltip name="АС_ДанныеМеханикаРасширеннаяПодсказка" id="1000470"/>
+											<ChildItems>
+												<InputField name="АС_ФИОМеханика" id="1000471">
+													<DataPath>Объект.АС_ФИОМеханика</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ФИО механика</v8:content>
+														</v8:item>
+													</Title>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
+													<Width>30</Width>
+													<ContextMenu name="АС_ФИОМеханикаКонтекстноеМеню" id="1000472"/>
+													<ExtendedTooltip name="АС_ФИОМеханикаРасширеннаяПодсказка" id="1000473"/>
+												</InputField>
+												<InputField name="АС_ТелефонМеханика" id="1000474">
+													<DataPath>Объект.АС_ТелефонМеханика</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Телефон механика</v8:content>
+														</v8:item>
+													</Title>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
+													<Width>30</Width>
+													<ContextMenu name="АС_ТелефонМеханикаКонтекстноеМеню" id="1000475"/>
+													<ExtendedTooltip name="АС_ТелефонМеханикаРасширеннаяПодсказка" id="1000476"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
 										<InputField name="ЗНДоговор" id="172">
 											<DataPath>Объект.Договор</DataPath>
 											<SkipOnInput>true</SkipOnInput>
@@ -541,6 +586,19 @@
 											</Format>
 											<ContextMenu name="АС_ПробегКонтекстноеМеню" id="1000153"/>
 											<ExtendedTooltip name="АС_ПробегРасширеннаяПодсказка" id="1000154"/>
+										</InputField>
+										<InputField name="АС_НомерЯчейкиКлючей" id="1000477">
+											<DataPath>Объект.АС_НомерЯчейкиКлючей</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Номер ячейки для ключей</v8:content>
+												</v8:item>
+											</Title>
+											<Width>12</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="АС_НомерЯчейкиКлючейКонтекстноеМеню" id="1000478"/>
+											<ExtendedTooltip name="АС_НомерЯчейкиКлючейРасширеннаяПодсказка" id="1000479"/>
 										</InputField>
 										<UsualGroup name="ГруппаЗаполнитьПоОснованию" id="1625">
 											<Title>

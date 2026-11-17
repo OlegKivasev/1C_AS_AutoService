@@ -514,6 +514,7 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Подарки.Attribute.ШтрихкодУпаковки" id="49d30b20-6024-4ed1-a293-d13d7c782b86"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Работы.Attribute.Количество" id="4b463ce0-d38a-4936-bfbe-85d86f884f2d"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.БонусныеБаллыКНачислению.Attribute.НомерВариантаКП" id="4d2fa4e8-3b04-4516-a3a4-ab2d4d24c4d4"/>
+			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_ТелефонМеханика" id="4d3d5456-3488-49ad-9487-5a73bb7f0f4b"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.СервисДоставки" id="4d5571d0-c20c-4118-9f91-e8bbc0643623"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Работы.Attribute.Всего" id="4d869748-2b6b-43db-b9d2-acf65c051a1c"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.РесурсыПредприятия.Attribute.Пт" id="4dacdad1-f0ae-4a26-a9e8-bc4c5c592bca"/>
@@ -608,6 +609,7 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Материалы.Attribute.КлючСвязи" id="90562208-b557-4ac4-9c9c-a2b6110cba9d"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.ДокументПоступления" id="906c2db5-3e76-44e9-9d0f-6776e99ac717"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Подарки.Attribute.ЕдиницаИзмерения" id="90ad0c83-282c-4948-9a2d-3d2caf52f220"/>
+			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_НомерЯчейкиКлючей" id="90b94d7b-e24a-4ccc-b48f-7eef3a50db61"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Материалы.Attribute.Количество" id="91a6e039-bb4f-4cc2-844b-503623434e84"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Запасы.Attribute.Количество" id="921f72b0-0345-4747-b126-f06775f2417b"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ИсточникиПоставок.Attribute.КлючСвязиЗаказаПоставщику" id="92995e24-a4c6-4231-b2b6-0f5fee832cf7"/>
@@ -681,6 +683,7 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.ОтмененныеЗапасы.Attribute.ПричинаОтмены" id="c3283a3f-f689-4900-af3a-23234cf84211"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.АС_ПорцииНоменклатуры.Attribute.Характеристика" id="c38841d9-ad61-44ad-97ea-0b751d39315f"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Материалы.Attribute.ЕдиницаИзмерения" id="c38b12c2-e29c-466c-b6ad-ab09e1ede898"/>
+			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_ФИОМеханика" id="c46fd36c-7e07-4686-a6f2-b6ef1168f1ed"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.БонусныеБаллыКНачислению.Attribute.ДатаСписания" id="c5af0012-a3e4-4704-a7e4-3470eb7d7728"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.ОтмененныеЗапасы.Attribute.НоменклатураНабора" id="c5dd2baf-6e80-4f37-84f1-acf9fa74f197"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.ВидРабот" id="c6382e60-c3f6-43fe-906f-8ec6606fc252"/>
