@@ -215,7 +215,7 @@
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18" configVersion="201f86074625af7c93fc736a0b5e44579cc34903"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира.Form" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18.0" configVersion="b62515c153ed8408dd0f517464a92e6c5fedcb9c"/>
 		<Metadata name="CommonModule.АС_АгрегаторСервер" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5" configVersion="a5ba68824febd6f1246918048e3680cf708cba7f"/>
-        <Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="b0a88f369bb87e8cc1f0fb0846b6bd1887919238"/>
+        <Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="41aec78d5a2d1f162fb6e6e0f8fa93675be7dc9c"/>
 		<Metadata name="CommonModule.АС_БезопасноеОбновлениеКлиент" id="45b6b664-698f-4072-9402-6d4a789ce56a" configVersion="1a9c46f565ca48dacf4034a5248ef77ccd4084a2"/>
 		<Metadata name="CommonModule.АС_БезопасноеОбновлениеКлиент.Module" id="45b6b664-698f-4072-9402-6d4a789ce56a.0" configVersion="23661cae42d223d6bcc3f2a286c3f5ca90a3947a"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора" id="0a5c9ac1-1ce6-5961-b332-5fe687722322" configVersion="4e60092dbdfbf462c50b58815985c8c888b1236c"/>
@@ -229,7 +229,7 @@
 		<Metadata name="CommonModule.АС_КонтактыКонтрагентовСервер" id="0413f018-10e0-47cb-99a8-9777ea887161" configVersion="64615b34a5f21690f6df94aa5de32b3b318170d3"/>
 		<Metadata name="CommonModule.АС_КонтактыКонтрагентовСервер.Module" id="0413f018-10e0-47cb-99a8-9777ea887161.0" configVersion="59b4e69dc7e77328c469590065d9de1f4cd25883"/>
 		<Metadata name="CommonModule.АС_НоменклатураАгрегатора" id="a7a8a00a-052a-47f3-9908-aad56b46fb91" configVersion="49c61ed7d34f55b647671e6809a70aba2985d612"/>
-        <Metadata name="CommonModule.АС_НоменклатураАгрегатора.Module" id="a7a8a00a-052a-47f3-9908-aad56b46fb91.0" configVersion="570a0c009139796ad8b6cd1474c32135da582bcc"/>
+        <Metadata name="CommonModule.АС_НоменклатураАгрегатора.Module" id="a7a8a00a-052a-47f3-9908-aad56b46fb91.0" configVersion="768cca956b65733777882355610fd6f692933b2d"/>
 		<Metadata name="CommonModule.АС_НоменклатураСервер" id="d188f317-c532-41f0-92bc-3d86083eb745" configVersion="212c652be1853900f233b627018052e6b3f51084"/>
 		<Metadata name="CommonModule.АС_НоменклатураСервер.Module" id="d188f317-c532-41f0-92bc-3d86083eb745.0" configVersion="c17d49d3f632f51a109a9a740d982d6365f23982"/>
 		<Metadata name="CommonModule.АС_ОграниченияДокументовСервер" id="d0bd75c7-ef67-4379-993e-263a75a2b63f" configVersion="49e3ab4fd9e1f314fa32ac118c1983332c655d97"/>
