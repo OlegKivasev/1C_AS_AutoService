@@ -215,7 +215,7 @@
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18" configVersion="201f86074625af7c93fc736a0b5e44579cc34903"/>
 		<Metadata name="CommonForm.НастройкиРабочегоМестаКассира.Form" id="b7e3947d-8d73-4e17-ae98-3a3ddfba4c18.0" configVersion="b62515c153ed8408dd0f517464a92e6c5fedcb9c"/>
 		<Metadata name="CommonModule.АС_АгрегаторСервер" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5" configVersion="a5ba68824febd6f1246918048e3680cf708cba7f"/>
-        <Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="cc2c67b031c1a5c30875e2778151500c771483b6"/>
+        <Metadata name="CommonModule.АС_АгрегаторСервер.Module" id="1ecdcc6e-d4fe-5a39-8774-4642fa30e9a5.0" configVersion="8559021362bf858690f7572b5c1e411301fca09b"/>
 		<Metadata name="CommonModule.АС_БезопасноеОбновлениеКлиент" id="45b6b664-698f-4072-9402-6d4a789ce56a" configVersion="1a9c46f565ca48dacf4034a5248ef77ccd4084a2"/>
 		<Metadata name="CommonModule.АС_БезопасноеОбновлениеКлиент.Module" id="45b6b664-698f-4072-9402-6d4a789ce56a.0" configVersion="23661cae42d223d6bcc3f2a286c3f5ca90a3947a"/>
 		<Metadata name="CommonModule.АС_ГотовностьТоваровАгрегатора" id="0a5c9ac1-1ce6-5961-b332-5fe687722322" configVersion="4e60092dbdfbf462c50b58815985c8c888b1236c"/>
