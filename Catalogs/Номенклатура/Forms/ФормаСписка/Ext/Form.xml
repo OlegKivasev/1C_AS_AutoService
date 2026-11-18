@@ -2427,7 +2427,8 @@
 										</Button>
 										<Button name="СписокЗапасыИзменить" id="733">
 											<Type>CommandBarButton</Type>
-											<CommandName>0</CommandName>
+											<CommandName>Form.Command.ИзменитьНоменклатуру</CommandName>
+											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Переименовать</v8:content></v8:item></Title>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокЗапасыИзменитьРасширеннаяПодсказка" id="734"/>
 										</Button>
@@ -3377,7 +3378,8 @@
 													<Button name="СписокЗапасыКонтекстноеМенюИзменитьНоменклатуру" id="593">
 														<Type>CommandBarButton</Type>
 														<Representation>PictureAndText</Representation>
-														<CommandName>0</CommandName>
+																<CommandName>Form.Command.ИзменитьНоменклатуру</CommandName>
+																<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Переименовать</v8:content></v8:item></Title>
 														<ExtendedTooltip name="СписокЗапасыКонтекстноеМенюИзменитьНоменклатуруРасширеннаяПодсказка" id="594"/>
 													</Button>
 													<Button name="СписокЗапасыКонтекстноеМенюСкопировать" id="1076">
@@ -3496,7 +3498,9 @@
 													</Button>
 												</ChildItems>
 											</ContextMenu>
-											<AutoCommandBar name="СписокЗапасыКоманднаяПанель" id="3"/>
+											<AutoCommandBar name="СписокЗапасыКоманднаяПанель" id="3">
+												<Autofill>false</Autofill>
+											</AutoCommandBar>
 											<ExtendedTooltip name="СписокЗапасыРасширеннаяПодсказка" id="80"/>
 											<SearchStringAddition name="СписокЗапасыСтрокаПоиска" id="105">
 												<AdditionSource>

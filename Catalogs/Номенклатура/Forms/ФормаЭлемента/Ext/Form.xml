@@ -394,7 +394,15 @@
 										<xr:Ref>CommonPicture.КнопкаВыпадающегоСписка</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</ChoiceButtonPicture>
-									<ContextMenu name="НаименованиеКонтекстноеМеню" id="4"/>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="4">
+										<ChildItems>
+											<Button name="АС_ПереименоватьНоменклатуруНаименование" id="980101">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.АС_ПереименоватьНоменклатуру</CommandName>
+												<ExtendedTooltip name="АС_ПереименоватьНоменклатуруНаименованиеПодсказка" id="980102"/>
+											</Button>
+										</ChildItems>
+									</ContextMenu>
 									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="155"/>
 									<Events>
 										<Event name="OnChange" callType="Before">АС_НаименованиеПриИзменении</Event>
@@ -553,7 +561,15 @@
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>25</MaxWidth>
 											<Wrap>false</Wrap>
-											<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
+											<ContextMenu name="АртикулКонтекстноеМеню" id="8">
+												<ChildItems>
+													<Button name="АС_ПереименоватьНоменклатуруАртикул" id="980103">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.АС_ПереименоватьНоменклатуру</CommandName>
+														<ExtendedTooltip name="АС_ПереименоватьНоменклатуруАртикулПодсказка" id="980104"/>
+													</Button>
+												</ChildItems>
+											</ContextMenu>
 											<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="157"/>
 										</InputField>
 									</ChildItems>
@@ -5634,6 +5650,17 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
+		<Command name="АС_ПереименоватьНоменклатуру" id="980100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переименовать</v8:content>
+				</v8:item>
+			</Title>
+			<Shortcut>F2</Shortcut>
+			<Action>АС_ПереименоватьНоменклатуру</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
 		<Command name="АС_ПоказатьЗаказыКПоступлению" id="1000018">
 			<Title>
 				<v8:item>

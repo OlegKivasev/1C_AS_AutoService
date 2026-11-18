@@ -297,6 +297,7 @@
 			<CommonForm>АС_ИсторияПродажНоменклатуры</CommonForm>
 			<CommonForm>НастройкиРабочегоМестаКассира</CommonForm>
 			<CommonForm>АС_ВыборВидаЗаказа</CommonForm>
+			<CommonForm>АС_ПереименованиеНоменклатуры</CommonForm>
 			<CommonForm>АС_ОстаткиПослеПродажиРМК</CommonForm>
 			<CommonForm>АС_НастройкиРежимаОплаты</CommonForm>
 			<CommonForm>АС_НастройкиАгрегатора</CommonForm>

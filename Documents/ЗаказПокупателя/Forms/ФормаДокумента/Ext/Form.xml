@@ -1902,6 +1902,16 @@
 													<RowFilter xsi:nil="true"/>
 													<ContextMenu name="ЗапасыКонтекстноеМеню" id="1643">
 														<ChildItems>
+															<Button name="АС_ПереименоватьНоменклатуру" id="980101">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.АС_ПереименоватьНоменклатуру</CommandName>
+																<ExtendedTooltip name="АС_ПереименоватьНоменклатуруПодсказка" id="980102"/>
+															</Button>
+															<Button name="АС_ИзменитьАртикулНоменклатуры" id="980107">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.АС_ИзменитьАртикулНоменклатуры</CommandName>
+																<ExtendedTooltip name="АС_ИзменитьАртикулНоменклатурыПодсказка" id="980108"/>
+															</Button>
 															<Button name="ЗапасыКонтекстноеМенюОткрытьИнформациюОСкидках" id="1712">
 																<Type>CommandBarButton</Type>
 																<CommandName>0</CommandName>
@@ -11944,6 +11954,29 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
+	<Commands>
+		<Command name="АС_ИзменитьАртикулНоменклатуры" id="980106">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить артикул</v8:content>
+				</v8:item>
+			</Title>
+			<Action>АС_ИзменитьАртикулНоменклатуры</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="АС_ПереименоватьНоменклатуру" id="980100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переименовать</v8:content>
+				</v8:item>
+			</Title>
+			<Shortcut>F2</Shortcut>
+			<Action>АС_ПереименоватьНоменклатуру</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
 	<BaseForm version="2.22">
 		<WindowOpeningMode>DontBlock</WindowOpeningMode>
 		<Group>Vertical</Group>
