@@ -109,6 +109,17 @@
 					<ContextMenu name="АС_ИсторияДатаМеню" id="24"/>
 					<ExtendedTooltip name="АС_ИсторияДатаПодсказка" id="25"/>
 				</InputField>
+				<LabelField name="АС_ИсторияНоменклатура" id="61">
+					<DataPath>АС_История.Номенклатура</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="АС_ИсторияНоменклатураМеню" id="62"/>
+					<ExtendedTooltip name="АС_ИсторияНоменклатураПодсказка" id="63"/>
+				</LabelField>
 				<InputField name="АС_ИсторияОперация" id="40">
 					<DataPath>АС_История.Операция</DataPath>
 					<ReadOnly>true</ReadOnly>
@@ -251,6 +262,11 @@
 						<v8:DateQualifiers>
 							<v8:DateFractions>DateTime</v8:DateFractions>
 						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номенклатура" id="13">
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
 				</Column>
 			</Columns>
