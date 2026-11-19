@@ -265,6 +265,7 @@
 			<CommonModule>ПодключаемыеКоманды</CommonModule>
 			<CommonModule>АС_АгрегаторСервер</CommonModule>
 			<CommonModule>АС_НоменклатураАгрегатора</CommonModule>
+			<CommonModule>АС_ЗаказыПоставщикамАгрегатора</CommonModule>
 			<CommonModule>АС_ГотовностьТоваровАгрегатора</CommonModule>
 			<EventSubscription>АС_ДатыДобавленияНоменклатурыПередЗаписью</EventSubscription>
 			<EventSubscription>АС_ОграниченияДокументовПередЗаписью</EventSubscription>
