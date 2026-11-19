@@ -18,19 +18,32 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="НовоеЗначение" id="1">
-			<DataPath>НовоеЗначение</DataPath>
+		<InputField name="Наименование" id="1">
+			<DataPath>Наименование</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наименование</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Left</TitleLocation>
 			<DefaultItem>true</DefaultItem>
 			<HorizontalStretch>true</HorizontalStretch>
-			<ContextMenu name="НовоеЗначениеМеню" id="2"/>
-			<ExtendedTooltip name="НовоеЗначениеПодсказка" id="3"/>
+			<ContextMenu name="НаименованиеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеПодсказка" id="3"/>
 		</InputField>
-		<InputField name="ДополнительноеЗначение" id="13">
-			<DataPath>ДополнительноеЗначение</DataPath>
-			<Visible>false</Visible>
+		<InputField name="Артикул" id="13">
+			<DataPath>Артикул</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Артикул</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Left</TitleLocation>
 			<HorizontalStretch>true</HorizontalStretch>
-			<ContextMenu name="ДополнительноеЗначениеМеню" id="14"/>
-			<ExtendedTooltip name="ДополнительноеЗначениеПодсказка" id="15"/>
+			<ContextMenu name="АртикулМеню" id="14"/>
+			<ExtendedTooltip name="АртикулПодсказка" id="15"/>
 		</InputField>
 		<InputField name="Бренд" id="10">
 			<DataPath>Бренд</DataPath>
@@ -74,7 +87,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="НовоеЗначение" id="1">
+		<Attribute name="Наименование" id="1">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -83,12 +96,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИсходноеЗначение" id="2">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="Поле" id="3">
+		<Attribute name="ИсходноеНаименование" id="2">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 			</Type>
@@ -113,21 +121,16 @@
 				<v8:Type>cfg:CatalogRef.АС_БрендыТоваров</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДополнительноеПоле" id="8">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="ДополнительноеЗначение" id="9">
+		<Attribute name="Артикул" id="9">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
-					<v8:Length>100</v8:Length>
+					<v8:Length>50</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИсходноеДополнительноеЗначение" id="10">
+		<Attribute name="ИсходныйАртикул" id="10">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 			</Type>

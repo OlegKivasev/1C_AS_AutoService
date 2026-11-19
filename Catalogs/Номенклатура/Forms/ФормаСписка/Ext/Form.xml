@@ -2427,8 +2427,8 @@
 										</Button>
 										<Button name="СписокЗапасыИзменить" id="733">
 											<Type>CommandBarButton</Type>
-											<CommandName>Form.Command.ИзменитьНоменклатуру</CommandName>
-											<Title><v8:item><v8:lang>ru</v8:lang><v8:content>Переименовать</v8:content></v8:item></Title>
+											<Visible>false</Visible>
+											<CommandName>0</CommandName>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="СписокЗапасыИзменитьРасширеннаяПодсказка" id="734"/>
 										</Button>
