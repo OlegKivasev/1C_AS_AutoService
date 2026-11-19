@@ -8470,6 +8470,11 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
+		<Attribute name="АС_ИспользованаЗарегистрированнаяПотребность" id="1000510">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 		<Attribute name="АС_НовыйДокументДляТелефона" id="1000468">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>

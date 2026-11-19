@@ -4439,6 +4439,20 @@
 												</LabelField>
 											</ChildItems>
 										</UsualGroup>
+										<LabelDecoration name="АС_ОстаткиВзаимозаменяемых" id="1000520">
+											<Visible>false</Visible>
+											<Title formatted="true">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Взаимозаменяемые</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="АС_ОстаткиВзаимозаменяемыхКонтекстноеМеню" id="1000521"/>
+											<ExtendedTooltip name="АС_ОстаткиВзаимозаменяемыхРасширеннаяПодсказка" id="1000522"/>
+											<Events>
+												<Event name="URLProcessing" callType="Before">АС_ОстаткиВзаимозаменяемыхОбработкаНавигационнойСсылки</Event>
+											</Events>
+										</LabelDecoration>
 										<UsualGroup name="АС_ОстатокСУчетомЗаказовГруппа" id="3008">
 											<Group>Horizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -5535,6 +5549,12 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="АС_СписокОстатковЗамен" id="1000523">
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="АС_КоличествоАктивныхЗаказов" id="1000005">
 			<Title>
