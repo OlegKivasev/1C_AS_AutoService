@@ -79,6 +79,20 @@
 									<ContextMenu name="АС_РаботыСписокНоменклатураКонтекстноеМеню" id="148"/>
 									<ExtendedTooltip name="АС_РаботыСписокНоменклатураРасширеннаяПодсказка" id="149"/>
 								</LabelField>
+								<LabelField name="АС_РаботыСписокКоличество" id="150">
+									<DataPath>АС_РаботыСписок.Количество</DataPath>
+									<Width>12</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_РаботыСписокКоличествоКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="АС_РаботыСписокКоличествоРасширеннаяПодсказка" id="152"/>
+								</LabelField>
+								<LabelField name="АС_РаботыСписокЦенаЗаЕдиницу" id="153">
+									<DataPath>АС_РаботыСписок.ЦенаЗаЕдиницу</DataPath>
+									<Width>14</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_РаботыСписокЦенаЗаЕдиницуКонтекстноеМеню" id="154"/>
+									<ExtendedTooltip name="АС_РаботыСписокЦенаЗаЕдиницуРасширеннаяПодсказка" id="155"/>
+								</LabelField>
 								<LabelField name="АС_РаботыСписокДатаЗаказНаряда" id="139">
 									<DataPath>АС_РаботыСписок.ДатаЗаказНаряда</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -158,6 +172,20 @@
 									<ContextMenu name="АС_ТоварыАвтомобиляНоменклатураКонтекстноеМеню" id="82"/>
 									<ExtendedTooltip name="АС_ТоварыАвтомобиляНоменклатураРасширеннаяПодсказка" id="83"/>
 								</LabelField>
+								<LabelField name="АС_ТоварыАвтомобиляКоличество" id="156">
+									<DataPath>АС_ТоварыАвтомобиля.Количество</DataPath>
+									<Width>12</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_ТоварыАвтомобиляКоличествоКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="АС_ТоварыАвтомобиляКоличествоРасширеннаяПодсказка" id="158"/>
+								</LabelField>
+								<LabelField name="АС_ТоварыАвтомобиляЦенаЗаЕдиницу" id="159">
+									<DataPath>АС_ТоварыАвтомобиля.ЦенаЗаЕдиницу</DataPath>
+									<Width>14</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="АС_ТоварыАвтомобиляЦенаЗаЕдиницуКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="АС_ТоварыАвтомобиляЦенаЗаЕдиницуРасширеннаяПодсказка" id="161"/>
+								</LabelField>
 								<LabelField name="АС_ТоварыАвтомобиляДатаЗаказНаряда" id="73">
 									<DataPath>АС_ТоварыАвтомобиля.ДатаЗаказНаряда</DataPath>
 									<EditMode>EnterOnInput</EditMode>
@@ -208,6 +236,9 @@
 				<QueryText>ВЫБРАТЬ
     Заказ.Дата КАК ДатаЗаказНаряда,
     СтрокиТоваров.Номенклатура КАК Номенклатура,
+    СтрокиТоваров.Количество КАК Количество,
+    ВЫРАЗИТЬ(ВЫБОР КОГДА СтрокиТоваров.Количество = 0 ТОГДА СтрокиТоваров.Цена
+        ИНАЧЕ СтрокиТоваров.Всего / СтрокиТоваров.Количество КОНЕЦ КАК ЧИСЛО(19, 2)) КАК ЦенаЗаЕдиницу,
     Заказ.Ссылка КАК ЗаказПокупателя,
     СтрокиТоваров.НомерСтроки КАК НомерСтроки,
     ВЫБОР КОГДА Заказ.Контрагент.ВидКонтрагента = ЗНАЧЕНИЕ(Перечисление.ВидыКонтрагентов.ЮридическоеЛицо)
@@ -250,6 +281,26 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заказ покупателя</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Количество</dcssch:dataPath>
+					<dcssch:field>Количество</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЦенаЗаЕдиницу</dcssch:dataPath>
+					<dcssch:field>ЦенаЗаЕдиницу</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена за ед.</v8:content>
 						</v8:item>
 					</dcssch:title>
 				</Field>
@@ -327,6 +378,9 @@
 				<QueryText>ВЫБРАТЬ
     Заказ.Дата КАК ДатаЗаказНаряда,
     СтрокиРабот.Номенклатура КАК Номенклатура,
+    СтрокиРабот.Количество КАК Количество,
+    ВЫРАЗИТЬ(ВЫБОР КОГДА СтрокиРабот.Количество = 0 ТОГДА СтрокиРабот.Цена
+        ИНАЧЕ СтрокиРабот.Всего / СтрокиРабот.Количество КОНЕЦ КАК ЧИСЛО(19, 2)) КАК ЦенаЗаЕдиницу,
     Заказ.Ссылка КАК ЗаказПокупателя,
     СтрокиРабот.НомерСтроки КАК НомерСтроки,
     ВЫБОР КОГДА Заказ.Контрагент.ВидКонтрагента = ЗНАЧЕНИЕ(Перечисление.ВидыКонтрагентов.ЮридическоеЛицо)
@@ -369,6 +423,26 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заказ покупателя</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Количество</dcssch:dataPath>
+					<dcssch:field>Количество</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЦенаЗаЕдиницу</dcssch:dataPath>
+					<dcssch:field>ЦенаЗаЕдиницу</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена за ед.</v8:content>
 						</v8:item>
 					</dcssch:title>
 				</Field>
