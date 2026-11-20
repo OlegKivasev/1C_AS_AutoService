@@ -1462,7 +1462,7 @@
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Только товары, которые нужно докупить. Расчёт как в карточке: четыре полных месяца продаж, остатки, активные заказы и ожидаемые поставки по всем областям учёта.</v8:content>
+													<v8:content>Показывает количество к закупке для товаров текущего списка с учётом поиска и отборов.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<CheckBoxType>CheckBox</CheckBoxType>
@@ -2583,6 +2583,12 @@
 													<CommandName>Form.Command.АС_СделатьВзаимозаменяемыми</CommandName>
 													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 													<ExtendedTooltip name="АС_СписокЗапасыСделатьВзаимозаменяемымиРасширеннаяПодсказка" id="1000401"/>
+												</Button>
+												<Button name="АС_СписокЗапасыОчиститьВзаимозаменяемые" id="1000403">
+													<Type>CommandBarButton</Type>
+													<CommandName>Form.Command.АС_ОчиститьВзаимозаменяемые</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="АС_СписокЗапасыОчиститьВзаимозаменяемыеРасширеннаяПодсказка" id="1000404"/>
 												</Button>
 												<Button name="СписокЗапасыОбъединитьВыделенные" id="1697">
 													<Type>CommandBarButton</Type>
@@ -8587,6 +8593,17 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">АС_СделатьВзаимозаменяемыми</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
+		</Command>
+		<Command name="АС_ОчиститьВзаимозаменяемые" id="1000405">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить взаимозаменяемые товары</v8:content>
+				</v8:item>
+			</Title>
+			<Action callType="Before">АС_ОчиститьВзаимозаменяемые</Action>
 			<CurrentRowUse>Use</CurrentRowUse>
 			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
 		</Command>

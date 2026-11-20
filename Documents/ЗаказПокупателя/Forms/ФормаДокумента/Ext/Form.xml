@@ -11940,10 +11940,6 @@
 						<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
 						<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
 					</dcscor:item>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>Текст</dcscor:parameter>
-						<dcscor:value xsi:type="xs:string">0</dcscor:value>
-					</dcscor:item>
 				</dcsset:appearance>
 				<dcsset:presentation xsi:type="xs:string">Нет доступного остатка с учетом заказов</dcsset:presentation>
 			</dcsset:item>
