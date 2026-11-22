@@ -2035,6 +2035,29 @@
 										</CheckBoxField>
 									</ChildItems>
 								</UsualGroup>
+								<CheckBoxField name="АС_ПоказыватьГруппыЗамен" id="1001000">
+									<DataPath>АС_ПоказыватьГруппыЗамен</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Взаимозаменяемые товары</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Auto</CheckBoxType>
+									<TitleLocation>Right</TitleLocation>
+									<ContextMenu name="АС_ПоказыватьГруппыЗаменКонтекстноеМеню" id="1001001"/>
+									<ExtendedTooltip name="АС_ПоказыватьГруппыЗаменРасширеннаяПодсказка" id="1001002">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поиск и отбор показывают группу целиком, если им соответствует хотя бы один товар.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+									<Events>
+										<Event name="OnChange" callType="Before">АС_ПоказыватьГруппыЗаменПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="КомандыСписка" id="585">
@@ -3070,6 +3093,118 @@
 									<ScrollOnCompress>false</ScrollOnCompress>
 									<ExtendedTooltip name="СтраницаЗапасыРасширеннаяПодсказка" id="338"/>
 									<ChildItems>
+										<UsualGroup name="АС_ОбластьГруппЗамен" id="1001003">
+											<Visible>false</Visible>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="АС_ОбластьГруппЗаменРасширеннаяПодсказка" id="1001004"/>
+											<ChildItems>
+												<LabelField name="АС_ПодписьГруппЗамен" id="1001005">
+													<DataPath>АС_ПодписьГруппЗамен</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<ContextMenu name="АС_ПодписьГруппЗаменКонтекстноеМеню" id="1001006"/>
+													<ExtendedTooltip name="АС_ПодписьГруппЗаменРасширеннаяПодсказка" id="1001007"/>
+												</LabelField>
+												<Table name="АС_ДеревоГруппЗамен" id="1001030">
+													<Representation>Tree</Representation>
+													<CommandBarLocation>Top</CommandBarLocation>
+													<ReadOnly>true</ReadOnly>
+													<VerticalStretch>true</VerticalStretch>
+													<HorizontalStretch>true</HorizontalStretch>
+													<RowSelectionMode>Row</RowSelectionMode>
+													<InitialTreeView>NoExpand</InitialTreeView>
+													<DataPath>АС_ДеревоГруппЗамен</DataPath>
+													<ContextMenu name="АС_ДеревоГруппЗаменКонтекстноеМеню" id="1001031">
+														<ChildItems>
+															<Button name="АС_ПереименоватьТоварГруппыЗаменКонтекстноеМеню" id="1001048">
+																<Type>CommandBarButton</Type>
+																<Enabled>false</Enabled>
+																<CommandName>Form.Command.АС_ПереименоватьТоварГруппыЗамен</CommandName>
+																<ExtendedTooltip name="АС_ПереименоватьТоварГруппыЗаменПодсказка" id="1001049"/>
+															</Button>
+															<Button name="АС_ПереименоватьГруппуЗаменКонтекстноеМеню" id="1001043">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.АС_ПереименоватьГруппуЗамен</CommandName>
+																<ExtendedTooltip name="АС_ПереименоватьГруппуЗаменКонтекстнаяПодсказка" id="1001044"/>
+															</Button>
+														</ChildItems>
+													</ContextMenu>
+													<AutoCommandBar name="АС_ДеревоГруппЗаменКоманднаяПанель" id="1001032">
+														<Autofill>false</Autofill>
+														<ChildItems>
+															<Button name="АС_ПереименоватьГруппуЗаменКнопка" id="1001045">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.АС_ПереименоватьГруппуЗамен</CommandName>
+																<ExtendedTooltip name="АС_ПереименоватьГруппуЗаменПодсказка" id="1001046"/>
+															</Button>
+														</ChildItems>
+													</AutoCommandBar>
+													<ExtendedTooltip name="АС_ДеревоГруппЗаменРасширеннаяПодсказка" id="1001033"/>
+													<Events>
+														<Event name="OnActivateRow" callType="Before">АС_ДеревоГруппЗаменПриАктивизацииСтроки</Event>
+														<Event name="Selection" callType="Before">АС_ДеревоГруппЗаменВыбор</Event>
+													</Events>
+													<ChildItems>
+														<LabelField name="АС_ГруппыЗаменНаименование" id="1001010">
+															<DataPath>АС_ДеревоГруппЗамен.Наименование</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Взаимозаменяемые товары</v8:content>
+																</v8:item>
+															</Title>
+															<Width>52</Width>
+															<HorizontalStretch>true</HorizontalStretch>
+															<ContextMenu name="АС_ГруппыЗаменНаименованиеКонтекстноеМеню" id="1001011"/>
+															<ExtendedTooltip name="АС_ГруппыЗаменНаименованиеРасширеннаяПодсказка" id="1001012"/>
+														</LabelField>
+														<LabelField name="АС_ГруппыЗаменАртикул" id="1001013">
+															<DataPath>АС_ДеревоГруппЗамен.Артикул</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Артикул</v8:content>
+																</v8:item>
+															</Title>
+															<Width>21</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="АС_ГруппыЗаменАртикулКонтекстноеМеню" id="1001014"/>
+															<ExtendedTooltip name="АС_ГруппыЗаменАртикулРасширеннаяПодсказка" id="1001015"/>
+														</LabelField>
+														<LabelField name="АС_ГруппыЗаменБренд" id="1001016">
+															<DataPath>АС_ДеревоГруппЗамен.Бренд</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Бренд</v8:content>
+																</v8:item>
+															</Title>
+															<Width>18</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="АС_ГруппыЗаменБрендКонтекстноеМеню" id="1001017"/>
+															<ExtendedTooltip name="АС_ГруппыЗаменБрендРасширеннаяПодсказка" id="1001018"/>
+														</LabelField>
+														<LabelField name="АС_ГруппыЗаменСостав" id="1001019">
+															<DataPath>АС_ДеревоГруппЗамен.Состав</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Товаров</v8:content>
+																</v8:item>
+															</Title>
+															<Width>9</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="АС_ГруппыЗаменСоставКонтекстноеМеню" id="1001020"/>
+															<ExtendedTooltip name="АС_ГруппыЗаменСоставРасширеннаяПодсказка" id="1001021"/>
+														</LabelField>
+													</ChildItems>
+												</Table>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="АС_СтатистикаСпискаЗапасов" id="1000040">
 											<Title>
 												<v8:item>
@@ -6882,6 +7017,53 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
+		<Attribute name="АС_ПоказыватьГруппыЗамен" id="1001040">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ПодписьГруппЗамен" id="1001041">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ДеревоГруппЗамен" id="1001042">
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Наименование" id="1">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Артикул" id="2">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Бренд" id="3">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Состав" id="4">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Номенклатура" id="5">
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЭтоГруппаЗамен" id="6">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
 		<Attribute name="АС_ПоискКатегорий" id="1000232">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -8138,6 +8320,39 @@
 			<dcsset:item>
 				<dcsset:selection>
 					<dcsset:item>
+						<dcsset:field>АС_ГруппыЗаменНаименование</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>АС_ГруппыЗаменАртикул</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>АС_ГруппыЗаменБренд</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>АС_ГруппыЗаменСостав</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">АС_ДеревоГруппЗамен.ЭтоГруппаЗамен</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#EEF3F8</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Шрифт</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Font" ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
 						<dcsset:field>ОтборИерархияПредставлениеГруппы</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
@@ -8589,12 +8804,44 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Добавить выделенные товары к взаимозаменяемым товарам текущей строки</v8:content>
+					<v8:content>Связать выделенные товары между собой с возможностью объединить их замены по цепочке</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">АС_СделатьВзаимозаменяемыми</Action>
 			<CurrentRowUse>Use</CurrentRowUse>
 			<AssociatedTableElementId xsi:type="xs:string">СписокЗапасы</AssociatedTableElementId>
+		</Command>
+		<Command name="АС_ПереименоватьТоварГруппыЗамен" id="1001050">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переименовать товар</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">АС_ПереименоватьТоварГруппыЗамен</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">АС_ДеревоГруппЗамен</AssociatedTableElementId>
+		</Command>
+		<Command name="АС_ПереименоватьГруппуЗамен" id="1001047">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Переименовать группу</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="Before">АС_ПереименоватьГруппуЗамен</Action>
+			<Representation>TextPicture</Representation>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">АС_ДеревоГруппЗамен</AssociatedTableElementId>
 		</Command>
 		<Command name="АС_ОчиститьВзаимозаменяемые" id="1000405">
 			<Title>

@@ -135,6 +135,11 @@
 				<v8:Type>xs:string</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="ПереименованиеГруппы" id="11">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Переименовать" id="1">

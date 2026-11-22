@@ -5350,7 +5350,16 @@
 					</Title>
 					<RowFilter xsi:nil="true"/>
 					<ContextMenu name="АС_ВзаимозаменяемыеТоварыКонтекстноеМеню" id="1000203"/>
-					<AutoCommandBar name="АС_ВзаимозаменяемыеТоварыКоманднаяПанель" id="1000204"/>
+					<AutoCommandBar name="АС_ВзаимозаменяемыеТоварыКоманднаяПанель" id="1000204">
+						<ChildItems>
+							<Button name="АС_ПрименитьНаименованиеКЗаменам" id="1000600">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.АС_ПрименитьНаименованиеКЗаменам</CommandName>
+								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="АС_ПрименитьНаименованиеКЗаменамРасширеннаяПодсказка" id="1000601"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
 					<ExtendedTooltip name="АС_ВзаимозаменяемыеТоварыРасширеннаяПодсказка" id="1000205"/>
 					<SearchStringAddition name="АС_ВзаимозаменяемыеТоварыСтрокаПоиска" id="1000206">
 						<AdditionSource>
@@ -5662,6 +5671,16 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
+		<Command name="АС_ПрименитьНаименованиеКЗаменам" id="1000602">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить наименование ко всем заменам</v8:content>
+				</v8:item>
+			</Title>
+			<Action>АС_ПрименитьНаименованиеКЗаменам</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
 		<Command name="АС_ПереименоватьНоменклатуру" id="980100">
 			<Title>
 				<v8:item>
