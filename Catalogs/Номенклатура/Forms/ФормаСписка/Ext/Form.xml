@@ -1612,6 +1612,77 @@
 												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
+										<UsualGroup name="АС_КоличествоПродажОтбор" id="1001051">
+											<Group>AlwaysHorizontal</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="АС_КоличествоПродажОтборПодсказка" id="1001052"/>
+											<ChildItems>
+												<CheckBoxField name="АС_ПоказыватьКоличествоПродаж" id="1001053">
+													<DataPath>АС_ПоказыватьКоличествоПродаж</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Количество продаж</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>CheckBox</CheckBoxType>
+													<ContextMenu name="АС_ПоказыватьКоличествоПродажКонтекстноеМеню" id="1001054"/>
+													<ExtendedTooltip name="АС_ПоказыватьКоличествоПродажПодсказка" id="1001055"/>
+													<Events>
+														<Event name="OnChange" callType="Before">АС_ПоказыватьКоличествоПродажПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
+												<UsualGroup name="АС_ПериодКоличестваПродаж" id="1001056">
+													<Visible>false</Visible>
+													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="АС_ПериодКоличестваПродажПодсказка" id="1001057"/>
+													<ChildItems>
+														<InputField name="АС_ДатаКоличестваПродажС" id="1001058">
+															<DataPath>АС_ДатаКоличестваПродажС</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>С</v8:content>
+																</v8:item>
+															</Title>
+															<TitleLocation>Left</TitleLocation>
+															<Width>10</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ClearButton>true</ClearButton>
+															<ContextMenu name="АС_ДатаКоличестваПродажСКонтекстноеМеню" id="1001059"/>
+															<ExtendedTooltip name="АС_ДатаКоличестваПродажСПодсказка" id="1001060"/>
+															<Events>
+																<Event name="OnChange" callType="Before">АС_ДатаКоличестваПродажПриИзменении</Event>
+															</Events>
+														</InputField>
+														<InputField name="АС_ДатаКоличестваПродажПо" id="1001061">
+															<DataPath>АС_ДатаКоличестваПродажПо</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>По</v8:content>
+																</v8:item>
+															</Title>
+															<TitleLocation>Left</TitleLocation>
+															<Width>10</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ClearButton>true</ClearButton>
+															<ContextMenu name="АС_ДатаКоличестваПродажПоКонтекстноеМеню" id="1001062"/>
+															<ExtendedTooltip name="АС_ДатаКоличестваПродажПоПодсказка" id="1001063"/>
+															<Events>
+																<Event name="OnChange" callType="Before">АС_ДатаКоличестваПродажПриИзменении</Event>
+															</Events>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="АС_ИзображениеОтбор" id="1000089">
 											<Group>AlwaysHorizontal</Group>
 											<Behavior>Usual</Behavior>
@@ -8108,6 +8179,39 @@
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ПоказыватьКоличествоПродаж" id="1001064">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ДатаКоличестваПродажС" id="1001065">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начало периода количества продаж</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АС_ДатаКоличестваПродажПо" id="1001066">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конец периода количества продаж</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
 		<Attribute name="АС_ИсточникПродажи" id="1000150">
