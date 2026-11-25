@@ -1734,7 +1734,7 @@
 														<Button name="ДобавитьПоляКонтактногоЛица" id="1448">
 															<Type>UsualButton</Type>
 															<GroupHorizontalAlign>Right</GroupHorizontalAlign>
-															<CommandName>0</CommandName>
+															<CommandName>Form.Command.АС_ДобавитьПоляКонтактногоЛица</CommandName>
 															<ShapeRepresentation>None</ShapeRepresentation>
 															<ButtonImportance>Supplementary</ButtonImportance>
 															<ExtendedTooltip name="ДобавитьПоляКонтактногоЛицаРасширеннаяПодсказка" id="1449"/>
@@ -3225,14 +3225,14 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ДобавитьПоляКонтактногоЛица" id="4">
+		<Command name="АС_ДобавитьПоляКонтактногоЛица" id="1000102">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>+ контакт</v8:content>
 				</v8:item>
 			</Title>
-			<Action callType="Before">ДобавитьПоляКонтактногоЛица</Action>
+			<Action callType="Before">АС_ДобавитьПоляКонтактногоЛица</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьШаблоныПечатиДоговоровКонтрагентов" id="6">
