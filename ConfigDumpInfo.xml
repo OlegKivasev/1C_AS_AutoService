@@ -520,6 +520,7 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.БонусныеБаллыКНачислению.Attribute.НомерВариантаКП" id="4d2fa4e8-3b04-4516-a3a4-ab2d4d24c4d4"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_ТелефонМеханика" id="4d3d5456-3488-49ad-9487-5a73bb7f0f4b"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_ЗаказНарядПроводился" id="64e16f6b-cc91-446a-80c6-b7abe756ae7a"/>
+			<Metadata name="Document.ЗаказПокупателя.Attribute.АС_ПроверятьТелефонЗаказНаряда" id="c705fe62-82cf-4f01-8b98-6a65f96a5def"/>
 			<Metadata name="Document.ЗаказПокупателя.Attribute.СервисДоставки" id="4d5571d0-c20c-4118-9f91-e8bbc0643623"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.Работы.Attribute.Всего" id="4d869748-2b6b-43db-b9d2-acf65c051a1c"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.РесурсыПредприятия.Attribute.Пт" id="4dacdad1-f0ae-4a26-a9e8-bc4c5c592bca"/>

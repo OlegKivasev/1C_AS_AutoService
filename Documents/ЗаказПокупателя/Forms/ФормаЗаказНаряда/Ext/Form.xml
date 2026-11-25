@@ -8475,7 +8475,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="АС_НовыйДокументДляТелефона" id="1000468">
+		<Attribute name="АС_НовыйЗаказНаряд" id="1000468">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
