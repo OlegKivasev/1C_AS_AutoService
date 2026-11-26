@@ -1935,6 +1935,40 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="АС_НастройкиПродаж" id="900031">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Продажи</v8:content>
+								</v8:item>
+							</Title>
+							<Visible>false</Visible>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>WeakSeparation</Representation>
+							<ThroughAlign>Use</ThroughAlign>
+							<ExtendedTooltip name="АС_НастройкиПродажРасширеннаяПодсказка" id="900032"/>
+							<ChildItems>
+								<InputField name="АС_ПриоритетнаяОрганизация" id="900033">
+									<DataPath>Объект.АС_ПриоритетнаяОрганизация</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Приоритетная организация</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Подставляется при выборе этого контрагента в заказе покупателя и заказ-наряде.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ClearButton>true</ClearButton>
+									<ContextMenu name="АС_ПриоритетнаяОрганизацияКонтекстноеМеню" id="900034"/>
+									<ExtendedTooltip name="АС_ПриоритетнаяОрганизацияРасширеннаяПодсказка" id="900035"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="Детали" id="1316">
 							<Title>
 								<v8:item>
