@@ -303,6 +303,7 @@
 			<CommonForm>АС_НастройкиРежимаОплаты</CommonForm>
 			<CommonForm>АС_НастройкиАгрегатора</CommonForm>
 			<CommonForm>АС_ОтладкаАгрегатора</CommonForm>
+			<CommonForm>АС_ИмпортЗаказаПоставщику</CommonForm>
 			<Catalog>АС_Автомобили</Catalog>
 			<Catalog>АС_БрендыТоваров</Catalog>
 			<Catalog>АС_ГруппыСинонимовПоиска</Catalog>
